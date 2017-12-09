@@ -1,0 +1,586 @@
+{
+	"general":{
+		 "required": "需要",
+		 "apply": "申请",
+		 "cancellation": "取消",
+		 "enquiry": "查询",
+		 "approval": "审批",
+		 "delegate": "代理",
+		 "submitSuccess":"提交成功",
+		 "application_submit":"申请已提交",
+		 "application_saved":"申请已保存",
+		 "applications":"应用中",
+		 "error":"错误",
+		 "successful":"成功",
+		 "alert":"警报",
+		 "not_entitled_to": "无权限",
+		 "network_failed": "网络故障",
+		 "please_check_your_network": "请检查您的网络",
+	     "maximum":"最大",
+		  "load_more":"装载更多",
+		 "btn": {
+			"cancel": "取消",
+			"reset": "重置",
+			"submit": "提交",
+			"ok": "确定",
+			"set_date": "设置日期",
+			"set_time": "设置时间"
+		 },
+		 "from": "自",
+		  "to": "至",
+		  "please_enter":"请输入",
+		  "please_select":"请选择",
+		  "please_upload_file":"请上传文件.",
+		  "processing":"运算...",
+		  "waiting":"请等待",
+		  "day": "天",
+		  "days": "天",
+		  "hour": "小时",
+		  "hours": "小时",
+		  "no_image_selected":"没有选择的图像",
+		  "none":"没有"
+	},
+	"calendar":{
+		"month":{
+			"m_1":"一月",
+			"m_2":"二月",
+			"m_3":"三月",
+			"m_4":"四月",
+			"m_5":"五月",
+			"m_6":"六月",
+			"m_7":"七月",
+			"m_8":"八月",
+			"m_9":"九月",
+			"m_10":"十月",
+			"m_11":"十一月",
+			"m_12":"十二月"
+		},
+		"month_full":{
+			"m_1":"一月",
+			"m_2":"二月",
+			"m_3":"三月",
+			"m_4":"四月",
+			"m_5":"五月",
+			"m_6":"六月",
+			"m_7":"七月",
+			"m_8":"八月",
+			"m_9":"九月",
+			"m_10":"十月",
+			"m_11":"十一月",
+			"m_12":"十二月"
+		},
+		"week":{
+			"w_1":"星期日",
+			"w_2":"星期一",
+			"w_3":"星期二",
+			"w_4":"星期三",
+			"w_5":"星期四",
+			"w_6":"星期五",
+			"w_7":"星期六"
+		},
+		"week_full":{
+			"w_0":"星期日",
+			"w_1":"星期一",
+			"w_2":"星期二",
+			"w_3":"期三",
+			"w_4":"星期四",
+			"w_5":"星期五",
+			"w_6":"星期六"
+		}
+	},
+    "login": {
+        "txt": {
+            "header": "登录到您的帐户",
+            "org": "Organisation",
+            "username": "UserName",
+			 "organisation_id": "公司名称",
+			 "user_id": "用户名称",
+			 "your_user_id":"您的密码",
+            "password": "密码",
+			"your_password": "您的密码",
+            "login": "登录",
+            "forgot": "忘记密码了吗?",
+			"input_your_email_address": "输入您的邮箱地址",
+			"email_sent":"邮件已发送",
+			"select_image":"选择图片",
+			"take_from_camera":"从相机拍摄",
+			"select_from_gallery":"从图库中选择"
+
+        },
+		"invalid_email_address":"邮件地址无效",
+		"invalid_email_please_contact_your_HR":"邮件地址无效。请与人力资源部门联系",
+		"user_id_suspended": "您的账号已被停止使用<br>请与人力资源部门联系",
+		"not_match":"公司名称/用户名称/密码 错误",
+		"invalid_one_of":"公司名称/用户名称/密码 错误"
+    },
+
+    "main": {
+        "btn": {
+            "chpass": "修改<br>密码",
+            "payslip": "查看<br>薪资单",
+            "leave": "申请<br>休假",
+            "reim": "申请<br>报销",
+            "overtime": "申请<br>加班",
+            "roster": "查看<br>排班",
+            "benefit": "申请<br>福利",
+            "myprofile": "我的个人信息",
+            "myclaim": "我的报销",
+            "mytms": "我的考勤",
+            "mypayroll": "我的薪资",
+            "myleave": "我的休假"
+
+        },
+        "txt": {
+            "chpass": "你好",
+			 "touch_again_to_exit": "再次点击将退出系统",
+            "llogin": "最近一次登录系统",
+			"about":"关于",
+			"uuid":"编号",
+			"apmac":"接入点MAC地址",
+			"version":"文本",
+			"website":"网站: https://www.payroll2u.com",
+			"wellcome":"欢迎来到办公室!",
+			"select_image":"图像保存的",
+			"see_you_again":"再见，再见到你!",
+			"invalid_location":"错误的地址",
+			"mobile_mac_not_setup":"你的手机没有设置MAC地址",
+			"different_mobile_mac_address":"你正在使用一个不同的手机MAC地址",
+			"badge_id_not_setup":"Your Badge ID Is Not Setup. Please Contact HR."
+        },
+
+		"select_language":"设置语言"
+    },
+
+
+
+
+    "mytms": {
+        "tt": "我的考勤",
+        "ct": "排班"
+    },
+
+
+    "menu": {
+        "tt682": "修改密码",
+        "ct682": "请勿与他人分享密码",
+        "tt683": "地址",
+        "ct683": "查看您的个人信息"
+    },
+
+    "myleave": {
+
+		"tt":"休假",
+		"apply": {
+            "tt": "申请休假",
+            "ct": "提交休假申请",
+            "selectLeaveType": "选择休假类型",
+			"select_approving_officer": "选择休假审批人",
+            "selectExtent": "选择休假日期",
+            "applyleavesubmitted": "申请已提交",
+
+            "type": {
+                "tt": "休假类型"
+            },
+            "extent": {
+                "tt": "申请类型"
+            },
+
+            "duration": {
+                "tt": "周期",
+                "ct": "周期"
+            },
+            "remarks": {
+                "tt": "备注"
+            },
+            "approvingOfficer": {
+                "tt": "休假审批人"
+            },
+
+			"notify_group":"通知群组",
+			"notify_employee":"通知员工",
+				"block_lv":"块离开",
+            "fileName": {
+                "tt": "附件名称"
+
+            },
+			"status":"状态",
+			"period":"周期",
+			"validation":{
+				"type_not_valid":"请选择休假类型.",
+				"extent_not_valid":"休假日期无效.",
+				"duration_not_valid":"休假周期无效",
+				"remark_not_valid":"请输入备注",
+				"file_not_valid":"请上传附件",
+				"not_choose_day_off_rest_holiday":"应用的日期适逢公众假日/休息日/休息日",
+				"to_is_less_than_from_date":"结束日期小于开始日期",
+				"to_is_less_than_from_time":"结束日期小于或等于开始日期",
+				"from_is_equal_to_date":"开始日期必须与结束日期相同",
+				"no_approving_officer":"无休假审批人。请与人力资源部门联系"
+
+
+			}
+
+        },
+		 "calendar": {
+            "tt": "休假日历",
+			"ct":"查看个人休假申请",
+			"detail": "详情",
+			"taken": "已休",
+			"applied": "已申请",
+			"legend": "图标说明",
+			"leave_type":"休假类型"
+        },
+        "cancellation": {
+            "tt": "取消",
+            "ct": "取消休假申请",
+			"cancellation_successful":"休假申请已取消"
+        },
+
+		"enquiry": {
+            "tt": "查询休假",
+			"ct":"查看休假申请状态和结余",
+			"taken": "已休",
+			"pending": "待审批",
+			"pending_approval":"待审批",
+			"summ_entitle":"赋予",
+			"summ_earned":"已获得",
+			"summ_bf":"上年度结余",
+			"summ_in_lieu":"补休",
+			"summ_taken":"已休假",
+			"summ_bal":"结余",
+			"summ_ye_bal":"年终结余"
+
+        },
+
+       "approval": {
+            "tt": "审批",
+			"ct":"批准或拒绝休假申请"
+        },
+		"adminApproval": {
+            "tt": "管理员审批",
+			"ct":"批准或拒绝休假申请"
+        },
+        "plan": {
+            "tt": "休假计划",
+			"ct":"查看他人休假申请",
+			 "detail": "详情",
+			 "taken": "已休",
+			"applied": "已申请"
+        },
+
+
+        "delegate": {
+            "tt": "代理",
+			"ct":"可以让他人代为审批",
+			 "please_select_an_approving_officer":"请选个一个休假审批人",
+			"duration": "周期",
+			"approvingOfficer": "休假审批人"
+
+        }
+    },
+
+
+	 "myclaim": {
+		 "tt":"报销",
+		 "tt2":"报销",
+		"receipt_no":{
+			"tt":"收据号码"
+		},
+		"currency":{
+			"tt":"货币"
+		},
+		"receipt_amount":{
+			"tt":"收据金额"
+			},
+
+		"gst_amount":{
+			"tt":"报销金额"
+		},
+		"amount":"金额",
+		"exchange_rate":{
+			"tt":"汇率"
+		},
+		"incurred_by":"由",
+		"dependant":"家属",
+		"description":"报销项目",
+		"remarks":{
+			"tt":"备注",
+			"ct":"Touch to input Remarks"
+		},
+		"delegate":{
+		 "duration": "周期",
+		  "select_approving_officer": "选择审批人",
+          "approvingOfficer": "审批人",
+		  "delegate_to":"代理人"
+		},
+		"attached_list":"附件",
+		"file_attached":"File attached",
+		"approving_officer":"附件已上传",
+		"status":"状态",
+		"receipt":"收据",
+		"date":"日期",
+		"coverage":"范围",
+		"total":"总金额",
+		"batch_detail": "批量细节",
+		"validation":{
+				"insufficient_balance":"余额不足",
+				"insufficient_reimburse_amount":"不足偿还金额",
+				"approving_officer":"请输入审批人",
+				"not_choose_sun_sat":"请勿选择周六、周日",
+				"to_is_less_than_from_date":"开始日期必须早于结束日期",
+				"to_is_less_equal_from_time": "开始时间必须早于结束时间",
+				"future_date_not_allowed":"结束日期错误",
+				"from_is_equal_date": "开始日期必须与结束日期相同",
+				"invalid_reimburse_gst":"无效的发还数额GST",
+				"gst_registration_no_vaild":"收据号码必须为12个字符"
+
+			},
+        "ot": {
+
+            "tt": "加班申请",
+			"tt2": "加班",
+            "ct": "提交和管理加班申请",
+			"apply":{
+				"tt":"申请加班",
+				"ct":"提交加班申请",
+
+				"duration":"周期",
+				"remarks":{
+					"tt":"备注"
+				},
+				"approvingOfficer":"审批人",
+				"type":"类型",
+				"status":"状态",
+				"approved": "已批准",
+				"pending": "待定",
+				"invalid_data_type": "无效数据 - 型"
+
+			},
+
+			"cancellation":{
+
+				"ct":"查询和取消加班申请"
+			},
+			"enquiry":{
+
+				"ct":"查看加班申请状态"
+			},
+			"approval":{
+				"ct":"批准或拒绝加班申请"
+			},
+			"delegate":{
+
+				"ct":"可以让他人代为审批"
+			}
+
+        },
+		  "sc": {
+
+            "tt": "提交已保存的申请",
+            "ct": "提交已保存的申请"
+
+        },
+        "ben": {
+            "tt": "申请福利",
+			"tt2": "福利",
+            "ct": "提交和管理医疗、住院、牙科或其他福利申请",
+			"ct2": "提交和管理福利申请",
+			"apply":{
+				"tt":"申请福利",
+				"ct":"提交和管理医疗、住院、牙科或其他福利申请",
+				"benefit_type":"福利类型",
+				"status":"状态",
+				"attached_list":"附件清单",
+				"clinic":"诊所"
+			},
+
+			"cancellation":{
+
+				"ct":"查询和取消您的福利申请"
+			},
+			"enquiry":{
+				"benefit_enquiry_claimed":"查询福利 - 已申请",
+				"benefit_enquiry_pending_approval":"查询福利 - 待审批",
+				"ct":"查询您的福利和结余"
+			},
+			"approval":{
+
+				"ct":"批准或拒绝福利申请"
+			},
+			"delegate":{
+
+				"ct":"可以让他人代为审批"
+			}
+        },
+
+        "reim": {
+            "tt": "报销",
+			"tt2": "报销",
+            "ct": "提交和管理报销",
+			 "ct2": "提交和管理索偿要求",
+			"apply":{
+				"tt":"申请报销",
+				"ct":"提交您的报销，如差旅费，通讯费等",
+				"reimbursement_type":"报销类型",
+				"rate":"率",
+				"mileage":
+				{
+					"tt":"里程"
+				},
+
+				"reimburse":"补偿",
+
+				"incurred_from":"开始日期",
+				"incurred_to":"结束日期",
+				"incurred_to_is_less_than_from":"结束日期小于开始日期",
+				"billable":{
+					"tt":"计费"
+				},
+				"customer":{
+					"tt":"客户",
+					"tt2":"客户/供应商"
+
+				}
+
+
+
+			},
+			"cancellation":{
+
+				"ct":"查询和取消您的报销申请"
+			},
+			"enquiry":{
+				"benefit_enquiry_claimed":"查询报销 - 已申请",
+				"benefit_enquiry_pending_approval":"查询报销 - 待审批",
+				"ct":"查询您的报销和结余"
+			},
+			"approval":{
+
+				"ct":"批准或拒绝报销申请"
+			},
+			"delegate":{
+
+				"ct":"可以让他人代为审批"
+			}
+        },
+
+        "pay": {
+            "tt": "申请付款",
+			"tt2":"付款",
+            "ct": "提交供应商的付款申请",
+			"apply":{
+				"tt":"申请付款",
+				"ct":"提交付款申请",
+				"sup_cus":"客户/供应商",
+				"order_no":
+				{
+					"tt":"订单编号"
+				},
+				"pay_to":{
+					"tt":"支付给",
+					"tt2":"供应商"
+				},
+
+				"claim_from":{
+					"tt":"支付"
+				},
+
+				"claim_item":{
+					"tt":"支付项目"
+				},
+
+				"payment_method":{
+					"tt":"支付方式"
+				},
+				"invoice_type":"发票类型",
+				"gst_registration_no":"发票号码",
+				"invoice_name":"发票名称",
+				"invoice_address":"发票地址",
+				"company":"公司名称"
+
+			},
+			"cancellation":{
+
+				"ct":"查询和取消您的支付申请"
+			},
+			"enquiry":{
+
+				"ct":"查询您的支付和结余",
+				"pay_enquiry_claimed":"查询支付 - 已申请",
+				"pay_enquiry_pending_approval":"查询支付 - 待审批"
+			},
+			"approval":{
+
+				"ct":"批准或拒绝支付申请"
+			},
+			"delegate":{
+
+				"ct":"可以让他人代为审批"
+			}
+        }
+    },
+	"myprofile": {
+		"tt":"我的个人信息",
+		"ct":"",
+		"changePass":{
+			"tt":"修改密码",
+			"ct":"请勿与他人分享密码",
+			"current_password":"当前密码",
+			"new_password":"新密码",
+			"confirm_new_password":"确认新密码",
+			"your_password_has_been_changed": "修改密码成功。",
+			"error": {
+					"currpass": "请输入当前密码",
+					"newpass": "请输入新密码",
+					"cfmpass": "请确认密码",
+					"cfmpassandpassnotsame": "两次输入的新密码不同"
+       		 }
+		},
+		"address":{
+			"tt":"地址",
+			"ct":"查看您的个人信息"
+		}
+
+    },
+	"mypayroll": {
+
+		"payslip":{
+			"tt":"薪资单",
+			"ct":"查询当月和历史薪资单"
+		},
+		"address":{
+			"tt":"地址",
+			"ct":"查看您的个人信息"
+		},
+		"cp8a":{
+            "tt":"CP8A",
+            "ct":"View your current and previous years' CP8A form"
+        },
+        "pcb2":{
+            "tt":"PCB2",
+            "ct":"View your current and previous years' PCB2 form"
+        }
+
+	},
+	"mytms": {
+		"tt":"我的考勤",
+		"ct":"工作时间安排",
+		"rosterEnquiry":{
+			"tt":"查询排班",
+			"ct":"查询上下班时间"
+		},
+			"clockingsEnquiry":{
+        			"tt":"Clockings Enquiry",
+        			"ct":"Check your clock in and clock out"
+        		},
+        "clockOnBehalf":{
+              "tt":"Clock On Behalf",
+              "ct":"To clock in and clock out for Employees"
+            },
+		"mobileMacAddress":{
+			"tt":"手机MAC地址",
+			"ct":"查看手机MAC地址",
+			"id":"账号"
+		}
+	}
+}

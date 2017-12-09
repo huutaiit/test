@@ -1,0 +1,203 @@
+<ul class="list form-apply">
+
+    <li ng-show="!isApplicationSaved" modal="benefit-type">
+        <div class="f-left">
+          <p class="label required">
+            <label>{{lang.myclaim.ben.apply.benefit_type}} </label>
+            <span>({{lang.general.required}})</span>
+          </p>
+          <p class="input"><input readonly="readonly" value="{{field.benefitType.Description}}" type="text" /></p>
+        </div>
+        <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+
+       <li ng-show="isApplicationSaved">
+        <div class="f-left">
+          <p class="label required">
+            <label>{{lang.myclaim.ben.apply.benefit_type}} </label>
+            <span>({{lang.general.required}})</span>
+          </p>
+          <p class="input"><input readonly="readonly" value="{{field.benefitType.Description}}" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+      <li modal="date">
+        <div class="f-left">
+          <p class="label required">
+            <label>{{lang.myclaim.receipt}} {{lang.myclaim.date}}</label> <span>
+              ({{lang.general.required}})
+            </span>
+          </p>
+          <p class="input"><input readonly="readonly" value="{{field.date | formatDate:'mediumDate3'}}" type="text" /></p>
+        </div>
+        <a class="f-right icon"><i class="fa fa-calendar"></i></a>
+        <div class="clear"></div>
+      </li>
+
+
+
+      <li modal="receipt-no">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.receipt_no.tt}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input readonly="readonly" ng-model="field.receiptNo" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+      <li modal="incurred">
+        <div class="f-left ">
+          <p class="label required"><label>{{lang.myclaim.incurred_by}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input ng-model="field.inCurred.Description" readonly="readonly" type="text" /></p>
+
+        </div>
+ <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+
+
+      <li modal="dependant" ng-show="field.inCurred.ListDependents.length>0">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.dependant}}</label></p>
+          <p class="input"><input ng-model="field.dependant.Name" readonly="readonly" type="text" /></p>
+
+        </div>
+				 <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+
+       <li ng-show="field.inCurred.ListDependents==null">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.dependant}}</label></p>
+          <p class="input"><input ng-model="field.dependant.Name" readonly="readonly" type="text" /></p>
+
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+
+      <li modal="currency">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.currency.tt}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input ng-model="field.currency.Description" readonly="readonly" type="text" /></p>
+
+        </div>
+        <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+
+       <li modal="receipt-amount" ng-click="InputFocusing('textReceiptAmount')">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.receipt_amount.tt}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.receiptAmount | formatCurrency:'2'}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+       <li ng-attr-modal="{{checkChangeExChangeRate() && 'exchange-rate' || ''}}" ng-click="InputFocusing('textExChangeRate')">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.exchange_rate.tt}}</label></p>
+          <p class="input"><input value="{{field.exChangeRate | formatCurrency:'6'}}" readonly type="text" /></p>
+        </div>
+		 <a ng-if="checkChangeExChangeRate()" class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+
+
+      <li ng-show="IsGstDetail==1 && field.benefitType.BenefitInfo.GST==1" ng-click="InputFocusing('textGstAmount')" modal="gst-amount">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.reim.apply.reimburse}} {{lang.myclaim.gst_amount.tt}}</label></p>
+          <p class="input"><input value="{{field.gstAmount | formatCurrency:'2'}}" readonly="readonly" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+      <li>
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.reim.apply.reimburse}} {{lang.myclaim.amount}}</label></p>
+          <p class="input"><input readonly="readonly" value="{{field.amount | formatCurrency:'2'}} {{codeCurrency}}"  type="text" /></p>
+
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+
+       <li modal="incurred-from">
+        <div class="f-left">
+          <p class="label" ng-class="{'required' : isRequired(field.benefitType.BenefitInfo.Self_Incurred==1)}"><label>{{lang.myclaim.reim.apply.incurred_from}}</label>  <span ng-if="field.benefitType.BenefitInfo.Self_Incurred==1">({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.incurredFrom | formatDate:'mediumDate3'}}" readonly="readonly" type="text" /></p>
+        </div>
+        <div class="f-right">
+				 <a class="icon" ng-class="{hidden:field.incurredFrom != ''}"><i class="fa fa-calendar"></i></a>
+        <a class="icon" ng-show='field.incurredFrom!=""' ng-click="resetField('incurredFrom');$event.preventDefault();"><i class="fa fa-trash-o"></i></a>
+        </div>
+        <div class="clear"></div>
+      </li>
+
+       <li modal="incurred-to">
+        <div class="f-left">
+          <p class="label"  ng-class="{'required' : isRequired(field.benefitType.BenefitInfo.Self_Incurred==1)}"><label>{{lang.myclaim.reim.apply.incurred_to}}</label> <span ng-if="field.benefitType.BenefitInfo.Self_Incurred==1">({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.incurredTo | formatDate:'mediumDate3'}}" readonly="readonly" type="text" /></p>
+        </div>
+         <div class="f-right">
+ <a class="icon" ng-class="{hidden:field.incurredTo != ''}"><i class="fa fa-calendar"></i></a>
+  <a class="icon" ng-show='field.incurredTo != ""' ng-click="resetField('incurredTo');$event.preventDefault();"><i class="fa fa-trash-o"></i></a>
+ </div>
+        <div class="clear"></div>
+      </li>
+
+
+         <li modal="clinic">
+         	 <div class="f-left">
+              <p class="label"><label>{{lang.myclaim.ben.apply.clinic}}</label></p>
+          	  <p class="input"><input value="{{field.clinic.Description}}" readonly="readonly" type="text" /></p>
+             </div>
+               <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+              <div class="clear"></div>
+         </li>
+
+
+
+
+       <li modal="description" ng-show="IsClaimDesc==1 && field.benefitType.BenefitInfo.ClaimDesc!=null && field.benefitType.BenefitInfo.ClaimDesc.length>0">
+        <div class="f-left">
+          <p class="label" ng-class="{'required' : isRequired(IsClaimDesc)}"><label>{{lang.myclaim.description}}</label> <span ng-if="IsClaimDesc==1">({{lang.general.required}})</span></p>
+          <p class="input"><input readonly="readonly" value="{{field.description.Description}}" type="text" /></p>
+
+        </div>
+		<a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+
+
+        <li modal="remarks">
+        <div class="f-left">
+          <p class="label" ng-class="{'required' : isRequired(field.benefitType.BenefitInfo.SelfRemark)}"><label>{{lang.myclaim.remarks.tt}}</label> <span ng-if="field.benefitType.BenefitInfo.SelfRemark==1">({{lang.general.required}})</span></p>
+          <p class="input"><input ng-model="field.remarks" readonly="readonly" type="text" /></p>
+
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+       <li>
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.approving_officer}}</label></p>
+          <p class="input"><input ng-model="field.benefitType.BenefitInfo.ApprOfficer" readonly="readonly" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+    </ul>

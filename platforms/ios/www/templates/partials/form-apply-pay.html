@@ -1,0 +1,202 @@
+<ul class="list form-apply">
+      <li modal="date">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.date}}</label></p>
+          <p class="input"><input value="{{field.date | formatDate:'mediumDate3'}}" readonly="readonly" type="text" /></p>
+        </div>
+ 		<a class="f-right icon"><i class="fa fa-calendar"></i></a>
+        <div class="clear"></div>
+      </li>
+
+      <li modal="order-no">
+        <div class="f-left">
+          <p class="label required">
+            <label>{{lang.myclaim.pay.apply.order_no.tt}} </label>
+            <span>({{lang.general.required}})</span>
+          </p>
+          <p class="input"><input readonly="readonly" ng-model="field.orderNo" type="text" /></p>
+        </div>
+        
+        <div class="clear"></div>
+      </li>
+      
+       <li modal="company">
+        <div class="f-left">
+          <p class="label required">
+            <label>{{lang.myclaim.pay.apply.company}} </label>
+            <span>({{lang.general.required}})</span>
+          </p>
+          <p class="input"><input readonly="readonly" value="{{field.company.Description}}" type="text" /></p>
+        </div>
+         <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+      
+      
+
+      <li ng-click="showPoupCustomer('payTo')">
+        <div class="f-left">
+          <p class="label required">
+          <label>{{lang.myclaim.pay.apply.pay_to.tt}}</label>
+           <span>({{lang.general.required}})</span>
+          </p>
+          <p class="input"><input value="{{field.payTo.Description}}" readonly="readonly"  type="text" /></p>
+        </div>
+        <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+       
+      </li>
+
+      <li ng-click="showPoupCustomer('claimFrom')">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.pay.apply.claim_from.tt}}</label></p>
+          <p class="input"><input readonly="readonly" value="{{field.claimFrom.Description}}" type="text" /></p>
+        </div>
+        <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+    
+
+      <li ng-repeat="item in numberClaimItem track by $index" ng-click="selectClaimNumber(item);$event.preventDefault();">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.pay.apply.claim_item.tt}} {{item}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field['claimItem'+item].Description}}" readonly type="text" /></p>
+        </div>
+         <div class="f-right">
+ <a class="icon" ng-class='{hidden:field["claimItem"+item].Id > 0}'><i class="fa fa-search-plus"></i></a>
+  <a class="icon" ng-show='field["claimItem"+item].Id > 0' ng-click="resetClaimItem(item);$event.preventDefault();$event.stopPropagation()"><i class="fa fa-trash-o"></i></a>
+  </div>
+        <div class="clear"></div>
+      </li>
+      
+      
+       <li modal="gst-amount-pay" ng-show="IsGstDetail==1" ng-click="InputFocusing('textGstAmountPay')">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.reim.apply.reimburse}} {{lang.myclaim.gst_amount.tt}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.gstAmountPay | formatCurrency:'2'}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+      
+      <li modal="currency">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.currency.tt}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.currency.Description}}" readonly="readonly" type="text" /></p>
+         
+        </div>
+ <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+  
+        <div class="clear"></div>
+      </li>
+      
+      
+      
+       <li>
+            <div class="f-left">
+              <p class="label"><label>{{lang.myclaim.reim.apply.reimburse}} {{lang.myclaim.total}} {{lang.myclaim.amount}}</label></p>
+              <p class="input"><input value="{{field.amount | formatCurrency:'2'}}" readonly="readonly" type="text" /></p>
+            </div>
+     
+            <div class="clear"></div>
+      </li> 
+      
+      
+      <li ng-attr-modal="{{checkChangeExChangeRate() && 'exchange-rate' || ''}}"  ng-click="InputFocusing('textexChangeRatePay')">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.exchange_rate.tt}}</label></p>
+          <p class="input"><input value="{{field.exChangeRatePay | formatCurrency:'6'}}" readonly type="text" /></p>
+        </div>
+			 <a  ng-if="checkChangeExChangeRate()" class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+      
+      
+      
+       <li>
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.total}} {{lang.myclaim.amount}}</label></p>
+          <p class="input"><input value="{{field.totalAmount | formatCurrency:'2'}} {{codeCurrency}}" readonly="readonly" type="text" /></p>
+         
+        </div>
+ 
+        <div class="clear"></div>
+      </li>
+      
+       <li modal="payment-method">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.pay.apply.payment_method.tt}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input readonly="readonly" value="{{field.paymentMethod.Description}}" type="text" /></p>
+         
+        </div>
+ <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+      
+      
+      
+        <li modal="InvoiceType" ng-show="IsInvoiceType==1">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.pay.apply.invoice_type}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.invoiceType.Description}}" readonly type="text" /></p>
+        </div>
+ <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+      
+      
+      
+       <li modal="GSTRegistrationNo" ng-show="IsInvoiceType==1">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.pay.apply.gst_registration_no}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.gstRegistrationNo}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+      
+      
+       <li modal="InvoiceName" ng-show="IsInvoiceType==1">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.pay.apply.invoice_name}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.invoiceName}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+      
+      
+       <li modal="InvoiceAddress" ng-show="IsInvoiceType==1">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.pay.apply.invoice_address}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.invoiceAddress}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+      
+      
+        <li modal="remarks">
+        <div class="f-left">
+          <p class="label" ng-class="{'required' : checkSelfRemark()}"><label>{{lang.myclaim.remarks.tt}}</label> <span ng-if="checkSelfRemark()">({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.remarks}}" readonly="readonly" type="text" /></p>
+         
+        </div>
+ 				 
+        <div class="clear"></div>
+      </li>
+      
+      
+       <li>
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.approving_officer}}</label></p>
+          <p class="input"><input value="{{field.approvingOfficer.ApprOfficer}}" readonly="readonly" type="text" /></p>
+         
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+    </ul>

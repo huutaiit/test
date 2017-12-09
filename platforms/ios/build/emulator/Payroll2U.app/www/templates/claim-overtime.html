@@ -1,0 +1,29 @@
+<script type="text/javascript" src="js/controllers/myClaim.js"></script>
+<div id="list-my-claim"  class="animated fadeIn">
+
+<ul class="my-info my-claim title-form" >
+		<li class="background-88b824">
+        <a>
+			<p class="icon f-left"><img ng-src="images/{{listMenuClaim[0].icon}}" /></p>
+             <div class="f-left w90">
+			<p class="name">{{listMenuClaim[0].name}}</p>
+			<p class="description">{{listMenuClaim[0].description}}</p>
+            </div>
+         </a>
+		</li>
+        </ul>
+        
+	<ul class="my-info style-88b824 scroll" ng-element-height="66" >
+   
+    <li ng-if="isRight(item.id)" ng-repeat="item in listMenuClaim[0].submemu track by $index">
+    <a ng-click="goURL(item.href)">
+			<p class="icon f-left"><img  ng-src="images/{{item.icon}}" /></p>
+             <div class="f-left">
+			<p class="name">{{item.name}}</p>
+			<p class="description">{{item.description}}</p>
+            </div>
+            </a>
+		</li>
+
+	</ul><!--end list-my-leave-->
+</div><!--end list-my-leave-->

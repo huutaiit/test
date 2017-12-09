@@ -1,0 +1,117 @@
+<script type="text/javascript" src="js/controllers/myClaim.js"></script>
+<!--start claim overtime time-->
+	<div class="form" style="background:#FFF">
+    <h1 class="title-form background-88b824">{{lang.myclaim.ot.tt}}</h1>
+     
+    <div class="form-info scroll" ng-element-height>
+
+      <ul class="list form-apply">
+        <li >
+          <div class="f-left">
+            <p class="label"><label>{{lang.myclaim.date}}</label></p>
+            <p class="input"><input readonly="readonly" value="{{claimDetail.Date}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+        <li >
+          <div class="f-left">
+            <p class="label required"><label>{{lang.general.from}}</label> <span>({{lang.general.required}})</span></p>
+            <p class="input"><input readonly="readonly" value="{{claimDetail.TimeFrom}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+        <li >
+          <div class="f-left">
+            <p class="label required"><label>{{lang.general.to}}</label> <span>({{lang.general.required}})</span></p>
+            <p class="input"><input readonly="readonly" value="{{claimDetail.TimeTo}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+         <li >
+          <div class="f-left">
+            <p class="label"><label>{{lang.myclaim.ot.apply.type}}</label></p>
+            <p class="input"><input readonly="readonly" value="{{claimDetail.ClaimDesc}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+
+
+         <li >
+          <div class="f-left">
+            <p class="label"><label>{{lang.myclaim.ot.apply.duration}}</label></p>
+            <p class="input"><input readonly="readonly" value="{{claimDetail.ClaimUnit}} {{claimDetail.TimeType}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+<li >
+          <div class="f-left">
+            <p class="label" ng-class="{'required' : isRequired(claimDetail.SelfRemark)}" ><label>{{lang.myclaim.remarks.tt}}</label> <span ng-if="claimDetail.SelfRemark==1">({{lang.general.required}})</span></p>
+            <p class="input"><input readonly="readonly" value="{{claimDetail.Remarks}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+        
+        
+         <li>
+          <div class="f-left">
+            <p class="label"><label>{{lang.myclaim.ot.apply.approvingOfficer}}</label></p>
+            <p class="input"><input readonly="readonly" value="{{claimDetail.ApprovalName}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+        
+        <li ng-show="claimDetail.ApprovalName2!=''">
+          <div class="f-left">
+            <p class="label"><label>{{lang.myclaim.ot.apply.approvingOfficer}} 2</label></p>
+            <p class="input"><input readonly="readonly" value="{{claimDetail.ApprovalName2}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+        
+        
+         <li ng-show="claimDetail.ApprovalName3!=''">
+          <div class="f-left">
+            <p class="label"><label>{{lang.myclaim.ot.apply.approvingOfficer}} 3</label></p>
+            <p class="input"><input readonly="readonly" value="{{claimDetail.ApprovalName3}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+         
+        
+        
+        
+        
+        <li >
+          <div class="f-left">
+            <p class="label"><label>{{lang.myclaim.ot.apply.status}}</label></p>
+            <p class="input"><input readonly="readonly" value="{{claimDetail.Status}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+        
+
+
+      </ul>
+    </div><!--end form-info-->
+    
+   
+  </div><!--end form-->
+	
+<!--end over time detail-->
+

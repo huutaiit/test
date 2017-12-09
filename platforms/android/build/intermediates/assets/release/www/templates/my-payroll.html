@@ -1,0 +1,16 @@
+<script type="text/javascript" src="js/controllers/myPayroll.js"></script>
+<div id="my-payroll" class="animated fadeIn">
+	<ul class="my-info my-payroll" >
+		<li ng-if="isRight(item.id)" ng-repeat="item in listMenuPayroll track by $index">
+        <a ng-click="goURL(item.href)">
+             <div class="f-left">
+			<p class="name" >{{item.name}}</p>
+			<p class="description">{{item.description}}</p>
+            </div>
+        </a>
+		</li>
+        
+      
+	
+	</ul><!--end list-my-leave-->
+</div><!--end list-my-leave-->

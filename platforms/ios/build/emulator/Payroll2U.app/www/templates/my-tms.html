@@ -1,0 +1,27 @@
+<script type="text/javascript" src="js/controllers/myTms.js"></script>
+<div id="my-tms" class="animated fadeIn">
+	<ul class="my-info style-ff6600" >
+		<li class="animated background-ff6600">
+        <a>
+			<p class="icon f-left"><img ng-src="images/n_tms.png" style="width:25px;" /></p>
+             <div class="f-left">
+			<p style="color:#FFF;">{{lang.mytms.tt}}</p>
+			<p style="color:#FFF;" class="description">{{lang.mytms.ct}}</p>
+            </div>
+        </a>
+		</li>
+		
+		  <li ng-if="isRight(item.id)" ng-repeat="item in listMenuTms track by $index">
+         <a ng-click="goURL(item.href)">
+           	<p class="icon f-left"> <img ng-src="images/{{item.icon}}" /></p>
+            <div class="f-left">
+               <b class="name">{{item.name}}</b>
+                <p class="description">{{item.description}}</p>
+            </div>
+            </a>
+        </li>
+        
+        
+        
+	</ul><!--end list-my-leave-->
+</div><!--end list-my-leave-->

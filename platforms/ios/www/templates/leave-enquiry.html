@@ -1,0 +1,82 @@
+<script type="text/javascript" src="js/controllers/myLeave.js"></script>
+<!--start Leave Enquiry-->
+	<div class="form">
+        <h1 class="title-form background-494aa7">{{lang.myleave.enquiry.tt}}</h1>
+        <div class="form-info scroll">
+          
+            <ul id="leave-enquiry">
+                <li ng-repeat="item in listLeaveEnquiry track by $index" class="{{setCharacter($index)}}">
+                    <div class="f-left">
+                        <span class="char f-left" style="background:#{{item.color}}">{{item.Legend}} </span><!-- code old: {{setCharacter($index)}}-->
+                        <h3 class="title f-left"> {{item.Description}}</h3>
+                    </div><!--end f-left-->
+                    <div class="f-right">
+                        <p class="text-left"><a href="#leaveEnquiryDetail/{{item.LcEntitle_Id}}/1">{{item.Applied}}</a></p>
+                        <p class="text-right corlor-purple">
+                      
+                        {{lang.myleave.enquiry.pending_approval}}
+                        </p>
+                    </div>
+                    <div class="clear"></div>
+                    <ol>
+                        <li class="f-left" ng-height-equal-width style="border:2px solid #{{item.color}}">
+                        <div class="middle">
+                            <p class="number" ng-bind-html="item.Entitle"></p>
+                            <p class="text"> {{lang.myleave.enquiry.summ_entitle}}</p>
+                         </div>
+                        </li>
+                        <li class="f-left" ng-height-equal-width style="border:2px solid #{{item.color}}">
+                         <div class="middle">
+                            <p class="number" ng-bind-html="item.Earned"></p>
+                            <p class="text">{{lang.myleave.enquiry.summ_earned}}</p>
+                          </div>
+                        </li>
+
+                        <li class="f-left" ng-height-equal-width  style="border:2px solid #{{item.color}}">
+                         <div class="middle">
+                            <p class="number" ng-bind-html="item.BF"></p>
+                            <p class="text">{{lang.myleave.enquiry.summ_bf}}</p>
+                          </div>
+                        </li>
+                        <li class="f-left"  ng-height-equal-width  style="border:2px solid #{{item.color}}">
+                         <div class="middle">
+                            <p class="number" ng-bind-html="item.In_Lieu"></p>
+                            <p class="text">{{lang.myleave.enquiry.summ_in_lieu}}</p>
+                          </div>
+                        </li>
+
+                        <li class="f-left" ng-height-equal-width  style="border:2px solid #{{item.color}};">
+                         <div class="middle">
+                            <a href="#leaveEnquiryDetail/{{item.LcEntitle_Id}}/2">    
+                                <p class="number" ng-bind-html="item.Taken"></p>
+                                <p class="text">{{lang.myleave.enquiry.summ_taken}}</p>
+                            </a>
+                         </div>
+                        </li>
+
+                        <li class="f-left" ng-height-equal-width style="border:2px solid #{{item.color}};">
+                         <div class="middle" style="color:#{{item.color}}; font-weight:bold;">
+                            <p class="number" ng-bind-html="item.Bal"></p>
+                            <p class="text">{{lang.myleave.enquiry.summ_bal}}</p>
+                         </div>
+                        </li>
+
+                        <li class="f-left" ng-height-equal-width style="border:2px solid #{{item.color}}">
+                         <div class="middle">
+                            <p class="number" ng-bind-html="item.YearEndBal"></p>
+                            <p class="text">{{lang.myleave.enquiry.summ_ye_bal}}</p>
+                          </div>
+                        </li>
+                        <div class="clear"></div>
+                    </ol>
+                </li>
+
+             
+
+            </ul>
+        </div><!--end form-info-->
+        
+        
+    </div><!--end form-->
+	
+<!--end Leave Enquiry-->

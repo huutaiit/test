@@ -1,0 +1,17 @@
+<script type="text/javascript" src="js/controllers/myLeave.js"></script>
+<div class="form">
+    	
+    	<h1 class="title-form  background-494aa7">{{lang.myleave.calendar.tt}}</h1>
+	<div class="form-info leave scroll" ng-element-height id="leave-calendar">
+  
+<div id="jMonthCalendar" class="style-000066" ng-events="events" ng-href="/leaveCalendarDetail" callback-fn="getSelectYear(arg)"  j-month-calendar></div>
+<div class="clear"></div>
+<div class="note">
+	<p>
+	<span class="taken note-info background-red">{{lang.myleave.calendar.taken}}</span>
+    <span class="applied note-info background-light-green">{{lang.myleave.calendar.applied}}</span>
+    </p>
+    <a href="#leaveLegend" class="i note-info  background-cyanosed"><img src="images/ic_enquiry.png" /></a>
+</div>
+</div><!--end leave-calendar-->
+</div>

@@ -1,0 +1,29 @@
+<script type="text/javascript" src="js/controllers/myProfile.js"></script>
+<div id="my-profile">
+	<ul class="my-info my-profile animated fadeIn" >
+
+        	<li ng-if="isRight(item.id)"  ng-repeat="item in listMenuProfile track by $index">
+         <a ng-click="goURL(item.href)" {{item.commingSoon}}>
+            <p class="icon f-left"><img ng-src="images/{{item.icon}}" /></p>
+            <div class="f-left">
+               <b class="name">{{item.name}}</b>
+                <p class="description">{{item.description}}</p>
+            </div>
+            </a>
+        </li>
+        
+          	<li ng-if="isRight(683)" >
+         <a ng-click="commingSoon()">
+            <p class="icon f-left"><img src="images/pro683.png" /></p>
+            <div class="f-left">
+               <b class="name">{{lang.myprofile.address.tt}}</b>
+                <p class="description">{{lang.myprofile.address.ct}}</p>
+            </div>
+            </a>
+        </li>
+	</ul><!--end list-my-leave-->
+</div><!--end list-my-leave-->
+
+
+
+  

@@ -1,0 +1,40 @@
+<script type="text/javascript" src="js/controllers/myPayroll.js"></script>
+<!--start Apply leave-->
+	<div class="form">
+    	<div id="payslip" class="form-info date" style="max-height:100%;">
+    	<h1 class="title-form background-de1e39">{{lang.mypayroll.payslip.tt}}</h1>
+     		<div  class="scroll style-de1e39">
+
+            	<ul class="year">
+
+                    <li ng-click="selectYear($index)" ng-repeat="item in year track by $index" ng-class="{'active' : isYearActive(item.id)}">{{item.name}}</li>
+
+</ul>
+
+                <ul class="month">
+                    <li ng-click="selectMonth($index)" ng-repeat="item in currentYear.month track by $index" ng-class="{'active' : isMonthActive(item.id),'true-data':trueData($index),'not-view':item.Status==1}">
+                        <span>{{item.name}}</span>
+                    </li>
+
+                    <div class="clear"></div>
+                </ul>
+
+
+                <ul class="my-info payslip" >
+
+					<li ng-repeat="item in currentMonth.payslip track by $index" ng-click="downloadAndOpenPDF(item)"><a>{{item.Period}}</a></li>
+        		</ul>
+
+
+            </div><!--end sroll-->
+
+        </div><!--end form-info-->
+
+
+    </div><!--end form-->
+
+<!--end Apply leave-->
+
+
+
+

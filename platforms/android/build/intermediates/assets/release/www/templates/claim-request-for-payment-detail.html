@@ -1,0 +1,292 @@
+<script type="text/javascript" src="js/controllers/myClaim.js"></script>
+<!--start Apply leave-->
+<div class="form">
+
+  <h1 class="title-form background-718138">{{lang.myclaim.pay.tt}} </h1>
+  <div class="form-info scroll" ng-element-height="90">
+
+    <ul class="list form-apply">
+      <li>
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.date}}</label></p>
+          <p class="input"><input value="{{claimDetail.Date}}" readonly="readonly" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+      <li>
+        <div class="f-left">
+          <p class="label required">
+            <label>{{lang.myclaim.pay.apply.order_no.tt}} </label>
+            <span>({{lang.general.required}})</span>
+          </p>
+          <p class="input"><input readonly="readonly" value="{{claimDetail.ReceiptNo}}" type="text" /></p>
+        </div>
+       
+        <div class="clear"></div>
+      </li>
+      
+      
+      <li>
+        <div class="f-left">
+          <p class="label required">
+            <label>{{lang.myclaim.pay.apply.company}} </label>
+            <span>({{lang.general.required}})</span>
+          </p>
+          <p class="input"><input readonly="readonly" value="{{claimDetail.CompanyDesc}}" type="text" /></p>
+        </div>
+        <div class="clear"></div>
+      </li>
+
+      <li>
+        <div class="f-left">
+          <p class="label required">
+          <label>{{lang.myclaim.pay.apply.pay_to.tt}}</label>
+           <span>({{lang.general.required}})</span>
+          </p>
+          <p class="input"><input value="{{claimDetail.Custommer}}" readonly="readonly" type="text" /></p>
+        </div>
+        
+        <div class="clear"></div>
+       
+      </li>
+
+      <li>
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.pay.apply.claim_from.tt}}</label></p>
+          <p class="input"><input readonly="readonly" value="{{claimDetail.ClaimFrom}}" type="text" /></p>
+        </div>
+       
+        <div class="clear"></div>
+      </li>
+      
+
+      <li modal2="list-claim-item-{{$index}}" ng-repeat="item in claimDetail.ListRequestPayment_Items track by $index">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.pay.apply.claim_item.tt}} {{$index+1}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input readonly value="{{item.BcItem_Desc}}" type="text" /></p>
+        </div>
+ <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+      
+      
+      
+      
+      
+      
+       <li ng-show="claimDetail.IsGstDetail == 1">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.gst_amount.tt}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{claimDetail.GstAmount | formatCurrency:'2'}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+      
+       <li>
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.currency.tt}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{claimDetail.CurrencyCode}}" readonly="readonly" type="text" /></p>
+         
+        </div>
+ 
+  
+        <div class="clear"></div>
+      </li>
+      
+      
+      
+          <li>
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.reim.apply.reimburse}} {{lang.myclaim.total}} {{lang.myclaim.amount}}</label></p>
+          <p class="input"><input value="{{claimDetail.TotalAmtWithGST | formatCurrency:'2'}}" readonly="readonly" type="text" /></p>
+         
+        </div>
+ 
+        <div class="clear"></div>
+      </li>
+      
+      
+      <li>
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.exchange_rate.tt}}</label></p>
+          <p class="input"><input value="{{claimDetail.ExChangeRate | formatCurrency:'2'}}" readonly type="text" /></p>
+        </div>
+			
+        <div class="clear"></div>
+      </li>
+      
+      
+      <li>
+        <div class="f-left">
+          <p class="label"><label>Total {{lang.myclaim.amount}}</label></p>
+          <p class="input"><input value="{{claimDetail.TotalRequestPayment | formatCurrency:'2'}} {{claimDetail.LocalCurrency}}" readonly="readonly" type="text" /></p>
+         
+        </div>
+ 
+        <div class="clear"></div>
+      </li>
+      
+      
+      
+       
+      
+       <li>
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.pay.apply.payment_method.tt}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input readonly="readonly" value="{{claimDetail.PayMethod}}" type="text" /></p>
+         
+        </div>
+ 
+        <div class="clear"></div>
+      </li>
+      
+      
+      
+        <li ng-show="claimDetail.IsInvoiceType==1">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.pay.apply.invoice_type}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{claimDetail.GST_Type}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+      
+      
+      
+       <li ng-show="claimDetail.IsInvoiceType==1">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.pay.apply.gst_registration_no}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{claimDetail.GST_Reg}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+      
+      
+       <li ng-show="claimDetail.IsInvoiceType==1">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.pay.apply.invoice_name}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{claimDetail.GST_Name}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+      
+      
+       <li ng-show="claimDetail.IsInvoiceType==1">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.pay.apply.invoice_address}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{claimDetail.GST_Address}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+      
+      
+      <li>
+        <div class="f-left">
+          <p class="label" ng-class="{'required' : isRequired(claimDetail.SelfRemark)}" ><label>{{lang.myclaim.remarks.tt}}</label> <span ng-if="claimDetail.SelfRemark==1">({{lang.general.required}})</span></p>
+          <p class="input"><input readonly="readonly" value="{{claimDetail.Remark}}" type="text" /></p>  
+        </div>
+ 				
+        <div class="clear"></div>
+      </li>
+      
+      
+       <li>
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.approving_officer}}</label></p>
+          <p class="input"><input value="{{claimDetail.ApprOfficer}}" readonly="readonly" type="text" /></p>
+         
+        </div>
+
+        <div class="clear"></div>
+      </li>
+      
+      
+       
+       <li ng-show="claimDetail.ApprOfficer2!=''">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.approving_officer}} 2</label></p>
+          <p class="input"><input value="{{claimDetail.ApprOfficer2}}" readonly="readonly" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+      
+       <li ng-show="claimDetail.ApprOfficer3!=''">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.approving_officer}} 3</label></p>
+          <p class="input"><input value="{{claimDetail.ApprOfficer3}}" readonly="readonly" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+      
+          <li>
+          <div class="f-left">
+            <p class="label"><label>{{lang.myclaim.status}}</label></p>
+            <p class="input"><input readonly="readonly" value="{{claimDetail.Status}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+
+    </ul>
+    
+  </div><!--end form-info-->
+
+  <div class="button">
+    <a></a>
+    <a href="#claimRequestForPaymentAttach"><span><img src="images/n_btn_apply_leave_attach.png" /></span></a>
+    <a></a>
+    
+  </div><!--end button-->
+  </div>
+  
+  
+  
+  
+  <div ng-repeat="item in claimDetail.ListRequestPayment_Items track by $index" id="list-claim-item-{{$index}}" class="modal2 animated bounceInDown">
+  <h2 class="modal-title">{{lang.myclaim.pay.apply.claim_item.tt}} {{$index+1}}<span close-modal2 class="close-modal"></span></h2>
+  <div class="modal-content" id="listClaimType" ng-set-height-claim-item="5">
+    <ul style="background:#FFF;">
+      	
+        
+       <li style="padding:0; border-bottom:1px solid #999;">
+       	
+        
+        <div class="separating" >
+         
+          <div class="f-left">
+           <p class="label"><label>{{lang.myclaim.amount}}</label></p>
+            <p class="input" style="padding-left:3px;font-size:15px;"> {{item.ClaimAmt | formatCurrency:'2'}}</p>
+          </div>
+  					
+          <div class="clear"></div>
+        </div>
+        
+        
+        <div class="separating" ng-if="item.ClaimDesc_Desc!=null && item.ClaimDesc_Desc!=''">
+          <div class="f-left">
+           <p class="label"><label>{{lang.myclaim.description}}</label></p>
+            <p class="input" style="padding-left:3px;font-size:15px;">{{item.ClaimDesc_Desc}}</p>
+          </div>
+  
+          <div class="clear"></div>
+        </div>
+      </li>
+      
+
+      
+       
+    </ul>
+  </div>
+</div>
+
+<div class="overlay2"></div>
+  

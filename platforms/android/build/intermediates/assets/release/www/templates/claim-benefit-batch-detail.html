@@ -1,0 +1,29 @@
+<script type="text/javascript" src="js/controllers/myClaim.js"></script>
+<!--start My Claim-->
+	<div class="form">
+    <h1 class="title-form background-059b90">{{lang.myclaim.batch_detail}}</h1>
+    	<div class="form-info scroll">
+        <ul class="list">
+        
+        	<li ng-repeat="item in claimBatchDetail track by $index">
+            
+            	
+            	<div class="f-left" ng-click="viewDetail(item,'claimBenefitDetail')">
+                	<p class="lable"><span class="bold">{{item.ClaimTypeDesc}}</span></p>
+                    <p class="hind">{{item.Date}}</p>
+                </div>
+                <p class="f-right text bold">{{item.CurrencyCode}} {{item.ReceiptAmount}}</p>
+                <div class="clear"></div>
+            </li>
+
+        </ul>
+        
+        </div><!--end form-info-->
+        
+        
+        
+    </div><!--end form-->
+	
+<!--end My Claim-->
+
+

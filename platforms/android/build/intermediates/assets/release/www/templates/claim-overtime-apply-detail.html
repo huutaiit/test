@@ -1,0 +1,137 @@
+<script type="text/javascript" src="js/controllers/myClaim.js"></script>
+<div class="form">
+<h1 class="title-form background-88b824">{{lang.myclaim.ot.tt}}</h1>
+    <p id="date-control" class="text-center background-dbebb7 text-color-5c7c19" style="padding:5px 0px;">
+    <!-- <a href="javascript:void(0)" ng-click="prevDate()"> <i class="fa fa-chevron-left"></i></a> -->
+    <b>{{field.date}}</b> 
+    <!--<a href="javascript:void(0)" ng-click="nextDate()"><i class="fa fa-chevron-right"></i></a>-->
+     </p>
+  	<div class="form-info scroll" ng-element-height>
+  	
+    <ul class="list form-apply">
+    
+    
+    	<li modal="fromTime">
+      	<div class="f-left">
+        	<p class="label required"><label>{{lang.general.from}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input readonly="readonly" value="{{field.from | formatTime:'shortTime2'}}" type="text" /></p>
+        </div>
+        
+         <a class="f-right icon"><i class="fa fa-clock-o"></i></a>
+       
+        <div class="clear"></div>
+      </li>
+      
+      <li modal="toTime">
+      	<div class="f-left">
+        	<p class="label required"><label>{{lang.general.to}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input readonly="readonly" value="{{field.to | formatTime:'shortTime2'}}" type="text" /></p>
+        </div>
+        
+         <a class="f-right icon"><i class="fa fa-clock-o"></i></a>
+         <div class="clear"></div>
+      </li>
+
+      
+      <li ng-attr-modal="{{WeekOT.Self_Ot_Rate==1 && 'type' || ''}}">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.ot.apply.type}}</label></p>
+          <p class="input"><input value="{{field.type.Desc}}" readonly type="text" /></p>
+        </div>
+         <a ng-show="WeekOT.Self_Ot_Rate==1" class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+      
+      
+      <li modal="duration" ng-click="InputFocusing('textDuration')">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.ot.apply.duration}}</label></p>
+          <p class="input"><input value="{{field.duration.num  | formatCurrency:'2'}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+      
+      
+      <li modal="remarks">
+        <div class="f-left">
+          <p class="label" ng-class="{'required' : isRequired(field.type.Self_Remarks)}"><label>{{lang.myclaim.ot.apply.remarks.tt}}</label> <span ng-if='field.type.Self_Remarks==1'>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.remarks}}" readonly type="text" /></p>
+        </div>
+			
+        <div class="clear"></div>
+      </li>
+
+      
+       <li>
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.ot.apply.approvingOfficer}}</label></p>
+          <p class="input"><input value="{{field.approvingOfficer.ApprovalName}}" readonly type="text" /></p>
+        </div>
+        <div class="clear"></div>
+      </li> 
+    </ul>
+     
+    </div><!--end form-info-->
+    
+    <div class="button">
+    	<a></a>
+      <a ng-click="submitClaimOvertimeApply()"><span>{{lang.general.btn.submit}}</span></a>
+      <a></a>
+    </div><!--end button-->
+  </div><!--end form-->
+  
+  
+	<div id="type" class="modal animated" center-screen>
+  <h2 class="modal-title">{{lang.myclaim.ot.apply.type}} <span close-modal class="close-modal"></span></h2>
+  <div class="modal-content" id="OTTypes" ng-set-height-modal-content="{{OTTypes.length}}">
+    <ul class="select">
+      <li ng-repeat="item in OTTypes track by $index" ng-click="selectType(item)" close-modal>{{item.Desc}}</li>
+    </ul>
+  </div>
+</div><!--end modal-->
+
+<div id="remarks" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input type="text" ng-model="textRemarks" value="" />
+    </div>
+    <div class="button">
+      <button ng-click="saveRemarks(textRemarks)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal>{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+<div id="duration" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input ng-is-numeric="true" max-value="24" type="tel" pattern="[0-9]*" id="textDuration" callback-fn="setModel(arg)" />
+    </div>
+    <div class="button">
+      <button ng-click="setDuration(textDuration)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal ng-click="$event.preventDefault();">{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+<div id="fromTime" class="modal animated" center-screen>
+<ng-time-picker></ng-time-picker>
+<table width="100%" style="background-color:#a7a7a7;"><tr>
+  <td width="33.33333333333333%"><div class="ui-content ui-body-a btn-control" ng-click="selectTime('from')" >{{lang.general.btn.ok}}</div></td>
+   <td width="33.33333333333333%"><div class="reset-date ui-content ui-body-a btn-control">{{lang.general.btn.reset}}</div></td>
+  <td width="33.33333333333333%"><div class="ui-content ui-body-a btn-control" close-modal>{{lang.general.btn.cancel}}</div></td>
+  </tr></table>
+</div>
+
+
+<div id="toTime" class="modal animated" center-screen>
+<ng-time-picker></ng-time-picker>
+<table width="100%" style="background-color:#a7a7a7;"><tr>
+  <td width="33.33333333333333%"><div class="ui-content ui-body-a btn-control" ng-click="selectTime('to')" >{{lang.general.btn.ok}}</div></td>
+   <td width="33.33333333333333%"><div class="reset-date ui-content ui-body-a btn-control" >{{lang.general.btn.reset}}</div></td>
+  <td width="33.33333333333333%"><div class="ui-content ui-body-a btn-control" close-modal>{{lang.general.btn.cancel}}</div></td>
+  </tr></table>
+</div>
+
+<div id="point"><span ng-click="insertAtCaret('.');$event.preventDefault();">.</span></div>
