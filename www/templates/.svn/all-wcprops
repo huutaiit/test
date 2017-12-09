@@ -1,0 +1,449 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/payroll2u/!svn/ver/2/www/templates
+END
+my-tms.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/payroll2u/!svn/ver/2/www/templates/my-tms.html
+END
+leave-apply.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/payroll2u/!svn/ver/2/www/templates/leave-apply.html
+END
+claim-request-for-payment-apply.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/payroll2u/!svn/ver/2/www/templates/claim-request-for-payment-apply.html
+END
+claim-request-for-payment.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/payroll2u/!svn/ver/2/www/templates/claim-request-for-payment.html
+END
+claim-overtime.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/payroll2u/!svn/ver/2/www/templates/claim-overtime.html
+END
+leave-enquiry-detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/payroll2u/!svn/ver/2/www/templates/leave-enquiry-detail.html
+END
+claim-reimbursement-coverage.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/payroll2u/!svn/ver/2/www/templates/claim-reimbursement-coverage.html
+END
+time-picker.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/payroll2u/!svn/ver/2/www/templates/time-picker.html
+END
+claim-benefit-batch-detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/payroll2u/!svn/ver/2/www/templates/claim-benefit-batch-detail.html
+END
+claim-reimbursement-delegate.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/payroll2u/!svn/ver/2/www/templates/claim-reimbursement-delegate.html
+END
+claim-request-for-payment-detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/payroll2u/!svn/ver/2/www/templates/claim-request-for-payment-detail.html
+END
+claim-reimbursement-approval.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/payroll2u/!svn/ver/2/www/templates/claim-reimbursement-approval.html
+END
+login.html
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/payroll2u/!svn/ver/2/www/templates/login.html
+END
+leave-detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/payroll2u/!svn/ver/2/www/templates/leave-detail.html
+END
+claim-benefit.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/payroll2u/!svn/ver/2/www/templates/claim-benefit.html
+END
+payroll-payslip.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/payroll2u/!svn/ver/2/www/templates/payroll-payslip.html
+END
+claim-request-for-payment-attach.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/payroll2u/!svn/ver/2/www/templates/claim-request-for-payment-attach.html
+END
+payroll-cp8a.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/payroll2u/!svn/ver/2/www/templates/payroll-cp8a.html
+END
+claim-reimbursement-enquiry.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/payroll2u/!svn/ver/2/www/templates/claim-reimbursement-enquiry.html
+END
+claim-request-for-payment-cancellation.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/payroll2u/!svn/ver/2/www/templates/claim-request-for-payment-cancellation.html
+END
+leave-cancellation.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/payroll2u/!svn/ver/2/www/templates/leave-cancellation.html
+END
+tms-clock-on-behalf.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/payroll2u/!svn/ver/2/www/templates/tms-clock-on-behalf.html
+END
+claim-benefit-cancellation.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/payroll2u/!svn/ver/2/www/templates/claim-benefit-cancellation.html
+END
+claim-reimbursement-batch-detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/payroll2u/!svn/ver/2/www/templates/claim-reimbursement-batch-detail.html
+END
+profile-change-pass.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/payroll2u/!svn/ver/2/www/templates/profile-change-pass.html
+END
+claim-request-for-payment-enquiry-view.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/payroll2u/!svn/ver/2/www/templates/claim-request-for-payment-enquiry-view.html
+END
+tms-clockings-enquiry.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/payroll2u/!svn/ver/2/www/templates/tms-clockings-enquiry.html
+END
+leave-plan.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/payroll2u/!svn/ver/2/www/templates/leave-plan.html
+END
+claim-overtime-cancellation.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/payroll2u/!svn/ver/2/www/templates/claim-overtime-cancellation.html
+END
+tms-mobile-mac-address.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/payroll2u/!svn/ver/2/www/templates/tms-mobile-mac-address.html
+END
+claim-benefit-submit-saves-claims.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/payroll2u/!svn/ver/2/www/templates/claim-benefit-submit-saves-claims.html
+END
+claim-reimbursement-detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/payroll2u/!svn/ver/2/www/templates/claim-reimbursement-detail.html
+END
+claim-benefit-enquiry-view.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/payroll2u/!svn/ver/2/www/templates/claim-benefit-enquiry-view.html
+END
+my-leave.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/payroll2u/!svn/ver/2/www/templates/my-leave.html
+END
+leave-calendar.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/payroll2u/!svn/ver/2/www/templates/leave-calendar.html
+END
+tms-roster-enquiry.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/payroll2u/!svn/ver/2/www/templates/tms-roster-enquiry.html
+END
+claim-overtime-apply.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/payroll2u/!svn/ver/2/www/templates/claim-overtime-apply.html
+END
+date-time-picker.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/payroll2u/!svn/ver/2/www/templates/date-time-picker.html
+END
+leave-enquiry.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/payroll2u/!svn/ver/2/www/templates/leave-enquiry.html
+END
+claim-overtime-apply-detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/payroll2u/!svn/ver/2/www/templates/claim-overtime-apply-detail.html
+END
+claim-reimbursement-attach.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/payroll2u/!svn/ver/2/www/templates/claim-reimbursement-attach.html
+END
+payroll-pcb2.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/payroll2u/!svn/ver/2/www/templates/payroll-pcb2.html
+END
+claim-reimbursement-cancellation.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/payroll2u/!svn/ver/2/www/templates/claim-reimbursement-cancellation.html
+END
+claim-request-for-payment-enquiry.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/payroll2u/!svn/ver/2/www/templates/claim-request-for-payment-enquiry.html
+END
+claim-overtime-enquiry.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/payroll2u/!svn/ver/2/www/templates/claim-overtime-enquiry.html
+END
+claim-reimbursement-apply.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/payroll2u/!svn/ver/2/www/templates/claim-reimbursement-apply.html
+END
+my-profile.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/payroll2u/!svn/ver/2/www/templates/my-profile.html
+END
+claim-benefit-apply.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/payroll2u/!svn/ver/2/www/templates/claim-benefit-apply.html
+END
+claim-reimbursement.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/payroll2u/!svn/ver/2/www/templates/claim-reimbursement.html
+END
+keyboard.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/payroll2u/!svn/ver/2/www/templates/keyboard.html
+END
+my-payroll.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/payroll2u/!svn/ver/2/www/templates/my-payroll.html
+END
+leave-legend.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/payroll2u/!svn/ver/2/www/templates/leave-legend.html
+END
+claim-request-for-payment-delegate.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/payroll2u/!svn/ver/2/www/templates/claim-request-for-payment-delegate.html
+END
+home.html
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/payroll2u/!svn/ver/2/www/templates/home.html
+END
+leave-plan-detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/payroll2u/!svn/ver/2/www/templates/leave-plan-detail.html
+END
+claim-request-for-payment-approval.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/payroll2u/!svn/ver/2/www/templates/claim-request-for-payment-approval.html
+END
+claim-benefit-enquiry.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/payroll2u/!svn/ver/2/www/templates/claim-benefit-enquiry.html
+END
+leave-delegate.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/payroll2u/!svn/ver/2/www/templates/leave-delegate.html
+END
+leave-approval.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/payroll2u/!svn/ver/2/www/templates/leave-approval.html
+END
+claim-benefit-detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/payroll2u/!svn/ver/2/www/templates/claim-benefit-detail.html
+END
+my-claims.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/payroll2u/!svn/ver/2/www/templates/my-claims.html
+END
+leave-admin-approval.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/payroll2u/!svn/ver/2/www/templates/leave-admin-approval.html
+END
+claim-reimbursement-enquiry-view.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/payroll2u/!svn/ver/2/www/templates/claim-reimbursement-enquiry-view.html
+END
+claim-benefit-coverage.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/payroll2u/!svn/ver/2/www/templates/claim-benefit-coverage.html
+END
+date-picker.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/payroll2u/!svn/ver/2/www/templates/date-picker.html
+END
+claim-benefit-attach.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/payroll2u/!svn/ver/2/www/templates/claim-benefit-attach.html
+END
+claim-benefit-delegate.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/payroll2u/!svn/ver/2/www/templates/claim-benefit-delegate.html
+END
+claim-overtime-detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/payroll2u/!svn/ver/2/www/templates/claim-overtime-detail.html
+END
+claim-benefit-approval.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/payroll2u/!svn/ver/2/www/templates/claim-benefit-approval.html
+END
+leave-calendar-detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/payroll2u/!svn/ver/2/www/templates/leave-calendar-detail.html
+END
+tms-roster-enquiry-detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/payroll2u/!svn/ver/2/www/templates/tms-roster-enquiry-detail.html
+END
+claim-overtime-delegate.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/payroll2u/!svn/ver/2/www/templates/claim-overtime-delegate.html
+END
+claim-overtime-approval.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/payroll2u/!svn/ver/2/www/templates/claim-overtime-approval.html
+END
+claim-reimbursement-submit-saves-claims.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/payroll2u/!svn/ver/2/www/templates/claim-reimbursement-submit-saves-claims.html
+END

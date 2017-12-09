@@ -1,0 +1,44 @@
+<script type="text/javascript" src="js/controllers/myClaim.js"></script>
+<!--start My Claim-->
+	<div class="form">
+    <h1 class="title-form background-059b90">{{lang.myclaim.ben.tt2}} {{lang.general.cancellation}}</h1>
+    	<div class="form-info scroll" ng-element-height="90">
+        <ul class="list">
+        
+        	<li ng-repeat="item in listCancelLation track by $index">
+            <div class="f-left custom_checkbox box-percent-left" >
+					<input id="c{{$index}}" type="checkbox" ng-model="item.check" ng-click="saveListItem()"> 	
+                    <label for="c{{$index}}"></label>
+			</div>
+            	
+            	<div class="f-left box-percent-right" ng-click="viewDetail(item,'claimBenefitDetail')">
+                	<p class="lable f-left width-65">
+                     <span class="bold text-block">{{item.ClaimTypeDesc}}</span>
+                     <span class="hind">{{item.Date}}</span>
+                    </p>
+                     <p class="f-right text-align-right">
+                    <span class="text-block bold"> {{item.CurrencyCode}} {{item.ReceiptAmount | formatCurrency:'2'}}</span>
+                      <span>{{item.Status}}</span>
+                     </p>
+                      <div class="clear"></div>
+                    
+              
+                </div>
+                 <div class="clear"></div>
+            </li>
+
+        </ul>
+        
+        </div><!--end form-info-->
+        
+        <div class="button">
+        	<a></a>
+            <a ng-click="submitCancellation()"><span><img src="images/n_button_cancelation.png" /></span></a>
+            <a></a>
+        </div><!--end button-->
+        
+    </div><!--end form-->
+	
+<!--end My Claim-->
+
+

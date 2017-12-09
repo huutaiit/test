@@ -1,0 +1,51 @@
+<script type="text/javascript" src="js/controllers/myProfile.js"></script>
+<!--start Apply leave-->
+	<div class="form">
+    <h1 class="title-form purple">{{lang.myprofile.changePass.tt}}</h1>
+    	<div class="form-info scroll" id="form-change-pass" ng-element-height >
+        <ul id="change-pass">
+        
+            <li>
+            	<label>{{lang.myprofile.changePass.current_password}}</label>	
+                <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset">
+                	<input  type="password" ng-input-focus ng-model="field.CurrPass"  />
+                </div>
+                
+            </li>
+            
+             <li>
+            	<label>{{lang.myprofile.changePass.new_password}}</label>	
+               <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset">
+                <input type="password" ng-input-focus ng-model="field.NewPass"  />
+                </div>
+            </li>
+            
+             <li>
+            	<label>{{lang.myprofile.changePass.confirm_new_password}}</label>	
+                <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset">
+                <input type="password" ng-input-focus ng-model="field.ConfirmNewPass"  />
+                </div>
+            </li>
+            
+            
+            
+           
+              
+        </ul>
+         <div class="note-change-password">
+         		<p ng-bind-html='TextPasswordRole'></p>
+         </div>
+        </div><!--end form-info-->
+        <div class="button">
+        	<a></a>
+             <a ng-click="changePass()"><span>{{lang.general.btn.submit}}</span></a>
+            <a></a>
+           <div class="clear"></div>
+        </div><!--end form-info-->
+       
+    </div><!--end form-->
+    <div style="position: fixed;z-index: 3;width: 100%;height: 135px;display: none;top: 0;left: 0;" class="overlay-form-pass"></div>
+	
+
+
+

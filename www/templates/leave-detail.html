@@ -1,0 +1,181 @@
+<script type="text/javascript" src="js/controllers/myLeave.js"></script>
+<!--start Apply leave-->
+	<div class="form" style="background:#FFF">
+    <h1 class="title-form background-494aa7">{{lang.myleave.tt}}</h1>
+    <div class="form-info scroll" ng-element-height="90">
+
+      <ul class="list form-apply" id="apply-leave">
+        <li >
+          <div class="f-left">
+            <p class="label required"><label>{{lang.myleave.apply.type.tt}}</label> <span>({{lang.general.required}})</span></p>
+            <p class="input"><input readonly="readonly" value="{{leaveDetail.LeaveDesc}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+
+         <li>
+          <div class="f-left">
+            <p class="label required"><label>{{lang.myleave.apply.extent.tt}}</label> <span>({{lang.general.required}})</span></p>
+            <p class="input"><input readonly="readonly" value="{{leaveDetail.Extend}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+
+        <li >
+          <div class="f-left">
+            <p class="label required"><label>{{lang.myleave.apply.period}}</label> <span>({{lang.general.required}})</span></p>
+            <p class="input"><input readonly="readonly" value="{{leaveDetail.Period}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+        <li>
+          <div class="f-left">
+            <p class="label"><label>{{lang.myleave.apply.duration.tt}}</label> </p>
+            <p class="input"><input readonly="readonly" value="{{leaveDetail.Duration}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+
+
+
+        <li>
+        <div class="f-left">
+          <p class="label" ng-class="{'required' : isRequired(leaveDetail.SelfRemark)}"><label>{{lang.myleave.apply.remarks.tt}}</label> <span ng-if="leaveDetail.SelfRemark==1">({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{leaveDetail.Remarks}}" readonly="readonly" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+
+
+        <li>
+          <div class="f-left">
+            <p class="label"><label>{{lang.myleave.apply.approvingOfficer.tt}}</label> </p>
+            <p class="input"><input readonly="readonly" value="{{leaveDetail.ApprovalName}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+
+         <li ng-show="leaveDetail.ApprovalName2!=''">
+          <div class="f-left">
+            <p class="label"><label>{{lang.myleave.apply.approvingOfficer.tt}} 2</label> </p>
+            <p class="input"><input readonly="readonly" value="{{leaveDetail.ApprovalName2}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+
+         <li ng-show="leaveDetail.ApprovalName3!=''">
+          <div class="f-left">
+            <p class="label"><label>{{lang.myleave.apply.approvingOfficer.tt}} 3</label> </p>
+            <p class="input"><input readonly="readonly" value="{{leaveDetail.ApprovalName3}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+
+        <li>
+        <div class="f-left">
+          <p class="label"><label>{{lang.myleave.apply.notify_group}}</label></p>
+          <p class="input"><input value="{{leaveDetail.NotifyGroup}}" readonly="readonly" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+        <li>
+        <div class="f-left">
+          <p class="label"><label>{{lang.myleave.apply.notify_employee}} 1</label></p>
+          <p class="input"><input value="{{leaveDetail.NotifyEmployee}}" readonly="readonly" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+       <li>
+        <div class="f-left">
+          <p class="label"><label>{{lang.myleave.apply.notify_employee}} 2</label></p>
+          <p class="input"><input value="{{leaveDetail.NotifyEmployee2}}" readonly="readonly" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+        <li>
+          <div class="f-left">
+            <p class="label"><label>{{lang.myleave.apply.block_lv}}</label></p>
+            <p class="input"><input  readonly="readonly" type="text" /></p>
+          </div>
+          <div class="f-right custom_checkbox">
+            <input id="c" type="checkbox" readonly disabled="disabled" ng-model="leaveDetail.Block_Lv">
+            <label for="c"></label>
+          </div>
+          <div class="clear"></div>
+        </li>
+
+
+	<li  ng-click="viewFile(leaveDetail.FileUrl)">
+          <div class="f-left">
+            <p class="label"><label>{{lang.myleave.apply.fileName.tt}} 1</label> </p>
+            <p class="input"><input readonly="readonly" value="{{leaveDetail.FileUrl}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+	<li ng-click="viewFile(leaveDetail.FileUrl2)">
+          <div class="f-left">
+            <p class="label"><label>{{lang.myleave.apply.fileName.tt}} 2</label> </p>
+            <p class="input"><input readonly="readonly" value="{{leaveDetail.FileUrl2}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+
+ 	<li ng-click="viewFile(leaveDetail.FileUrl3)">
+          <div class="f-left">
+            <p class="label"><label>{{lang.myleave.apply.fileName.tt}} 3</label> </p>
+            <p class="input"><input readonly="readonly" value="{{leaveDetail.FileUrl3}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+
+
+ 	<li>
+          <div class="f-left">
+            <p class="label"><label>{{lang.myleave.apply.status}}</label> </p>
+            <p class="input"><input readonly="readonly" value="{{leaveDetail.Status}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+
+      </ul>
+    </div><!--end form-info-->
+
+
+  </div><!--end form-->
+
+<!--end Apply leave-->
+
+<div class="overlay"></div>

@@ -1,0 +1,48 @@
+<script type="text/javascript" src="js/controllers/myLeave.js"></script>
+<!--start Apply leave-->
+	<div class="form" style="width:96%; margin:auto; border:1px solid #000000;">
+        <h1 class="title-form background-494aa7">{{lang.myleave.enquiry.tt}} - {{title}}</h1>
+        <div class="form-info scroll">
+
+            <ul class="list">
+
+
+                <li ng-repeat="item in leaveEnquiryTaken track by $index">
+                   
+
+                    <div class="f-left" ng-click="selectItem(item)">
+                        <p class="lable "><span class="bold">{{item.LeaveDesc}}</span> </p>
+                        <p class="hind">{{item.Period}}</p>
+                    </div>
+                    <p class="f-right text bold">{{item.Duration}}</p>
+                    <div class="clear"></div>
+                </li>
+
+
+            </ul>
+
+        </div><!--end form-info-->
+        
+    </div><!--end form-->
+	
+<!--end Apply leave-->
+
+
+<div class="modal-error-or-success" ng-show-modal-success="{{success.result}}" center-screen>
+
+    <div class="box_modal">
+        <div class="title">
+            <img src="images/al_success.png" width="20px" /> <span>{{lang.general.successful}}</span>
+            <div class="clear"></div>
+        </div>
+        <div class="content">
+            {{success.message}}
+        </div>
+        <div class="button">
+            <button ng-click="success.callBack()">{{lang.general.btn.ok}}</button>
+        </div>
+    </div>
+
+</div>
+<div class="overlay"></div>
+<div class="overlay-success"></div>

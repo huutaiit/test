@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/payroll2u/!svn/ver/1/
+END
+package.json
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/payroll2u/!svn/ver/2/package.json
+END
+key.android.payroll2u
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/payroll2u/!svn/ver/2/key.android.payroll2u
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/payroll2u/!svn/ver/2/config.xml
+END

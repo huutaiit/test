@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/node_modulesbk/async" libraries="{test2/node_modulesbk/async/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/bcrypt-pbkdf" libraries="{test2/node_modulesbk/bcrypt-pbkdf/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/bl" libraries="{test2/node_modulesbk/bl/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/bower/lib" libraries="{test2/node_modulesbk/bower/lib/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/clean-css" libraries="{test2/node_modulesbk/clean-css/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/cross-spawn" libraries="{test2/node_modulesbk/cross-spawn/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/dashdash" libraries="{test2/node_modulesbk/dashdash/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/fined" libraries="{test2/node_modulesbk/fined/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/gauge" libraries="{test2/node_modulesbk/gauge/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/getpass" libraries="{test2/node_modulesbk/getpass/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/glob-stream" libraries="{test2/node_modulesbk/glob-stream/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/globule" libraries="{test2/node_modulesbk/globule/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/gulp-concat" libraries="{test2/node_modulesbk/gulp-concat/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/gulp-minify-css" libraries="{test2/node_modulesbk/gulp-minify-css/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/gulp-sass" libraries="{test2/node_modulesbk/gulp-sass/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/gulp-util" libraries="{test2/node_modulesbk/gulp-util/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/har-validator" libraries="{test2/node_modulesbk/har-validator/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/is-absolute" libraries="{test2/node_modulesbk/is-absolute/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/isobject" libraries="{test2/node_modulesbk/isobject/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/meow" libraries="{test2/node_modulesbk/meow/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/mkdirp" libraries="{test2/node_modulesbk/mkdirp/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/node-gyp" libraries="{test2/node_modulesbk/node-gyp/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/node-sass" libraries="{test2/node_modulesbk/node-sass/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/resolve/test/pathfilter/deep_ref" libraries="{test2/node_modulesbk/resolve/test/pathfilter/deep_ref/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/resolve/test/resolver/bar" libraries="{test2/node_modulesbk/resolve/test/resolver/bar/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/resolve/test/resolver/biz" libraries="{test2/node_modulesbk/resolve/test/resolver/biz/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/resolve/test/resolver/punycode" libraries="{test2/node_modulesbk/resolve/test/resolver/punycode/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/resolve/test/resolver/without_basedir" libraries="{test2/node_modulesbk/resolve/test/resolver/without_basedir/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/resolve/test/subdirs" libraries="{test2/node_modulesbk/resolve/test/subdirs/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/rimraf" libraries="{test2/node_modulesbk/rimraf/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/sass-graph" libraries="{test2/node_modulesbk/sass-graph/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/sshpk" libraries="{test2/node_modulesbk/sshpk/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/through2" libraries="{test2/node_modulesbk/through2/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/vinyl-fs" libraries="{test2/node_modulesbk/vinyl-fs/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/vinyl-sourcemaps-apply" libraries="{test2/node_modulesbk/vinyl-sourcemaps-apply/node_modules}" />
+    <file url="file://$PROJECT_DIR$/node_modulesbk/yargs-parser" libraries="{test2/node_modulesbk/yargs-parser/node_modules}" />
+  </component>
+</project>

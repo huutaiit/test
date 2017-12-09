@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/payroll2u/!svn/ver/2/www/templates/partials
+END
+modal-apply-pay.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/payroll2u/!svn/ver/2/www/templates/partials/modal-apply-pay.html
+END
+modal-apply-reim.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/payroll2u/!svn/ver/2/www/templates/partials/modal-apply-reim.html
+END
+modal-apply-benifit.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/payroll2u/!svn/ver/2/www/templates/partials/modal-apply-benifit.html
+END
+poup-customer.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/payroll2u/!svn/ver/2/www/templates/partials/poup-customer.html
+END
+poup-employee.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/payroll2u/!svn/ver/2/www/templates/partials/poup-employee.html
+END
+form-apply-pay.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/payroll2u/!svn/ver/2/www/templates/partials/form-apply-pay.html
+END
+form-apply-reim.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/payroll2u/!svn/ver/2/www/templates/partials/form-apply-reim.html
+END
+form-apply-benifit.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/payroll2u/!svn/ver/2/www/templates/partials/form-apply-benifit.html
+END

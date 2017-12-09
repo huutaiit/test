@@ -1,0 +1,22 @@
+<table class='tbl-picker' width="100%" ><tr>
+    <td ><div class="setDate ui-content ui-body-a disable btn-control" >{{lang.general.btn.set_date}}</div></td>
+    
+    
+    </tr></table>
+<table class='tbl-picker tbl-date-picker' style="font-size:30px;background-color:#000;color:#fff; width:100%; " cellpadding='0' cellspacing='0' >
+
+
+<tr>
+<td><div role="main" class="pmon ui-content ui-body-a btn-calculation add" >+</div></td>
+<td><div role="main" class="pday ui-content ui-body-a  btn-calculation add" >+</div></td>
+<td><div role="main" class="pyear ui-content ui-body-a btn-calculation add" >+</div></td></tr>
+<tr>
+<td><input type="text" class="picker-input mon" readonly="readonly" /></td>
+<td><input type="text" class="picker-input day" readonly="readonly" /></td>
+<td><input type="text" class="picker-input year" readonly="readonly" /></td></tr>
+<tr>
+    <td><div role="main" class="mmon ui-content ui-body-a btn-calculation minus" >-</div></td>
+    <td><div role="main" class="mday ui-content ui-body-a btn-calculation minus" >-</div></td>
+    <td><div role="main" class="myear ui-content ui-body-a btn-calculation minus" >-</div></td></tr>
+
+</table>

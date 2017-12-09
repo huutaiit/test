@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.payroll2u"  android-packageName="com.payroll2u" ios-CFBundleIdentifier="com.Payroll2U" version="5.7" android-versionCode="10414" ios-CFBundleVersion="5.7"  xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"><!--end com.Payroll2U use id to notification-->
+    <name>Payroll2U</name>
+
+    <description>
+       We provide payroll services and technology in Asian
+    </description>
+
+    <author email="dev@payroll2u.com" href="http://payroll2u.com">
+        Payroll2U Team
+    </author>
+    <content src="index.html#Login" />
+	<preference name="orientation" value="portrait" />
+	<preference name="loadUrlTimeoutValue" value="99999999" />
+	<preference name="KeyboardDisplayRequiresUserAction" value="false" />
+	<preference name="DisallowOverscroll" value="true" /><!--disable scroll screen on ios-->
+
+    <plugin name="cordova-plugin-whitelist" version="1" />
+
+
+    <access origin="*" />
+	<allow-navigation href="http://*/*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="android">
+          <icon src="www/images/ic_app.png" density="ldpi" />
+          <icon src="www/images/ic_app.png" density="mdpi" />
+          <icon src="www/images/ic_app.png" density="hdpi" />
+          <icon src="www/images/ic_app.png" density="xhdpi" />
+    </platform>
+
+
+	 <platform name="ios">
+	 <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+     <icon height="57" src="www/images/ios/57.png" width="57" />
+     <icon height="114" src="www/images/ios/114.png" width="114" />
+     <icon height="40" src="www/images/ios/40.png" width="40" />
+     <icon height="80" src="www/images/ios/80.png" width="80" />
+     <icon height="120" src="www/images/ios/120.png" width="120" />
+     <icon height="50" src="www/images/ios/50.png" width="50" />
+     <icon height="100" src="www/images/ios/100.png" width="100" />
+     <icon height="60" src="www/images/ios/60.png" width="60" />
+     <icon height="120" src="www/images/ios/120.png" width="120" />
+     <icon height="180" src="www/images/ios/180.png" width="180" />
+     <icon height="72" src="www/images/ios/72.png" width="72" />
+     <icon height="144" src="www/images/ios/144.png" width="144" />
+     <icon height="76" src="www/images/ios/76.png" width="76" />
+     <icon height="152" src="www/images/ios/152.png" width="152" />
+     <icon height="167" src="www/images/ios/167.png" width="167" />
+     <icon height="29" src="www/images/ios/29.png" width="29" />
+     <icon height="58" src="www/images/ios/58.png" width="58" />
+     <icon height="87" src="www/images/ios/87.png" width="87" />
+    </platform>
+
+ <feature name="Camera">
+      <param name="ios-package" value="CDVCamera" />
+    <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+  </feature>
+<feature name="InAppBrowser">
+  <param name="android-package" value="org.apache.cordova.InAppBrowser"/>
+</feature>
+ <feature name="InAppBrowser">
+      <param name="ios-package" value="CDVInAppBrowser" />
+  </feature>
+  <feature name="Toast">
+  <param name="ios-package" value="Toast" />
+</feature>
+
+<feature name="Toast">
+  <param name="android-package" value="nl.xservices.plugins.Toast" />
+</feature>
+
+<feature name="Toast">
+  <param name="wp-package" value="Toast"/>
+</feature>
+<feature name="Geolocation">
+    <param name="android-package" value="org.apache.cordova.geolocation.GeoBroker" />
+</feature>
+
+<feature name="Geolocation">
+    <param name="ios-package" value="CDVLocation" />
+</feature>
+
+
+ <platform name="android">
+
+           <feature name="Keyboard">
+              <param name="android-package" value="io.ionic.keyboard.IonicKeyboard" />
+              <param name="onload" value="true" />
+            </feature>
+			 <preference name="android-targetSdkVersion" value="23"/>
+    </platform>
+
+
+
+
+
+
+
+<plugins>
+    <plugin name="Device" value="CDVDevice" />
+    <plugin name="Logger" value="CDVLogger" />
+    <plugin name="Compass" value="CDVLocation" />
+    <plugin name="Accelerometer" value="CDVAccelerometer" />
+    <plugin name="Camera" value="CDVCamera" />
+    <plugin name="NetworkStatus" value="CDVConnection" />
+    <plugin name="Contacts" value="CDVContacts" />
+    <plugin name="Debug Console" value="CDVDebugConsole" />
+    <plugin name="Echo" value="CDVEcho" />
+    <plugin name="File" value="CDVFile" />
+	<plugin name="FileTransfer" value="CDVFileTransfer" />
+	<plugin name="NetworkStatus" value="CDVConnection" />
+
+</plugins>
+
+  <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+    <string>need camera access to take pictures</string>
+  </edit-config>
+  <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
+    <string>need to photo library access to get pictures from there</string>
+  </edit-config>
+  <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+    <string>need location access to find things nearby</string>
+  </edit-config>
+  <edit-config target="NSPhotoLibraryAddUsageDescription" file="*-Info.plist" mode="merge">
+    <string>need to photo library access to save pictures there</string>
+  </edit-config>
+</widget>
