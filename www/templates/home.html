@@ -111,6 +111,8 @@
                 <p>{{lang.main.txt.uuid}}: <span style="text-transform:uppercase;">{{MAC.uuid}}</span></p>
                 <p>{{lang.main.txt.apmac}}: <span style="text-transform:uppercase;">{{MAC.MacAddress}}</span></p>
                 <p>{{lang.main.txt.website}}</p>
+            <p>Location: <span>latitude:{{posLocation.latitude}},longitude:{{posLocation.longitude}},altitude:{{posLocation.altitude}}</span> <span ng-click="copyToClipboard();">copy</span></p>
+
         </div>
 
 </div><!--end modal-->

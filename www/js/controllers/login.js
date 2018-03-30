@@ -204,7 +204,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http,Process
 
 
 		  var objectData = JSON.parse(result.data);
-
+      console.log(objectData);
 		  var param = {
 				OrgName:  $scope.field["org"],
 				UserId:   $scope.field.username,
@@ -249,7 +249,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http,Process
 					else{
 						date = null;
 					}
-					user = {"Last_Login":date,"FullName":objectData.FullName};
+					var user = {"Last_Login":date,"FullName":objectData.FullName,First_Ctry:objectData.First_Ctry};
 					$.jStorage.set("user",user);
 
 					$location.path("/profileChangePass");
@@ -299,7 +299,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http,Process
 						var datetype = objectData.Date_Fmt=="1" ? "mediumDate": objectData.Date_Fmt=="2" ? "mediumDate2":"mediumDate3";
 						date = DateTimeService.dateFormat(date,datetype);
 
-						user = {"Last_Login":date,"FullName":objectData.FullName};
+						user = {"Last_Login":date,"FullName":objectData.FullName,First_Ctry:objectData.First_Ctry};
 						$.jStorage.set("user",user);
 
 							ProcessService.ajaxGetLocalSite($rootScope.GATEWAYURL+"resource/lang/lang"+objectData.Language+".txt")
