@@ -1,8 +1,8 @@
 App.registerCtrl('myTmsCtrl', function ($scope, $rootScope, ProcessService,DateTimeService,PoupService, $location) {
 
 	$scope.listMenuTms = [
-    {id:1247,href:"tmsClockingsEnquiry",icon:"tms733.png",name:'Clockings Enquiry',description:$rootScope.lang.mytms.clockingsEnquiry.ct},
-    {id:1248,href:"tmsClockOnBehalf",icon:"n_ic_tms_clock_behalf.png",name:'Clock On Behalf',description:$rootScope.lang.mytms.clockOnBehalf.ct},
+    {id:1247,href:"tmsClockingsEnquiry",icon:"tms733.png",name:$rootScope.lang.mytms.clockingsEnquiry.tt,description:$rootScope.lang.mytms.clockingsEnquiry.ct},
+    {id:1248,href:"tmsClockOnBehalf",icon:"n_ic_tms_clock_behalf.png",name:$rootScope.lang.mytms.clockOnBehalf.tt,description:$rootScope.lang.mytms.clockOnBehalf.ct},
 					{id:733,href:"tmsRosterEnquiry",icon:"tms733.png",name:$rootScope.lang.mytms.rosterEnquiry.tt,description:$rootScope.lang.mytms.rosterEnquiry.ct},
 					{id:904,href:"tmsMobileMacAddress",icon:"tms904.png",name:$rootScope.lang.mytms.mobileMacAddress.tt,description:$rootScope.lang.mytms.mobileMacAddress.ct},
 
@@ -129,19 +129,30 @@ App.registerCtrl('myTmsCtrl', function ($scope, $rootScope, ProcessService,DateT
               var arrTime =  data[key].Reader_Time.split(":");
               data[key].date = new Date(parseInt(arrDate[2]),parseInt(arrDate[1]),parseInt(arrDate[0]),parseInt(arrTime[0]),parseInt(arrTime[1]),0,0).getTime();
             }
+            console.log("datadatadata",data)
 
 
-            data.sort(function(a,b){
-                if(a.date < b.date){
-                  return 1;
-                }
-                else if(a.date>b.date){
-                  return -1;
-                }
-                else{
-                  return 0;
-                }
-             })
+            data.sort(function(a, b){
+              var aa = a.Reader_Date.split('/').reverse().join();
+              aa += a.Reader_Time.split(':').reverse().join();
+              var  bb = b.Reader_Date.split('/').reverse().join();
+              bb += b.Reader_Time.split(':').reverse().join();
+              return aa < bb ? 1 : (aa > bb ? -1 : 0);
+            });
+
+            // data.sort(function(a,b){
+            //    var prevDate = new Date(DateTimeService.dateFormat(a.date)).getTime();
+            //   var nextDate = new Date(DateTimeService.dateFormat(b.date)).getTime();
+            //     if(prevDate < nextDate){
+            //       return 1;
+            //     }
+            //     else if(prevDate>nextDate){
+            //       return -1;
+            //     }
+            //     else{
+            //       return 0;
+            //     }
+            //  })
 
             $scope.listClockingsEnquiry = data;
             console.log($scope.listClockingsEnquiry);
@@ -422,7 +433,7 @@ App.registerCtrl('myTmsCtrl', function ($scope, $rootScope, ProcessService,DateT
       if( $scope.employeeSelected==null){
         $rootScope.error = {
           result : true,
-          message :"Please select employee!",
+          message :$rootScope.lang.mytms.pleseSelectEmployee,
         };
         return false;
       }

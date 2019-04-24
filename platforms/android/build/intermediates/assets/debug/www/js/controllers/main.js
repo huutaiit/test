@@ -116,6 +116,12 @@ App.controller('mainCtrl', function($scope, $rootScope, $location,$timeout,$rout
 		}
 
 	}
+
+  $scope.checkShowModalError = function(){
+    if($rootScope.error && $rootScope.error.result && $rootScope.error.message)
+      return "true";
+    return "false";
+  }
 	$scope.closeModal = function(){
 				$(".overlay").hide();
 				$(".modal").hide();
@@ -129,6 +135,18 @@ App.controller('mainCtrl', function($scope, $rootScope, $location,$timeout,$rout
 			 $('#nav-top .control a.next').trigger("touchstart");
 		}
 	$scope.processResultPost = function(data,message,urlReturn){
+    if(data.ConfirmMessage==true){
+      $rootScope.confirm = {
+        result : true,
+        message : data.MessageInfo,
+        title:$rootScope.lang.general.confirm,
+        callBack : function() {
+          data.callBack();
+        },
+        cancel:data.cancel
+      }
+      return;
+    }
 		if(data.Message==true){
 
 			$rootScope.success = {
@@ -170,6 +188,13 @@ App.controller('mainCtrl', function($scope, $rootScope, $location,$timeout,$rout
 						};
 						return false;
 					}
+  $scope.resetConfirm = function() {
+    $rootScope.confirm = {
+      result : false,
+      message : ""
+    };
+    return false;
+  }
 	$scope.checkNotEntitled = function(item){
 
 		if(item.dis==true){
@@ -197,7 +222,20 @@ App.controller('mainCtrl', function($scope, $rootScope, $location,$timeout,$rout
 						 $(".overlay").hide();
 						 $(".loading").hide();
 						if(device.platform=="Android")
-							ref = cordova.InAppBrowser.open(encodeURI(folder + fileName) , '_system', 'location=yes'); //  android
+							ref =  cordova.plugins.fileOpener2.open(encodeURI(folder + fileName),'image/jpeg',{
+                error : function(e) {
+                  $scope.$apply(function() {
+                    $rootScope.error = {
+                      result : true,
+                      message : "This is no app registered"
+                    };
+                  })
+                  //console.log('Error status: ' + e.status + ' - Error message: ' + e.message);
+                },
+                success : function () {
+                  console.log('file opened successfully');
+                }
+              }); //  android
 						else
 							ref = window.open(encodeURI(folder + fileName) ,'_blank','location=no,EnableViewPortScale=yes');
 					},function(error){

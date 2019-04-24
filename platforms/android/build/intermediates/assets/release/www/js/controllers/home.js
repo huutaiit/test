@@ -1,6 +1,60 @@
 App.registerCtrl('homeCtrl', function($scope,$rootScope,$http,$location,$timeout,ProcessService,DateTimeService)
 {
+  var listLocation = null;
+  var currentLocation = null
+  function distance(lat1, lon1, lat2, lon2, unit) {
+    var radlat1 = Math.PI * lat1/180
+    var radlat2 = Math.PI * lat2/180
+    var theta = lon1-lon2
+    var radtheta = Math.PI * theta/180
+    var dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) * Math.cos(radlat2) * Math.cos(radtheta);
+    dist = Math.acos(dist)
+    dist = dist * 180/Math.PI
+    dist = dist * 60 * 1.1515
+    if (unit=="K") { dist = dist * 1.609344 }
+    if (unit=="N") { dist = dist * 0.8684 }
+    return dist
+  }
 
+
+  function checkValidLocation() {
+    if(listLocation==null)
+      return true;
+    var  check = false;
+    for(var key in listLocation){
+      var position = listLocation[key].Coordinates;
+      var arrPosition = position.split(',');
+      var km = distance(arrPosition[0],arrPosition[1],currentLocation.latitude,currentLocation.longitude,'K');
+      if(km<=0.05)
+        check = true;
+    }
+    return check
+  }
+
+  ProcessService.ajaxPost("Common/CheckLocation",null).then(function(result) {
+     listLocation = JSON.parse(result.data).data;
+    console.log(listLocation);
+
+  })
+
+
+  // get location
+  navigator.geolocation.getCurrentPosition(function (position) {
+      currentLocation = position.coords;
+      $scope.posLocation = currentLocation;
+    // alert('Latitude: '          + position.coords.latitude          + '\n' +
+    //   'Longitude: '         + position.coords.longitude         + '\n' +
+    //   'Altitude: '          + position.coords.altitude          + '\n' +
+    //   'Accuracy: '          + position.coords.accuracy          + '\n' +
+    //   'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
+    //   'Heading: '           + position.coords.heading           + '\n' +
+    //   'Speed: '             + position.coords.speed             + '\n' +
+    //   'Timestamp: '         + position.timestamp                + '\n');
+  }, function () {
+    // alert('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
+  },
+    { maximumAge: 3000, timeout: 5000, enableHighAccuracy: true }
+  );
   $.jStorage.deleteKey("OTData"); // reset OTData in claim (for overtime,benefit,...)
 	$rootScope.positionMenu = 0; //possion menu
 	$rootScope.noPrev=0;// reset top menu
@@ -49,9 +103,11 @@ App.registerCtrl('homeCtrl', function($scope,$rootScope,$http,$location,$timeout
 
 				 };
 
+
 				 ProcessService.ajaxPost("Common/UpdateMobileToken",JSON.stringify(param)).then(function(result) {
 					 sessionStorage.setItem('checkRegistrationId', 1);
 				 })
+
 			});
 	  })
 	}
@@ -79,31 +135,72 @@ push.on('error', function(e) {
 		alert(result);
 	})*/
 
-	 $scope.MAC = {Photo_Url:""};
-	 $scope.MAC["uuid"] = device.uuid.toUpperCase();
-		if(device.platform=="Android"){
-			try {
-				if(window.wifi && window.wifi.lan){
-						$scope.MAC["MacAddress"]= window.wifi.lan.BSSID;
-				}
-				else{
-					 $scope.MAC["MacAddress"] = "";
-				}
-			} catch (e) {
-				$scope.MAC["MacAddress"] = "";
-			}
+	 $rootScope.MAC = {Photo_Url:""};
+	 $rootScope.MAC["uuid"] = device.uuid.toUpperCase();
+	 $scope.getMacAdd = function(){
+     if(device.platform=="Android"){
+       try {
+         if(window.wifi && window.wifi.lan){
+           $rootScope.MAC["MacAddress"]= window.wifi.lan.BSSID;
+         }
+         else{
+           $rootScope.MAC["MacAddress"] = "";
+         }
+       } catch (e) {
+         $rootScope.MAC["MacAddress"] = "";
+       }
 
-		}
-		else
-		{
-			WifiWizard.getCurrentBSSID(function(macAddress){
-				 $scope.MAC["MacAddress"] = macAddress;
-			}, function(error){
-				console.log(error);
-			});
-		}
+     }
+     else
+     {
+       WifiWizard.getCurrentBSSID(function(macAddress){
+         $rootScope.MAC["MacAddress"] = macAddress;
+       }, function(error){
+         console.log(error);
+       });
+     }
+   }
+
+   $scope.checkMenuActive = function(menuId){
+	   var result = false;
+	   for(var i=0;i<$rootScope.MenuMobile.length;i++){
+	     var item = $rootScope.MenuMobile[i];
+	     if(menuId==item.Lvl1_Id){
+         result =  true;
+         break;
+       }
+     }
+     return result;
+   }
+
+  $scope.getMacAdd();
+  document.addEventListener("online", function (evt) {
+      $scope.getMacAdd();
+  }, false);
+
 		cordova.getAppVersion.getVersionNumber(function (version) {
-    				 $scope.MAC["Version"] = version;
+    				 $rootScope.MAC["Version"] = version;
+      var param = {
+        version: $rootScope.MAC["Version"],
+        deviceType:device.platform
+      }
+
+      ProcessService.ajaxPost("Common/CheckVersion",JSON.stringify(param)).then(function(result) {
+        const data = JSON.parse(result.data);
+        if(data.Result){
+          $rootScope.confirm = {
+            result : true,
+            message : data.Message,
+            title:$rootScope.lang.general.confirm,
+            callBack : function() {
+              var nativeURL = device.platform=='Android'?"https://play.google.com/store/apps/details?id=com.payroll2u":"https://itunes.apple.com/us/app/payroll2u/id901475413?ls=1&mt=8";
+              window.open(encodeURI(nativeURL) , '_blank', 'location=no,EnableViewPortScale=yes');
+            },
+            //cancel:data.cancel
+          }
+        }
+        return;
+      })
 				});
      $scope.user =  $.jStorage.get("user");
 	  $scope.changeLanguage = function (idLang){
@@ -231,7 +328,7 @@ push.on('error', function(e) {
 							if(data.FileName!=""){
 
 								$scope.$apply(function() {
-									$scope.MAC["Photo_Url"] = data.FileName;
+									$rootScope.MAC["Photo_Url"] = data.FileName;
 									 $scope.submitTms();
 								})
 							}
@@ -284,7 +381,11 @@ push.on('error', function(e) {
 							 Connection: "close" // very important
 							};
 							options.chunkedMode = false;
-							ft.upload(result[0],$rootScope.GATEWAYURL+"/api/uploadfile/uploadfilephoto",win, fail,options);
+            ProcessService.resizeImage(500,result[0],function(rs){
+              ft.upload(rs,$rootScope.GATEWAYURL+"/api/uploadfile/uploadfilephoto",win, fail,options);
+             // console.log("rs",rs);
+            })
+
 
 
 						// cordova.plugins.camerapreview.hide();
@@ -297,7 +398,7 @@ push.on('error', function(e) {
 		}
 		else{
 			navigator.camera.getPicture(onPhotoDataSuccess,onFail,{
-					quality : 70,
+					quality : 50,
 					correctOrientation: true,
 					destinationType : destinationType.FILE_URI,
 					cameraDirection: 1
@@ -308,23 +409,22 @@ push.on('error', function(e) {
 
 
 
-
 	 $scope.submitTms = function(){
+
 		 var param = {
 
             RegisEMAC: 1,
-            EMac:  $scope.MAC.uuid,
-            APMac: $scope.MAC.MacAddress,
-			Photo_Url: $scope.MAC["Photo_Url"]
+            EMac:  $rootScope.MAC.uuid,
+            APMac: $rootScope.MAC.MacAddress,
+			Photo_Url: $rootScope.MAC["Photo_Url"]
         };
 
 
  		ProcessService.ajaxPost("MyTMSClockInOut/Submit",JSON.stringify(param)).then(function(result) {
 				data = JSON.parse(result.data);
-				console.log(data);
-				$scope.MAC["Photo_Url"] = "";
+				$rootScope.MAC["Photo_Url"] = "";
 				if(data.Message==true){
-					if($scope.MAC["Photo_Url"] != ""){
+					if($rootScope.MAC["Photo_Url"] != ""){
 						window.plugins.toast.showShortBottom($rootScope.lang.main.txt.image_saved);
 					}
 					if($scope.RegisEMAC==1){
@@ -380,6 +480,15 @@ push.on('error', function(e) {
 		 })
 		}
 	$scope.submitInOut = function(RegisEMAC) {
+   var checkValid =  checkValidLocation();
+    if(!checkValid){
+      $rootScope.error = {
+        result : true,
+        message :"Invalid location"
+      };
+      return;
+    }
+
 		$scope.RegisEMAC = RegisEMAC;
 		if(sessionStorage.getItem('TMS_Photo')==1){
 			 $scope.capturePhoto();
@@ -388,6 +497,13 @@ push.on('error', function(e) {
 			 $scope.submitTms();
 		}
     }
+
+    $scope.copyToClipboard = function () {
+      var text = "latitude:"+$scope.posLocation.latitude+",longitude:"+$scope.posLocation.longitude+",altitude:"+$scope.posLocation.altitude;
+      cordova.plugins.clipboard.copy(text);
+      window.plugins.toast.showShortBottom("copy successfully");
+    }
+
 
 
  })

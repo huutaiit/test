@@ -341,59 +341,67 @@ public class CameraActivity extends Fragment {
 							//raw picture
 							byte[] bytes = mPreview.getFramePicture(data, camera);
 							final Bitmap pic = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
+              if(pictureView!=null && pic!=null)
+               {
+               //scale down
+               							float scale = (float)pictureView.getWidth()/(float)pic.getWidth();
+               							Bitmap scaledBitmap = Bitmap.createScaledBitmap(pic, (int)(pic.getWidth()*scale), (int)(pic.getHeight()*scale), false);
 
-							//scale down
-							float scale = (float)pictureView.getWidth()/(float)pic.getWidth();
-							Bitmap scaledBitmap = Bitmap.createScaledBitmap(pic, (int)(pic.getWidth()*scale), (int)(pic.getHeight()*scale), false);
+               							final Matrix matrix = new Matrix();
+               							if (cameraCurrentlyLocked == Camera.CameraInfo.CAMERA_FACING_FRONT) {
+               								Log.d(TAG, "mirror y axis");
+               								matrix.preScale(-1.0f, 1.0f);
+               							}
+               							Log.d(TAG, "preRotate " + mPreview.getDisplayOrientation() + "deg");
+               							matrix.postRotate(mPreview.getDisplayOrientation());
 
-							final Matrix matrix = new Matrix();
-							if (cameraCurrentlyLocked == Camera.CameraInfo.CAMERA_FACING_FRONT) {
-								Log.d(TAG, "mirror y axis");
-								matrix.preScale(-1.0f, 1.0f);
-							}
-							Log.d(TAG, "preRotate " + mPreview.getDisplayOrientation() + "deg");
-							matrix.postRotate(mPreview.getDisplayOrientation());
+               							final Bitmap fixedPic = Bitmap.createBitmap(scaledBitmap, 0, 0, scaledBitmap.getWidth(), scaledBitmap.getHeight(), matrix, false);
+               							final Rect rect = new Rect(mPreview.mSurfaceView.getLeft(), mPreview.mSurfaceView.getTop(), mPreview.mSurfaceView.getRight(), mPreview.mSurfaceView.getBottom());
 
-							final Bitmap fixedPic = Bitmap.createBitmap(scaledBitmap, 0, 0, scaledBitmap.getWidth(), scaledBitmap.getHeight(), matrix, false);
-							final Rect rect = new Rect(mPreview.mSurfaceView.getLeft(), mPreview.mSurfaceView.getTop(), mPreview.mSurfaceView.getRight(), mPreview.mSurfaceView.getBottom());
+               							getActivity().runOnUiThread(new Runnable() {
+               								@Override
+               								public void run() {
+               									pictureView.setImageBitmap(fixedPic);
+               									pictureView.layout(rect.left, rect.top, rect.right, rect.bottom);
 
-							getActivity().runOnUiThread(new Runnable() {
-								@Override
-								public void run() {
-									pictureView.setImageBitmap(fixedPic);
-									pictureView.layout(rect.left, rect.top, rect.right, rect.bottom);
+               									Bitmap finalPic = null;
+               									// If we are going to rotate the picture, width and height are reversed
+               									boolean swapAspects = mPreview.getDisplayOrientation() % 180 != 0;
+               									double rotatedWidth = swapAspects ? pic.getHeight() : pic.getWidth();
+               									double rotatedHeight = swapAspects ? pic.getWidth() : pic.getHeight();
+               									boolean shouldScaleWidth = maxWidth > 0 && rotatedWidth > maxWidth;
+               									boolean shouldScaleHeight = maxHeight > 0 && rotatedHeight > maxHeight;
 
-									Bitmap finalPic = null;
-									// If we are going to rotate the picture, width and height are reversed
-									boolean swapAspects = mPreview.getDisplayOrientation() % 180 != 0;
-									double rotatedWidth = swapAspects ? pic.getHeight() : pic.getWidth();
-									double rotatedHeight = swapAspects ? pic.getWidth() : pic.getHeight();
-									boolean shouldScaleWidth = maxWidth > 0 && rotatedWidth > maxWidth;
-									boolean shouldScaleHeight = maxHeight > 0 && rotatedHeight > maxHeight;
+               									//scale final picture
+               									if(shouldScaleWidth || shouldScaleHeight){
+               										double scaleHeight = shouldScaleHeight ? maxHeight / (double)rotatedHeight : 1;
+               										double scaleWidth = shouldScaleWidth ? maxWidth / (double)rotatedWidth : 1;
 
-									//scale final picture
-									if(shouldScaleWidth || shouldScaleHeight){
-										double scaleHeight = shouldScaleHeight ? maxHeight / (double)rotatedHeight : 1;
-										double scaleWidth = shouldScaleWidth ? maxWidth / (double)rotatedWidth : 1;
+               										double scale = scaleHeight < scaleWidth ? scaleHeight : scaleWidth;
+               										finalPic = Bitmap.createScaledBitmap(pic, (int)(pic.getWidth()*scale), (int)(pic.getHeight()*scale), false);
+               									}
+               									else{
+               										finalPic = pic;
+               									}
 
-										double scale = scaleHeight < scaleWidth ? scaleHeight : scaleWidth;
-										finalPic = Bitmap.createScaledBitmap(pic, (int)(pic.getWidth()*scale), (int)(pic.getHeight()*scale), false);
-									}
-									else{
-										finalPic = pic;
-									}
+                              try{
+                              	Bitmap originalPicture = Bitmap.createBitmap(finalPic, 0, 0, (int)(finalPic.getWidth()), (int)(finalPic.getHeight()), matrix, false);
 
-									Bitmap originalPicture = Bitmap.createBitmap(finalPic, 0, 0, (int)(finalPic.getWidth()), (int)(finalPic.getHeight()), matrix, false);
+                                             								    //get bitmap and compress
+                                             								    Bitmap picture = loadBitmapFromView(view.findViewById(getResources().getIdentifier("frame_camera_cont", "id", appResourcesPackage)));
+                                             								    ByteArrayOutputStream stream = new ByteArrayOutputStream();
+                                             								    picture.compress(Bitmap.CompressFormat.PNG, 80, stream);
 
-								    //get bitmap and compress
-								    Bitmap picture = loadBitmapFromView(view.findViewById(getResources().getIdentifier("frame_camera_cont", "id", appResourcesPackage)));
-								    ByteArrayOutputStream stream = new ByteArrayOutputStream();
-								    picture.compress(Bitmap.CompressFormat.PNG, 80, stream);
+                                             									generatePictureFromView(originalPicture, picture);
+                                             									canTakePicture = true;
+                              }
+                                catch(Exception e){
+                                }
 
-									generatePictureFromView(originalPicture, picture);
-									canTakePicture = true;
-								}
-							});
+               								}
+               							});
+               }
+
 						}
 					}.start();
 				}
@@ -416,7 +424,7 @@ public class CameraActivity extends Fragment {
 				    final File originalPictureFile = storeImage(originalPicture, "_original");
 
 					eventListener.onPictureTaken(originalPictureFile.getAbsolutePath(), picFile.getAbsolutePath());
-
+if (getActivity() != null) {
 				    getActivity().runOnUiThread(new Runnable() {
 					    @Override
 					    public void run() {
@@ -424,16 +432,20 @@ public class CameraActivity extends Fragment {
 						    pictureView.setImageBitmap(null);
 					    }
 				    });
+				    }
 			    }
 			    catch(Exception e){
 				    //An unexpected error occurred while saving the picture.
-				    getActivity().runOnUiThread(new Runnable() {
-					    @Override
-					    public void run() {
-				            cameraLoader.setVisibility(View.INVISIBLE);
-						    pictureView.setImageBitmap(null);
-					    }
-				    });
+				   // if (getActivity() != null) {
+             //   getActivity().runOnUiThread(new Runnable() {
+               // 					    @Override
+                //					    public void run() {
+                	//			            cameraLoader.setVisibility(View.INVISIBLE);
+                		//				    pictureView.setImageBitmap(null);
+                			//		    }
+                				//    });
+				    //}
+
 			    }
 		    }
 	    }.start();
@@ -504,6 +516,9 @@ public class CameraActivity extends Fragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
+        if (mCamera != null) {
+                    mCamera.stopPreview();
+                }
     }
 }
 
@@ -745,22 +760,27 @@ class Preview extends RelativeLayout implements SurfaceHolder.Callback {
     }
 
     public byte[] getFramePicture(byte[] data, Camera camera) {
-        Camera.Parameters parameters = camera.getParameters();
-        int format = parameters.getPreviewFormat();
+     try {
+               Camera.Parameters parameters = camera.getParameters();
+                       int format = parameters.getPreviewFormat();
 
-        //YUV formats require conversion
-        if (format == ImageFormat.NV21 || format == ImageFormat.YUY2 || format == ImageFormat.NV16) {
-            int w = parameters.getPreviewSize().width;
-            int h = parameters.getPreviewSize().height;
+                       //YUV formats require conversion
+                       if (format == ImageFormat.NV21 || format == ImageFormat.YUY2 || format == ImageFormat.NV16) {
+                           int w = parameters.getPreviewSize().width;
+                           int h = parameters.getPreviewSize().height;
 
-            // Get the YuV image
-            YuvImage yuvImage = new YuvImage(data, format, w, h, null);
-            // Convert YuV to Jpeg
-            Rect rect = new Rect(0, 0, w, h);
-            ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-            yuvImage.compressToJpeg(rect, 80, outputStream);
-            return outputStream.toByteArray();
-        }
+                           // Get the YuV image
+                           YuvImage yuvImage = new YuvImage(data, format, w, h, null);
+                           // Convert YuV to Jpeg
+                           Rect rect = new Rect(0, 0, w, h);
+                           ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+                           yuvImage.compressToJpeg(rect, 80, outputStream);
+                           return outputStream.toByteArray();
+                       }
+            } catch (Exception e) {
+                Log.e(TAG, "loi tao lao", e);
+            }
+
         return data;
     }
     public void setOneShotPreviewCallback(Camera.PreviewCallback callback) {

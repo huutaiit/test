@@ -63,7 +63,9 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
       },
       remarks : "",
       approvingOffer :{"NotifyName":""},
-      fileUpload : ""
+      fileUpload : "",
+      bussTripCtryCourse:null,
+      ConfirmMessage:null
     }
     $scope.SearchText = "";
     var pageIndex = 0;
@@ -152,6 +154,14 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
         $rootScope.error = {
           result : true,
           message : $rootScope.lang.myleave.apply.validation.extent_not_valid
+        };
+        return false;
+      }
+
+      if ($scope.modelLeave.leaveType.Required.Buss_Trip!=3 && $scope.modelLeave.bussTripCtryCourse == null) {
+        $rootScope.error = {
+          result : true,
+          message : $rootScope.lang.myleave.apply.validation.buss_trip_ctry_course_valid
         };
         return false;
       }
@@ -367,6 +377,7 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
     }
     $scope.selectLeaveType = function(item) {
       $scope.modelLeave.leaveType = item;
+      console.log("leaveType",$scope.modelLeave.leaveType )
       $scope.listExtent = item.extent;
       var param = {
         LcLeaveId : $scope.modelLeave.leaveType.Id
@@ -385,6 +396,10 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
         });
 
     }
+
+    $scope.selectBussTripCtryCourse = function(item) {
+      $scope.modelLeave.bussTripCtryCourse = item;
+    }
     $scope.selectNotifyGroup = function(item) {
       $scope.modelLeave.notifyGroup = {Id:item.Id,Name:item.Description}
     }
@@ -396,7 +411,7 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
     $scope.updateValueBlockLv = function(){
       $scope.modelLeave.blockLv = !$scope.modelLeave.blockLv;
     }
-    $scope.applyLeave = function() {
+    $scope.applyLeave = function(ConfirmMessage) {
       if (!$scope.checkValidate()) {
 
         return false;
@@ -420,14 +435,28 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
         LcNotifyId: $scope.modelLeave.notifyGroup.Id, // Id Notify Group
         Esec_Id_Notify_1 : $scope.modelLeave.notifyEmployee.Id, // Id of Notify employee
         Esec_Id_Notify_2 : $scope.modelLeave.notifyEmployee2.Id ,// Id of Notify employee2,
-        Block_Lv:$scope.modelLeave.blockLv?1:0
+        Block_Lv:$scope.modelLeave.blockLv?1:0,
+        Buss_Trip:$scope.modelLeave.leaveType.Required.Buss_Trip,
+        EcCtry_Id:$scope.modelLeave.bussTripCtryCourse!=null?$scope.modelLeave.bussTripCtryCourse.Id:0,
+        EeCourseUqId:$scope.modelLeave.bussTripCtryCourse!=null?$scope.modelLeave.bussTripCtryCourse.Uqid:0,
+        ConfirmMessage:ConfirmMessage==null?null:ConfirmMessage
 
       };
 
       ProcessService.ajaxPost("MyLeaveApplyLeave/SubmitApplyLeave",
         JSON.stringify(param)).then(
         function(result) {
-          data = JSON.parse(result.data);
+         var data = JSON.parse(result.data);
+          if(data.ConfirmMessage!=null){
+            $scope.modelLeave.ConfirmMessage = data.ConfirmMessage
+            data.callBack = function(){
+              $scope.applyLeave(true);
+            }
+            data.cancel = function () {
+
+            }
+
+          }
           $scope.processResultPost(data,$rootScope.lang.myleave.apply.applyleavesubmitted,"myLeave");
 
         });
@@ -435,8 +464,7 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
 
     ProcessService.ajaxGet("MyLeaveApplyLeave/GetApplyLeave").then(
       function(result) {
-        console.log(result);
-        data = JSON.parse(result.data);
+        var data = JSON.parse(result.data);
         console.log(data);
         $scope.listLeaveType = data.Data.ListLeaveType;
         $scope.blockLv = data.DefaultOfficer.Block_Lv;
@@ -449,6 +477,7 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
 
 
         $scope.ListEmployee = data.ListEmployee;
+        $scope.ListBussTripCtryCourse = data.ListBussTripCtryCourse;
 
         $scope.disabledLoadMore = ($scope.ListEmployee == null || $scope.ListEmployee.length < 20)  ? true:false;
         $scope.ListNotifyGroup = data.ListNotifyGroup;
@@ -833,9 +862,12 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
       };
 
       ProcessService.ajaxPost("MyLeaveCalendar/GetListByYear",JSON.stringify(param)).then(function(result) {
-        sessionStorage.setItem('listLeaveCalendar',result.data);
-        data = JSON.parse(result.data);
-        listEvents = processListCalendar(data);
+
+        var data = JSON.parse(result.data);
+        $rootScope.offDayData = data.OffDayData
+        console.log(data);
+        listEvents = processListCalendar(data.Data);
+        sessionStorage.setItem('listLeaveCalendar',JSON.stringify(data.Data));
         filterEventsByMonth(listEvents);
       });
 
@@ -861,7 +893,10 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
                 for (var i = 1; i <=lastDay; i++) {
 
                   date = new Date($scope.currentYear,k,i);
-                  if(DateTimeService.checkSunAndSat(date)==false){
+                  // if(DateTimeService.checkSunAndSat(date)==false){
+                  var dayOfWeek = date.getDay()+1;
+
+                  if($rootScope.offDayData!=null && (dayOfWeek != $rootScope.offDayData.OffDay || $rootScope.offDayData.OffDay_HalfDay==true) && (dayOfWeek != $rootScope.offDayData.RestDay || $rootScope.offDayData.RestDay_HalfDay==true)){
                     if (fromDate <= date && date <= toDate) {
 
 
@@ -880,7 +915,10 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
 
             } // end if diff>0
             else {
-              if(DateTimeService.checkSunAndSat(date)==false){
+             // if(DateTimeService.checkSunAndSat(date)==false){
+              var dayOfWeek = date.getDay()+1;
+
+              if($rootScope.offDayData!=null && (dayOfWeek != $rootScope.offDayData.OffDay || $rootScope.offDayData.OffDay_HalfDay==true) && (dayOfWeek != $rootScope.offDayData.RestDay || $rootScope.offDayData.RestDay_HalfDay==true)){
                 events.push({
                   "Date" : angular.copy(fromDate),
                   "CssClass" : value.Type,

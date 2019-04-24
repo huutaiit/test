@@ -1,13 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="844d974b-4e3e-407a-a20c-85cf2aa1d253" name="Default" comment="" />
+    <list default="true" id="844d974b-4e3e-407a-a20c-85cf2aa1d253" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myLeave.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myLeave.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/directives.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/directives.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-apply.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/android.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/android.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/fetch.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/fetch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/ios.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/ios.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/controllers/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/controllers/myLeave.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/myLeave.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/directives.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/directives.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/lang.zip" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/lang/lang1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang/lang1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/lang/lang10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang/lang10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/lang/lang2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang/lang2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/lang/lang3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang/lang3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/lang/lang4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang/lang4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/templates/leave-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/leave-apply.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/templates/leave-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/leave-detail.html" afterDir="false" />
+    </list>
     <ignored path="payroll2u.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,161 +53,271 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2089609958">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="135" />
+          <entry key="project.open.time.1" value="22" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="32" />
+          <entry key="project.open.time.3" value="34" />
+          <entry key="project.open.time.31" value="2" />
+          <entry key="project.open.time.4" value="14" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="9" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="136" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Podfile" value="1" />
+          <entry key="cordova" value="1" />
+          <entry key="css" value="3" />
+          <entry key="gitignore" value="2" />
+          <entry key="gradle" value="23" />
+          <entry key="h" value="3" />
+          <entry key="html" value="46" />
+          <entry key="java" value="5" />
+          <entry key="js" value="67" />
+          <entry key="json" value="37" />
+          <entry key="md" value="1" />
+          <entry key="plist" value="9" />
+          <entry key="properties" value="9" />
+          <entry key="ts" value="1" />
+          <entry key="txt" value="5" />
+          <entry key="xml" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C++" value="3" />
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="46" />
+          <entry key="JSON" value="37" />
+          <entry key="JavaScript" value="68" />
+          <entry key="PLAIN_TEXT" value="55" />
+          <entry key="TypeScript" value="1" />
+          <entry key="XML" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="57" />
+          <entry key="gradle" value="40" />
+          <entry key="html" value="399" />
+          <entry key="java" value="134" />
+          <entry key="js" value="1741" />
+          <entry key="json" value="15" />
+          <entry key="properties" value="55" />
+          <entry key="txt" value="144" />
+          <entry key="xml" value="79" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="57" />
+          <entry key="HTML" value="399" />
+          <entry key="JSON" value="15" />
+          <entry key="JavaScript" value="1741" />
+          <entry key="PLAIN_TEXT" value="373" />
+          <entry key="XML" value="79" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="payroll2u" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/run.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/js/controllers/home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="19" column="45" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myLeave.js" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/controllers/myLeave.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18255">
-              <caret line="1217" column="27" selection-start-line="1217" selection-start-column="27" selection-end-line="1217" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="158">
+              <caret line="1472" column="29" selection-start-line="1472" selection-start-column="23" selection-end-line="1472" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leave-plan-detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/leave-plan-detail.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="236">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leave-plan.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/leave-plan.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/leave-enquiry.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/my-leave.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="118" selection-start-line="11" selection-start-column="105" selection-end-line="11" selection-end-column="118" />
-              <folding />
+            <state relative-caret-position="3900">
+              <caret line="260" column="55" selection-start-line="260" selection-start-column="55" selection-end-line="260" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="claim-reimbursement-apply.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/claim-reimbursement-apply.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/android.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="31" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="4260">
+              <caret line="284" column="13" selection-start-line="284" selection-start-column="13" selection-end-line="284" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="claim-request-for-payment-apply.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/claim-request-for-payment-apply.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="31" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="15">
+              <caret line="1" column="99" selection-start-line="1" selection-start-column="99" selection-end-line="1" selection-end-column="99" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/services.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12885">
-              <caret line="859" column="52" selection-start-line="859" selection-start-column="52" selection-end-line="859" selection-end-column="52" />
-              <folding>
-                <marker date="1510992329000" expanded="true" signature="20992:21095" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leave-apply.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/leave-apply.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2790">
-              <caret line="186" column="27" selection-start-line="186" selection-start-column="19" selection-end-line="186" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tms-mobile-mac-address.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/tms-mobile-mac-address.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/run.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="79" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="79" />
-              <folding />
+              <caret line="2" column="60" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2865">
+              <caret line="191" column="7" selection-start-line="191" selection-start-column="7" selection-end-line="191" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11115">
+              <caret line="741" column="2" selection-start-line="741" selection-start-column="2" selection-end-line="741" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>valid</find>
+      <find>duration</find>
+      <find>ConfirmMessage</find>
+      <find>applyLeave</find>
+      <find>FileName</find>
+      <find>uploadPhoto</find>
+      <find>capturePhoto</find>
+      <find>showAttached</find>
+      <find>Attached list exceeds limit</find>
+      <find>CheckControlNotify</find>
+      <find>viewFile</find>
+      <find>extent</find>
+      <find>.extent</find>
+      <find>[0]</find>
+      <find>selectLeave</find>
+      <find>blockLv</find>
+      <find>Block_Lv</find>
+      <find>block_lv</find>
+      <find>notifyGroup</find>
+      <find>bussTripCtryCourse</find>
+      <find>ListNotifyGroup</find>
+      <find>notifyEmployee2</find>
+      <find>notifyEmployee</find>
+      <find>pageIndex</find>
+      <find>showPoupEE</find>
+      <find>searchDataEmployee</find>
+      <find>ListEmployee</find>
+      <find>processLeaveEnquiry</find>
+      <find>replaceAt</find>
+      <find>mColor</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$rootScope.MAC</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/www</dir>
+      <dir>$PROJECT_DIR$/platforms/android</dir>
+    </dirStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/www/templates/claim-benefit-apply.html" />
-        <option value="$PROJECT_DIR$/www/templates/claim-request-for-payment-apply.html" />
-        <option value="$PROJECT_DIR$/www/templates/partials/form-apply-benifit.html" />
-        <option value="$PROJECT_DIR$/www/templates/payroll-payslip.html" />
-        <option value="$PROJECT_DIR$/www/templates/home.html" />
-        <option value="$PROJECT_DIR$/www/js/controllers/main.js" />
-        <option value="$PROJECT_DIR$/www/js/directives.js" />
-        <option value="$PROJECT_DIR$/www/templates/partials/modal-apply-reim.html" />
-        <option value="$PROJECT_DIR$/www/templates/claim-reimbursement-detail.html" />
-        <option value="$PROJECT_DIR$/www/templates/leave-plan.html" />
-        <option value="$PROJECT_DIR$/www/css/style.css" />
-        <option value="$PROJECT_DIR$/www/templates/login.html" />
-        <option value="$PROJECT_DIR$/www/templates/partials/form-apply-reim.html" />
         <option value="$PROJECT_DIR$/www/templates/leave-apply.html" />
-        <option value="$PROJECT_DIR$/www/templates/leave-detail.html" />
-        <option value="$PROJECT_DIR$/www/templates/my-claims.html" />
-        <option value="$PROJECT_DIR$/www/css/page.css" />
-        <option value="$PROJECT_DIR$/www/templates/tms-clockings-on-behalf.html" />
-        <option value="$PROJECT_DIR$/www/js/config.js" />
-        <option value="$PROJECT_DIR$/www/templates/payroll-cp8a.html" />
-        <option value="$PROJECT_DIR$/www/templates/payroll-pcb2.html" />
-        <option value="$PROJECT_DIR$/www/js/controllers/myPayroll.js" />
-        <option value="$PROJECT_DIR$/www/templates/tms-clockings-enquiry.html" />
-        <option value="$PROJECT_DIR$/www/templates/tms-clock-on-behalf.html" />
-        <option value="$PROJECT_DIR$/www/lang/lang1.txt" />
-        <option value="$PROJECT_DIR$/www/lang/lang2.txt" />
-        <option value="$PROJECT_DIR$/www/lang/lang3.txt" />
-        <option value="$PROJECT_DIR$/www/lang/lang4.txt" />
-        <option value="$PROJECT_DIR$/www/lang/lang10.txt" />
-        <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/www/js/controllers/myTms.js" />
+        <option value="$PROJECT_DIR$/www/templates/claim-benefit-approval.html" />
         <option value="$PROJECT_DIR$/www/js/controllers/myClaim.js" />
-        <option value="$PROJECT_DIR$/www/js/services.js" />
-        <option value="$PROJECT_DIR$/www/js/controllers/home.js" />
-        <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/www/js/controllers/myLeave.js" />
+        <option value="$PROJECT_DIR$/www/templates/leave-plan.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/myTms.js" />
+        <option value="$PROJECT_DIR$/abc.txt" />
+        <option value="$PROJECT_DIR$/www/js/controllers/myProfile.js" />
+        <option value="$PROJECT_DIR$/www/templates/tms-clock-on-behalf.html" />
+        <option value="$PROJECT_DIR$/www/templates/tms-clockings-enquiry.html" />
+        <option value="$PROJECT_DIR$/www/templates/claim-benefit-coverage.html" />
+        <option value="$PROJECT_DIR$/www/templates/claim-reimbursement-coverage.html" />
+        <option value="$PROJECT_DIR$/www/lang/lang1.txt" />
+        <option value="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" />
+        <option value="$PROJECT_DIR$/platforms/android/src/io/github/pwlin/cordova/plugins/fileopener2/FileOpener2.java" />
+        <option value="$PROJECT_DIR$/www/templates/payroll-payslip.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/myPayroll.js" />
+        <option value="$PROJECT_DIR$/www/css/style.css" />
+        <option value="$PROJECT_DIR$/www/js/common.js" />
+        <option value="$PROJECT_DIR$/www/templates/home.html" />
+        <option value="$PROJECT_DIR$/build.json" />
+        <option value="$PROJECT_DIR$/www/templates/login.html" />
+        <option value="$PROJECT_DIR$/www/templates/partials/form-apply-benifit.html" />
+        <option value="$PROJECT_DIR$/www/templates/partials/modal-apply-benifit.html" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/js/directives.js" />
+        <option value="$PROJECT_DIR$/www/js/controllers/login.js" />
+        <option value="$PROJECT_DIR$/www/js/controllers/main.js" />
+        <option value="$PROJECT_DIR$/platforms/android/cordova-support-google-services/payroll2u-build.gradle" />
+        <option value="$PROJECT_DIR$/platforms/android/cordova-plugin-firebase/payroll2u-build.gradle" />
+        <option value="$PROJECT_DIR$/google-services.json" />
+        <option value="$PROJECT_DIR$/plugins/phonegap-plugin-push/push.gradle" />
+        <option value="$PROJECT_DIR$/platforms/android/cordova-plugin-firebase-analytics/payroll2u-build.gradle" />
+        <option value="$PROJECT_DIR$/platforms/android/google-services.json" />
+        <option value="$PROJECT_DIR$/plugins/cordova-plugin-firebase-analytics/plugin.xml" />
+        <option value="$PROJECT_DIR$/platforms/ios/Podfile" />
         <option value="$PROJECT_DIR$/www/js/run.js" />
+        <option value="$PROJECT_DIR$/www/js/controllers/home.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/platforms/android/build/generated/res/google-services/debug/values/values.xml" />
+        <option value="$PROJECT_DIR$/plugins/android.json" />
+        <option value="$PROJECT_DIR$/plugins/com.mbppower.camerapreview/plugin.xml" />
+        <option value="$PROJECT_DIR$/platforms/android/build.gradle" />
+        <option value="$PROJECT_DIR$/platforms/android/project.properties" />
+        <option value="$PROJECT_DIR$/platforms/android/android.json" />
+        <option value="$PROJECT_DIR$/platforms/android/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/platforms/android/src/com/mbppower/CameraActivity.java" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/plugins/com.mbppower.camerapreview/src/android/com/mbppower/CameraActivity.java" />
+        <option value="$PROJECT_DIR$/www/js/services.js" />
+        <option value="$PROJECT_DIR$/www/js/controllers/myLeave.js" />
       </list>
     </option>
   </component>
@@ -193,10 +340,10 @@
     </option>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modulesbk/async/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modulesbk/bcrypt-pbkdf/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modulesbk/bl/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modulesbk/clean-css/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modulesbk/cross-spawn/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modulesbk/dashdash/node_modules" />
@@ -216,12 +363,6 @@
     <handled-path value="$PROJECT_DIR$/node_modulesbk/mkdirp/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modulesbk/node-gyp/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modulesbk/node-sass/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node_modulesbk/resolve/test/pathfilter/deep_ref/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node_modulesbk/resolve/test/resolver/bar/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node_modulesbk/resolve/test/resolver/biz/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node_modulesbk/resolve/test/resolver/punycode/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node_modulesbk/resolve/test/resolver/without_basedir/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node_modulesbk/resolve/test/subdirs/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modulesbk/rimraf/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modulesbk/sass-graph/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modulesbk/sshpk/node_modules" />
@@ -230,142 +371,806 @@
     <handled-path value="$PROJECT_DIR$/node_modulesbk/vinyl-sourcemaps-apply/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modulesbk/yargs-parser/node_modules" />
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/node_modulesbk/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/amdefine/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/aproba/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/archy/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/are-we-there-yet/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/arr-flatten/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/array-find-index/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/array-index/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/asn1/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/async-foreach/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/async/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/async/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/aws4/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bcrypt-pbkdf/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bl/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bl/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bl/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/block-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/boom/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/align-text/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/amdefine/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/ansi-escapes/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/ansicolors/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/archy/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/array-filter/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/array-find-index/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/array-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/array-reduce/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/binary/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/bl/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/boom/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/bower-config/node_modules/mout/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/bower-config/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/bower-endpoint-parser/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/bower-json/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/bower-logger/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/bower-registry-client/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/bower-registry-client/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/boxen/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/boxen/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/buffers/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/builtin-modules/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/camelcase-keys/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/capture-stack-trace/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/cardinal/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/center-align/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/chainsaw/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/chmodr/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/cli-cursor/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/cli-width/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/cliui/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/code-point-at/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/configstore/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/configstore/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/create-error-class/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/cryptiles/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/dashdash/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/decamelize/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/decompress-zip/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/decompress-zip/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/decompress-zip/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/deep-extend/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/dot-prop/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/duplexer2/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/duplexify/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/end-of-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/ends-with/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/error-ex/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/exit-hook/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/ext-list/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/ext-name/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/figures/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/filled-array/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/findup-sync/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/findup-sync/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/form-data/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/fs-write-stream-atomic/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/fstream-ignore/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/fstream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/generate-function/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/generate-object-property/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/get-stdin/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/github/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/glob/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/got/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/graceful-readlink/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/handlebars/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/handlebars/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/hawk/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/hoek/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/hosted-git-info/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/iferr/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/imurmurhash/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/indent-string/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/infinity-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/inquirer/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/intersect/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-arrayish/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-builtin-module/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-finite/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-my-json-valid/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-npm/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-obj/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-plain-obj/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-property/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-redirect/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-relative/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-retry-allowed/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-root/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/is-utf8/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/isexe/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/jodid25519/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/jsonify/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/jsonpointer/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/junk/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/latest-version/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/lazy-cache/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/load-json-file/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/lockfile/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/longest/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/loud-rejection/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/lowercase-keys/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/map-obj/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/md5-hex/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/md5-o-matic/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/meow/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/meow/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/meow/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/mkpath/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/mout/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/mute-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/nested-error-stacks/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/node-status-codes/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/node-uuid/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/normalize-package-data/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/number-is-nan/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/onetime/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/opn/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/opn/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/optimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/osenv/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/p-throttler/node_modules/q/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/p-throttler/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/package-json/node_modules/got/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/package-json/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/package-json/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/package-json/node_modules/rc/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/package-json/node_modules/read-all-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/package-json/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/package-json/node_modules/strip-json-comments/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/package-json/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/parse-json/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/path-exists/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/path-type/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/pinkie-promise/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/pinkie/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/prepend-http/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/promptly/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/pump/node_modules/end-of-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/pump/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/q/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/rc/node_modules/deep-extend/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/rc/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/read-all-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/read-pkg-up/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/read-pkg/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/read/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/readline2/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/redent/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/redeyed/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/registry-url/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/repeating/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/request-progress/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/request-replay/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/requireg/node_modules/resolve/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/requireg/node_modules/resolve/test/resolver/baz/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/requireg/node_modules/resolve/test/resolver/biz/node_modules/garply/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/requireg/node_modules/resolve/test/resolver/incorrect_main/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/requireg/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/requireg/test/fixtures/lib/node_modules/beaker/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/resolve/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/resolve/test/pathfilter/deep_ref/node_modules/deep/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/resolve/test/resolver/baz/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/resolve/test/resolver/biz/node_modules/garply/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/resolve/test/resolver/incorrect_main/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/resolve/test/subdirs/node_modules/a/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/restore-cursor/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/retry/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/right-align/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/rimraf/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/run-async/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/rx-lite/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/semver-diff/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/semver-diff/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/semver-utils/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/shell-quote/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/signal-exit/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/slide/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/sntp/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/sort-keys-length/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/sort-keys/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/spdx-correct/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/spdx-exceptions/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/spdx-expression-parse/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/spdx-license-ids/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/stringify-object/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/stringstream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/strip-bom/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/strip-indent/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/strip-json-comments/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/tar-fs/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/tar-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/throttleit/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/through/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/timed-out/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/tmp/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/touch/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/touch/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/traverse/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/trim-newlines/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/uglify-js/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/uglify-js/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/uglify-to-browserify/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/untildify/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/unzip-response/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/update-notifier/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/url-parse-lax/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/user-home/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/uuid/benchmark/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/validate-npm-package-license/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/which/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/widest-line/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/window-size/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/write-file-atomic/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/xdg-basedir/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/xtend/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/yargs/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/lib/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bower/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/braces/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/bufferstreams/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/builtin-modules/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/camelcase-keys/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/caseless/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/chalk/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/clean-css/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/clean-css/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/cliui/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/clone-stats/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/clone/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/code-point-at/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/commander/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/concat-with-sourcemaps/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/console-control-strings/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/cross-spawn/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/cross-spawn/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/cryptiles/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/currently-unhandled/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/d/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/dashdash/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/dateformat/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/decamelize/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/defaults/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/delegates/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/deprecated/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/detect-file/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/duplexer2/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/end-of-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/error-ex/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/es5-ext/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/es6-iterator/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/es6-symbol/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/expand-brackets/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/expand-range/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/expand-tilde/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/extend/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/extglob/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/filename-regex/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/find-index/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/find-up/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/findup-sync/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/fined/node_modules/lodash.isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/fined/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/first-chunk-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/flagged-respawn/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/for-in/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/for-own/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/form-data/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/fs-exists-sync/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/fstream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gauge/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gauge/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gaze/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/generate-function/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/generate-object-property/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/get-caller-file/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/get-stdin/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/getpass/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/getpass/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/glob-base/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/glob-parent/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/glob-stream/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/glob-stream/node_modules/through2/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/glob-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/glob-watcher/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/glob/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/glob2base/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/global-modules/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/global-prefix/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/globule/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/globule/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/globule/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/globule/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/globule/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/graceful-readlink/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-concat/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-concat/node_modules/through2/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-concat/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-minify-css/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-minify-css/node_modules/through2/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-minify-css/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-rename/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-sass/node_modules/vinyl-sourcemaps-apply/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-sass/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-util/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-util/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-util/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-util/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-util/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-util/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-util/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-util/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-util/node_modules/through2/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-util/node_modules/xtend/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp-util/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/gulp/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/har-validator/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/has-color/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/has-unicode/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/hawk/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/hoek/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/hosted-git-info/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/in-publish/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/in-publish/test/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/indent-string/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/inflight/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/inherits/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/ini/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/interpret/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/invert-kv/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-absolute/node_modules/is-windows/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-arrayish/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-builtin-module/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-dotfile/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-equal-shallow/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-finite/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-my-json-valid/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-number/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-posix-bracket/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-primitive/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-property/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-relative/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-unc-path/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-utf8/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/is-windows/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/isexe/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/isobject/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/isobject/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/isstream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/jodid25519/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/jsonpointer/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lcid/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/liftoff/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/load-json-file/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash._escapehtmlchar/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash._escapestringchar/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash._htmlescapes/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash._isnative/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash._objecttypes/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash._reinterpolate/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash._reunescapedhtml/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash._shimkeys/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash.assign/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash.assignwith/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash.clonedeep/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash.defaults/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash.escape/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash.isempty/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash.isobject/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash.isplainobject/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash.isstring/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash.keys/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash.mapvalues/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash.pick/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash.template/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash.templatesettings/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash.values/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lodash/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/loud-rejection/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/map-cache/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/map-obj/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/memory-cache/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/meow/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/meow/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/ms/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/multipipe/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/nan/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/nan/tools/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/natives/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/node-gyp/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/node-gyp/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/node-gyp/node_modules/npmlog/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/node-gyp/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/node-sass/node_modules/gaze/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/node-sass/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/node-sass/node_modules/globule/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/node-sass/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/node-sass/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/node-sass/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/node-uuid/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/nopt/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/normalize-package-data/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/normalize-path/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/npmlog/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/number-is-nan/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/object.omit/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/once/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/orchestrator/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/ordered-read-streams/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/os-locale/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/osenv/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/parse-filepath/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/parse-glob/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/parse-json/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/path-array/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/path-exists/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/path-root-regex/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/path-root/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/path-type/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/pify/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/pinkie-promise/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/pinkie/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/preserve/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/pretty-hrtime/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/pseudomap/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/qs/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/randomatic/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/read-pkg-up/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/read-pkg/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/rechoir/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/redent/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/regex-cache/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/repeat-element/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/repeating/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/request/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/require-directory/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/require-main-filename/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/resolve-dir/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/resolve/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/resolve/test/module_dir/zmodules/bbb/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/resolve/test/pathfilter/deep_ref/node_modules/deep/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/resolve/test/resolver/baz/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/resolve/test/resolver/biz/node_modules/garply/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/resolve/test/resolver/incorrect_main/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/resolve/test/subdirs/node_modules/a/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/rimraf/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/rimraf/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/sass-graph/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/sass-graph/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/sass-graph/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/sass-graph/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/semver/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/sequencify/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/set-blocking/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/shelljs/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/sigmund/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/signal-exit/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/sntp/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/source-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/spdx-correct/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/spdx-expression-parse/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/spdx-license-ids/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/sshpk/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/stream-consume/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/string-width/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/stringstream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/strip-bom/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/strip-indent/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/tar/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/through2/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/through2/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/through2/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/tildify/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/trim-newlines/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/unc-path-regex/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/unique-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/user-home/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/v8flags/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/validate-npm-package-license/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/verror/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/vinyl-fs/node_modules/clone/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/vinyl-fs/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/vinyl-fs/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/vinyl-fs/node_modules/strip-bom/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/vinyl-fs/node_modules/through2/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/vinyl-fs/node_modules/vinyl/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/vinyl-fs/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/vinyl-sourcemaps-apply/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/vinyl-sourcemaps-apply/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/vinyl/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/which-module/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/which/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/wide-align/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/window-size/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/wrap-ansi/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/xtend/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/y18n/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/yallist/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/yargs-parser/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/yargs-parser/package.json" />
+      <path value="$PROJECT_DIR$/node_modulesbk/yargs/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/plugins/com-badrit-macaddress/package.json" />
+      <path value="$PROJECT_DIR$/plugins/com.mbppower.camerapreview/package.json" />
+      <path value="$PROJECT_DIR$/plugins/com.pylonproducts.wifiwizard/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-android-support-gradle-release/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-android-permissions/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-app-event/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-app-version/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-badge/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-camera/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-camera/tests/ios/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-camera/tests/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-cocoapod-support/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-compat/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-file-opener2/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-firebase-analytics/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-google-analytics/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/tests/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-network-information/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-safariviewcontroller/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-x-toast/package.json" />
+      <path value="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/package.json" />
+      <path value="$PROJECT_DIR$/plugins/org.apache.cordova.device/package.json" />
+      <path value="$PROJECT_DIR$/plugins/org.apache.cordova.file-transfer/package.json" />
+      <path value="$PROJECT_DIR$/plugins/org.apache.cordova.file/package.json" />
+      <path value="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/package.json" />
+      <path value="$PROJECT_DIR$/plugins/org.apache.cordova.wifiinfo/package.json" />
+      <path value="$PROJECT_DIR$/plugins/phonegap-plugin-push/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1435" />
-    <option name="height" value="873" />
+    <option name="height" value="877" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="test2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="js.phonegap.settings.workdir" value="$PROJECT_DIR$" />
-    <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="editor.config.accepted" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="js.phonegap.settings.workdir" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/platforms/android" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/www/templates" />
+      <recent name="$PROJECT_DIR$/platforms/ios/Payroll2U/Plugins" />
+      <recent name="$PROJECT_DIR$/platforms/android" />
+      <recent name="$PROJECT_DIR$/platforms/android/res/values" />
+      <recent name="$PROJECT_DIR$/platforms/ios/Payroll2U" />
+      <recent name="$PROJECT_DIR$/platforms/ios" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/platforms/ios" />
+      <recent name="$PROJECT_DIR$/platforms/android" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="PhoneGap/Cordova.Phonegap/Cordova run">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -414,31 +1219,12 @@
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
@@ -453,18 +1239,13 @@
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
-      <method />
     </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
@@ -482,135 +1263,23 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
     </configuration>
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -633,117 +1302,21 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="payroll2u" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhoneGap" factoryName="PhoneGap/Cordova">
-      <option name="myExecutable" />
-      <option name="myWorkDir" />
-      <option name="myCommand" />
-      <option name="myPassParent" value="true" />
-      <option name="myPlatform" />
-      <option name="myExtraArgs" />
-      <option name="hasTarget" value="false" />
-      <option name="target" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
+      <patterns />
     </configuration>
     <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -773,6 +1346,54 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Unnamed" type="PhoneGap" factoryName="PhoneGap/Cordova">
+      <option name="myExecutable" value="/usr/local/bin/cordova" />
+      <option name="myWorkDir" value="$PROJECT_DIR$" />
+      <option name="myCommand" value="run" />
+      <option name="myPassParent" value="true" />
+      <option name="myPlatform" value="ios" />
+      <option name="myExtraArgs" value="" />
+      <option name="hasTarget" value="false" />
+      <option name="target" value="" />
+      <method v="2">
+        <option name="PhonegapTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PhoneGap" factoryName="PhoneGap/Cordova">
+      <option name="myExecutable" value="/usr/local/bin/cordova" />
+      <option name="myWorkDir" value="$PROJECT_DIR$" />
+      <option name="myCommand" value="emulate" />
+      <option name="myPassParent" value="true" />
+      <option name="myPlatform" value="android" />
+      <option name="myExtraArgs" value="" />
+      <option name="hasTarget" value="false" />
+      <option name="target" value="" />
+      <method v="2">
+        <option name="PhonegapTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -780,73 +1401,12 @@
       <tasks />
       <arguments />
       <envs />
-      <method />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
-    <configuration default="false" name="Phonegap/Cordova run" type="PhoneGap" factoryName="PhoneGap/Cordova">
-      <option name="myExecutable" value="/usr/local/bin/ionic" />
-      <option name="myWorkDir" value="$PROJECT_DIR$" />
-      <option name="myCommand" value="run" />
-      <option name="myPassParent" value="true" />
-      <option name="myPlatform" value="android" />
-      <option name="myExtraArgs" value="" />
-      <option name="hasTarget" value="true" />
-      <option name="target" value="192.168.56.101:5555" />
-      <method />
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="PhoneGap/Cordova.Phonegap/Cordova run" />
-    </list>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>$USER_HOME$/.subversion</configuration>
     <supportedVersion>125</supportedVersion>
-  </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$PROJECT_DIR$" />
-          <option name="myCopyRoot" value="$PROJECT_DIR$" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$PROJECT_DIR$" />
-          <option name="myCopyRoot" value="$PROJECT_DIR$" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -997,6 +1557,231 @@
       <workItem from="1512294049291" duration="4626000" />
       <workItem from="1512321986477" duration="558000" />
       <workItem from="1512547131945" duration="72000" />
+      <workItem from="1512873662436" duration="11468000" />
+      <workItem from="1512911210568" duration="2041000" />
+      <workItem from="1512986425886" duration="5893000" />
+      <workItem from="1513248964705" duration="7040000" />
+      <workItem from="1513608948961" duration="7891000" />
+      <workItem from="1513646648483" duration="178000" />
+      <workItem from="1514342609047" duration="9000" />
+      <workItem from="1514344384110" duration="53000" />
+      <workItem from="1514347190843" duration="6000" />
+      <workItem from="1514960816569" duration="2000" />
+      <workItem from="1517236217985" duration="1369000" />
+      <workItem from="1517275856586" duration="6000" />
+      <workItem from="1517413892132" duration="2632000" />
+      <workItem from="1517465246735" duration="620000" />
+      <workItem from="1517535236406" duration="387000" />
+      <workItem from="1518053707318" duration="4000" />
+      <workItem from="1518053719870" duration="624000" />
+      <workItem from="1518061288029" duration="16000" />
+      <workItem from="1521288888348" duration="1144000" />
+      <workItem from="1521337156339" duration="1016000" />
+      <workItem from="1522056273214" duration="484000" />
+      <workItem from="1522114282390" duration="134000" />
+      <workItem from="1522394313263" duration="155000" />
+      <workItem from="1522394695084" duration="287000" />
+      <workItem from="1522893139966" duration="6000" />
+      <workItem from="1522995830763" duration="8000" />
+      <workItem from="1523935746199" duration="72000" />
+      <workItem from="1523935972702" duration="1834000" />
+      <workItem from="1524113988410" duration="680000" />
+      <workItem from="1524187488113" duration="12000" />
+      <workItem from="1526907804182" duration="1679000" />
+      <workItem from="1526952705536" duration="57000" />
+      <workItem from="1526981652709" duration="310000" />
+      <workItem from="1526982192694" duration="126000" />
+      <workItem from="1527307359082" duration="10000" />
+      <workItem from="1527487881894" duration="15000" />
+      <workItem from="1527502628520" duration="951000" />
+      <workItem from="1527521220674" duration="564000" />
+      <workItem from="1527522039046" duration="1120000" />
+      <workItem from="1527734298547" duration="14000" />
+      <workItem from="1527734409106" duration="10000" />
+      <workItem from="1530352278378" duration="5380000" />
+      <workItem from="1530420805444" duration="64000" />
+      <workItem from="1530438224666" duration="1101000" />
+      <workItem from="1530457115047" duration="4186000" />
+      <workItem from="1530493446008" duration="10000" />
+      <workItem from="1530620966829" duration="6425000" />
+      <workItem from="1530718747828" duration="1091000" />
+      <workItem from="1530860345113" duration="94000" />
+      <workItem from="1530861157913" duration="781000" />
+      <workItem from="1530862166021" duration="4000" />
+      <workItem from="1531307193932" duration="1000" />
+      <workItem from="1531896927976" duration="72000" />
+      <workItem from="1531897014274" duration="102000" />
+      <workItem from="1531897144129" duration="78000" />
+      <workItem from="1531897378071" duration="193000" />
+      <workItem from="1531982892022" duration="15000" />
+      <workItem from="1531983212361" duration="129000" />
+      <workItem from="1532397549230" duration="280000" />
+      <workItem from="1532398455841" duration="1124000" />
+      <workItem from="1532505351461" duration="68000" />
+      <workItem from="1532505638690" duration="269000" />
+      <workItem from="1532574714996" duration="5000" />
+      <workItem from="1533120881337" duration="11457000" />
+      <workItem from="1533353012807" duration="80000" />
+      <workItem from="1533353317440" duration="557000" />
+      <workItem from="1533355009276" duration="409000" />
+      <workItem from="1533355959599" duration="155000" />
+      <workItem from="1533356169260" duration="489000" />
+      <workItem from="1533356824258" duration="136000" />
+      <workItem from="1533357404821" duration="493000" />
+      <workItem from="1533528908798" duration="1232000" />
+      <workItem from="1533530152812" duration="48000" />
+      <workItem from="1534055899712" duration="61000" />
+      <workItem from="1534175165998" duration="1146000" />
+      <workItem from="1534224146704" duration="587000" />
+      <workItem from="1534226941781" duration="24000" />
+      <workItem from="1534470108131" duration="278000" />
+      <workItem from="1534470584206" duration="998000" />
+      <workItem from="1534817325836" duration="119000" />
+      <workItem from="1534817485143" duration="347000" />
+      <workItem from="1534833827515" duration="932000" />
+      <workItem from="1534837993448" duration="617000" />
+      <workItem from="1534903052140" duration="475000" />
+      <workItem from="1534934162659" duration="602000" />
+      <workItem from="1534988025682" duration="451000" />
+      <workItem from="1535013096720" duration="580000" />
+      <workItem from="1535014297708" duration="873000" />
+      <workItem from="1535075937057" duration="1578000" />
+      <workItem from="1535109139796" duration="4652000" />
+      <workItem from="1535115278544" duration="1726000" />
+      <workItem from="1535119430013" duration="393000" />
+      <workItem from="1535166708241" duration="8783000" />
+      <workItem from="1535247730840" duration="4325000" />
+      <workItem from="1535512087701" duration="613000" />
+      <workItem from="1535619405687" duration="251000" />
+      <workItem from="1535678733622" duration="1203000" />
+      <workItem from="1536545400892" duration="705000" />
+      <workItem from="1536629506357" duration="115000" />
+      <workItem from="1537152267191" duration="244000" />
+      <workItem from="1537238016587" duration="301000" />
+      <workItem from="1537251979254" duration="858000" />
+      <workItem from="1537260002557" duration="1533000" />
+      <workItem from="1538989846553" duration="964000" />
+      <workItem from="1539336458830" duration="500000" />
+      <workItem from="1541392590448" duration="119000" />
+      <workItem from="1541676275832" duration="5262000" />
+      <workItem from="1541726891089" duration="456000" />
+      <workItem from="1541756075015" duration="304000" />
+      <workItem from="1542707299766" duration="766000" />
+      <workItem from="1543471916950" duration="1072000" />
+      <workItem from="1543541439489" duration="39000" />
+      <workItem from="1543544983482" duration="284000" />
+      <workItem from="1544064591729" duration="776000" />
+      <workItem from="1544181529779" duration="3213000" />
+      <workItem from="1544411365646" duration="373000" />
+      <workItem from="1544413857786" duration="78000" />
+      <workItem from="1544416925991" duration="255000" />
+      <workItem from="1544429936206" duration="109000" />
+      <workItem from="1544590321961" duration="760000" />
+      <workItem from="1544592452672" duration="1877000" />
+      <workItem from="1544971495937" duration="1473000" />
+      <workItem from="1545010620113" duration="3963000" />
+      <workItem from="1545183512053" duration="1497000" />
+      <workItem from="1545185151983" duration="56000" />
+      <workItem from="1545193334831" duration="244000" />
+      <workItem from="1545196419764" duration="466000" />
+      <workItem from="1545381729846" duration="597000" />
+      <workItem from="1545625673070" duration="2587000" />
+      <workItem from="1545632249965" duration="223000" />
+      <workItem from="1545632622317" duration="892000" />
+      <workItem from="1545808674552" duration="1123000" />
+      <workItem from="1545821995196" duration="2934000" />
+      <workItem from="1545824943169" duration="2600000" />
+      <workItem from="1545835869776" duration="1646000" />
+      <workItem from="1545877705562" duration="8554000" />
+      <workItem from="1545890849482" duration="235000" />
+      <workItem from="1546847005281" duration="1382000" />
+      <workItem from="1546848413028" duration="53000" />
+      <workItem from="1546848578535" duration="193000" />
+      <workItem from="1546849101148" duration="688000" />
+      <workItem from="1546934808605" duration="882000" />
+      <workItem from="1546945570351" duration="4484000" />
+      <workItem from="1547016155205" duration="2782000" />
+      <workItem from="1547084023000" duration="5696000" />
+      <workItem from="1547104594220" duration="184000" />
+      <workItem from="1547106916054" duration="6038000" />
+      <workItem from="1547187352961" duration="616000" />
+      <workItem from="1547440423002" duration="2020000" />
+      <workItem from="1547454456958" duration="327000" />
+      <workItem from="1548040514936" duration="220000" />
+      <workItem from="1548120773811" duration="2625000" />
+      <workItem from="1548309028499" duration="299000" />
+      <workItem from="1548661054686" duration="158000" />
+      <workItem from="1548815746607" duration="4498000" />
+      <workItem from="1548830607941" duration="1492000" />
+      <workItem from="1549959623916" duration="229000" />
+      <workItem from="1550029998353" duration="3744000" />
+      <workItem from="1550110425810" duration="1251000" />
+      <workItem from="1550113001956" duration="6292000" />
+      <workItem from="1550133973278" duration="3080000" />
+      <workItem from="1550194390587" duration="5711000" />
+      <workItem from="1550542342950" duration="639000" />
+      <workItem from="1550634853373" duration="1842000" />
+      <workItem from="1550637142344" duration="2536000" />
+      <workItem from="1550654874497" duration="276000" />
+      <workItem from="1550657435744" duration="1863000" />
+      <workItem from="1550712878521" duration="3420000" />
+      <workItem from="1550724074369" duration="985000" />
+      <workItem from="1551773178303" duration="2902000" />
+      <workItem from="1551776164539" duration="8000" />
+      <workItem from="1551776184658" duration="89000" />
+      <workItem from="1552471899921" duration="764000" />
+      <workItem from="1552617491504" duration="2605000" />
+      <workItem from="1552632817450" duration="1926000" />
+      <workItem from="1552637794708" duration="1041000" />
+      <workItem from="1552639607802" duration="576000" />
+      <workItem from="1552640767848" duration="702000" />
+      <workItem from="1552790075719" duration="3196000" />
+      <workItem from="1552794226445" duration="2318000" />
+      <workItem from="1552797087589" duration="8340000" />
+      <workItem from="1552873296220" duration="1587000" />
+      <workItem from="1552876803184" duration="803000" />
+      <workItem from="1552879683445" duration="54000" />
+      <workItem from="1552880198214" duration="3237000" />
+      <workItem from="1552889329652" duration="9154000" />
+      <workItem from="1552958867963" duration="5355000" />
+      <workItem from="1552965701031" duration="1990000" />
+      <workItem from="1553065111782" duration="299000" />
+      <workItem from="1553582917256" duration="878000" />
+      <workItem from="1553585185174" duration="2234000" />
+      <workItem from="1553587598774" duration="7924000" />
+      <workItem from="1553669897316" duration="837000" />
+      <workItem from="1553846633035" duration="249000" />
+      <workItem from="1554082248008" duration="91000" />
+      <workItem from="1554199621640" duration="63000" />
+      <workItem from="1554200420089" duration="2000" />
+      <workItem from="1554260904881" duration="2925000" />
+      <workItem from="1554273776411" duration="1209000" />
+      <workItem from="1554284176854" duration="1927000" />
+      <workItem from="1554526294687" duration="1462000" />
+      <workItem from="1554626555284" duration="610000" />
+      <workItem from="1554690076303" duration="1200000" />
+      <workItem from="1554705913996" duration="19000" />
+      <workItem from="1555055718594" duration="787000" />
+      <workItem from="1555118661384" duration="1240000" />
+      <workItem from="1555126003432" duration="5009000" />
+      <workItem from="1555381364472" duration="1811000" />
+      <workItem from="1555470066538" duration="1721000" />
+      <workItem from="1555497261431" duration="16000" />
+      <workItem from="1555497528102" duration="208000" />
+      <workItem from="1555551058335" duration="25000" />
+      <workItem from="1555551599075" duration="2219000" />
+      <workItem from="1555554215593" duration="1007000" />
+      <workItem from="1555556493845" duration="2228000" />
+      <workItem from="1555568528835" duration="1467000" />
+      <workItem from="1555571426641" duration="697000" />
+      <workItem from="1555576991177" duration="2741000" />
+      <workItem from="1555637368181" duration="3091000" />
+      <workItem from="1555644913310" duration="926000" />
+      <workItem from="1555661885839" duration="1848000" />
+      <workItem from="1555723308682" duration="545000" />
+      <workItem from="1555767540086" duration="5381000" />
+      <workItem from="1555898972182" duration="3286000" />
+      <workItem from="1556074633658" duration="2352000" />
     </task>
     <task id="LOCAL-00001">
       <created>1512316512112</created>
@@ -1009,69 +1794,87 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205698000" />
+    <option name="totallyTimeSpent" value="548506000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1435" height="873" extended-state="6" />
+    <frame x="0" y="23" width="1435" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.52261305" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.47738692" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2275664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24982053" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24982053" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Gulp" order="5" side_tool="true" />
+      <window_info id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32866243" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290653" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.47738692" visible="true" weight="0.30063695" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.52261305" side_tool="true" weight="0.3290653" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3290653" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32866243" />
+      <window_info anchor="bottom" id="ReactNative" order="11" weight="0.3290653" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="RNConsole" order="14" weight="0.3299363" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Designer" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5168701" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24982053" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.48312995" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2275664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2275664" />
+      <window_info id="Structure" order="1" weight="0.24982053" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Palette&#9;" order="4" />
+      <window_info id="Gulp" order="5" side_tool="true" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290653" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5168701" side_tool="true" weight="0.3290653" />
+      <window_info anchor="bottom" id="ReactNative" order="8" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3290653" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.48312995" weight="0.3290653" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Designer" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
     </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1087,372 +1890,299 @@
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/templates/claim-benefit-apply.html">
+    <entry file="file://$PROJECT_DIR$/platforms/android/cordova-plugin-firebase-analytics/payroll2u-build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/partials/form-apply-benifit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/Google Drive/backup/test2/platforms/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/leave-approval.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/.pods.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/partials/form-apply-reim.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3255">
-          <caret line="217" column="30" selection-start-line="217" selection-start-column="30" selection-end-line="217" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/leave-cancellation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/common.js">
+    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase-analytics/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/leave-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="125" column="49" selection-start-line="125" selection-start-column="49" selection-end-line="125" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19995">
-          <caret line="1333" column="0" selection-start-line="785" selection-start-column="5" selection-end-line="1333" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/claim-overtime-apply-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="65" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/claim-overtime-apply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/my-claims.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4125">
-          <caret line="275" column="20" selection-start-line="275" selection-start-column="20" selection-end-line="275" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/myProfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10080">
-          <caret line="672" column="1" selection-start-line="672" selection-start-column="1" selection-end-line="672" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/my-tms.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="388" column="49" selection-start-line="388" selection-start-column="49" selection-end-line="388" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/leave-enquiry-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/partials/form-apply-pay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="61" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/partials/poup-customer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/partials/poup-employee.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="100" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/my-payroll.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/payroll-payslip.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/payroll-pcb2.html">
+    <entry file="file://$PROJECT_DIR$/platforms/ios/Podfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/payroll-cp8a.html">
+    <entry file="file://$PROJECT_DIR$/plugins/phonegap-plugin-push/src/ios/Google/Headers/GGLCore/Public/Core.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/platforms.json" />
+    <entry file="file:///usr/local/lib/node_modules/cordova/node_modules/q/q.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="9" column="162" selection-start-line="9" selection-start-column="155" selection-end-line="9" selection-end-column="162" />
+        <state relative-caret-position="12315">
+          <caret line="821" selection-start-line="821" selection-end-line="821" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tms-clock-on-behalf.html">
+    <entry file="file://$PROJECT_DIR$/platforms/ios/GoogleService-Info.plist">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/Payroll2U/GoogleService-Info.plist">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/xml/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
+        <state relative-caret-position="-996" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginsbk/cordova-plugin-firebase-analytics/README.md" />
+    <entry file="file://$PROJECT_DIR$/platforms/android/build/generated/res/google-services/debug/values/values.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/lang/lang1.txt">
+    <entry file="file://$PROJECT_DIR$/GoogleService-Info.plist">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="556" column="5" selection-start-line="549" selection-start-column="4" selection-end-line="556" selection-end-column="5" />
+        <state relative-caret-position="339">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/lang/lang2.txt">
+    <entry file="file://$PROJECT_DIR$/plugins/phonegap-plugin-push/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="561" column="9" selection-start-line="561" selection-start-column="9" selection-end-line="561" selection-end-column="9" />
+        <state relative-caret-position="277">
+          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/lang/lang3.txt">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="561" column="9" selection-start-line="561" selection-start-column="9" selection-end-line="561" selection-end-column="9" />
+        <state relative-caret-position="17">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/lang/lang4.txt">
+    <entry file="file://$PROJECT_DIR$/platforms/android/google-services.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="560" column="9" selection-start-line="560" selection-start-column="9" selection-end-line="560" selection-end-column="9" />
+        <state relative-caret-position="-223" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/lang/lang10.txt">
+    <entry file="file://$PROJECT_DIR$/platforms/android/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/phonegap-plugin-push/src/ios/Google/Headers/GGLCore/Public/Core.h" />
+    <entry file="file://$PROJECT_DIR$/platforms/android/phonegap-plugin-push/payroll2u-push.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="553" column="22" selection-start-line="553" selection-start-column="22" selection-end-line="553" selection-end-column="22" />
+        <state relative-caret-position="75">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/myTms.js">
+    <entry file="file://$PROJECT_DIR$/plugins/com.mbppower.camerapreview/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="-28">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/com.mbppower.camerapreview/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        <state relative-caret-position="270">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-x-toast/www/Toast.js">
+    <entry file="file://$PROJECT_DIR$/plugins/android.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="1275">
+          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/plugins/fetch.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+        <state relative-caret-position="1635">
+          <caret line="109" column="6" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/myPayroll.js">
+    <entry file="file://$PROJECT_DIR$/plugins/ios.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/Payroll2U/Plugins/com.mbppower.camerapreview/CameraPreview.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="100" selection-start-line="7" selection-start-column="100" selection-end-line="7" selection-end-column="100" />
+        <state relative-caret-position="285">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tms-clockings-enquiry.html">
+    <entry file="file://$PROJECT_DIR$/platforms/android/src/com/mbppower/CameraActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="49" />
+        <state relative-caret-position="5040">
+          <caret line="336" selection-end-line="827" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/main.js">
+    <entry file="file://$PROJECT_DIR$/plugins/com.mbppower.camerapreview/src/android/com/mbppower/CameraActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2580">
-          <caret line="172" column="15" selection-start-line="172" selection-start-column="14" selection-end-line="172" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-camera/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/org.apache.cordova.camera/package.json" />
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/myClaim.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2539" column="31" selection-start-line="2539" selection-start-column="31" selection-end-line="2539" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/leave-plan-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/leave-plan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="118" selection-start-line="11" selection-start-column="105" selection-end-line="11" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/claim-reimbursement-apply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/claim-request-for-payment-apply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12885">
-          <caret line="859" column="52" selection-start-line="859" selection-start-column="52" selection-end-line="859" selection-end-column="52" />
-          <folding>
-            <marker date="1510992329000" expanded="true" signature="20992:21095" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/leave-apply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2790">
-          <caret line="186" column="27" selection-start-line="186" selection-start-column="19" selection-end-line="186" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tms-mobile-mac-address.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="79" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/myLeave.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18255">
-          <caret line="1217" column="27" selection-start-line="1217" selection-start-column="27" selection-end-line="1217" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="12405">
+          <caret line="827" selection-start-line="827" selection-end-line="827" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/controllers/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="1260">
+          <caret line="84" column="56" selection-start-line="84" selection-start-column="56" selection-end-line="84" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="128" selection-start-line="1" selection-start-column="115" selection-end-line="1" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20820">
+          <caret line="1388" column="16" selection-start-line="1388" selection-start-column="16" selection-end-line="1388" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/date-picker.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/leave-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="170" column="24" selection-start-line="170" selection-start-column="16" selection-end-line="170" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2910">
+          <caret line="194" column="6" selection-start-line="194" selection-start-column="6" selection-end-line="194" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/partials/poup-employee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="88" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/leave-apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="110" column="30" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lang/lang1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3255">
+          <caret line="217" column="15" selection-start-line="217" selection-start-column="7" selection-end-line="217" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3900">
+          <caret line="260" column="55" selection-start-line="260" selection-start-column="55" selection-end-line="260" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/android.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4260">
+          <caret line="284" column="13" selection-start-line="284" selection-start-column="13" selection-end-line="284" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="99" selection-start-line="1" selection-start-column="99" selection-end-line="1" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2865">
+          <caret line="191" column="7" selection-start-line="191" selection-start-column="7" selection-end-line="191" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11115">
+          <caret line="741" column="2" selection-start-line="741" selection-start-column="2" selection-end-line="741" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/my-leave.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/leave-enquiry.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/myLeave.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="1472" column="29" selection-start-line="1472" selection-start-column="23" selection-end-line="1472" selection-end-column="29" />
         </state>
       </provider>
     </entry>

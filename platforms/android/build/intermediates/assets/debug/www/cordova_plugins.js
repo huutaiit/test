@@ -51,13 +51,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js",
-        "id": "cordova-plugin-file-opener2.FileOpener2",
-        "clobbers": [
-            "cordova.plugins.fileOpener2"
-        ]
-    },
-    {
         "file": "plugins/org.apache.cordova.file/www/DirectoryEntry.js",
         "id": "org.apache.cordova.file.DirectoryEntry",
         "clobbers": [
@@ -211,14 +204,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-        "id": "cordova-plugin-inappbrowser.inappbrowser",
-        "clobbers": [
-            "cordova.InAppBrowser.open",
-            "window.open"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-network-information/www/network.js",
         "id": "cordova-plugin-network-information.network",
         "clobbers": [
@@ -286,13 +271,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/phonegap-plugin-push/www/push.js",
-        "id": "phonegap-plugin-push.PushNotification",
-        "clobbers": [
-            "PushNotification"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
         "id": "cordova-plugin-camera.Camera",
         "clobbers": [
@@ -319,6 +297,50 @@ module.exports = [
         "clobbers": [
             "CameraPopoverHandle"
         ]
+    },
+    {
+        "file": "plugins/com.verso.cordova.clipboard/www/clipboard.js",
+        "id": "com.verso.cordova.clipboard.Clipboard",
+        "clobbers": [
+            "cordova.plugins.clipboard"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js",
+        "id": "cordova-plugin-file-opener2.FileOpener2",
+        "clobbers": [
+            "cordova.plugins.fileOpener2"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+        "id": "cordova-plugin-inappbrowser.inappbrowser",
+        "clobbers": [
+            "cordova.InAppBrowser.open",
+            "window.open"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-google-analytics/www/analytics.js",
+        "id": "cordova-plugin-google-analytics.UniversalAnalytics",
+        "clobbers": [
+            "analytics",
+            "ga"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-firebase-analytics/www/FirebaseAnalytics.js",
+        "id": "cordova-plugin-firebase-analytics.FirebaseAnalytics",
+        "merges": [
+            "cordova.plugins.firebase.analytics"
+        ]
+    },
+    {
+        "file": "plugins/phonegap-plugin-push/www/push.js",
+        "id": "phonegap-plugin-push.PushNotification",
+        "clobbers": [
+            "PushNotification"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -332,21 +354,24 @@ module.exports.metadata =
     "cordova-plugin-app-event": "1.2.0",
     "cordova-plugin-app-version": "0.1.8",
     "cordova-plugin-badge": "0.7.2",
-    "cordova-plugin-file-opener2": "2.0.1",
     "org.apache.cordova.file": "1.3.3",
     "cordova-plugin-image-resizer": "1.0.0",
-    "cordova-plugin-inappbrowser": "1.0.1",
     "cordova-plugin-network-information": "1.0.2-dev",
-    "cordova-plugin-whitelist": "1.0.0",
     "cordova-plugin-x-toast": "2.2.1",
     "ionic-plugin-keyboard": "1.0.8",
     "org.apache.cordova.device": "0.3.0",
     "org.apache.cordova.file-transfer": "0.5.0",
     "org.apache.cordova.geolocation": "0.3.12",
     "org.apache.cordova.wifiinfo": "0.1.1",
-    "phonegap-plugin-push": "1.5.3",
     "cordova-plugin-compat": "1.2.0",
-    "cordova-plugin-camera": "2.4.1"
+    "cordova-plugin-camera": "2.4.1",
+    "com.verso.cordova.clipboard": "0.1.0",
+    "cordova-plugin-file-opener2": "2.0.19",
+    "cordova-plugin-inappbrowser": "3.0.0",
+    "cordova-plugin-google-analytics": "1.8.6",
+    "cordova-plugin-firebase-analytics": "0.10.2",
+    "phonegap-plugin-push": "1.8.1",
+    "cordova-plugin-whitelist": "1.3.3"
 };
 // BOTTOM OF METADATA
 });

@@ -19,7 +19,8 @@ String.prototype.replaceAt=function(index, character) {
 }
 
 $(document).ready(function(){
-	
+
+
 	$(document).on("keydown",'input',function(event){
 		
        if (event.keyCode == 9) {

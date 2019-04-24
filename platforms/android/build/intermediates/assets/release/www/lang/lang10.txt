@@ -12,6 +12,7 @@
 		 "applications":"Đơn",
 		 "error":"Lỗi",
 		 "successful":"Thành công",
+		 "confirm":"Xác nhận",
 		 "alert":"Thông báo",
 		 "not_entitled_to": "Không cho phép",
 		 "network_failed": "Lỗi kết nối mạng",
@@ -177,6 +178,7 @@
             "tt": "Xin nghỉ",
             "ct": "Gửi đơn xin nghỉ phép của bạn",
             "selectLeaveType": "Chọn loại nghỉ",
+             "selectBusinessTripCountry": "Business Trip Country",
 			"select_approving_officer": "Chọn Nhân viên phê duyệt",
             "selectExtent": "Chọn phạm vi",
             "applyleavesubmitted": "Đơn đã được gửi",
@@ -198,6 +200,12 @@
             "approvingOfficer": {
                 "tt": "Nhân viên kiểm duyệt"
             },
+             "businessTripCountry": {
+                                                   "tt": "Business Trip Country"
+                                                },
+                                    "courseAttended": {
+                                       "tt": "Course Attended"
+                                    },
 
 			"notify_group":"Thông báo cho Nhóm",
 			"notify_employee":"Thông báo cho nhân viên",
@@ -217,7 +225,8 @@
 				"to_is_less_than_from_date":"Từ ngày is &quot;nhỏ hơn&quot; Đến ngày. Vui lòng thay đổi.",
 				"to_is_less_than_from_time":"Từ giờ is &quot;nhỏ hơn hoặc bằng&quot; Đến giờ. Vui lòng thay đổi.",
 				"from_is_equal_to_date":"Từ ngày &quot;nên bằng &quot; Đến ngày. Vui lòng thay đổi.",
-				"no_approving_officer":"Không có nhân viên kiểm duyệt. Vui lòng liên hệ nhân sự của bạn."
+				"no_approving_officer":"Không có nhân viên kiểm duyệt. Vui lòng liên hệ nhân sự của bạn.",
+				"buss_trip_ctry_course_valid":"Please Select A Business Trip Country"
 			}
 
         },

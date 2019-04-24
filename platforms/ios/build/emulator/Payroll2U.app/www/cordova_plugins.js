@@ -50,28 +50,11 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js",
-        "id": "cordova-plugin-file-opener2.FileOpener2",
-        "pluginId": "cordova-plugin-file-opener2",
-        "clobbers": [
-            "cordova.plugins.fileOpener2"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-image-resizer/www/imageresize.js",
         "id": "cordova-plugin-image-resizer.ImageResizePlugin",
         "pluginId": "cordova-plugin-image-resizer",
         "clobbers": [
             "plugins.imageResizer"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-        "id": "cordova-plugin-inappbrowser.inappbrowser",
-        "pluginId": "cordova-plugin-inappbrowser",
-        "clobbers": [
-            "cordova.InAppBrowser.open",
-            "window.open"
         ]
     },
     {
@@ -383,6 +366,56 @@ module.exports = [
         "clobbers": [
             "CameraPopoverHandle"
         ]
+    },
+    {
+        "file": "plugins/com.verso.cordova.clipboard/www/clipboard.js",
+        "id": "com.verso.cordova.clipboard.Clipboard",
+        "pluginId": "com.verso.cordova.clipboard",
+        "clobbers": [
+            "cordova.plugins.clipboard"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-safariviewcontroller/www/SafariViewController.js",
+        "id": "cordova-plugin-safariviewcontroller.SafariViewController",
+        "pluginId": "cordova-plugin-safariviewcontroller",
+        "clobbers": [
+            "SafariViewController"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js",
+        "id": "cordova-plugin-file-opener2.FileOpener2",
+        "pluginId": "cordova-plugin-file-opener2",
+        "clobbers": [
+            "cordova.plugins.fileOpener2"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+        "id": "cordova-plugin-inappbrowser.inappbrowser",
+        "pluginId": "cordova-plugin-inappbrowser",
+        "clobbers": [
+            "cordova.InAppBrowser.open",
+            "window.open"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-google-analytics/www/analytics.js",
+        "id": "cordova-plugin-google-analytics.UniversalAnalytics",
+        "pluginId": "cordova-plugin-google-analytics",
+        "clobbers": [
+            "analytics",
+            "ga"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-firebase-analytics/www/FirebaseAnalytics.js",
+        "id": "cordova-plugin-firebase-analytics.FirebaseAnalytics",
+        "pluginId": "cordova-plugin-firebase-analytics",
+        "merges": [
+            "cordova.plugins.firebase.analytics"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -395,11 +428,8 @@ module.exports.metadata =
     "cordova-plugin-app-event": "1.2.0",
     "cordova-plugin-app-version": "0.1.8",
     "cordova-plugin-badge": "0.7.2",
-    "cordova-plugin-file-opener2": "2.0.1",
     "cordova-plugin-image-resizer": "1.0.0",
-    "cordova-plugin-inappbrowser": "1.0.1",
     "cordova-plugin-network-information": "1.0.2-dev",
-    "cordova-plugin-whitelist": "1.0.0",
     "cordova-plugin-x-toast": "2.2.1",
     "ionic-plugin-keyboard": "1.0.8",
     "org.apache.cordova.device": "0.3.0",
@@ -410,7 +440,16 @@ module.exports.metadata =
     "org.apache.cordova.file": "1.3.3",
     "cordova-plugin-android-permissions": "0.8.0",
     "cordova-plugin-compat": "1.2.0",
-    "cordova-plugin-camera": "2.4.1"
+    "cordova-plugin-camera": "2.4.1",
+    "com.verso.cordova.clipboard": "0.1.0",
+    "cordova-plugin-whitelist": "1.3.3",
+    "cordova-plugin-safariviewcontroller": "1.5.4",
+    "cordova-android-support-gradle-release": "2.0.1",
+    "cordova-plugin-file-opener2": "2.0.19",
+    "cordova-plugin-inappbrowser": "3.0.0",
+    "cordova-plugin-google-analytics": "1.8.6",
+    "cordova-plugin-cocoapod-support": "1.6.0",
+    "cordova-plugin-firebase-analytics": "0.10.2"
 }
 // BOTTOM OF METADATA
 });

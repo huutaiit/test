@@ -42,18 +42,38 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <!-- From: file:/Volumes/Data/Projects/Mobile/test2/platforms/android/build/generated/res/google-services/debug/values/values.xml -->
+    <eat-comment/>
+    <string name="default_web_client_id" translatable="false">368125290175-h8gaua5c397rp16bha2bfkmb82ljbila.apps.googleusercontent.com</string>
     <!-- From: file:/Volumes/Data/Projects/Mobile/test2/platforms/android/res/values/multiimagechooser_strings_en.xml -->
     <eat-comment/>
     <string name="discard">Cancel</string>
     <string name="done">OK</string>
     <string name="error_database">There was an error opening the images database. Please report the problem.</string>
+    <!-- From: file:/Volumes/Data/Projects/Mobile/test2/platforms/android/build/generated/res/google-services/debug/values/values.xml -->
+    <eat-comment/>
+    <string name="firebase_database_url" translatable="false">https://hybridapp-4d4e1.firebaseio.com</string>
+    <!-- From: file:/Volumes/Data/Projects/Mobile/test2/platforms/android/res/values/multiimagechooser_strings_en.xml -->
+    <eat-comment/>
     <string name="free_version_label">Free version - Images left: %d</string>
+    <!-- From: file:/Volumes/Data/Projects/Mobile/test2/platforms/android/build/generated/res/google-services/debug/values/values.xml -->
+    <eat-comment/>
+    <string name="gcm_defaultSenderId" translatable="false">368125290175</string>
+    <string name="google_api_key" translatable="false">AIzaSyA-nlaX2sKo5s3aYZCzN0rJZX0WViCDg7c</string>
+    <string name="google_app_id" translatable="false">1:368125290175:android:3aebd17b8acae9a8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA-nlaX2sKo5s3aYZCzN0rJZX0WViCDg7c</string>
+    <string name="google_storage_bucket" translatable="false">hybridapp-4d4e1.appspot.com</string>
     <!-- From: file:/Volumes/Data/Projects/Mobile/test2/platforms/android/res/values/strings.xml -->
     <eat-comment/>
     <string name="launcher_name">@string/app_name</string>
     <!-- From: file:/Volumes/Data/Projects/Mobile/test2/platforms/android/res/values/multiimagechooser_strings_en.xml -->
     <eat-comment/>
     <string name="multi_app_name">MultiImageChooser</string>
+    <!-- From: file:/Volumes/Data/Projects/Mobile/test2/platforms/android/build/generated/res/google-services/debug/values/values.xml -->
+    <eat-comment/>
+    <string name="project_id" translatable="false">hybridapp-4d4e1</string>
+    <!-- From: file:/Volumes/Data/Projects/Mobile/test2/platforms/android/res/values/multiimagechooser_strings_en.xml -->
+    <eat-comment/>
     <string name="requesting_thumbnails">Requesting thumbnails, please be patient</string>
     <!-- From: file:/Volumes/Data/Projects/Mobile/test2/platforms/android/res/values/camera_theme.xml -->
     <eat-comment/>

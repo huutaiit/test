@@ -125,16 +125,34 @@ App.directive('loadPartialView',   ['$templateRequest','$compile' ,function ($te
         restrict: 'A',   // 'A' is the default, so you could remove this line
 		scope: { someCtrlFn: '&callbackFn' },
         link: function (scope, elm, attrs,ngModel){
+          function compareVersion (source, target) {
+            if (source === target) return 0;
+            if (source == null) return -1;
+            if (target == null) return 1;
+            var sArr = source.split('.');
+            var tArr = target.split('.');
+            if (sArr.length > tArr.length) tArr.push(0);
+            if (sArr.length < tArr.length) sArr.push(0);
+            var sStr = sArr.join();
+
+
+            var tStr = tArr.join();
+            if (sStr == tStr) return 0;
+            if (sStr < tStr) return -1;
+            if (sStr > tStr) return 1;
+            return -1;
+          };
 
 			elm.on("focus",function(e){
 				var _this = $(this);
 
 				if(device.platform=="iOS"){
+				  var version = device.version;
 				setTimeout(function(){
 						if($rootScope.keyboardHeight>0) {
+              var keyboardHeight = compareVersion(version,'11')>=0?$rootScope.keyboardHeight-20:$rootScope.keyboardHeight;
 						window.removeEventListener('native.keyboardshow',function(){});
-
-						$("#point").show().animate({"bottom":+$rootScope.keyboardHeight+"px"},220);
+						$("#point").show().animate({"bottom":+keyboardHeight+"px"},220);
 					}
 					},30)
 
@@ -285,6 +303,35 @@ App.directive('loadPartialView',   ['$templateRequest','$compile' ,function ($te
             }
         };
     })
+
+
+App.directive('ngShowModalConfirm', function () {
+  return {
+    restrict: 'A',   // 'A' is the default, so you could remove this line
+    link: function (scope, elm, attrs) {
+      scope.$watch(function () { // khi gia tri thay doi thi ham nay se duoc goi
+        if (attrs.ngShowModalConfirm == "true") {
+          $(".overlay-error-confirm").show();
+          elm.show();
+          elm.css({ left: ($(window).width() - elm.width()) / 2, top: ($(window).height() - elm.height()) / 2 })
+          $(window).resize(function () {
+
+            elm.css({ left: ($(window).width() - elm.width()) / 2, top: ($(window).height() - elm.height()) / 2 });
+            return false;
+          })
+        }
+        else {
+
+          $(".overlay-error-confirm").hide();
+          elm.hide()
+        }
+      })
+
+
+
+    }
+  };
+})
 
 	App.directive('ngShowModalErrorNetwork', function () {
         return {
@@ -515,8 +562,8 @@ $scope.$eval($attrs.onTap)
 
 
 
-						headerHeight = $("#header-index").innerHeight();
-						windowHeight = $(window).innerHeight();
+						var headerHeight = $("#header-index").innerHeight();
+              var windowHeight = $(window).innerHeight();
 						element.height(	windowHeight - headerHeight);
 						$(window).off("resize");
 						$(window).resize(function(){
@@ -537,12 +584,12 @@ $scope.$eval($attrs.onTap)
             link: function (scope, element, attr) {
 
                 scope.$watch(attr.id,function () {
-                    heightWindow = $( window ).height();
+                  var  heightWindow = $( window ).height();
 					heightWindow = heightWindow*90/100;
 					heightWindow = heightWindow-$(".modal-title").actual('innerHeight');
-					heightLi = element.find("ul li").actual( 'innerHeight' )+1;
+					var heightLi = element.find("ul li").actual( 'innerHeight' )+1;
 
-					heightElement = (attr.ngSetHeightModalContent*heightLi);
+					var heightElement = (attr.ngSetHeightModalContent*heightLi);
 					if(heightElement>heightWindow){
 						var height = heightWindow;
 					}
@@ -602,20 +649,24 @@ $scope.$eval($attrs.onTap)
         return {
             restrict: 'A',
             link: function (scope, element, attr) {
+                var getWidthHeight = function () {
+                  element.height(element.innerWidth());
 
+                  var parent = element.parent();
+                  if(parent.attr("class")=="quick-link-2"){
+                    var heightUiBlockA = $(".ui-block-a").innerHeight();
+                    var heightQuickLink2Li = $(".quick-link-2").height();
+                    var heightMyclaim = $("#main_navigation .ui-block-b .mytms").height();
+                    var height = heightUiBlockA-heightQuickLink2Li-heightMyclaim-4;
+                    $(".mypayroll").height(height);
+                  }
+                }
                 scope.$watch(["quickLinks1","quickLinks2"],function () {
-                    element.height(element.innerWidth());
-
-					var parent = element.parent();
-					if(parent.attr("class")=="quick-link-2"){
-						var heightUiBlockA = $(".ui-block-a").innerHeight();
-						var heightQuickLink2Li = $(".quick-link-2").height();
-						var heightMyclaim = $("#main_navigation .ui-block-b .mytms").height();
-						height = heightUiBlockA-heightQuickLink2Li-heightMyclaim-4;
-						$(".mypayroll").height(height);
-					}
-
+                  getWidthHeight();
                 })
+              $(window).resize(function () {
+                getWidthHeight();
+              })
 
             }
         }
@@ -1710,3 +1761,5 @@ $scope.$eval($attrs.onTap)
             }
         };
     }]);
+
+

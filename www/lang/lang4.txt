@@ -12,6 +12,7 @@
 		 "applications":"Applications",
 		 "error":"Error",
 		 "successful":"Successful",
+		  "confirm":"Confirm",
 		 "alert":"Alert",
 		 "not_entitled_to": "Not Entitled to",
 		 "network_failed": "Network failed",
@@ -177,6 +178,7 @@
             "tt": "Apply Leave",
             "ct": "Submit your leave application",
             "selectLeaveType": "Select Leave Type",
+             "selectBusinessTripCountry": "Business Trip Country",
 			"select_approving_officer": "Select Approving Officer",
             "selectExtent": "Select Apply Type",
             "applyleavesubmitted": "Application Submitted",
@@ -198,6 +200,12 @@
             "approvingOfficer": {
                 "tt": "Approving Officer"
             },
+            "businessTripCountry": {
+                                       "tt": "Business Trip Country"
+                                    },
+                        "courseAttended": {
+                           "tt": "Course Attended"
+                        },
 
 			"notify_group":"Notify Group",
 			"notify_employee":"Notify Employee",
@@ -217,7 +225,8 @@
 				"to_is_less_than_from_date":"TO date is &quot;less than&quot; FROM date. Please change.",
 				"to_is_less_than_from_time":"TO time is &quot;less than or equal to&quot; FROM time. Please change.",
 				"from_is_equal_to_date":"FROM Date &quot;should be equal to&quot; TO Date. Please Change.",
-				"no_approving_officer":"No Approving Officer. Please contact your HR."
+				"no_approving_officer":"No Approving Officer. Please contact your HR.",
+				"buss_trip_ctry_course_valid":"Please Select A Business Trip Country"
 			}
 
         },

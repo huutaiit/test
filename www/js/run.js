@@ -1,14 +1,27 @@
 //Define an angular module for our app
 var App = angular.module('App', ["ngRoute","ngSanitize","ngTouch"]).run(function( $location,$rootScope,$timeout,ProcessService) {
-	 // $rootScope.GATEWAYURL = "https://hybridapp.payroll2u.com/"
-	$rootScope.GATEWAYURL = "https://devsvrhybrid.payroll2u.com/"
+	 $rootScope.GATEWAYURL = "https://hybridapp.payroll2u.com/";
+  // $rootScope.GATEWAYURL = "https://uatsvrhybrid3.payroll2u.com/"
+	// $rootScope.GATEWAYURL = "https://devsvrhybrid.payroll2u.com/"
 	// $rootScope.GATEWAYURL = "https://uatsvrhybrid.payroll2u.com/"
  // $rootScope.GATEWAYURL = "https://testhybridapp.payroll2u.com/"
  //   $rootScope.GATEWAYURL = "https://uatsvrhybrid2.payroll2u.com/"
+  document.addEventListener("deviceready", function (evt) {
+    // if(typeof window.ga !== undefined) {
+    //   //window.ga.startTrackerWithId('UA-45746194-7', 30)
+    // } else {
+    //   console.log("Google Analytics Unavailable");
+    // }
+  }, false);
 
 	$rootScope.$on('$routeChangeSuccess', function () {
-		checkLocation = $location.path();
+		var checkLocation = $location.path();
 		checkLocation  =  checkLocation.slice(1);
+   // window.ga && window.ga.trackView(checkLocation);
+
+    if(cordova.plugins.firebase && cordova.plugins.firebase.analytics){
+      cordova.plugins.firebase.analytics.logEvent(checkLocation);
+    }
 		if(checkLocation =="Home" || checkLocation =="Login"){
 			$rootScope.checkLocation = "notnav";
 			$("#main").height("100%");
@@ -16,9 +29,9 @@ var App = angular.module('App', ["ngRoute","ngSanitize","ngTouch"]).run(function
 		else{
 			$rootScope.checkLocation = "havenav";
 			$timeout(function () {
-		 heightHeader = $("header").innerHeight();
-		 heightNav = $("#quick-link").innerHeight();
-		heightWindow = $rootScope.heightWindow;
+		var heightHeader = $("header").innerHeight();
+		 var heightNav = $("#quick-link").innerHeight();
+		var heightWindow = $rootScope.heightWindow;
 		 $("#main").height(heightWindow- heightHeader - heightNav-10);
 	 })
 		}
@@ -28,7 +41,6 @@ var App = angular.module('App', ["ngRoute","ngSanitize","ngTouch"]).run(function
 
 $rootScope.isRight = function(menuID){
 		var result = false;
-
 		angular.forEach($rootScope.MenuMobile, function(value, key) {
 			if(value.Id==menuID){
 				result = true;

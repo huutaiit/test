@@ -160,11 +160,11 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
     					$(".overlay").hide();
 
     					$scope.$apply(function() {
-    						$location.path("/Login");
-    					/*$rootScope.error = {
+    						// $location.path("/Login");
+    					$rootScope.error = {
     						result : true,
     						message : "Failed"
-    					};*/
+    					};
     				 })
             //alert('Oh no, something went wrong');
             }
@@ -193,7 +193,19 @@ ProcessService.checkPermission("READ_EXTERNAL_STORAGE").then(function(response) 
      };
   }
   else{
-    downloadAndOpenPDF(payslip);
+    ProcessService.checkPermission("WRITE_EXTERNAL_STORAGE").then(function(response) {
+      if(response.status==false){
+        $(".loading").hide();
+        $(".overlay").hide();
+        $rootScope.error = {
+          result : true,
+          message :"WRITE STORAGE permission is not turned on",
+        };
+      }
+      else{
+        downloadAndOpenPDF(url,fileName);
+      }
+    })
   }
 
 })
@@ -306,11 +318,11 @@ else{
             $(".overlay").hide();
 
             $scope.$apply(function() {
-              $location.path("/Login");
-              /*$rootScope.error = {
+              // $location.path("/Login");
+              $rootScope.error = {
                result : true,
                message : "Failed"
-               };*/
+               };
             })
             //alert('Oh no, something went wrong');
           }
@@ -338,7 +350,19 @@ else{
             };
           }
           else{
-            downloadAndOpenPDF(url,fileName);
+            ProcessService.checkPermission("WRITE_EXTERNAL_STORAGE").then(function(response) {
+              if(response.status==false){
+                $(".loading").hide();
+                $(".overlay").hide();
+                $rootScope.error = {
+                  result : true,
+                  message :"WRITE STORAGE permission is not turned on",
+                };
+              }
+              else{
+                downloadAndOpenPDF(url,fileName);
+              }
+            })
           }
 
         })
@@ -469,8 +493,8 @@ else{
       console.log(payslip.FileName);
       var fileName = "mycp8a"+payslip.id+'.pdf';
       //fileName = fileName.replace(",","");
-
       if(device.platform=="Android"){
+
         ProcessService.checkPermission("READ_EXTERNAL_STORAGE").then(function(response) {
 
           if(response.status==false){
@@ -482,13 +506,26 @@ else{
             };
           }
           else{
-            downloadAndOpenPDF(url,fileName);
+            ProcessService.checkPermission("WRITE_EXTERNAL_STORAGE").then(function(response) {
+              if(response.status==false){
+                $(".loading").hide();
+                $(".overlay").hide();
+                $rootScope.error = {
+                  result : true,
+                  message :"WRITE STORAGE permission is not turned on",
+                };
+              }
+              else{
+                downloadAndOpenPDF(url,fileName);
+              }
+            })
+
           }
 
         })
       }
       else{
-        downloadAndOpenPDF(url,fileName);
+       downloadAndOpenPDF(url,fileName);
       }
 
     }

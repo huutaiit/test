@@ -5,7 +5,7 @@ App.registerCtrl('myProfileCtrl', function ($scope, $rootScope, ProcessService, 
 					//{id:683,href:"javascript:void(0)", ngClick:"ng-click='comingSoon()'",icon:"pro683.png",name:$rootScope.lang.myprofile.address.tt,description:$rootScope.lang.myprofile.address.ct},
 					]	
 		$scope.commingSoon = function(){
-		window.plugins.toast.showShortBottom("Coming Soon!");
+		window.plugins.toast.showShortBottom($rootScope.lang.myprofile.comingSoon);
 		}
 		
 	processProfileChangePass = function(){				

@@ -1,0 +1,30 @@
+{
+  "android": {
+    "debug": {
+      "keystore": "key.android.payroll2u",
+      "storePassword": "payroll2u",
+      "alias": "payroll2u",
+      "password" : "payroll2u",
+      "keystoreType": ""
+    },
+    "release": {
+      "keystore": "key.android.payroll2u",
+      "storePassword": "payroll2u",
+      "alias": "payroll2u",
+      "password" : "payroll2u",
+      "keystoreType": ""
+    }
+  },
+  "ios":{
+    "debug": {
+      "buildFlag": [
+        "-UseModernBuildSystem=0"
+      ]
+    },
+    "release": {
+      "buildFlag": [
+        "-UseModernBuildSystem=0"
+      ]
+    }
+  }
+}

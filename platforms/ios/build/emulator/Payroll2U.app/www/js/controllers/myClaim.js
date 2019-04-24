@@ -746,6 +746,15 @@ console.log("fdfg")
 							sessionStorage.setItem('listApproval',JSON.stringify($scope.listApproval));
 
 						}
+						$scope.setActiveRow = function(index){
+		          $scope.activeRow = index;
+              $scope.textRemark = $scope.listApproval[index].textRemark;
+            }
+            $scope.changeRemark = function(textRemark){
+
+              $scope.listApproval[$scope.activeRow].textRemark = textRemark;
+              sessionStorage.setItem('listApproval',JSON.stringify($scope.listApproval));
+            }
 						$scope.submitApproval = function() {
 							var param = {
 									Uqids : [ ],
@@ -767,7 +776,7 @@ console.log("fdfg")
 												param.Uqids.push(value2.Uqid);
 												var action = (value["Approved"]==true) ? 1 : 2;
 												param.Actions.push(action);
-												var remarks  = null;
+												var remarks  = (value["Approved"]==true) ? null:value["textRemark"];
 												param.Remarks.push(remarks);
 											})
 										}
@@ -779,7 +788,7 @@ console.log("fdfg")
 										param.Uqids.push(value.Uqid);
 										var action = (value["Approved"]==true) ? 1 : 2;
 										param.Actions.push(action);
-										var remarks = null;
+                    var remarks  = (value["Approved"]==true) ? null:value["textRemark"];
 										param.Remarks.push(remarks);
 									})
 								}

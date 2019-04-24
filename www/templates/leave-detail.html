@@ -56,6 +56,25 @@
       </li>
 
 
+        <li ng-show="leaveDetail.TripDesc!=null">
+          <div class="f-left">
+            <p class="label required"><label>{{lang.myleave.apply.businessTripCountry.tt}}</label> <span>({{lang.general.required}})</span></p>
+            <p class="input"><input readonly="readonly" value="{{leaveDetail.TripDesc}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+
+        <li ng-show="leaveDetail.Course!=null">
+          <div class="f-left">
+            <p class="label"><label>{{lang.myleave.apply.courseAttended.tt}}</label> </p>
+            <p class="input"><input readonly="readonly" value="{{leaveDetail.Course}}" type="text" /></p>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
 
 
         <li>

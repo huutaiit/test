@@ -610,6 +610,9 @@ div.form .button img{
 {
 	background:#339966;
 }
+.background-disable {
+  background: #ccc;
+}
 /*************text color**************/
 .text-color-red{
 	color:#de1e39;
@@ -681,8 +684,11 @@ div#login #form_login{
 	-moz-border-radius:5px;
 
 }
-#form_login  button#sign_in
-{
+#form_login  button#sign_in,#form_login  .box_sign_in{
+
+}
+#form_login  button#sign_in,#form_login  button#sign_in_sso{
+
 	background:#de1e39;
 	border-radius:5px;
 	-webkit-border-radius:5px;
@@ -1286,6 +1292,13 @@ top: -21px;
 	top:-25px;
 }
 
+img.ic-remark{
+  margin-top: 0px;
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+}
+
 #main_navigation .ui-block-b .block p
 {
 	color:#FFF;
@@ -1469,7 +1482,7 @@ top: -21px;
 	}
 }
 
-.modal-error-or-success{
+.modal-error-or-success,.modal-confirm{
     position:fixed;
     width:80%;
 	max-width:500px;

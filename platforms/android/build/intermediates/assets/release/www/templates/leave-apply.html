@@ -70,6 +70,24 @@
       </li>
 
 
+      <li modal="bussTripCtryCourse" ng-show="modelLeave.leaveType.Required.Buss_Trip==2 || modelLeave.leaveType.Required.Buss_Trip==1">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myleave.apply.businessTripCountry.tt}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{modelLeave.bussTripCtryCourse.Description}}" readonly="readonly" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+      <li ng-show="modelLeave.leaveType.Required.Buss_Trip==1">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myleave.apply.courseAttended.tt}}</label></p>
+          <p class="input"><input value="{{modelLeave.bussTripCtryCourse.Course}}" readonly="readonly" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
        <li>
         <div class="f-left">
           <p class="label"><label>{{lang.myleave.apply.approvingOfficer.tt}}</label></p>
@@ -202,6 +220,21 @@
     </ul>
   </div>
 </div><!--end modal-->
+
+
+<div id="bussTripCtryCourse" class="modal animated" >
+  <h2 class="modal-title">
+    {{lang.myleave.apply.selectBusinessTripCountry}}
+
+    <span close-modal class="close-modal"></span>
+  </h2>
+  <div class="modal-content" id="ListBussTripCtryCourse" ng-set-height-modal-content="{{ListBussTripCtryCourse.length}}">
+    <ul class="select">
+      <li ng-class="{'active' : isActive(item.Id,modelLeave.bussTripCtryCourse.Id)}" ng-repeat="item in ListBussTripCtryCourse track by $index" ng-click="selectBussTripCtryCourse(item)" close-modal>{{item.Description}}</li>
+    </ul>
+  </div>
+</div><!--end modal-->
+
 
 
 <div id="notifyGroup" class="modal animated" >

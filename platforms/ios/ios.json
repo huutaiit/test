@@ -13,10 +13,6 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"CameraPreview\"><param name=\"ios-package\" onload=\"true\" value=\"CameraPreview\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"WifiWizard\"><param name=\"ios-package\" value=\"NXWWifiWizard\" /></feature>",
                             "count": 1
                         },
@@ -33,15 +29,7 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"FileOpener2\"><param name=\"ios-package\" value=\"FileOpener2\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"ImageResizePlugin\"><param name=\"ios-package\" value=\"ImageResize\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
                             "count": 1
                         },
                         {
@@ -83,34 +71,66 @@
                         {
                             "xml": "<preference name=\"CameraUsesGeolocation\" value=\"false\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Clipboard\"><param name=\"ios-package\" value=\"CDVClipboard\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SafariViewController\"><param name=\"ios-package\" value=\"SafariViewController\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"FileOpener2\"><param name=\"ios-package\" value=\"FileOpener2\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"UniversalAnalytics\"><param name=\"ios-package\" value=\"UniversalAnalyticsPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"FirebaseAnalytics\"><param name=\"ios-package\" value=\"FirebaseAnalyticsPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
             },
             "*-Info.plist": {
                 "parents": {
-                    "NSLocationWhenInUseUsageDescription": [
-                        {
-                            "xml": "<string />",
-                            "count": 1
-                        }
-                    ],
-                    "UIBackgroundModes": [
-                        {
-                            "xml": "<array><string>remote-notification</string></array>",
-                            "count": 1
-                        }
-                    ],
                     "NSCameraUsageDescription": [
                         {
-                            "xml": "<string> </string>",
-                            "count": 1
+                            "xml": "<string>need camera access to take pictures</string>",
+                            "count": 1,
+                            "mode": "merge",
+                            "id": "config.xml"
                         }
                     ],
                     "NSPhotoLibraryUsageDescription": [
                         {
-                            "xml": "<string> </string>",
-                            "count": 1
+                            "xml": "<string>need to photo library access to get pictures from there</string>",
+                            "count": 1,
+                            "mode": "merge",
+                            "id": "config.xml"
+                        }
+                    ],
+                    "NSLocationWhenInUseUsageDescription": [
+                        {
+                            "xml": "<string>need location access to find things nearby</string>",
+                            "count": 1,
+                            "mode": "merge",
+                            "id": "config.xml"
+                        }
+                    ],
+                    "NSPhotoLibraryAddUsageDescription": [
+                        {
+                            "xml": "<string>need to photo library access to save pictures there</string>",
+                            "count": 1,
+                            "mode": "merge",
+                            "id": "config.xml"
                         }
                     ]
                 }
@@ -139,19 +159,10 @@
         "cordova-plugin-badge": {
             "PACKAGE_NAME": "com.Payroll2U"
         },
-        "cordova-plugin-file-opener2": {
-            "PACKAGE_NAME": "com.Payroll2U"
-        },
         "cordova-plugin-image-resizer": {
             "PACKAGE_NAME": "com.Payroll2U"
         },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.Payroll2U"
-        },
         "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.Payroll2U"
-        },
-        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.Payroll2U"
         },
         "cordova-plugin-x-toast": {
@@ -187,6 +198,33 @@
         "cordova-plugin-camera": {
             "CAMERA_USAGE_DESCRIPTION": " ",
             "PHOTOLIBRARY_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "com.verso.cordova.clipboard": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-safariviewcontroller": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-android-support-gradle-release": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-file-opener2": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-google-analytics": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-cocoapod-support": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-firebase-analytics": {
             "PACKAGE_NAME": "com.Payroll2U"
         }
     },
@@ -242,28 +280,11 @@
             ]
         },
         {
-            "file": "plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js",
-            "id": "cordova-plugin-file-opener2.FileOpener2",
-            "pluginId": "cordova-plugin-file-opener2",
-            "clobbers": [
-                "cordova.plugins.fileOpener2"
-            ]
-        },
-        {
             "file": "plugins/cordova-plugin-image-resizer/www/imageresize.js",
             "id": "cordova-plugin-image-resizer.ImageResizePlugin",
             "pluginId": "cordova-plugin-image-resizer",
             "clobbers": [
                 "plugins.imageResizer"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-            "id": "cordova-plugin-inappbrowser.inappbrowser",
-            "pluginId": "cordova-plugin-inappbrowser",
-            "clobbers": [
-                "cordova.InAppBrowser.open",
-                "window.open"
             ]
         },
         {
@@ -575,6 +596,56 @@
             "clobbers": [
                 "CameraPopoverHandle"
             ]
+        },
+        {
+            "file": "plugins/com.verso.cordova.clipboard/www/clipboard.js",
+            "id": "com.verso.cordova.clipboard.Clipboard",
+            "pluginId": "com.verso.cordova.clipboard",
+            "clobbers": [
+                "cordova.plugins.clipboard"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-safariviewcontroller/www/SafariViewController.js",
+            "id": "cordova-plugin-safariviewcontroller.SafariViewController",
+            "pluginId": "cordova-plugin-safariviewcontroller",
+            "clobbers": [
+                "SafariViewController"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js",
+            "id": "cordova-plugin-file-opener2.FileOpener2",
+            "pluginId": "cordova-plugin-file-opener2",
+            "clobbers": [
+                "cordova.plugins.fileOpener2"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+            "id": "cordova-plugin-inappbrowser.inappbrowser",
+            "pluginId": "cordova-plugin-inappbrowser",
+            "clobbers": [
+                "cordova.InAppBrowser.open",
+                "window.open"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-google-analytics/www/analytics.js",
+            "id": "cordova-plugin-google-analytics.UniversalAnalytics",
+            "pluginId": "cordova-plugin-google-analytics",
+            "clobbers": [
+                "analytics",
+                "ga"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-firebase-analytics/www/FirebaseAnalytics.js",
+            "id": "cordova-plugin-firebase-analytics.FirebaseAnalytics",
+            "pluginId": "cordova-plugin-firebase-analytics",
+            "merges": [
+                "cordova.plugins.firebase.analytics"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -585,11 +656,8 @@
         "cordova-plugin-app-event": "1.2.0",
         "cordova-plugin-app-version": "0.1.8",
         "cordova-plugin-badge": "0.7.2",
-        "cordova-plugin-file-opener2": "2.0.1",
         "cordova-plugin-image-resizer": "1.0.0",
-        "cordova-plugin-inappbrowser": "1.0.1",
         "cordova-plugin-network-information": "1.0.2-dev",
-        "cordova-plugin-whitelist": "1.0.0",
         "cordova-plugin-x-toast": "2.2.1",
         "ionic-plugin-keyboard": "1.0.8",
         "org.apache.cordova.device": "0.3.0",
@@ -600,6 +668,15 @@
         "org.apache.cordova.file": "1.3.3",
         "cordova-plugin-android-permissions": "0.8.0",
         "cordova-plugin-compat": "1.2.0",
-        "cordova-plugin-camera": "2.4.1"
+        "cordova-plugin-camera": "2.4.1",
+        "com.verso.cordova.clipboard": "0.1.0",
+        "cordova-plugin-whitelist": "1.3.3",
+        "cordova-plugin-safariviewcontroller": "1.5.4",
+        "cordova-android-support-gradle-release": "2.0.1",
+        "cordova-plugin-file-opener2": "2.0.19",
+        "cordova-plugin-inappbrowser": "3.0.0",
+        "cordova-plugin-google-analytics": "1.8.6",
+        "cordova-plugin-cocoapod-support": "1.6.0",
+        "cordova-plugin-firebase-analytics": "0.10.2"
     }
 }

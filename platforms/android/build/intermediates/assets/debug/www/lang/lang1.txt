@@ -12,6 +12,7 @@
 		 "applications":"Applications",
 		 "error":"Error",
 		 "successful":"Successful",
+		 "confirm":"Confirm",
 		 "alert":"Alert",
 		 "not_entitled_to": "Not Entitled to",
 		 "network_failed": "Network failed",
@@ -111,7 +112,7 @@
         },
 		"invalid_email_address":"Invalid Email Address.",
 		"invalid_email_please_contact_your_HR":"Invalid email. Please contact your HR.",
-		"user_id_suspended": "Account Suspended <br> Your User ID has been suspended. Please contact your HR.",
+		"user_id_suspended": "Account Suspended",
 		"not_match":"Organisation ID/User ID/Password do not match.",
 		"invalid_one_of":"Invalid Organisation / User ID / Password"
     },
@@ -134,6 +135,11 @@
         },
         "txt": {
             "chpass": "Hello",
+            "location":"Location",
+            "latitude":"latitude",
+            "longitude":"longitude",
+            "altitude":"altitude",
+            "copy":"copy",
 			 "touch_again_to_exit": "Touch again to exit",
             "llogin": "Last login was on",
 			"about":"About",
@@ -172,11 +178,14 @@
 
     "myleave": {
 
+
+
 		"tt":"Leave",
 		"apply": {
             "tt": "Apply Leave",
             "ct": "Submit your leave application",
             "selectLeaveType": "Select Leave Type",
+             "selectBusinessTripCountry": "Business Trip Country",
 			"select_approving_officer": "Select Approving Officer",
             "selectExtent": "Select Apply Type",
             "applyleavesubmitted": "Application Submitted",
@@ -198,6 +207,12 @@
             "approvingOfficer": {
                 "tt": "Approving Officer"
             },
+             "businessTripCountry": {
+                  "tt": "Business Trip Country"
+              },
+               "courseAttended": {
+                   "tt": "Course Attended"
+               },
 
 			"notify_group":"Notify Group",
 			"block_lv":"Block Leave",
@@ -217,7 +232,8 @@
 				"to_is_less_than_from_date":"TO date is &quot;less than&quot; FROM date. Please change.",
 				"to_is_less_than_from_time":"TO time is &quot;less than or equal to&quot; FROM time. Please change.",
 				"from_is_equal_to_date":"FROM Date &quot;should be equal to&quot; TO Date. Please Change.",
-				"no_approving_officer":"No Approving Officer. Please contact your HR."
+				"no_approving_officer":"No Approving Officer. Please contact your HR.",
+				"buss_trip_ctry_course_valid":"Please Select A Business Trip Country"
 			}
 
         },
@@ -262,10 +278,11 @@
         },
         "plan": {
             "tt": "Leave Plan",
-			"ct":"View your team's leave application",
-			 "detail": "Detail",
-			 "taken": "Taken",
-			"applied": "Applied"
+			      "ct":"View your team's leave application",
+			      "detail": "Detail",
+			      "taken": "Taken",
+			      "applied": "Applied",
+			      "filter": "Filter"
         },
 
 
@@ -320,6 +337,7 @@
 		"receipt":"Receipt",
 		"date":"Date",
 		"coverage":"Coverage",
+		"balance":"Balance",
 		"total":"Total",
 		"batch_detail": "Batch Detail",
 		"validation":{
@@ -521,6 +539,7 @@
 	"myprofile": {
 		"tt":"My Profile",
 		"ct":"",
+		"comingSoon":"Coming soon",
 		"changePass":{
 			"tt":"Change Password",
 			"ct":"Never share your password to others",
@@ -563,17 +582,22 @@
 	"mytms": {
 		"tt":"My TMS",
 		"ct":"Work Schedule, Shifts and Roster",
+		"pleseSelectEmployee":"Plese Select Employee",
 		"rosterEnquiry":{
 			"tt":"Roster Enquiry",
 			"ct":"Check time in and time out for your shift"
 		},
 		"clockingsEnquiry":{
     			"tt":"Clockings Enquiry",
-    			"ct":"Check your clock in and clock out"
+    			"ct":"Check your clock in and clock out",
+    			"date":"Date",
+    			"time":"Time"
     		},
     "clockOnBehalf":{
           "tt":"Clock On Behalf",
-          "ct":"To clock in and clock out for Employees"
+          "ct":"To clock in and clock out for Employees",
+          "employee":"Employee"
+
         },
 		"mobileMacAddress":{
 			"tt":"Mobile MAC Address",

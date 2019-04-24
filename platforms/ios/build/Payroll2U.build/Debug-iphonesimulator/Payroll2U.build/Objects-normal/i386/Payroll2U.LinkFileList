@@ -17,11 +17,9 @@
 /Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/AppVersion.o
 /Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/APPBadge.o
 /Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/UIApplication+APPBadge.o
-/Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/FileOpener2.o
 /Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ImageResize.o
 /Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/NSData+Base64.o
 /Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/UIImage+Scale.o
-/Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVInAppBrowser.o
 /Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVConnection.o
 /Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVReachability.o
 /Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/Toast+UIView.o
@@ -39,3 +37,8 @@
 /Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/UIImage+CropScaleOrientation.o
 /Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVCamera.o
 /Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVJpegHeaderWriter.o
+/Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVClipboard.o
+/Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/SafariViewController.o
+/Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/FileOpener2.o
+/Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVInAppBrowser.o
+/Volumes/Data/Projects/Mobile/test2/platforms/ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/UniversalAnalyticsPlugin.o

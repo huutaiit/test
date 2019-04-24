@@ -9,11 +9,18 @@
 			 <div id="login"  class="scroll" >
 				<div id="form_login">
 					<div class="box_input">
-						<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input placeholder="{{lang.login.txt.organisation_id}}" type="text" ng-model="field.org" /></div>
+						<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input placeholder="{{lang.login.txt.organisation_id}}" ng-blur="checkLoginBySSO();$event.preventDefault();" type="text" ng-model="field.org" /></div>
 						<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input placeholder="{{lang.login.txt.user_id}}" type="text" ng-model="field.username" /></div>
 						<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input placeholder="{{lang.login.txt.password}}" type="password" ng-model="field.password" /></div>
 					</div>
-					<button id="sign_in" ng-click="login()" class="rippler rippler-default ui-btn">{{lang.login.txt.login}}</button>
+
+          <div class="box_sign_in">
+            <button id="sign_in" ng-if="SSO !='1'" ng-click="login()" class="rippler rippler-default ui-btn">{{lang.login.txt.login}}</button>
+            <button id="sign_in_sso" ng-if="SSO =='1'" ng-click="loginSSO()" class="rippler rippler-default ui-btn">{{lang.login.txt.login}} SSO</button>
+          </div>
+
+
+
 					<a class="link forgot_your_pass" ng-click="resetEmail()" modal="forgot" href="">{{lang.login.txt.forgot}}</a>
 				</div><!--end form_login-->
 				<div id="animal_logo">
@@ -59,7 +66,7 @@
 
 
 
-    <div class="modal-error-or-success" ng-show-modal-error="{{error.result}}" >
+    <div class="modal-error-or-success" ng-show-modal-error="{{checkShowModalError()}}">
 
     <div class="box_modal">
         <div class="title">
@@ -95,6 +102,9 @@
 
 </div>
 
+<!--<div ng-if="showLoginSSO" ng-bind-html='abc' style="width: 100%; height: 100%; position: absolute;top:0;left: 0;">-->
+
+<!--</div>-->
 
 
   <div class="overlay" close-modal></div>

@@ -36,6 +36,8 @@ App.registerCtrl('homeCtrl', function($scope,$rootScope,$http,$location,$timeout
     console.log(listLocation);
 
   })
+
+
   // get location
   navigator.geolocation.getCurrentPosition(function (position) {
       currentLocation = position.coords;
@@ -101,9 +103,11 @@ App.registerCtrl('homeCtrl', function($scope,$rootScope,$http,$location,$timeout
 
 				 };
 
+
 				 ProcessService.ajaxPost("Common/UpdateMobileToken",JSON.stringify(param)).then(function(result) {
 					 sessionStorage.setItem('checkRegistrationId', 1);
 				 })
+
 			});
 	  })
 	}
@@ -131,31 +135,72 @@ push.on('error', function(e) {
 		alert(result);
 	})*/
 
-	 $scope.MAC = {Photo_Url:""};
-	 $scope.MAC["uuid"] = device.uuid.toUpperCase();
-		if(device.platform=="Android"){
-			try {
-				if(window.wifi && window.wifi.lan){
-						$scope.MAC["MacAddress"]= window.wifi.lan.BSSID;
-				}
-				else{
-					 $scope.MAC["MacAddress"] = "";
-				}
-			} catch (e) {
-				$scope.MAC["MacAddress"] = "";
-			}
+	 $rootScope.MAC = {Photo_Url:""};
+	 $rootScope.MAC["uuid"] = device.uuid.toUpperCase();
+	 $scope.getMacAdd = function(){
+     if(device.platform=="Android"){
+       try {
+         if(window.wifi && window.wifi.lan){
+           $rootScope.MAC["MacAddress"]= window.wifi.lan.BSSID;
+         }
+         else{
+           $rootScope.MAC["MacAddress"] = "";
+         }
+       } catch (e) {
+         $rootScope.MAC["MacAddress"] = "";
+       }
 
-		}
-		else
-		{
-			WifiWizard.getCurrentBSSID(function(macAddress){
-				 $scope.MAC["MacAddress"] = macAddress;
-			}, function(error){
-				console.log(error);
-			});
-		}
+     }
+     else
+     {
+       WifiWizard.getCurrentBSSID(function(macAddress){
+         $rootScope.MAC["MacAddress"] = macAddress;
+       }, function(error){
+         console.log(error);
+       });
+     }
+   }
+
+   $scope.checkMenuActive = function(menuId){
+	   var result = false;
+	   for(var i=0;i<$rootScope.MenuMobile.length;i++){
+	     var item = $rootScope.MenuMobile[i];
+	     if(menuId==item.Lvl1_Id){
+         result =  true;
+         break;
+       }
+     }
+     return result;
+   }
+
+  $scope.getMacAdd();
+  document.addEventListener("online", function (evt) {
+      $scope.getMacAdd();
+  }, false);
+
 		cordova.getAppVersion.getVersionNumber(function (version) {
-    				 $scope.MAC["Version"] = version;
+    				 $rootScope.MAC["Version"] = version;
+      var param = {
+        version: $rootScope.MAC["Version"],
+        deviceType:device.platform
+      }
+
+      ProcessService.ajaxPost("Common/CheckVersion",JSON.stringify(param)).then(function(result) {
+        const data = JSON.parse(result.data);
+        if(data.Result){
+          $rootScope.confirm = {
+            result : true,
+            message : data.Message,
+            title:$rootScope.lang.general.confirm,
+            callBack : function() {
+              var nativeURL = device.platform=='Android'?"https://play.google.com/store/apps/details?id=com.payroll2u":"https://itunes.apple.com/us/app/payroll2u/id901475413?ls=1&mt=8";
+              window.open(encodeURI(nativeURL) , '_blank', 'location=no,EnableViewPortScale=yes');
+            },
+            //cancel:data.cancel
+          }
+        }
+        return;
+      })
 				});
      $scope.user =  $.jStorage.get("user");
 	  $scope.changeLanguage = function (idLang){
@@ -283,7 +328,7 @@ push.on('error', function(e) {
 							if(data.FileName!=""){
 
 								$scope.$apply(function() {
-									$scope.MAC["Photo_Url"] = data.FileName;
+									$rootScope.MAC["Photo_Url"] = data.FileName;
 									 $scope.submitTms();
 								})
 							}
@@ -336,7 +381,11 @@ push.on('error', function(e) {
 							 Connection: "close" // very important
 							};
 							options.chunkedMode = false;
-							ft.upload(result[0],$rootScope.GATEWAYURL+"/api/uploadfile/uploadfilephoto",win, fail,options);
+            ProcessService.resizeImage(500,result[0],function(rs){
+              ft.upload(rs,$rootScope.GATEWAYURL+"/api/uploadfile/uploadfilephoto",win, fail,options);
+             // console.log("rs",rs);
+            })
+
 
 
 						// cordova.plugins.camerapreview.hide();
@@ -349,7 +398,7 @@ push.on('error', function(e) {
 		}
 		else{
 			navigator.camera.getPicture(onPhotoDataSuccess,onFail,{
-					quality : 70,
+					quality : 50,
 					correctOrientation: true,
 					destinationType : destinationType.FILE_URI,
 					cameraDirection: 1
@@ -365,18 +414,17 @@ push.on('error', function(e) {
 		 var param = {
 
             RegisEMAC: 1,
-            EMac:  $scope.MAC.uuid,
-            APMac: $scope.MAC.MacAddress,
-			Photo_Url: $scope.MAC["Photo_Url"]
+            EMac:  $rootScope.MAC.uuid,
+            APMac: $rootScope.MAC.MacAddress,
+			Photo_Url: $rootScope.MAC["Photo_Url"]
         };
 
 
  		ProcessService.ajaxPost("MyTMSClockInOut/Submit",JSON.stringify(param)).then(function(result) {
 				data = JSON.parse(result.data);
-				console.log(data);
-				$scope.MAC["Photo_Url"] = "";
+				$rootScope.MAC["Photo_Url"] = "";
 				if(data.Message==true){
-					if($scope.MAC["Photo_Url"] != ""){
+					if($rootScope.MAC["Photo_Url"] != ""){
 						window.plugins.toast.showShortBottom($rootScope.lang.main.txt.image_saved);
 					}
 					if($scope.RegisEMAC==1){

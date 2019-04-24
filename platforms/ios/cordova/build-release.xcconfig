@@ -25,3 +25,4 @@
 
 CODE_SIGN_IDENTITY = iPhone Distribution
 CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Distribution
+#include "Pods/Target Support Files/Pods-Payroll2U/Pods-Payroll2U.release.xcconfig"

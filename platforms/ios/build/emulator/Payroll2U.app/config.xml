@@ -1,13 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-packageName="com.payroll2u" android-versionCode="10414" id="com.payroll2u" ios-CFBundleIdentifier="com.Payroll2U" ios-CFBundleVersion="5.7" version="5.7" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-packageName="com.payroll2u" android-versionCode="10425" id="com.payroll2u" ios-CFBundleIdentifier="com.Payroll2U" ios-CFBundleVersion="6.2.4" version="6.2.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
     <feature name="MacAddressPlugin">
         <param name="ios-package" value="MacAddressPlugin" />
-    </feature>
-    <feature name="CameraPreview">
-        <param name="ios-package" onload="true" value="CameraPreview" />
     </feature>
     <feature name="WifiWizard">
         <param name="ios-package" value="NXWWifiWizard" />
@@ -21,14 +29,8 @@
     <feature name="Badge">
         <param name="ios-package" value="APPBadge" />
     </feature>
-    <feature name="FileOpener2">
-        <param name="ios-package" value="FileOpener2" />
-    </feature>
     <feature name="ImageResizePlugin">
         <param name="ios-package" value="ImageResize" />
-    </feature>
-    <feature name="InAppBrowser">
-        <param name="ios-package" value="CDVInAppBrowser" />
     </feature>
     <feature name="NetworkStatus">
         <param name="ios-package" value="CDVConnection" />
@@ -58,6 +60,47 @@
     <feature name="Camera">
         <param name="ios-package" value="CDVCamera" />
     </feature>
+    <preference name="CameraUsesGeolocation" value="false" />
+    <feature name="Clipboard">
+        <param name="ios-package" value="CDVClipboard" />
+    </feature>
+    <feature name="SafariViewController">
+        <param name="ios-package" value="SafariViewController" />
+    </feature>
+    <feature name="FileOpener2">
+        <param name="ios-package" value="FileOpener2" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
+    <feature name="UniversalAnalytics">
+        <param name="ios-package" value="UniversalAnalyticsPlugin" />
+    </feature>
+    <feature name="FirebaseAnalytics">
+        <param name="ios-package" value="FirebaseAnalyticsPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <resource-file src="GoogleService-Info.plist" />
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+    <icon height="57" src="www/images/ios/57.png" width="57" />
+    <icon height="114" src="www/images/ios/114.png" width="114" />
+    <icon height="40" src="www/images/ios/40.png" width="40" />
+    <icon height="80" src="www/images/ios/80.png" width="80" />
+    <icon height="50" src="www/images/ios/50.png" width="50" />
+    <icon height="100" src="www/images/ios/100.png" width="100" />
+    <icon height="60" src="www/images/ios/60.png" width="60" />
+    <icon height="120" src="www/images/ios/120.png" width="120" />
+    <icon height="180" src="www/images/ios/180.png" width="180" />
+    <icon height="72" src="www/images/ios/72.png" width="72" />
+    <icon height="144" src="www/images/ios/144.png" width="144" />
+    <icon height="76" src="www/images/ios/76.png" width="76" />
+    <icon height="152" src="www/images/ios/152.png" width="152" />
+    <icon height="167" src="www/images/ios/167.png" width="167" />
+    <icon height="29" src="www/images/ios/29.png" width="29" />
+    <icon height="58" src="www/images/ios/58.png" width="58" />
+    <icon height="87" src="www/images/ios/87.png" width="87" />
+    <icon height="1024" src="www/images/ios/1024.png" width="1024" />
     <name>Payroll2U</name>
     <description>
        We provide payroll services and technology in Asian
@@ -66,8 +109,11 @@
         Payroll2U Team
     </author>
     <content src="index.html#Login" />
+    <preference name="loadUrlTimeoutValue" value="99999999" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
     <access origin="*" />
-    <allow-navigation href="http://*/*" />
+    <allow-navigation href="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -88,37 +134,4 @@
     <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryAddUsageDescription">
         <string>need to photo library access to save pictures there</string>
     </edit-config>
-    <allow-intent href="itms:*" />
-    <allow-intent href="itms-apps:*" />
-    <icon height="57" src="www/images/ios/57.png" width="57" />
-    <icon height="114" src="www/images/ios/114.png" width="114" />
-    <icon height="40" src="www/images/ios/40.png" width="40" />
-    <icon height="80" src="www/images/ios/80.png" width="80" />
-    <icon height="50" src="www/images/ios/50.png" width="50" />
-    <icon height="100" src="www/images/ios/100.png" width="100" />
-    <icon height="60" src="www/images/ios/60.png" width="60" />
-    <icon height="120" src="www/images/ios/120.png" width="120" />
-    <icon height="180" src="www/images/ios/180.png" width="180" />
-    <icon height="72" src="www/images/ios/72.png" width="72" />
-    <icon height="144" src="www/images/ios/144.png" width="144" />
-    <icon height="76" src="www/images/ios/76.png" width="76" />
-    <icon height="152" src="www/images/ios/152.png" width="152" />
-    <icon height="167" src="www/images/ios/167.png" width="167" />
-    <icon height="29" src="www/images/ios/29.png" width="29" />
-    <icon height="58" src="www/images/ios/58.png" width="58" />
-    <icon height="87" src="www/images/ios/87.png" width="87" />
-    <preference name="AllowInlineMediaPlayback" value="false" />
-    <preference name="BackupWebStorage" value="cloud" />
-    <preference name="DisallowOverscroll" value="true" />
-    <preference name="EnableViewportScale" value="false" />
-    <preference name="KeyboardDisplayRequiresUserAction" value="false" />
-    <preference name="MediaPlaybackRequiresUserAction" value="false" />
-    <preference name="SuppressesIncrementalRendering" value="false" />
-    <preference name="GapBetweenPages" value="0" />
-    <preference name="PageLength" value="0" />
-    <preference name="PaginationBreakingMode" value="page" />
-    <preference name="PaginationMode" value="unpaginated" />
-    <preference name="CameraUsesGeolocation" value="false" />
-    <preference name="orientation" value="portrait" />
-    <preference name="loadUrlTimeoutValue" value="99999999" />
 </widget>

@@ -1,14 +1,19 @@
 {
-    "ImageIO.framework": 2,
-    "CoreLocation.framework": 2,
-    "CoreImage.framework": 1,
-    "OpenGLES.framework": 1,
-    "GLKit.framework": 1,
-    "CoreVideo.framework": 1,
+    "ImageIO.framework": 3,
+    "CoreLocation.framework": 3,
+    "CoreImage.framework": 3,
+    "OpenGLES.framework": 3,
+    "GLKit.framework": 3,
+    "CoreVideo.framework": 3,
     "SystemConfiguration.framework": 2,
     "AVFoundation.framework": 2,
-    "QuartzCore.framework": 1,
+    "QuartzCore.framework": 3,
     "AddressBook.framework": 1,
     "libsqlite3.tbd": 1,
-    "libz.tbd": 1
+    "libz.tbd": 1,
+    "SafariServices.framework": 1,
+    "CoreData.framework": 2,
+    "AdSupport.framework": 2,
+    "libz.dylib": 2,
+    "libsqlite3.dylib": 2
 }

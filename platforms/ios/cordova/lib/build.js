@@ -51,7 +51,7 @@ module.exports.run = function (argv) {
     }).then(function (projectName) {
         var configuration = args.release ? 'Release' : 'Debug';
 
-        console.log('Building project  : ' + path.join(projectPath, projectName + '.xcodeproj'));
+        console.log('Building project  : ' + path.join(projectPath, projectName + '.xcworkspace'));
         console.log('\tConfiguration : ' + configuration);
         console.log('\tPlatform      : ' + (args.device ? 'device' : 'emulator'));
 
@@ -68,18 +68,18 @@ module.exports.run = function (argv) {
 function findXCodeProjectIn(projectPath) {
     // 'Searching for Xcode project in ' + projectPath);
     var xcodeProjFiles = shell.ls(projectPath).filter(function (name) {
-        return path.extname(name) === '.xcodeproj';
+        return path.extname(name) === '.xcworkspace';
     });
     
     if (xcodeProjFiles.length === 0) {
         return Q.reject('No Xcode project found in ' + projectPath);
     }
     if (xcodeProjFiles.length > 1) {
-        console.warn('Found multiple .xcodeproj directories in \n' +
+        console.warn('Found multiple .xcworkspace directories in \n' +
             projectPath + '\nUsing first one');
     }
 
-    var projectName = path.basename(xcodeProjFiles[0], '.xcodeproj');
+    var projectName = path.basename(xcodeProjFiles[0], '.xcworkspace');
     return Q.resolve(projectName);
 }
 
@@ -98,9 +98,9 @@ function getXcodeArgs(projectName, projectPath, configuration, isDevice) {
     if (isDevice) {
         xcodebuildArgs = [
             '-xcconfig', path.join(__dirname, '..', 'build-' + configuration.toLowerCase() + '.xcconfig'),
-            '-project', projectName + '.xcodeproj',
+            '-workspace', projectName + '.xcworkspace',
             'ARCHS=armv7 armv7s arm64',
-            '-target', projectName,
+            '-scheme', projectName,
             '-configuration', configuration,
             '-sdk', 'iphoneos',
             'build',
@@ -111,9 +111,9 @@ function getXcodeArgs(projectName, projectPath, configuration, isDevice) {
     } else { // emulator
         xcodebuildArgs = [
             '-xcconfig', path.join(__dirname, '..', 'build-' + configuration.toLowerCase() + '.xcconfig'),
-            '-project', projectName + '.xcodeproj',
+            '-workspace', projectName + '.xcworkspace',
             'ARCHS=i386',
-            '-target', projectName ,
+            '-scheme', projectName,
             '-configuration', configuration,
             '-sdk', 'iphonesimulator',
             'build',

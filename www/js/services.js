@@ -13,6 +13,8 @@ App.service('DateTimeService',["$rootScope", function($rootScope) {
     };
 
 	this.parseDate = function(str) {
+	  if(!str)
+	    return null;
 			var mdy = str.split('/')
 			return new Date(mdy[2], mdy[1] - 1, mdy[0]);
 	}
@@ -219,7 +221,17 @@ Date.prototype.format = function (mask, utc) {
 }]);
 App.service('ProcessService', function( $http,$timeout,$q,$location,$rootScope) {
 
-
+  this.getHTML = function (url) {
+    return $http({
+      url:url,
+      method: "GET",
+      timeout:60000,
+      headers: {'Content-Type': 'application/html; charset=utf-8'}
+    })
+      .success(function(result) {
+        return result;
+      })
+  }
 	this.ajaxPost = function(url,param){
 
 			$(".loading").css({"display":"table"});
@@ -269,6 +281,27 @@ App.service('ProcessService', function( $http,$timeout,$q,$location,$rootScope) 
 
 
     }
+
+
+
+  this.ajaxPost2 = function(url,param){
+
+
+    return $http({
+      url: $rootScope.GATEWAYURL+"api/"+url,
+      method: "POST",
+      data :  param ,
+      timeout:300000,
+      headers: {'Content-Type': 'application/json; charset=utf-8'}
+    })
+      .success(function(result) {
+        data = JSON.parse(result);
+        return result;
+      })
+      .error(function(result, status,headers) {
+        return result;
+      });
+  }
 
 
 

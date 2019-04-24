@@ -1,11 +1,34 @@
-App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http,ProcessService,DateTimeService)
+App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,ProcessService,DateTimeService)
 {
 	var temp = false;
+  $scope.field = {};
 	$scope.PrivateImgFrog =  $.jStorage.get("PrivateImgFrog")!=null?$.jStorage.get("PrivateImgFrog"):"images/n_animal_logo.png";
-	 loginField =  $.jStorage.get("loginField");
+  $scope.checkLoginBySSO = function(){
+    if($scope.checkedSSO == true){
+      return;
+    }
+    var params = {
+      OrgName:$scope.field.org
+    }
+    $scope.SSO = 0;
+    ProcessService.ajaxPost("login/GetSSO",params).then(function(result) {
+      $scope.field.SSO_url = null;
+      $scope.field.SSO_Token = null;
+      var data = JSON.parse(result.data);
+      $scope.field.SSO_url = data.data.SSO_url;
+      $scope.field.SSO_Token = data.data.SSO_Token;
+      $scope.SSO = data.data.SSO;
+    })
+    $scope.checkedSSO = true;
+    setTimeout(function () {
+      $scope.checkedSSO = false;
+    },5000)
+  }
+	 var loginField =  $.jStorage.get("loginField");
 	 if(loginField!=null){
 		   $scope.field = loginField;
-		    $scope.field["password"] = ""
+		    $scope.field["password"] = "";
+      $scope.checkLoginBySSO();
 	 }
 	 $.jStorage.deleteKey("user");
 	 $.jStorage.deleteKey("MenuMobile");
@@ -101,10 +124,16 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http,Process
 	   return true;
    }
 
+   $scope.checkShowModalError = function(){
+     if($rootScope.error && $rootScope.error.result && $rootScope.error.message)
+       return "true";
+     return "false";
+   }
+
    $scope.checkValidateLogin = function(){
 
 
-	   if($scope.field.org == ''){
+	   if(!$scope.field.org){
 			$rootScope.error = {
 				result : true,
 				message : $rootScope.lang.general.please_enter + " " + $rootScope.lang.login.txt.org
@@ -112,7 +141,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http,Process
 			return false;
 	   }
 
-	   if($scope.field.username == ''){
+	   if(!$scope.field.username){
 			$rootScope.error = {
 				result : true,
 				message : $rootScope.lang.general.please_enter + " " + $rootScope.lang.login.txt.your_user_id
@@ -120,7 +149,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http,Process
 			return false;
 	   }
 
-	   if($scope.field.password == ''){
+	   if(!$scope.field.password){
 			$rootScope.error = {
 				result : true,
 				message : $rootScope.lang.general.please_enter + " " + $rootScope.lang.login.txt.your_password
@@ -204,7 +233,6 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http,Process
 
 
 		  var objectData = JSON.parse(result.data);
-      console.log(objectData);
 		  var param = {
 				OrgName:  $scope.field["org"],
 				UserId:   $scope.field.username,
@@ -287,7 +315,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http,Process
 						//console.log(objectData);
 
 						sessionStorage.setItem('TMS_Photo', objectData.TMS_Photo);
-
+            console.log("objectData.MenuMobile",objectData.MenuMobile)
 						$.jStorage.set("MenuMobile",objectData.MenuMobile);
 						 $scope.field.email = "";// reset null email in field
 						  $scope.field.password = "";// reset null password in field
@@ -317,6 +345,12 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http,Process
 	  						})
 
 					break;
+          default:
+            $rootScope.error = {
+              result : true,
+              message : objectData.Message
+            };
+            break;
 
 				}
 		  }
@@ -324,4 +358,174 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http,Process
 
    }
 
+  $scope.loginSSO = function(){
+   // cordova.plugins.Keyboard.close();
+    if($scope.field.org == ''){
+      $rootScope.error = {
+        result : true,
+        message : $rootScope.lang.general.please_enter + " " + $rootScope.lang.login.txt.org
+      };
+      return false;
+    }
+    var param = {
+      OrgName:$scope.field.org,
+      // UserId: $scope.field.username,
+      // Password: $scope.field.password,
+      SSO_Token:$scope.field.SSO_Token,
+    }
+    ProcessService.ajaxPost2("login/CheckLoginBySSO",param).then(function(result) {
+      cordova.plugins.Keyboard.close();
+      if(device.platform=="Android"){
+        myWindow.close();
+      }
+      else{
+        SafariViewController.hide();
+      }
+        var objectData = JSON.parse(result.data);
+        console.log(objectData);
+        if(objectData.Error == true){
+          $rootScope.error = {
+            result : true,
+            message : $rootScope.lang.login.invalid_one_of
+          };
+
+          return false;
+        }
+        else{
+
+          switch(objectData.Message) {
+            //Login first time - user must be change pass
+            case "OK1T":
+
+              var infoLogin = {
+                OrgName:objectData.OrgName,
+                UserId:objectData.Userid,
+              }
+              infoLogin = JSON.stringify(infoLogin);
+
+              sessionStorage.setItem('infoLogin', infoLogin);
+              $.jStorage.set("MenuMobile",null);
+              $rootScope.MenuMobile  =  $.jStorage.get("MenuMobile");
+
+              sessionStorage.setItem('rulePass', JSON.stringify(objectData.MainctrlData));
+              $rootScope.positionMenu = 0; //possion menu
+              $rootScope.noPrev=0;// reset top menu
+
+              if(objectData.Last_Login!=null){
+                var milli = objectData.Last_Login.replace(/\/Date\((-?\d+)\)\//, '$1');
+                var date = new Date(parseInt(milli));
+                var datetype = objectData.Date_Fmt=="1" ? "mediumDate": objectData.Date_Fmt=="2" ? "mediumDate2":"mediumDate3";
+                date = DateTimeService.dateFormat(date,datetype);
+              }
+              else{
+                date = null;
+              }
+              var user = {"Last_Login":date,"FullName":objectData.FullName,First_Ctry:objectData.First_Ctry};
+              $.jStorage.set("user",user);
+
+              $location.path("/profileChangePass");
+              break;
+
+            //Userid is suppended
+            case "NOKS":
+              $rootScope.error = {
+                result : true,
+                message : $rootScope.lang.login.user_id_suspended
+              };
+
+              break;
+
+            //Organisation/user/password not match
+            case "NOK":
+              $rootScope.error = {
+                result : true,
+                message : $rootScope.lang.login.not_match
+              };
+
+              break;
+            // suscess
+            case "OK":
+              var infoLogin = {
+                OrgName:objectData.OrgName,
+                UserId:objectData.Userid,
+                Ctry: objectData.Ctry
+              }
+              infoLogin = JSON.stringify(infoLogin);
+              sessionStorage.setItem('infoLogin', infoLogin);
+              sessionStorage.setItem('GeneralResource', JSON.stringify(objectData.Resource));
+              sessionStorage.setItem('rulePass', JSON.stringify(objectData.MainctrlData));
+
+              //console.log(objectData);
+
+              sessionStorage.setItem('TMS_Photo', objectData.TMS_Photo);
+
+              $.jStorage.set("MenuMobile",objectData.MenuMobile);
+              $scope.field.email = "";// reset null email in field
+              $scope.field.password = "";// reset null password in field
+              $.jStorage.set("loginField", $scope.field);
+              var milli = objectData.Last_Login.replace(/\/Date\((-?\d+)\)\//, '$1');
+              var date = new Date(parseInt(milli));
+
+
+              var datetype = objectData.Date_Fmt=="1" ? "mediumDate": objectData.Date_Fmt=="2" ? "mediumDate2":"mediumDate3";
+              date = DateTimeService.dateFormat(date,datetype);
+
+              user = {"Last_Login":date,"FullName":objectData.FullName,First_Ctry:objectData.First_Ctry};
+              $.jStorage.set("user",user);
+
+              ProcessService.ajaxGetLocalSite($rootScope.GATEWAYURL+"resource/lang/lang"+objectData.Language+".txt")
+                .then(function(result) {
+
+                  $.jStorage.set("lang",result.data);
+                  $rootScope.lang =  $.jStorage.get("lang");
+                  DateTimeService.resetInternationalizationStrings();
+                  $rootScope.MenuMobile =  $.jStorage.get("MenuMobile");
+                  $rootScope.processMenu();
+                  sessionStorage.setItem('checkRegistrationId',0); // check to update token for notification
+                  $scope.goURL('Home');
+
+
+                })
+
+              break;
+
+            default:
+              $rootScope.error = {
+                result : true,
+                message : objectData.Message
+              };
+              break;
+
+          }
+        }
+
+
+
+    });
+    if(device.platform=="Android"){
+      var myWindow = window.open($scope.field.SSO_url, '_blank');
+    }
+    else {
+      SafariViewController.show({
+        url: $scope.field.SSO_url,
+        hidden: false, // default false. You can use this to load cookies etc in the background (see issue #1 for details).
+        animated: false, // default true, note that 'hide' will reuse this preference (the 'Done' button will always animate though)
+        transition: 'curl', // (this only works in iOS 9.1/9.2 and lower) unless animated is false you can choose from: curl, flip, fade, slide (default)
+        // enterReaderModeIfAvailable: readerMode, // default false
+        tintColor: "#00ffff", // default is ios blue
+        barColor: "#0000ff", // on iOS 10+ you can change the background color as well
+        controlTintColor: "#ffffff" // on iOS 10+ you can override the default tintColor
+      })
+    }
+   // var myWindow = cordova.InAppBrowser.open($scope.field.SSO_url, '_blank');// window.open($scope.field.SSO_url, '_self'); //
+    // console.log("myWindow",myWindow)
+    // setTimeout(function () {
+    //   $(".loading").css({"display":"none"});
+    //   $(".overlay-load").hide();
+    // },3000)
+    $scope.showLoginSSO = true;
+   // $scope.SSO_url = $sce.trustAsResourceUrl($scope.field.SSO_url);
+  }
+
 });
+

@@ -22,3 +22,4 @@
 //
 
 #include "build.xcconfig"
+#include "Pods/Target Support Files/Pods-Payroll2U/Pods-Payroll2U.debug.xcconfig"

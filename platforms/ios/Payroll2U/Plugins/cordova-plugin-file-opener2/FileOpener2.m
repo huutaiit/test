@@ -32,53 +32,77 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 - (void) open: (CDVInvokedUrlCommand*)command {
 
     NSString *path = [[command.arguments objectAtIndex:0] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    //NSString *uti = [command.arguments objectAtIndex:1];
+	NSString *contentType = nil;
+	BOOL showPreview = YES;
 
-    CDVViewController* cont = (CDVViewController*)[ super viewController ];
+	if([command.arguments count] == 2) { // Includes contentType
+		contentType = [command.arguments objectAtIndex:1];
+	}
 
-    NSArray *dotParts = [path componentsSeparatedByString:@"."];
-    NSString *fileExt = [dotParts lastObject];
-	//NSString *fileExt = [[dotparts lastObject] stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+	if ([command.arguments count] == 3) {
+		showPreview = [[command.arguments objectAtIndex:2] boolValue];
+	}
+
+	CDVViewController* cont = (CDVViewController*)[super viewController];
+	self.cdvViewController = cont;
+
+	NSArray *dotParts = [path componentsSeparatedByString:@"."];
+	NSString *fileExt = [dotParts lastObject];
 
 	NSString *uti = (__bridge NSString *)UTTypeCreatePreferredIdentifierForTag(kUTTagClassFilenameExtension, (__bridge CFStringRef)fileExt, NULL);
 
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        //NSLog(@"path %@, uti:%@", path, uti);
-        NSURL *fileURL = nil;
+	dispatch_async(dispatch_get_main_queue(), ^{
+		NSURL *fileURL = [NSURL URLWithString:path];
 
-        //fileURL = [NSURL URLWithString:path];
-        fileURL = [NSURL URLWithString:path];
-        //NSLog(@"%@",fileURL);
-        localFile = fileURL.path;
+		localFile = fileURL.path;
 
-        dispatch_async(dispatch_get_main_queue(), ^{
+	    NSLog(@"looking for file at %@", fileURL);
+	    NSFileManager *fm = [NSFileManager defaultManager];
+	    if(![fm fileExistsAtPath:localFile]) {
+	    	NSDictionary *jsonObj = @{@"status" : @"9",
+	    	@"message" : @"File does not exist"};
+	    	CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsDictionary:jsonObj];
+	      	[self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+	      	return;
+    	}
 
-            docController = [UIDocumentInteractionController  interactionControllerWithURL:fileURL];
-            docController.delegate = self;
-            docController.UTI = uti;
+		docController = [UIDocumentInteractionController  interactionControllerWithURL:fileURL];
+		docController.delegate = self;
+		docController.UTI = uti;
 
-            CGRect rect = CGRectMake(0, 0, 1000.0f, 150.0f);
-            CDVPluginResult* pluginResult = nil;
-            BOOL wasOpened = [docController presentOptionsMenuFromRect:rect inView:cont.view animated:NO];
-            //presentOptionsMenuFromRect
-            //presentOpenInMenuFromRect
+		CDVPluginResult* pluginResult = nil;
 
-            if(wasOpened) {
-                pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString: @""];
-                //NSLog(@"Success");
-            } else {
-                NSDictionary *jsonObj = [ [NSDictionary alloc]
-                                         initWithObjectsAndKeys :
-                                         @"9", @"status",
-                                         @"Could not handle UTI", @"message",
-                                         nil
-                                         ];
-                pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsDictionary:jsonObj];
-                //NSLog(@"Could not handle UTI");
-            }
-            [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
-        });
-    });
+		//Opens the file preview
+		BOOL wasOpened = NO;
+
+		if (showPreview) {
+			wasOpened = [docController presentPreviewAnimated: NO];
+		} else {
+			CDVViewController* cont = self.cdvViewController;
+			CGRect rect = CGRectMake(0, 0, cont.view.bounds.size.width, cont.view.bounds.size.height);
+			wasOpened = [docController presentOpenInMenuFromRect:rect inView:cont.view animated:YES];
+		}
+
+		if(wasOpened) {
+			pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString: @""];
+			//NSLog(@"Success");
+		} else {
+			NSDictionary *jsonObj = [ [NSDictionary alloc]
+				initWithObjectsAndKeys :
+				@"9", @"status",
+				@"Could not handle UTI", @"message",
+				nil
+			];
+			pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsDictionary:jsonObj];
+		}
+		[self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+	});
 }
 
+@end
+
+@implementation FileOpener2 (UIDocumentInteractionControllerDelegate)
+	- (UIViewController *)documentInteractionControllerViewControllerForPreview:(UIDocumentInteractionController *)controller {
+		return self.cdvViewController;
+	}
 @end

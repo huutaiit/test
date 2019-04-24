@@ -28,20 +28,20 @@
                         </div>
                         <div class="clear"></div>
                     </li>
-                        <li class="menu myleave background-494aa7 " >
-                            <a class="rippler rippler-inverse" ripper ng-click="goURL('myLeave')">
+                        <li class="menu myleave background-494aa7 "  ng-class="{'background-disable': !checkMenuActive(698) }" >
+                            <a class="rippler rippler-inverse" ripper ng-click="checkMenuActive(698)?goURL('myLeave'):return;">
                                 <img src="images/icon_my_leave.png" />
                                 <p class="text" style="margin-left:10px;">{{lang.main.btn.myleave}}</p>
                             </a>
                         </li>
-                        <li class="menu myprofile background-942e91" >
-                            <a class="rippler rippler-inverse" ripper  ng-click="goURL('myProfile')">
+                        <li class="menu myprofile background-942e91" ng-class="{'background-disable': !checkMenuActive(681) }" >
+                            <a class="rippler rippler-inverse" ripper  ng-click="checkMenuActive(681)?goURL('myProfile'):return;">
                                 <p class="text" style="margin-right:10px;">{{lang.main.btn.myprofile}}</p>
                                 <img src="images/n_ss_my_profile.png" />
                             </a>
                         </li>
-                        <li class="menu myclaim background-669933" >
-                            <a class="rippler rippler-inverse" ripper ng-click="goURL('myClaims')">
+                        <li class="menu myclaim background-669933" ng-class="{'background-disable': !checkMenuActive(707) }">
+                            <a class="rippler rippler-inverse" ripper ng-click="checkMenuActive(707)?goURL('myClaims'):return;">
                                 <img src="images/n_ss_my_claim.png" />
                                 <p class="text"  style="margin-left:10px;">{{lang.main.btn.myclaim}}</p>
                             </a>
@@ -69,15 +69,15 @@
                         </ul>
                     </div><!--end full-width-->
 
-                    <div class="full-width block mypayroll background-de1e39">
-                        <a ng-click="goURL('myPayroll')" class="rippler rippler-inverse h100" ripper>
-                            <img src="images/n_ss_my_payroll.png"  />
+                    <div class="full-width block mypayroll background-de1e39" ng-class="{'background-disable': !checkMenuActive(689) }">
+                        <a ng-click="checkMenuActive(689)?goURL('myPayroll'):return;" class="rippler rippler-inverse h100" ripper>
+                            <img src="images/n_ss_my_payroll.png" />
                             <p class="text">{{lang.main.btn.mypayroll}}</p>
                         </a>
                     </div>
 
-                    <div class="full-width block mytms background-ff6600">
-                        <a ng-click="goURL('myTms')" class="rippler rippler-inverse h100" ripper>
+                    <div class="full-width block mytms background-ff6600" ng-class="{'background-disable': !checkMenuActive(732) }">
+                        <a ng-click="checkMenuActive(732)?goURL('myTms'):return;" class="rippler rippler-inverse h100" ripper>
                             <img src="images/n_ss_my_tms.png" />
                             <p class="text">{{lang.main.btn.mytms}}</p>
                         </a>
@@ -111,6 +111,8 @@
                 <p>{{lang.main.txt.uuid}}: <span style="text-transform:uppercase;">{{MAC.uuid}}</span></p>
                 <p>{{lang.main.txt.apmac}}: <span style="text-transform:uppercase;">{{MAC.MacAddress}}</span></p>
                 <p>{{lang.main.txt.website}}</p>
+            <p>{{lang.main.txt.location}}: <span>{{lang.main.txt.latitude}}:{{posLocation.latitude}},{{lang.main.txt.longitude}}:{{posLocation.longitude}},{{lang.main.txt.altitude}}:{{posLocation.altitude}}</span> <span ng-click="copyToClipboard();">{{lang.main.txt.copy}}</span></p>
+
         </div>
 
 </div><!--end modal-->

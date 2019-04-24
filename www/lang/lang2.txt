@@ -12,6 +12,7 @@
 		 "applications":"应用中",
 		 "error":"错误",
 		 "successful":"成功",
+		 "confirm":"Confirm",
 		 "alert":"警报",
 		 "not_entitled_to": "无权限",
 		 "network_failed": "网络故障",
@@ -174,6 +175,7 @@
             "tt": "申请休假",
             "ct": "提交休假申请",
             "selectLeaveType": "选择休假类型",
+             "selectBusinessTripCountry": "Business Trip Country",
 			"select_approving_officer": "选择休假审批人",
             "selectExtent": "选择休假日期",
             "applyleavesubmitted": "申请已提交",
@@ -195,6 +197,12 @@
             "approvingOfficer": {
                 "tt": "休假审批人"
             },
+            "businessTripCountry": {
+               "tt": "Business Trip Country"
+            },
+            "courseAttended": {
+               "tt": "Course Attended"
+            },
 
 			"notify_group":"通知群组",
 			"block_lv":"块离开",
@@ -215,7 +223,8 @@
 				"to_is_less_than_from_date":"结束日期小于开始日期",
 				"to_is_less_than_from_time":"结束日期小于或等于开始日期",
 				"from_is_equal_to_date":"开始日期必须与结束日期相同",
-				"no_approving_officer":"无休假审批人。请与人力资源部门联系"
+				"no_approving_officer":"无休假审批人。请与人力资源部门联系",
+				"buss_trip_ctry_course_valid":"Please Select A Business Trip Country"
 
 
 			}
