@@ -110,7 +110,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		XCTV7Z8oGne4dJfv8GMS2w/krSI=
+		aLfKY92inm05fYjwEAAQU+46744=
 		</data>
 		<key>Default-568h@2x~iphone.png</key>
 		<data>
@@ -154,15 +154,15 @@
 		</data>
 		<key>ELCAlbumPickerController.nib</key>
 		<data>
-		+WjhaUGbgSpmy99SYDEa1stak9w=
+		LwNFCkKhKla7ufJNhQ2FCHThSWE=
 		</data>
 		<key>ELCAssetPicker.nib</key>
 		<data>
-		CFL/CYwHjgQxnEARqN1z3iPcYWQ=
+		wfYWMKStXaDG2807cRuevbsawyo=
 		</data>
 		<key>ELCAssetTablePicker.nib</key>
 		<data>
-		si5CfuPu8WaNn3o+q486g6ufLu0=
+		62PA5ewlMimrK/Orr/otm0/1B84=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		j86C0mfatolB6Msv0YYgBq48jGQ=
+		nwN/+G/fkGOBXJE6ptFoXX/W5UY=
 		</data>
 		<key>LaunchImage-700-568h@2x.png</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		H2mf3vIidb0vl2YZXF280k5oLFE=
+		EHvLSGQjM4DrzgaoyHe2GrJxF9M=
 		</data>
 		<key>Overlay.png</key>
 		<data>
@@ -1218,7 +1218,7 @@
 		</data>
 		<key>www/js/config.js</key>
 		<data>
-		bZAZEPhnPtwfCH6+vG4JIEobVEA=
+		OUH2KMy24lc9mzWfneAhyzaLQRc=
 		</data>
 		<key>www/js/controllers/home.js</key>
 		<data>
@@ -1234,7 +1234,7 @@
 		</data>
 		<key>www/js/controllers/myClaim.js</key>
 		<data>
-		lMEq3bhqz4JU4t0suBXMhVvwsfg=
+		ZxNiWIyGnHzPfL+4/42006pMNiI=
 		</data>
 		<key>www/js/controllers/myLeave.js</key>
 		<data>
@@ -1298,7 +1298,7 @@
 		</data>
 		<key>www/js/run.js</key>
 		<data>
-		LG3hgKv1YVXBhZKxuvvut0GGKmw=
+		SSBdfah0lfiR0VMhaBjMJWegZmo=
 		</data>
 		<key>www/js/services.js</key>
 		<data>
@@ -1718,7 +1718,15 @@
 		</data>
 		<key>www/templates/claim-request-for-payment.html</key>
 		<data>
-		RczsOPzhvbJtM5UZv/5vV/gRRAA=
+		24RTKYELaUtx1zLlawk/4QqbqkA=
+		</data>
+		<key>www/templates/claim-travel-request-approval.html</key>
+		<data>
+		mk91ZOFgwD2vTfeRQoylfZong4M=
+		</data>
+		<key>www/templates/claim-travel-request.html</key>
+		<data>
+		V0sz8KCrpCPd9VlGTCsjgMGVnlk=
 		</data>
 		<key>www/templates/date-picker.html</key>
 		<data>
@@ -1794,7 +1802,7 @@
 		</data>
 		<key>www/templates/my-claims.html</key>
 		<data>
-		qt01boAuASQAOtgha8eOfqLxWvo=
+		SstaJdSqKclIQ68u3MMbgRymCSI=
 		</data>
 		<key>www/templates/my-leave.html</key>
 		<data>
@@ -2177,11 +2185,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XCTV7Z8oGne4dJfv8GMS2w/krSI=
+			aLfKY92inm05fYjwEAAQU+46744=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hx+KQORdejo/Y/w+GT4B4k8UHzoYQ837tSlSCX0erWU=
+			mWDYDNOXBCB1Iiqa8UsedjgN0i0239Pmg5u27Z1EPJU=
 			</data>
 		</dict>
 		<key>Default-568h@2x~iphone.png</key>
@@ -2298,33 +2306,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+WjhaUGbgSpmy99SYDEa1stak9w=
+			LwNFCkKhKla7ufJNhQ2FCHThSWE=
 			</data>
 			<key>hash2</key>
 			<data>
-			v2+Aq4JIdSGTAM5EqPlm+HEXCFohiK34vLP6IAqGiBo=
+			ja38kelOlkt/ZL/JUPWCCAMIb1c7CMmi51cnaesi2KY=
 			</data>
 		</dict>
 		<key>ELCAssetPicker.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CFL/CYwHjgQxnEARqN1z3iPcYWQ=
+			wfYWMKStXaDG2807cRuevbsawyo=
 			</data>
 			<key>hash2</key>
 			<data>
-			6taO2l29YQ0jKrOWl8/XTKDxOOSbgIyCFytEuN4WWpQ=
+			BbPvoo8h+iWJBkHlLffqT5I1+IOmFvHphc9H6qbeRY0=
 			</data>
 		</dict>
 		<key>ELCAssetTablePicker.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			si5CfuPu8WaNn3o+q486g6ufLu0=
+			62PA5ewlMimrK/Orr/otm0/1B84=
 			</data>
 			<key>hash2</key>
 			<data>
-			zmJZOT2q4Pjoc/0ZSljh6zSG6ai+duGgVnBF/XYmHvc=
+			Z7Rdw7K5sJsgafOFBAaZSm8v5ZvKLKUQv2GE3D2px3g=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
@@ -2353,11 +2361,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H2mf3vIidb0vl2YZXF280k5oLFE=
+			EHvLSGQjM4DrzgaoyHe2GrJxF9M=
 			</data>
 			<key>hash2</key>
 			<data>
-			3lqjO/F8HcClGTeVurpmArDDxiO/Ml0JDAeMvvk6YhA=
+			s7uBO1lhDIzyq/zRIFyH0Qjmaq/bqNyQU6aqOQjjSIU=
 			</data>
 		</dict>
 		<key>Overlay.png</key>
@@ -5202,11 +5210,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bZAZEPhnPtwfCH6+vG4JIEobVEA=
+			OUH2KMy24lc9mzWfneAhyzaLQRc=
 			</data>
 			<key>hash2</key>
 			<data>
-			WQXxkQCkbdC13QUBsH1E5NqD0FlwFNMPElE8JS4z+yk=
+			YOYlrD3gMxVvrJFvjh9NOdkO0BuhFZT0VoPHRDz45Yc=
 			</data>
 		</dict>
 		<key>www/js/controllers/home.js</key>
@@ -5246,11 +5254,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lMEq3bhqz4JU4t0suBXMhVvwsfg=
+			ZxNiWIyGnHzPfL+4/42006pMNiI=
 			</data>
 			<key>hash2</key>
 			<data>
-			vvd1gGOkDF8vWrR19PMC3r3rxB4AuuH4XHT6+xPkWJI=
+			/15j/7VqHo7otJRuaSPmpgHv5k8BGbH3RU1RINHgzRY=
 			</data>
 		</dict>
 		<key>www/js/controllers/myLeave.js</key>
@@ -5422,11 +5430,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LG3hgKv1YVXBhZKxuvvut0GGKmw=
+			SSBdfah0lfiR0VMhaBjMJWegZmo=
 			</data>
 			<key>hash2</key>
 			<data>
-			lMEtP+UMXxpiXm1lAa2uAKAOx0yD38mLCLveL6VS2zs=
+			rP5sFUuMlGox2HqBwuYdzLABK9oj+1N0winDkxRHv7I=
 			</data>
 		</dict>
 		<key>www/js/services.js</key>
@@ -6577,11 +6585,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RczsOPzhvbJtM5UZv/5vV/gRRAA=
+			24RTKYELaUtx1zLlawk/4QqbqkA=
 			</data>
 			<key>hash2</key>
 			<data>
-			gg/Se7rcnDPKhQ3qKOWheZK9TmL5UtXW+1TEGIcMDzY=
+			sdJqggrgk30R1FrPGScFmNwnxpcg7L7PaEUSPaT+dq0=
+			</data>
+		</dict>
+		<key>www/templates/claim-travel-request-approval.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mk91ZOFgwD2vTfeRQoylfZong4M=
+			</data>
+			<key>hash2</key>
+			<data>
+			CYfY6NZ1Rqu1ikHfKnCLlh9tDkMOPmEJaAoHxJgPmyY=
+			</data>
+		</dict>
+		<key>www/templates/claim-travel-request.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			V0sz8KCrpCPd9VlGTCsjgMGVnlk=
+			</data>
+			<key>hash2</key>
+			<data>
+			3NEKMV8AvXFa0n/5ISf4EoIislOM7XumcCfmGgtWNjA=
 			</data>
 		</dict>
 		<key>www/templates/date-picker.html</key>
@@ -6786,11 +6816,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qt01boAuASQAOtgha8eOfqLxWvo=
+			SstaJdSqKclIQ68u3MMbgRymCSI=
 			</data>
 			<key>hash2</key>
 			<data>
-			RCOt+L6sOnvl8MJkZY2kvf0V07EwUJkNMfTTBeY4AJw=
+			GlIOnHIqA0Mo43cdRuQaeNSnmKP+9ajuu5JT7A2+6Fw=
 			</data>
 		</dict>
 		<key>www/templates/my-leave.html</key>
@@ -7038,7 +7068,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -7069,24 +7099,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -7122,13 +7140,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

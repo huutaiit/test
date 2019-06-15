@@ -340,6 +340,16 @@ App.config(['$routeProvider','$controllerProvider',
 			controller: 'myClaimCtrl'
       }).
 
+    when('/travelRequest', {
+      templateUrl: 'templates/claim-travel-request.html',
+      controller: 'myClaimCtrl'
+    }).
+
+    when('/travelRequestApproval', {
+      templateUrl: 'templates/claim-travel-request-approval.html',
+      controller: 'myClaimCtrl'
+    }).
+
 
 		    /*************My Claims***********/
 

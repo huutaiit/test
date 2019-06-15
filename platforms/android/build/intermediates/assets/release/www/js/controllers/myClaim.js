@@ -47,6 +47,13 @@ $scope.listMenuClaim = [
 							]
 					},
 
+
+        {id:1423,href:"travelRequest",icon:"req_pay_ico.png",name:'Travel Request',description:'Travel Request',background:"background-718138",
+          submemu:[
+            {id:1424,href:"travelRequestApproval",icon:"n_ic_leave_approval.png",name:$rootScope.lang.myleave.approval.tt,description:$rootScope.lang.myleave.approval.ct},
+          ]
+        },
+
 					]
 
 
@@ -712,6 +719,81 @@ console.log("fdfg")
 		}
 
    }
+
+
+
+  processClaimTravelRequestApproval = function(){
+    if($rootScope.cache==true && sessionStorage.getItem('listTravelRequestApproval')!=null){
+
+      $scope.listApproval = JSON.parse(sessionStorage.getItem('listTravelRequestApproval'));
+      $rootScope.cache = false;
+    }
+    else{
+      var listColorChar = Array("aa00aa","ffffff","dd99dd","999999","44aa77","88bb88","cc00cc","220022","334433");
+      ProcessService.ajaxGet("MyClaimsTravelRequestApproval/GetList").then(
+        function(result) {
+          data = JSON.parse(result.data);
+          console.log("data",data);
+          $scope.listApproval = data;
+          var count = 1;
+          angular.forEach($scope.listApproval,function(value, index) {
+            //value.color = "color-" + count;
+            //count = (count >= 4) ? 1 : count + 1;
+            //value.char = value.LeaveDesc.substr(0, 1);
+            // var listColorNumber = Array(0,2,4);
+            //
+            // var cIndex = (10+value.LeaveTypeId)%8;
+            // var rStr = ""+(10+value.LeaveTypeId)%10;
+            // var rIndex = listColorNumber[(10+(10+value.LeaveTypeId)%10)%3];
+            // var mColor = listColorChar[cIndex];
+            // var lColor = mColor.replaceAt(rIndex, rStr);
+            //
+            // value.color =lColor;
+          })
+        });
+    }
+
+    $scope.isCheck = function(item, type) {
+      if (type == "Approved") {
+        item.Reject = false;
+      } else {
+        item.Approved = false;
+      }
+      sessionStorage.setItem('listApproval',JSON.stringify($scope.listApproval));
+
+    }
+    $scope.submitApproval = function() {
+
+      var param = {
+        Uqids : [  ],
+        Actions : [ ], // 1 Approved, 2 Reject
+        Remarks : [], // remark item
+      };
+      $scope.listApprovalSubmit = $scope.listApproval.filter(function(item) {
+        return (item["Approved"] == true || item["Reject"] == true);
+      })
+
+      if($scope.listApprovalSubmit.length == 0)
+        return false;
+      angular.forEach($scope.listApprovalSubmit, function(value,index){
+        param.Uqids.push(value.Uqid);
+        var action = (value["Approved"]==true) ? 1 : 2;
+        param.Actions.push(action);
+        var remarks =  null;
+        param.Remarks.push(remarks);
+      })
+
+      ProcessService.ajaxPost("MyClaimsTravelRequestApproval/Submit",JSON.stringify(param)).then(function(result) {
+        sessionStorage.removeItem('listApproval');
+        data = JSON.parse(result.data);
+        var message = "";
+        $scope.processResultPost(data,message);
+
+      });
+
+
+    }
+  }
 
    processClaimApproval = function(url){
 	  if($rootScope.cache==true && sessionStorage.getItem('listApproval')!=null){
@@ -2750,6 +2832,10 @@ else{
 					case "/claimRequestForPaymentApply":
 						processClaimApply("MyClaimsRequestForPaymentApplyPayment");
 						break;
+
+         case "/travelRequestApproval":
+           processClaimTravelRequestApproval("MyClaimsTravelRequestApproval");
+           break;
 
 
 					case "/claimOvertime":
