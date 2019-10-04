@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.payroll2u"
     android:hardwareAccelerated="true"
-    android:versionCode="10425"
-    android:versionName="6.2.4" >
+    android:versionCode="10426"
+    android:versionName="6.2.5" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -36,6 +36,9 @@
 
     <permission
         android:name="com.payroll2u.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.NETWORK_SETTINGS"
         android:protectionLevel="signature" />
     <!-- for android -->
     <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->

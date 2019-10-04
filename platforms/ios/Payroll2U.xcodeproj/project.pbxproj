@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		0049BC404A084FD38FC4572F /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07CFE82B2144689763F4AD /* CDVDevice.m */; };
 		00EAC829223F943900BE6A99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00EAC828223F943900BE6A99 /* GoogleService-Info.plist */; };
@@ -99,6 +100,7 @@
 		9E826C1C31624CE6810760F5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C60C4928784D9393D3AB54 /* AVFoundation.framework */; };
 		A00E9D45DAFF4CF7A552AFB5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A0D1109F1B48CDB4DCA279 /* CoreLocation.framework */; };
 		A7EC59BAFE3A4A4090136ABB /* UIImage+CropScaleOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CC20BE1EB646F8A843FD43 /* UIImage+CropScaleOrientation.m */; };
+		A9C5C909E03B45B48E057433 /* CameraSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 528A6DFDC8414181AC8D7B28 /* CameraSessionManager.m */; };
 		AC16CDD04A7E4252B7E077BB /* ELCAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E61229368C9410FBBEA5A24 /* ELCAlbumPickerController.m */; };
 		AFED2AA8EA65443AA98F6760 /* NXWWifiWizard.m in Sources */ = {isa = PBXBuildFile; fileRef = F622BD286F674877958C56DA /* NXWWifiWizard.m */; };
 		B1CF5D7995054528A78DC2B1 /* UIWebViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E32480236AD4F258043B8F3 /* UIWebViewExtension.m */; };
@@ -111,10 +113,12 @@
 		C386307FEE25425BA1839428 /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F20BB296114EA7B0EA697B /* AppDelegate+notification.m */; };
 		C5D828CE8E6443CFB8C7337B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E226C1E20F4112818DA7B7 /* AdSupport.framework */; };
 		C81E918E6DB54B49B207B8E7 /* libGTMSessionFetcher_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7825B9D5214621B7A074C0 /* libGTMSessionFetcher_core.a */; };
+		C85BA14526FC41FEBC9AAAAE /* TemperatureAndTint.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F6816ECDD641859AC7CE3E /* TemperatureAndTint.m */; };
 		C9F0DA08EBCB4BC2B28A9502 /* UIApplication+APPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2E08715B704CA1882EAC21 /* UIApplication+APPBadge.m */; };
 		CA07B5FEEF494160A68B0CC4 /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = A403A5AD83E64570853EEC7A /* ELCAsset.m */; };
 		CB6AABDF4F8745BB9D6927B4 /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE49B530C1D4C4C99C255DD /* PushPlugin.m */; };
 		CDAEEB181DF94A91BEA6655A /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058B21B4B880475397456BB1 /* CoreImage.framework */; };
+		CEA310A985D3424FA1BB0B9C /* CameraPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D105768CA0344B8ACAC7D7F /* CameraPreview.m */; };
 		D24D5CCE3D9A4295AB8301F5 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E41C8334FC74F108D9B1FE3 /* CDVConnection.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		D5341E1138934955A4F9B961 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE860AF3BA4BDA91677A2A /* CDVLocation.m */; };
@@ -126,15 +130,12 @@
 		F20BA702DD86421CB0A8CA89 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC73A43AE8A4384994EC1E5 /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F24270F16ED841DF8D815705 /* libGTM_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE352A1CFE0C4CB692493DE7 /* libGTM_core.a */; };
 		F59C063ACABD480DA6593E30 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66DDC0116C464FA75BDCD4 /* OpenGLES.framework */; };
+		F5D974E62F8E48A1A829F05A /* CameraRenderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 774B669602F14677B1250E25 /* CameraRenderController.m */; };
 		F61F30F584AB4DE4AFC7892F /* AppVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA2228D46334C06AE8B3AFF /* AppVersion.m */; };
 		F85669C43269BD1F9D4FF477 /* libPods-Payroll2U.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AED64AE9B051AEA9498FE41 /* libPods-Payroll2U.a */; };
 		FA64CC10726F4671A3D90EFB /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = E79B1151777B42A28698BD7E /* UIImage+Scale.m */; };
 		FF7071EF15F9433697B27677 /* CDVFileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E20DFD9182347338A87A008 /* CDVFileTransfer.m */; };
 		FFE8BB31958C47B6A664AE7F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB87C412A224E0696CCE441 /* CoreData.framework */; };
-		CEA310A985D3424FA1BB0B9C /* CameraPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D105768CA0344B8ACAC7D7F /* CameraPreview.m */; };
-		C85BA14526FC41FEBC9AAAAE /* TemperatureAndTint.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F6816ECDD641859AC7CE3E /* TemperatureAndTint.m */; };
-		A9C5C909E03B45B48E057433 /* CameraSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 528A6DFDC8414181AC8D7B28 /* CameraSessionManager.m */; };
-		F5D974E62F8E48A1A829F05A /* CameraRenderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 774B669602F14677B1250E25 /* CameraRenderController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,6 +175,7 @@
 		1178A993E0F3413DB3C37B59 /* UniversalAnalyticsPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = UniversalAnalyticsPlugin.m; path = "cordova-plugin-google-analytics/UniversalAnalyticsPlugin.m"; sourceTree = "<group>"; };
 		1481F36A1F454A6C89845F16 /* GCMService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCMService.h; path = "phonegap-plugin-push/GCM/Headers/GCMService.h"; sourceTree = "<group>"; };
 		154663C0EDE841B49AE0534B /* ELCImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCImagePickerController.m; path = com.synconset.imagepicker/ELCImagePickerController.m; sourceTree = "<group>"; };
+		16F6816ECDD641859AC7CE3E /* TemperatureAndTint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TemperatureAndTint.m; path = "cordova-plugin-camera-preview/TemperatureAndTint.m"; sourceTree = "<group>"; };
 		198AFB9B7BEC46ED9F525D40 /* ELCAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCAssetCell.h; path = com.synconset.imagepicker/ELCAssetCell.h; sourceTree = "<group>"; };
 		19B7531962D94C25883709B3 /* libGGLInstanceIDLib.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libGGLInstanceIDLib.a; path = "Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries/libGGLInstanceIDLib.a"; sourceTree = "<group>"; };
 		1B1A41C6E8424E89AAC93D6E /* libAdIdAccess.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libAdIdAccess.a; path = "Payroll2U/Plugins/cordova-plugin-google-analytics/libAdIdAccess.a"; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A0D6650EADE4640B089A116 /* libGTM_NSData+zlib.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = "libGTM_NSData+zlib.a"; path = "Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_NSData+zlib.a"; sourceTree = "<group>"; };
 		2A1E0D2B21E748F59EFCCACA /* libGTM_NSStringXML.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libGTM_NSStringXML.a; path = "Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_NSStringXML.a"; sourceTree = "<group>"; };
+		2D105768CA0344B8ACAC7D7F /* CameraPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraPreview.m; path = "cordova-plugin-camera-preview/CameraPreview.m"; sourceTree = "<group>"; };
 		2E8189AEB4ED4DA5887D3989 /* GAILogger.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = "cordova-plugin-google-analytics/GAILogger.h"; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
@@ -222,6 +225,7 @@
 		3C027C81615F44E290EB1A8E /* libProtocolBuffers.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libProtocolBuffers.a; path = "Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries/libProtocolBuffers.a"; sourceTree = "<group>"; };
 		3C6C92D342784C6293300C98 /* GGLErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GGLErrorCode.h; path = "phonegap-plugin-push/GCM/Headers/GGLErrorCode.h"; sourceTree = "<group>"; };
 		3CBF0E6D209D4CE18CF19C13 /* CDVFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVFile.h; path = org.apache.cordova.file/CDVFile.h; sourceTree = "<group>"; };
+		3EBF61891B8649DF83DA5FF2 /* CameraPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraPreview.h; path = "cordova-plugin-camera-preview/CameraPreview.h"; sourceTree = "<group>"; };
 		3F2D8176E6504C9693E968BA /* FirebaseAnalyticsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirebaseAnalyticsPlugin.h; path = "cordova-plugin-firebase-analytics/FirebaseAnalyticsPlugin.h"; sourceTree = "<group>"; };
 		3F548043FF2842D6B2BA20B6 /* NXWWifiWizard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXWWifiWizard.h; path = com.pylonproducts.wifiwizard/NXWWifiWizard.h; sourceTree = "<group>"; };
 		3F7E31A0060648F8B82FD1A8 /* libGTM_NSDictionary+URLArguments.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = "libGTM_NSDictionary+URLArguments.a"; path = "Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_NSDictionary+URLArguments.a"; sourceTree = "<group>"; };
@@ -235,6 +239,7 @@
 		4AED64AE9B051AEA9498FE41 /* libPods-Payroll2U.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Payroll2U.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2B7A3A01F2456EA5A4D9D8 /* CDVPlugin+APPAppEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDVPlugin+APPAppEvent.h"; path = "cordova-plugin-app-event/CDVPlugin+APPAppEvent.h"; sourceTree = "<group>"; };
 		4F0F7646E94A4CF6BDD899E6 /* ELCImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCImagePickerController.h; path = com.synconset.imagepicker/ELCImagePickerController.h; sourceTree = "<group>"; };
+		528A6DFDC8414181AC8D7B28 /* CameraSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraSessionManager.m; path = "cordova-plugin-camera-preview/CameraSessionManager.m"; sourceTree = "<group>"; };
 		5AA28DB117714EED9B5CE664 /* Overlay.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; path = Overlay.png; sourceTree = "<group>"; };
 		5B0CFF348F87474DA87AD095 /* libGTM_NSStringHTML.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libGTM_NSStringHTML.a; path = "Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_NSStringHTML.a"; sourceTree = "<group>"; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
@@ -256,6 +261,7 @@
 		7376EF94D6A44DCCA1C598B6 /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Toast+UIView.h"; path = "cordova-plugin-x-toast/Toast+UIView.h"; sourceTree = "<group>"; };
 		73E226C1E20F4112818DA7B7 /* AdSupport.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		76933BB20F174630BC32074D /* CDVInAppBrowser.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVInAppBrowser.m; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; };
+		774B669602F14677B1250E25 /* CameraRenderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraRenderController.m; path = "cordova-plugin-camera-preview/CameraRenderController.m"; sourceTree = "<group>"; };
 		77E65CB8F7B24A458092BD67 /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVLocalFilesystem.h; path = org.apache.cordova.file/CDVLocalFilesystem.h; sourceTree = "<group>"; };
 		78F3F5649978FAA042F0CD85 /* Pods-Payroll2U.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Payroll2U.debug.xcconfig"; path = "Target Support Files/Pods-Payroll2U/Pods-Payroll2U.debug.xcconfig"; sourceTree = "<group>"; };
 		7A5370A8970A40ADABBFE5F7 /* ELCAssetPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetPicker.xib; sourceTree = "<group>"; };
@@ -281,7 +287,9 @@
 		846DBE7931514D81B365F7E8 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = "cordova-plugin-google-analytics/GAIEcommerceFields.h"; sourceTree = "<group>"; };
 		84BEE66C1FDCD7E500EEB009 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Payroll2U/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		84EE860AF3BA4BDA91677A2A /* CDVLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVLocation.m; path = org.apache.cordova.geolocation/CDVLocation.m; sourceTree = "<group>"; };
+		856EBB0090204974B95174FD /* CameraSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraSessionManager.h; path = "cordova-plugin-camera-preview/CameraSessionManager.h"; sourceTree = "<group>"; };
 		862AEF59B3864D73BD5A7B6E /* libGTM_GTMURLBuilder.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libGTM_GTMURLBuilder.a; path = "Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_GTMURLBuilder.a"; sourceTree = "<group>"; };
+		884DF0F038C340EC89CE190A /* CameraRenderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraRenderController.h; path = "cordova-plugin-camera-preview/CameraRenderController.h"; sourceTree = "<group>"; };
 		89B148A8B30E4030B8D97091 /* SOSPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SOSPicker.h; path = com.synconset.imagepicker/SOSPicker.h; sourceTree = "<group>"; };
 		8AD1EEC7D54347E88402E948 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = "cordova-plugin-google-analytics/GAIEcommerceProductAction.h"; sourceTree = "<group>"; };
 		8B1318EB2FB14EB192561A7D /* libGTM_KVO.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libGTM_KVO.a; path = "Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_KVO.a"; sourceTree = "<group>"; };
@@ -327,6 +335,7 @@
 		BD5F51B651C54D119439052D /* libGSDK_Overload.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libGSDK_Overload.a; path = "Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries/libGSDK_Overload.a"; sourceTree = "<group>"; };
 		BDB87C412A224E0696CCE441 /* CoreData.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		BE2E08715B704CA1882EAC21 /* UIApplication+APPBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+APPBadge.m"; path = "cordova-plugin-badge/UIApplication+APPBadge.m"; sourceTree = "<group>"; };
+		C43BABB5298A46B8AA68A2EE /* TemperatureAndTint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TemperatureAndTint.h; path = "cordova-plugin-camera-preview/TemperatureAndTint.h"; sourceTree = "<group>"; };
 		C5A0236C384747138A196FAE /* libGTM_Regex.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libGTM_Regex.a; path = "Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_Regex.a"; sourceTree = "<group>"; };
 		C5FA07CA9C8C4A0181633F75 /* CDVAssetLibraryFilesystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVAssetLibraryFilesystem.m; path = org.apache.cordova.file/CDVAssetLibraryFilesystem.m; sourceTree = "<group>"; };
 		CB2A6C1C0B3540EF929B1B8A /* FileOpener2.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = FileOpener2.m; path = "cordova-plugin-file-opener2/FileOpener2.m"; sourceTree = "<group>"; };
@@ -361,14 +370,6 @@
 		FD5ACED0E24D4F228CDDBE65 /* FirebaseAnalyticsPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirebaseAnalyticsPlugin.m; path = "cordova-plugin-firebase-analytics/FirebaseAnalyticsPlugin.m"; sourceTree = "<group>"; };
 		FDAB58EB0F8943F5B53F309C /* CDVClipboard.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVClipboard.m; path = com.verso.cordova.clipboard/CDVClipboard.m; sourceTree = "<group>"; };
 		FF44D4E205614835BC8BC1A0 /* QuartzCore.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		2D105768CA0344B8ACAC7D7F /* CameraPreview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CameraPreview.m"; path = "cordova-plugin-camera-preview/CameraPreview.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		16F6816ECDD641859AC7CE3E /* TemperatureAndTint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "TemperatureAndTint.m"; path = "cordova-plugin-camera-preview/TemperatureAndTint.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		528A6DFDC8414181AC8D7B28 /* CameraSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CameraSessionManager.m"; path = "cordova-plugin-camera-preview/CameraSessionManager.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		774B669602F14677B1250E25 /* CameraRenderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CameraRenderController.m"; path = "cordova-plugin-camera-preview/CameraRenderController.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		3EBF61891B8649DF83DA5FF2 /* CameraPreview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CameraPreview.h"; path = "cordova-plugin-camera-preview/CameraPreview.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		C43BABB5298A46B8AA68A2EE /* TemperatureAndTint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TemperatureAndTint.h"; path = "cordova-plugin-camera-preview/TemperatureAndTint.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		856EBB0090204974B95174FD /* CameraSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CameraSessionManager.h"; path = "cordova-plugin-camera-preview/CameraSessionManager.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		884DF0F038C340EC89CE190A /* CameraRenderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CameraRenderController.h"; path = "cordova-plugin-camera-preview/CameraRenderController.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

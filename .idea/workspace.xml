@@ -2,43 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="844d974b-4e3e-407a-a20c-85cf2aa1d253" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myLeave.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myLeave.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/directives.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/directives.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/run.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-apply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/android.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/android.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/fetch.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/fetch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/ios.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/ios.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/generated/source/buildConfig/debug/com/payroll2u/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/generated/source/buildConfig/debug/com/payroll2u/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/generated/source/buildConfig/release/com/payroll2u/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/generated/source/buildConfig/release/com/payroll2u/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/generated/source/r/debug/com/payroll2u/Manifest.java" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/generated/source/r/debug/com/payroll2u/Manifest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/generated/source/r/release/com/payroll2u/Manifest.java" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/generated/source/r/release/com/payroll2u/Manifest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/controllers/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/controllers/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/release/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/release/www/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/release/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/release/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/release/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/release/www/js/controllers/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/release/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/release/www/js/controllers/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/release/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/release/www/js/run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/payroll2u/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/payroll2u/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/payroll2u/Manifest$permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/payroll2u/Manifest$permission.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/release/com/payroll2u/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/release/com/payroll2u/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/release/com/payroll2u/Manifest$permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/release/com/payroll2u/Manifest$permission.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/dex-cache/cache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/dex/debug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/dex/debug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/dex/release/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/dex/release/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/manifests/full/release/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/manifests/full/release/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/xml/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/res/release/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/release/xml/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/outputs/apk/android-debug-unaligned.apk" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/outputs/apk/android-debug-unaligned.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/outputs/apk/android-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/outputs/apk/android-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/outputs/apk/android-release-unaligned.apk" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/outputs/apk/android-release-unaligned.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/outputs/lint-results-release-fatal.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/outputs/lint-results-release-fatal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/build/outputs/lint-results-release-fatal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/build/outputs/lint-results-release-fatal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Payroll2U.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/Payroll2U.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Payroll2U/Payroll2U-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/Payroll2U/Payroll2U-Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Payroll2U/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/Payroll2U/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app.dSYM/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app.dSYM/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app.dSYM/Contents/Resources/DWARF/Payroll2U" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app.dSYM/Contents/Resources/DWARF/Payroll2U" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/ELCAlbumPickerController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/ELCAlbumPickerController.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/ELCAssetPicker.nib" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/ELCAssetPicker.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/ELCAssetTablePicker.nib" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/ELCAssetTablePicker.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/MainViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/MainViewController.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/Payroll2U" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/Payroll2U" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/www/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/www/js/controllers/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/build/emulator/Payroll2U.app/www/js/controllers/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/build/emulator/libCordova.a" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/build/emulator/libCordova.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/controllers/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/controllers/myLeave.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/myLeave.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/directives.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/directives.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/run.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lang.zip" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lang/lang1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang/lang1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lang/lang10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang/lang10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lang/lang2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang/lang2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lang/lang3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang/lang3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lang/lang4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang/lang4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/templates/leave-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/leave-apply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/templates/leave-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/leave-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/templates/claim-travel-request-approval.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/claim-travel-request-approval.html" afterDir="false" />
     </list>
     <ignored path="payroll2u.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,83 +88,85 @@
     <session id="-2089609958">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="190" />
-          <entry key="project.open.time.1" value="27" />
-          <entry key="project.open.time.10" value="4" />
-          <entry key="project.open.time.11" value="3" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.closed" value="284" />
+          <entry key="project.open.time.1" value="38" />
+          <entry key="project.open.time.10" value="6" />
+          <entry key="project.open.time.11" value="4" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="5" />
-          <entry key="project.open.time.14" value="2" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.15" value="3" />
+          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.2" value="48" />
-          <entry key="project.open.time.3" value="50" />
+          <entry key="project.open.time.2" value="91" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.3" value="69" />
           <entry key="project.open.time.31" value="2" />
           <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.4" value="15" />
-          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.4" value="18" />
+          <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="12" />
-          <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="191" />
+          <entry key="project.open.time.7" value="5" />
+          <entry key="project.open.time.8" value="14" />
+          <entry key="project.open.time.9" value="10" />
+          <entry key="project.opened" value="285" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Podfile" value="1" />
           <entry key="cordova" value="1" />
-          <entry key="css" value="3" />
+          <entry key="css" value="4" />
           <entry key="gitignore" value="2" />
-          <entry key="gradle" value="23" />
+          <entry key="gradle" value="24" />
           <entry key="gradlew" value="1" />
           <entry key="h" value="3" />
-          <entry key="html" value="81" />
+          <entry key="html" value="101" />
           <entry key="java" value="5" />
-          <entry key="js" value="85" />
-          <entry key="json" value="37" />
+          <entry key="js" value="125" />
+          <entry key="json" value="39" />
           <entry key="md" value="1" />
           <entry key="plist" value="9" />
-          <entry key="properties" value="11" />
+          <entry key="properties" value="12" />
           <entry key="ts" value="1" />
           <entry key="txt" value="5" />
-          <entry key="xml" value="31" />
+          <entry key="xml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="C++" value="3" />
-          <entry key="CSS" value="3" />
-          <entry key="HTML" value="81" />
-          <entry key="JSON" value="37" />
-          <entry key="JavaScript" value="86" />
-          <entry key="PLAIN_TEXT" value="58" />
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="101" />
+          <entry key="JSON" value="39" />
+          <entry key="JavaScript" value="126" />
+          <entry key="PLAIN_TEXT" value="60" />
           <entry key="TypeScript" value="1" />
-          <entry key="XML" value="31" />
+          <entry key="XML" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="57" />
+          <entry key="css" value="66" />
           <entry key="gradle" value="40" />
-          <entry key="html" value="421" />
+          <entry key="html" value="430" />
           <entry key="java" value="134" />
-          <entry key="js" value="1782" />
+          <entry key="js" value="2062" />
           <entry key="json" value="15" />
           <entry key="properties" value="55" />
           <entry key="txt" value="144" />
-          <entry key="xml" value="79" />
+          <entry key="xml" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="57" />
-          <entry key="HTML" value="421" />
+          <entry key="CSS" value="66" />
+          <entry key="HTML" value="430" />
           <entry key="JSON" value="15" />
-          <entry key="JavaScript" value="1782" />
+          <entry key="JavaScript" value="2062" />
           <entry key="PLAIN_TEXT" value="373" />
-          <entry key="XML" value="79" />
+          <entry key="XML" value="83" />
         </counts>
       </usages-collector>
     </session>
@@ -143,79 +176,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="298" column="43" lean-forward="true" selection-start-line="298" selection-start-column="43" selection-end-line="298" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/myTms.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="349" column="13" lean-forward="true" selection-start-line="349" selection-start-column="13" selection-end-line="349" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/js/controllers/myClaim.js">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="1448" column="37" lean-forward="true" selection-start-line="1419" selection-start-column="18" selection-end-line="1448" selection-end-column="37" />
+            <state relative-caret-position="129">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/partials/modal-apply-reim.html">
+        <entry file="file://$PROJECT_DIR$/www/js/run.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="120" column="88" selection-start-line="120" selection-start-column="77" selection-end-line="120" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/partials/modal-apply-pay.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="53" column="80" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/partials/form-apply-reim.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4605">
-              <caret line="307" column="66" selection-start-line="307" selection-start-column="41" selection-end-line="307" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/claim-reimbursement-delegate.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="69" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/fastclick.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/directives.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3255">
-              <caret line="217" column="24" selection-start-line="217" selection-start-column="19" selection-end-line="217" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/claim-reimbursement-apply.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/my-claims.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="60">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -223,8 +215,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="14550">
+              <caret line="970" column="26" selection-start-line="970" selection-start-column="26" selection-end-line="970" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/accounting.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3315">
+              <caret line="230" column="21" selection-start-line="230" selection-start-column="21" selection-end-line="230" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/claim-overtime-apply-detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/claim-overtime-apply.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="87" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/profile-change-pass.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="69" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -233,36 +270,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>listCoverage</find>
-      <find>viewClaimed</find>
-      <find>Unit_Value</find>
-      <find>from</find>
-      <find>bcCustomer</find>
-      <find>currency</find>
+      <find>PushNotification</find>
+      <find>push</find>
+      <find>checkRegistrationId</find>
+      <find>updateValueBlockLv</find>
+      <find>dateFormat</find>
+      <find>blockLv</find>
+      <find>typeDate</find>
+      <find>checkBtnTms</find>
+      <find>senderId</find>
+      <find>changePa</find>
       <find>processClaimApply</find>
-      <find>MyClaimsExpenseClaimApplyReimbursement</find>
-      <find>valid</find>
-      <find>mileage</find>
-      <find>url</find>
-      <find>bcC</find>
-      <find>poup</find>
-      <find>modal</find>
-      <find>ReimbursenmentType</find>
-      <find>showPoup</find>
-      <find>listReimbursenmentType</find>
-      <find>Description</find>
-      <find>modal-apply-reim</find>
-      <find>&lt;ul class=&quot;select&quot;&gt;</find>
-      <find>modal-apply-reim.html</find>
-      <find>description</find>
-      <find>unitValue</find>
-      <find>unit_Value</find>
-      <find>ListNoitype</find>
-      <find>invoiceT</find>
-      <find>InvoiceType</find>
-      <find>approvingOfficer</find>
-      <find>processClaimDelegate</find>
-      <find>getDetailDelegate</find>
+      <find>submit</find>
+      <find>processLeavePlan</find>
+      <find>listLegend</find>
+      <find>Taken</find>
+      <find>groupBy</find>
+      <find>showTakenAppliedOnPHDay</find>
+      <find>processLeaveCalendar</find>
+      <find>processListCalendar</find>
+      <find>MyTMSMobileMacAddress</find>
+      <find>Period</find>
+      <find>processClaimCancellation</find>
+      <find>overTimeA</find>
+      <find>overTime</find>
+      <find>processClaimOvertimeApply</find>
+      <find>getDataByMonthAndYear</find>
+      <find>MyClaimsOvertimeClaimEnquiry</find>
+      <find>RequestFromMobile</find>
+      <find>Photo_Url</find>
+      <find>uploadfile/uploadfile</find>
     </findStrings>
     <replaceStrings>
       <replace>$rootScope.MAC</replace>
@@ -272,10 +309,12 @@
       <dir>$PROJECT_DIR$/platforms/android</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/www/templates/tms-clockings-enquiry.html" />
         <option value="$PROJECT_DIR$/www/templates/claim-benefit-coverage.html" />
         <option value="$PROJECT_DIR$/www/templates/claim-reimbursement-coverage.html" />
         <option value="$PROJECT_DIR$/www/lang/lang1.txt" />
@@ -283,16 +322,13 @@
         <option value="$PROJECT_DIR$/platforms/android/src/io/github/pwlin/cordova/plugins/fileopener2/FileOpener2.java" />
         <option value="$PROJECT_DIR$/www/templates/payroll-payslip.html" />
         <option value="$PROJECT_DIR$/www/js/controllers/myPayroll.js" />
-        <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/www/js/common.js" />
         <option value="$PROJECT_DIR$/www/templates/home.html" />
         <option value="$PROJECT_DIR$/build.json" />
         <option value="$PROJECT_DIR$/www/templates/login.html" />
         <option value="$PROJECT_DIR$/www/templates/partials/form-apply-benifit.html" />
         <option value="$PROJECT_DIR$/www/templates/partials/modal-apply-benifit.html" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/js/directives.js" />
-        <option value="$PROJECT_DIR$/www/js/controllers/login.js" />
         <option value="$PROJECT_DIR$/www/js/controllers/main.js" />
         <option value="$PROJECT_DIR$/platforms/android/cordova-support-google-services/payroll2u-build.gradle" />
         <option value="$PROJECT_DIR$/platforms/android/cordova-plugin-firebase/payroll2u-build.gradle" />
@@ -302,7 +338,6 @@
         <option value="$PROJECT_DIR$/platforms/android/google-services.json" />
         <option value="$PROJECT_DIR$/plugins/cordova-plugin-firebase-analytics/plugin.xml" />
         <option value="$PROJECT_DIR$/platforms/ios/Podfile" />
-        <option value="$PROJECT_DIR$/www/js/controllers/home.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/platforms/android/build/generated/res/google-services/debug/values/values.xml" />
         <option value="$PROJECT_DIR$/plugins/android.json" />
@@ -311,21 +346,26 @@
         <option value="$PROJECT_DIR$/platforms/android/project.properties" />
         <option value="$PROJECT_DIR$/platforms/android/android.json" />
         <option value="$PROJECT_DIR$/platforms/android/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/platforms/android/src/com/mbppower/CameraActivity.java" />
-        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/plugins/com.mbppower.camerapreview/src/android/com/mbppower/CameraActivity.java" />
         <option value="$PROJECT_DIR$/www/js/services.js" />
-        <option value="$PROJECT_DIR$/www/js/controllers/myLeave.js" />
         <option value="$PROJECT_DIR$/www/templates/claim-traval-request.html" />
         <option value="$PROJECT_DIR$/www/templates/claim-request-for-payment.html" />
         <option value="$PROJECT_DIR$/www/templates/claim-travel-request.html" />
         <option value="$PROJECT_DIR$/www/templates/my-claims.html" />
-        <option value="$PROJECT_DIR$/www/js/controllers/myClaim.js" />
         <option value="$PROJECT_DIR$/www/js/config.js" />
-        <option value="$PROJECT_DIR$/www/templates/claim-travel-request-approval.html" />
-        <option value="$PROJECT_DIR$/www/js/run.js" />
         <option value="$PROJECT_DIR$/www/templates/partials/modal-apply-reim.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/myClaim.js" />
+        <option value="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/www/js/controllers/myTms.js" />
+        <option value="$PROJECT_DIR$/www/js/controllers/home.js" />
+        <option value="$PROJECT_DIR$/www/css/style.css" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/login.js" />
+        <option value="$PROJECT_DIR$/www/js/controllers/myLeave.js" />
+        <option value="$PROJECT_DIR$/www/templates/claim-travel-request-approval.html" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/www/js/run.js" />
       </list>
     </option>
   </component>
@@ -1089,7 +1129,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -1111,11 +1151,6 @@
             <path>
               <item name="test2" type="b2602c69:ProjectViewProjectNode" />
               <item name="test2" type="462c0819:PsiDirectoryNode" />
-              <item name="platforms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test2" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1130,19 +1165,6 @@
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test2" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test2" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1856,6 +1878,100 @@
       <workItem from="1559986615082" duration="3639000" />
       <workItem from="1560051592276" duration="4797000" />
       <workItem from="1560400956994" duration="758000" />
+      <workItem from="1560572802087" duration="937000" />
+      <workItem from="1560651447409" duration="341000" />
+      <workItem from="1560662097048" duration="4309000" />
+      <workItem from="1560740919180" duration="144000" />
+      <workItem from="1560742126346" duration="3257000" />
+      <workItem from="1560764376655" duration="927000" />
+      <workItem from="1560828547941" duration="3675000" />
+      <workItem from="1561433773345" duration="623000" />
+      <workItem from="1561536280603" duration="1967000" />
+      <workItem from="1562667510394" duration="866000" />
+      <workItem from="1563028646543" duration="711000" />
+      <workItem from="1563074308466" duration="541000" />
+      <workItem from="1563090460207" duration="1307000" />
+      <workItem from="1563176573413" duration="1217000" />
+      <workItem from="1563268783091" duration="4974000" />
+      <workItem from="1563354002528" duration="686000" />
+      <workItem from="1563517709057" duration="1877000" />
+      <workItem from="1563520590919" duration="267000" />
+      <workItem from="1563522416708" duration="1494000" />
+      <workItem from="1563533410422" duration="693000" />
+      <workItem from="1563603427221" duration="4000" />
+      <workItem from="1563614653568" duration="2663000" />
+      <workItem from="1563681345485" duration="595000" />
+      <workItem from="1563943278388" duration="153000" />
+      <workItem from="1564374963324" duration="1889000" />
+      <workItem from="1564393228491" duration="922000" />
+      <workItem from="1564718947934" duration="2013000" />
+      <workItem from="1564728555399" duration="1112000" />
+      <workItem from="1564735218966" duration="2900000" />
+      <workItem from="1564799509759" duration="297000" />
+      <workItem from="1564994158225" duration="258000" />
+      <workItem from="1565001228839" duration="39000" />
+      <workItem from="1565001282190" duration="1127000" />
+      <workItem from="1565056694111" duration="66000" />
+      <workItem from="1565150087754" duration="145000" />
+      <workItem from="1565256770140" duration="600000" />
+      <workItem from="1565260604317" duration="41000" />
+      <workItem from="1565599636659" duration="2682000" />
+      <workItem from="1565605465169" duration="2545000" />
+      <workItem from="1565661018906" duration="584000" />
+      <workItem from="1565663537498" duration="2707000" />
+      <workItem from="1565669421921" duration="730000" />
+      <workItem from="1565671232008" duration="714000" />
+      <workItem from="1565773228750" duration="773000" />
+      <workItem from="1565844130603" duration="356000" />
+      <workItem from="1565945258591" duration="207000" />
+      <workItem from="1566293421207" duration="643000" />
+      <workItem from="1566372063086" duration="257000" />
+      <workItem from="1566376581821" duration="33000" />
+      <workItem from="1566382726257" duration="761000" />
+      <workItem from="1566437911532" duration="2390000" />
+      <workItem from="1566460693561" duration="1051000" />
+      <workItem from="1566463320074" duration="1248000" />
+      <workItem from="1566870942124" duration="614000" />
+      <workItem from="1566873923999" duration="5601000" />
+      <workItem from="1566956185141" duration="1346000" />
+      <workItem from="1566964274272" duration="1632000" />
+      <workItem from="1566979434075" duration="2951000" />
+      <workItem from="1567044273209" duration="1664000" />
+      <workItem from="1567478273367" duration="701000" />
+      <workItem from="1567649233107" duration="1622000" />
+      <workItem from="1568095541356" duration="283000" />
+      <workItem from="1568101691439" duration="567000" />
+      <workItem from="1568165602294" duration="1068000" />
+      <workItem from="1568259042530" duration="624000" />
+      <workItem from="1568273338025" duration="64000" />
+      <workItem from="1568345859662" duration="109000" />
+      <workItem from="1568347972933" duration="6252000" />
+      <workItem from="1568434981470" duration="17000" />
+      <workItem from="1568624309935" duration="722000" />
+      <workItem from="1568701810277" duration="935000" />
+      <workItem from="1568707182043" duration="1164000" />
+      <workItem from="1568717670869" duration="623000" />
+      <workItem from="1568770760642" duration="2000" />
+      <workItem from="1568773182028" duration="377000" />
+      <workItem from="1568774127460" duration="1795000" />
+      <workItem from="1568777942932" duration="489000" />
+      <workItem from="1568801994470" duration="816000" />
+      <workItem from="1568969753914" duration="278000" />
+      <workItem from="1568972709589" duration="101000" />
+      <workItem from="1569466630441" duration="492000" />
+      <workItem from="1569575837515" duration="840000" />
+      <workItem from="1569808256653" duration="9041000" />
+      <workItem from="1569841299817" duration="29000" />
+      <workItem from="1569895990173" duration="2100000" />
+      <workItem from="1569911640045" duration="111000" />
+      <workItem from="1569913291089" duration="2732000" />
+      <workItem from="1569984664416" duration="2725000" />
+      <workItem from="1570010237210" duration="628000" />
+      <workItem from="1570014267878" duration="988000" />
+      <workItem from="1570174829185" duration="123000" />
+      <workItem from="1570175002357" duration="61000" />
+      <workItem from="1570175200221" duration="2007000" />
+      <workItem from="1570180306287" duration="512000" />
     </task>
     <task id="LOCAL-00001">
       <created>1512316512112</created>
@@ -1868,7 +1984,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="655769000" />
+    <option name="totallyTimeSpent" value="773893000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1880,10 +1996,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28541225" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28470755" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24982053" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -1898,7 +2014,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.47738692" weight="0.30063695" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.47738692" visible="true" weight="0.29808918" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.52261305" side_tool="true" weight="0.3290653" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3290653" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32866243" />
@@ -1918,7 +2034,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28541225" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28470755" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24982053" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -1933,7 +2049,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.47738692" visible="true" weight="0.30063695" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.47738692" visible="true" weight="0.29808918" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.52261305" side_tool="true" weight="0.3290653" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3290653" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32866243" />
@@ -1971,245 +2087,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="84" column="56" selection-start-line="84" selection-start-column="56" selection-end-line="84" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="128" selection-start-line="1" selection-start-column="115" selection-end-line="1" selection-end-column="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/date-picker.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/partials/poup-employee.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="88" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lang/lang1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3255">
-          <caret line="217" column="15" selection-start-line="217" selection-start-column="7" selection-end-line="217" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/leave-enquiry.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="80" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/leave-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/leave-enquiry-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="74" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3900">
-          <caret line="260" column="55" selection-start-line="260" selection-start-column="55" selection-end-line="260" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/android.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4260">
-          <caret line="284" column="13" selection-start-line="284" selection-start-column="13" selection-end-line="284" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="99" selection-start-line="1" selection-start-column="99" selection-end-line="1" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/claim-request-for-payment-apply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="96" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/claim-travel-request.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/claim-travel-request-approval.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/leave-approval.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/claim-request-for-payment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/leave-apply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/leave-admin-approval.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5145">
-          <caret line="343" column="42" selection-start-line="343" selection-start-column="42" selection-end-line="343" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/leave-delegate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="91" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/my-leave.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/claim-benefit-apply.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="132" column="5" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/claim-benefit-delegate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="88" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/claim-benefit-submit-saves-claims.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/claim-benefit-cancellation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/release-signing.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="247" lean-forward="true" selection-start-line="247" selection-end-line="247" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/myLeave.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15855">
-          <caret line="1057" column="31" selection-start-line="1057" selection-start-column="31" selection-end-line="1057" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/claim-benefit-enquiry.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="61" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="61" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/partials/poup-customer.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/claim-benefit-coverage.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -2242,10 +2125,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/partials/modal-apply-reim.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="120" column="88" selection-start-line="120" selection-start-column="77" selection-end-line="120" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/partials/form-apply-reim.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4605">
           <caret line="307" column="66" selection-start-line="307" selection-start-column="41" selection-end-line="307" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/partials/poup-customer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/partials/form-apply-pay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -2259,12 +2163,39 @@
     <entry file="file://$PROJECT_DIR$/www/js/fastclick.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/directives.js">
+    <entry file="file://$PROJECT_DIR$/platforms/android/local.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3255">
-          <caret line="217" column="24" selection-start-line="217" selection-start-column="19" selection-end-line="217" selection-end-column="24" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google-services.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/my-tms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tms-clock-on-behalf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/phonegap-plugin-push/example/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/partials/poup-employee.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/claim-reimbursement-apply.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -2273,38 +2204,223 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/my-claims.html">
+    <entry file="file://$PROJECT_DIR$/www/js/angular-route.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="130">
+          <caret line="558" column="38" lean-forward="true" selection-start-line="558" selection-start-column="38" selection-end-line="558" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/services.js">
+    <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="2715">
+          <caret line="181" column="59" selection-start-line="181" selection-start-column="59" selection-end-line="181" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/partials/modal-apply-reim.html">
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="120" column="88" selection-start-line="120" selection-start-column="77" selection-end-line="120" selection-end-column="88" />
+        <state relative-caret-position="20370">
+          <caret line="1358" column="1" selection-start-line="1358" selection-start-column="1" selection-end-line="1358" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/partials/modal-apply-pay.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="53" column="80" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="80" />
+        <state relative-caret-position="1215">
+          <caret line="81" column="205" selection-start-line="81" selection-start-column="196" selection-end-line="81" selection-end-column="205" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/myPayroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="180" column="40" selection-start-line="179" selection-start-column="2" selection-end-line="180" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/my-claims.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="108" column="24" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="160" column="22" selection-start-line="160" selection-start-column="13" selection-end-line="160" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/claim-benefit-apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/partials/modal-apply-benifit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22635">
+          <caret line="1509" column="43" selection-start-line="1509" selection-start-column="43" selection-end-line="1509" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/keyboard.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/claim-travel-request-approval.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2955">
+          <caret line="197" column="17" selection-start-line="197" selection-start-column="17" selection-end-line="197" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="75" selection-start-line="56" selection-start-column="75" selection-end-line="56" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/myLeave.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="868" column="40" selection-start-line="868" selection-start-column="21" selection-end-line="868" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/myProfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/leave-apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="104" selection-start-line="36" selection-start-column="96" selection-end-line="36" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/google-services.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/controllers/myClaim.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="1448" column="37" lean-forward="true" selection-start-line="1419" selection-start-column="18" selection-end-line="1448" selection-end-column="37" />
+        <state relative-caret-position="915">
+          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14550">
+          <caret line="970" column="26" selection-start-line="970" selection-start-column="26" selection-end-line="970" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/accounting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3315">
+          <caret line="230" column="21" selection-start-line="230" selection-start-column="21" selection-end-line="230" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/claim-overtime-apply-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/claim-overtime-apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="87" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/profile-change-pass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="69" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/myTms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="349" column="13" lean-forward="true" selection-start-line="349" selection-start-column="13" selection-end-line="349" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="298" column="43" lean-forward="true" selection-start-line="298" selection-start-column="43" selection-end-line="298" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

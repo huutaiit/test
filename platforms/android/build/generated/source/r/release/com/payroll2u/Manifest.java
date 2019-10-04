@@ -10,5 +10,6 @@ package com.payroll2u;
 public final class Manifest {
     public static final class permission {
         public static final String C2D_MESSAGE="com.payroll2u.permission.C2D_MESSAGE";
+        public static final String NETWORK_SETTINGS="android.permission.NETWORK_SETTINGS";
     }
 }

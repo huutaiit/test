@@ -179,7 +179,7 @@
        <div class="button">
          <button ng-click="confirm.callBack();resetConfirm();">{{lang.general.btn.ok}}</button>
 
-         <button ng-click="resetConfirm();$event.preventDefault();confirm.cancel();">{{lang.general.btn.cancel}}</button>
+         <button ng-click="confirm.cancel();resetConfirm();$event.preventDefault();">{{lang.general.btn.cancel}}</button>
        </div>
      </div>
    </div>

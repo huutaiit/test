@@ -355,7 +355,7 @@ push.on('error', function(e) {
 
 
 	 $scope.capturePhoto = function() {
-
+     $scope.getMacAdd();
 		if(device.platform=="Android"){
 
 			ProcessService.checkPermission("CAMERA").then(function(response) {
@@ -410,7 +410,7 @@ push.on('error', function(e) {
 
 
 	 $scope.submitTms = function(){
-
+     $scope.getMacAdd();
 		 var param = {
 
             RegisEMAC: 1,
