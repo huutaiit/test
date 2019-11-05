@@ -35,7 +35,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
                 confirm: true,
                 token: data.additionalData.token
               }).then(function (result) {
-               // console.log("resultresult", result);
+                // console.log("resultresult", result);
               })
             },
             cancel: function () {
@@ -43,7 +43,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
                 confirm: false,
                 token: data.additionalData.token
               }).then(function (result) {
-               // console.log("resultresult", result);
+                // console.log("resultresult", result);
               })
             }
           }
