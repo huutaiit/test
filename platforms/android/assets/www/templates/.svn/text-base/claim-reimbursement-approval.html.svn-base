@@ -1,0 +1,115 @@
+<script type="text/javascript" src="js/controllers/myClaim.js"></script>
+<!--start Apply leave-->
+
+<div class="form">
+ <h1 class="title-form  background-28903b">
+ {{lang.myclaim.reim.tt2}} {{lang.general.approval}}
+ <div class="check-and-x f-right"> <span class="font-24 text-color-light-green"><i class="fa fa-check-square-o"></i></span> <span class="text-color-red  font-24"><i class="fa fa-minus-square"></i></span> </div> <!--end check-and-x-->
+   <div class="clear"></div>
+ </h1>
+  
+   
+  
+  <div class="form-info scroll" id="approval" ng-element-height="90">
+
+    
+    <ul class="list2" ng-if="IsClaimsBatch==1">
+      <li ng-repeat="item in listApproval track by $index"> 
+      	
+        <div class="f-left info">
+       
+      
+        
+        	<div class="f-left max-width-60">
+           
+            <b ng-click="viewBatchDetail(item,'claimReimbursementBatchDetail')">{{item.Name}}</b>
+            	<span class="text-block margin-top-5px">{{item.CompanyCode}}</span>
+            	<span>{{item.Date}}</span>
+           
+            </div>
+
+        
+          <div class="f-right text" > 
+          
+              <span class="text-block text-align-right">{{item.CurrencyCode}}  {{item.TotalAmount | formatCurrency:'2'}}</span>
+                <span class="text-block margin-bottom-10px text-align-right font-size-smaller">{{item.BatchNo}}</span>
+          	<div class="text-align-right">
+            
+            
+            	 <div class="f-right custom_check_x">
+                  <input id="c2{{$index}}" type="checkbox" ng-click="isCheck(item,'Reject')" ng-model="item.Reject" >
+                  <label for="c2{{$index}}"></label>
+                </div>
+                
+                <div class="f-right custom_checkbox">
+                  <input id="c1{{$index}}" type="checkbox" ng-click="isCheck(item,'Approved')" ng-model="item.Approved" >
+                  <label for="c1{{$index}}"></label>
+                </div>
+                
+               
+            </div><!--end text-align-right-->
+          </div>
+         
+        </div>
+        <div class="clear"></div>
+      </li>
+      
+    </ul>
+    
+
+    
+    
+    <ul class="list2" ng-if="IsClaimsBatch==0">
+      <li ng-repeat="item in listApproval track by $index"> 
+      	
+        <div class="f-left info">
+       
+        	<div class="f-left max-width-60">
+          <b ng-click="viewDetail(item,'claimReimbursementDetail')">{{item.Name}}</b>
+
+            <span class="text-block margin-top-5px">{{item.ClaimTypeDesc}}</span>
+            <span>{{item.Date}}</span>
+          
+            </div>
+            
+
+        
+          <div class="f-right text"> 
+          
+        
+            <span class="text-block margin-bottom-10px text-align-right">{{item.CurrencyCode}}  {{item.ReceiptAmount | formatCurrency:'2'}}</span>
+          	<div class="text-align-right">
+            
+            
+            	 <div class="f-right custom_check_x">
+                  <input id="c2{{$index}}" type="checkbox" ng-click="isCheck(item,'Reject')" ng-model="item.Reject" >
+                  <label for="c2{{$index}}"></label>
+                </div>
+                
+                <div class="f-right custom_checkbox">
+                  <input id="c1{{$index}}" type="checkbox" ng-click="isCheck(item,'Approved')" ng-model="item.Approved" >
+                  <label for="c1{{$index}}"></label>
+                </div>
+                
+               
+            </div><!--end text-align-right-->
+          </div>
+         
+        </div>
+        <div class="clear"></div>
+      </li>
+      
+    </ul>
+  </div>
+  <!--end form-info-->
+  
+  <div class="button"> 
+  <a></a> 
+  <a ng-click="submitApproval()"><span>{{lang.general.btn.submit}}</span></a> 
+  <a></a> 
+  </div>
+  <!--end form-info--> 
+</div>
+<!--end form--> 
+
+

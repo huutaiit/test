@@ -47,9 +47,6 @@
     <feature name="FileTransfer">
         <param name="ios-package" value="CDVFileTransfer" />
     </feature>
-    <feature name="Geolocation">
-        <param name="ios-package" value="CDVLocation" />
-    </feature>
     <feature name="PushNotification">
         <param name="ios-package" value="PushPlugin" />
     </feature>

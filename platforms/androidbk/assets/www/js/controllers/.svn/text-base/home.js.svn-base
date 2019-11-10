@@ -1,0 +1,393 @@
+App.registerCtrl('homeCtrl', function($scope,$rootScope,$http,$location,$timeout,ProcessService,DateTimeService)
+{
+
+  $.jStorage.deleteKey("OTData"); // reset OTData in claim (for overtime,benefit,...)
+	$rootScope.positionMenu = 0; //possion menu
+	$rootScope.noPrev=0;// reset top menu
+
+	//Permission has been granted
+	 cordova.plugins.notification.badge.hasPermission(function (granted) {
+    	// console.log('Permission has been granted: ' + granted);
+	});
+	cordova.plugins.notification.badge.registerPermission(function (granted) {
+    	// console.log('Permission has been granted: ' + granted);
+	});
+	cordova.plugins.notification.badge.clear();
+
+	//init PushNotification
+	var push = PushNotification.init({
+		android: {
+			senderID: "916412225531"//"667418453555"
+		},
+		ios: {
+			alert: "true",
+			badge: "true",
+			sound: "true"
+		},
+		windows: {}
+
+	});
+
+	 if(sessionStorage.getItem('checkRegistrationId')==0){
+
+		cordova.getAppVersion.getPackageName(function (packageName) {
+
+			push.on('registration', function(data) {
+				// data.registrationId
+				//cordova.plugins.notification.badge.set(2);
+				console.log(data.registrationId);
+				if(device.platform=="Android"){
+					MobileOS = 1;
+				}
+				else{
+					MobileOS = 2;
+				}
+				var param = {
+					 MobileOS: MobileOS,
+					 MobileToken: data.registrationId,
+					 MobileApp_Name:packageName
+
+				 };
+
+				 ProcessService.ajaxPost("Common/UpdateMobileToken",JSON.stringify(param)).then(function(result) {
+					 sessionStorage.setItem('checkRegistrationId', 1);
+				 })
+			});
+	  })
+	}
+
+//listening notification
+push.on('notification', function(data) {
+    // data.message,
+    // data.title,
+    // data.count,
+    // data.sound,
+    // data.image,
+    // data.additionalData
+});
+
+
+
+push.on('error', function(e) {
+    // e.message
+	console.log(e);
+});
+
+
+	 // get App info Version
+	/*cordova.getAppVersion.getPackageName(function (result) {
+		alert(result);
+	})*/
+
+	 $scope.MAC = {Photo_Url:""};
+	 $scope.MAC["uuid"] = device.uuid.toUpperCase();
+		if(device.platform=="Android"){
+			try {
+				if(window.wifi && window.wifi.lan){
+						$scope.MAC["MacAddress"]= window.wifi.lan.BSSID;
+				}
+				else{
+					 $scope.MAC["MacAddress"] = "";
+				}
+			} catch (e) {
+				$scope.MAC["MacAddress"] = "";
+			}
+
+		}
+		else
+		{
+			WifiWizard.getCurrentBSSID(function(macAddress){
+				 $scope.MAC["MacAddress"] = macAddress;
+			}, function(error){
+				console.log(error);
+			});
+		}
+		cordova.getAppVersion.getVersionNumber(function (version) {
+    				 $scope.MAC["Version"] = version;
+				});
+     $scope.user =  $.jStorage.get("user");
+	  $scope.changeLanguage = function (idLang){
+		   var param = {
+            	Language: idLang,
+        	};
+
+		   ProcessService.ajaxPost("Common/ChangeLanguage",JSON.stringify(param)).then(function(result) {
+				ProcessService.ajaxGetLocalSite($rootScope.GATEWAYURL+"resource/lang/lang"+idLang+".txt")
+					.then(function(result) {
+						$.jStorage.set("lang",result.data);
+						$rootScope.lang =  $.jStorage.get("lang");
+						$rootScope.processMenu();
+						//reset Internationalization Strings
+						DateTimeService.resetInternationalizationStrings();
+					})
+
+		  })
+
+	 }
+	 $scope.listLang = sessionStorage.getItem('listLang')!= null ? JSON.parse(sessionStorage.getItem('listLang')): null;
+	if($scope.listLang== null){
+		ProcessService.ajaxGet("Common/GetLanguage")
+		.then(function(result) {
+			sessionStorage.setItem('listLang', result.data);
+			$scope.listLang = JSON.parse(sessionStorage.getItem('listLang'));
+		})
+	}
+
+	 $scope.checkBtnTms = function(){
+		 return $rootScope.isRight (905);
+	 };
+
+	  $scope.showAbout = function(){
+		_this = $("#about-application");
+		 $(".overlay-about").show();
+		_this.show();
+		 _this.css({ left: ($(window).width() - _this.width()) / 2, top: ($(window).height() - _this.height()) / 2 });
+	 }
+
+	 $scope.closeAbout = function(){
+		 $("#about-application").hide();
+		 $(".overlay-about").hide();
+	 }
+
+	 function onPhotoDataSuccess(imageData) {
+							// alert(imageData);
+							uploadPhoto(imageData)
+
+						}
+
+						function onFail(message) {
+
+							$rootScope.$apply(function() {
+									$rootScope.error = {
+									result : true,
+									message :message
+								};
+								})
+						}
+
+						function uploadPhoto(imageURI) {
+
+							// fix android 4.4 or higher
+							if (imageURI.substring(0, 21) == "content://com.android") {
+								photo_split = imageURI.split("%3A");
+								imageURI = "content://media/external/images/media/"+ photo_split[1];
+
+							}
+
+							$(".loading").show();
+							$(".overlay").show();
+							window.resolveLocalFileSystemURL(
+											imageURI,
+											function(fileEntry) {
+												var checkFile = true;
+												var options = new FileUploadOptions();
+												options.fileKey = "fileUpload";
+
+												fileEntry.file(function(file) {
+														generalResource = JSON.parse(sessionStorage.getItem('GeneralResource'));
+														size = file.size/1024;
+
+
+														if(size>generalResource.FileLenght){
+
+															$rootScope.$apply(function() {
+																$rootScope.error = {
+																	result : true,
+																	message :$rootScope.lang.general.maximum
+																};
+
+															})
+															$(".loading").hide();
+															$(".overlay").hide();
+															return false;
+														}
+
+														options.fileName = fileEntry.nativeURL.substr(fileEntry.nativeURL.lastIndexOf('/') + 1);
+														options.headers= {
+												 		 Connection: "close" // very important
+														};
+														options.chunkedMode = false;
+												var ft = new FileTransfer();
+												ft.upload(imageURI,$rootScope.GATEWAYURL+"/api/uploadfile/uploadfilephoto",win, fail,options);
+
+												});
+
+
+
+											}, function(e) {
+												console.log(e);
+												// error
+											});
+
+						}
+
+						function win(r) {
+
+							$(".loading").hide();
+							$(".overlay").hide();
+							data = JSON.parse(r.response);
+							data = JSON.parse(data);
+
+							if(data.FileName!=""){
+
+								$scope.$apply(function() {
+									$scope.MAC["Photo_Url"] = data.FileName;
+									 $scope.submitTms();
+								})
+							}
+							else{
+								$rootScope.$apply(function() {
+									$rootScope.error = {
+									result : true,
+									message :data.MessageInfo
+								};
+								})
+							}
+						}
+
+						function fail(error) {
+							$(".loading").hide();
+							$(".overlay").hide();
+							console.log(error);
+
+						}
+
+
+							pictureSource = navigator.camera.PictureSourceType;
+							destinationType = navigator.camera.DestinationType;
+
+
+	 $scope.capturePhoto = function() {
+
+		if(device.platform=="Android"){
+
+			ProcessService.checkPermission("CAMERA").then(function(response) {
+
+				if(response.status==false){
+						$rootScope.error = {
+							result : true,
+							message :"CAMERA permission is not turned on",
+				   };
+				}
+				else{
+					cordova.plugins.camerapreview.startCamera({x: 0, y: 0, width: window.innerWidth, height:window.innerHeight}, "front", true, false, false);
+					$rootScope.camerapreview = 1;
+					cordova.plugins.camerapreview.setOnPictureTakenHandler(function(result){
+						fileName = result[0].split("/");
+						$(".loading").show();
+						$(".overlay").show();
+						 var ft = new FileTransfer();
+						 var options = new FileUploadOptions();
+							options.fileKey = "fileUpload";
+							options.fileName = fileName[fileName.length-1];
+							options.headers= {
+							 Connection: "close" // very important
+							};
+							options.chunkedMode = false;
+							ft.upload(result[0],$rootScope.GATEWAYURL+"/api/uploadfile/uploadfilephoto",win, fail,options);
+
+
+						// cordova.plugins.camerapreview.hide();
+						cordova.plugins.camerapreview.stopCamera();
+					});
+				}
+
+			});
+
+		}
+		else{
+			navigator.camera.getPicture(onPhotoDataSuccess,onFail,{
+					quality : 70,
+					correctOrientation: true,
+					destinationType : destinationType.FILE_URI,
+					cameraDirection: 1
+			});
+		}
+
+	}
+
+
+
+
+	 $scope.submitTms = function(){
+		 var param = {
+
+            RegisEMAC: 1,
+            EMac:  $scope.MAC.uuid,
+            APMac: $scope.MAC.MacAddress,
+			Photo_Url: $scope.MAC["Photo_Url"]
+        };
+
+
+ 		ProcessService.ajaxPost("MyTMSClockInOut/Submit",JSON.stringify(param)).then(function(result) {
+				data = JSON.parse(result.data);
+				console.log(data);
+				$scope.MAC["Photo_Url"] = "";
+				if(data.Message==true){
+					if($scope.MAC["Photo_Url"] != ""){
+						window.plugins.toast.showShortBottom($rootScope.lang.main.txt.image_saved);
+					}
+					if($scope.RegisEMAC==1){
+						window.plugins.toast.showShortBottom($rootScope.lang.main.txt.wellcome);
+					}
+					else{
+						window.plugins.toast.showShortBottom($rootScope.lang.main.txt.see_you_again);
+					}
+					isHaveMacAddress = data.IsHaveMacAddress;
+					if(isHaveMacAddress==0){
+						$timeout(function(){
+								$location.path("/Login");
+						},3000);
+					}
+				}
+				else{
+					switch (data.MessageCode_SubmitClocking) {
+						case 1:
+						$rootScope.error = {
+							result : true,
+							message :data.MessageInfo
+						};
+						break;
+						case 1:
+						$rootScope.error = {
+							result : true,
+							message :$rootScope.lang.main.txt.invalid_location
+						};
+						break;
+						case 2:
+						$rootScope.error = {
+							result : true,
+							message :$rootScope.lang.main.txt.mobile_mac_not_setup
+						};
+						break;
+						case 3:
+						$rootScope.error = {
+							result : true,
+							message :$rootScope.lang.main.txt.different_mobile_mac_address
+						};
+						break;
+						case 4:
+						$rootScope.error = {
+							result : true,
+							message :$rootScope.lang.main.txt.badge_id_not_setup
+						};
+						break;
+
+
+					}
+
+				}
+		 })
+		}
+	$scope.submitInOut = function(RegisEMAC) {
+		$scope.RegisEMAC = RegisEMAC;
+		if(sessionStorage.getItem('TMS_Photo')==1){
+			 $scope.capturePhoto();
+		}
+		else{
+			 $scope.submitTms();
+		}
+    }
+
+
+ })

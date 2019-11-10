@@ -1,0 +1,18 @@
+<script type="text/javascript" src="js/controllers/myClaim.js"></script>
+<div id="my-claims" class="animated fadeIn">
+	<ul class="my-info my-claim" >
+		<li  ng-if="isRight(item.id)" ng-repeat="item in listMenuClaim track by $index" class="{{item.background}}">
+        <a ng-click="goURL(item.href)" ripper class="rippler rippler-inverse">
+        <p class="icon f-left">
+			<img ng-src="images/{{item.icon}}" />
+            </p>
+             <div class="f-left w90">
+			<b class="name" >{{item.name}}</b>
+			<p class="description"> {{item.description}}</p>
+
+            </div>
+             </a>
+    </li>
+
+	</ul><!--end list-my-leave-->
+</div><!--end list-my-leave-->

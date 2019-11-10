@@ -99,6 +99,10 @@
                         {
                             "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Geolocation\"><param name=\"android-package\" value=\"org.apache.cordova.geolocation.Geolocation\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -125,6 +129,18 @@
                         {
                             "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
                             "count": 2
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-feature android:name=\"android.hardware.location.gps\" />",
+                            "count": 1
                         }
                     ],
                     "/manifest": [
@@ -331,9 +347,6 @@
         "org.apache.cordova.file-transfer": {
             "PACKAGE_NAME": "com.payroll2u"
         },
-        "org.apache.cordova.geolocation": {
-            "PACKAGE_NAME": "com.payroll2u"
-        },
         "org.apache.cordova.wifiinfo": {
             "PACKAGE_NAME": "com.payroll2u"
         },
@@ -364,6 +377,9 @@
             "PACKAGE_NAME": "com.payroll2u"
         },
         "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "com.payroll2u"
         }
     },
@@ -710,6 +726,18 @@
             "clobbers": [
                 "PushNotification"
             ]
+        },
+        {
+            "file": "plugins/cordova-plugin-geolocation/www/android/geolocation.js",
+            "id": "cordova-plugin-geolocation.geolocation",
+            "clobbers": [
+                "navigator.geolocation"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-geolocation/www/PositionError.js",
+            "id": "cordova-plugin-geolocation.PositionError",
+            "runs": true
         }
     ],
     "plugin_metadata": {
@@ -728,7 +756,6 @@
         "ionic-plugin-keyboard": "1.0.8",
         "org.apache.cordova.device": "0.3.0",
         "org.apache.cordova.file-transfer": "0.5.0",
-        "org.apache.cordova.geolocation": "0.3.12",
         "org.apache.cordova.wifiinfo": "0.1.1",
         "cordova-plugin-compat": "1.2.0",
         "cordova-plugin-camera": "2.4.1",
@@ -738,6 +765,7 @@
         "cordova-plugin-google-analytics": "1.8.6",
         "cordova-plugin-firebase-analytics": "0.10.2",
         "phonegap-plugin-push": "1.8.1",
-        "cordova-plugin-whitelist": "1.3.3"
+        "cordova-plugin-whitelist": "1.3.3",
+        "cordova-plugin-geolocation": "2.4.3"
     }
 }

@@ -121,38 +121,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/org.apache.cordova.geolocation/www/Coordinates.js",
-        "id": "org.apache.cordova.geolocation.Coordinates",
-        "pluginId": "org.apache.cordova.geolocation",
-        "clobbers": [
-            "Coordinates"
-        ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.geolocation/www/PositionError.js",
-        "id": "org.apache.cordova.geolocation.PositionError",
-        "pluginId": "org.apache.cordova.geolocation",
-        "clobbers": [
-            "PositionError"
-        ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.geolocation/www/Position.js",
-        "id": "org.apache.cordova.geolocation.Position",
-        "pluginId": "org.apache.cordova.geolocation",
-        "clobbers": [
-            "Position"
-        ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.geolocation/www/geolocation.js",
-        "id": "org.apache.cordova.geolocation.geolocation",
-        "pluginId": "org.apache.cordova.geolocation",
-        "clobbers": [
-            "navigator.geolocation"
-        ]
-    },
-    {
         "file": "plugins/org.apache.cordova.wifiinfo/www/cordovaWifiInfo.js",
         "id": "org.apache.cordova.wifiinfo.wifi",
         "pluginId": "org.apache.cordova.wifiinfo",
@@ -434,7 +402,6 @@ module.exports.metadata =
     "ionic-plugin-keyboard": "1.0.8",
     "org.apache.cordova.device": "0.3.0",
     "org.apache.cordova.file-transfer": "0.5.0",
-    "org.apache.cordova.geolocation": "0.3.12",
     "org.apache.cordova.wifiinfo": "0.1.1",
     "phonegap-plugin-push": "1.5.3",
     "org.apache.cordova.file": "1.3.3",

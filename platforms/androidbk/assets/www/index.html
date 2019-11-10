@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Security-Policy" content="
+                            default-src * data: blob: ws: wss: gap://ready file://*;
+                            style-src * 'unsafe-inline';
+                            script-src * 'unsafe-inline' 'unsafe-eval';
+                            connect-src * ws: wss:;">
+
+    <meta name="format-detection" content="telephone=no">
+	<meta name="x-" http-equiv="x-rim-auto-match" forua="true" content="none">
+	<meta name="viewport" content="width=device-width, user-scalable=0" />
+
+<!-- <meta name="viewport" content="width=device-width, height=device-height,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi" />khong cho zoom khi mo ban phim-->
+
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="apple-touch-fullscreen" content="yes" />
+
+	<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-route.js"></script>
+    <script type="text/javascript" src="js/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="js/angular-touch.min.js"></script>
+    <script type="text/javascript" src="js/run.js"></script>
+    <script type="text/javascript" src="js/config.js"></script>
+    <script type="text/javascript" src="js/services.js"></script>
+    <script type="text/javascript" src="js/directives.js"></script>
+    <script type="text/javascript" src="js/controllers/main.js"></script>
+
+  <script type="text/javascript" src="js/controllers/home.js"></script>
+    <script type="text/javascript" src="js/rippler.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/jstorage.js"></script>
+    <script type="text/javascript" src="js/accounting.js"></script>
+
+	  <script type="text/javascript" src="js/jMonthCalendar.js"></script>
+    <script type="text/javascript" src="js/toastr.js"></script>
+    <script type="text/javascript" src="js/autoNumeric.js"></script>
+
+    <script type="text/javascript" src="js/jquery.actual.js"></script>
+
+
+<!--<script type="text/javascript" src="http://192.168.1.13:8080/target/target-script-min.js#anonymous"></script>-->
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/page.css" rel="stylesheet" type="text/css" />
+    <link href="css/rippler.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/datetimepicker.css" rel="stylesheet" type="text/css" />
+    <link href="css/custom_checkbox.css" rel="stylesheet" type="text/css" />
+    <link href="css/calendar.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/toastr.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body ng-app="App" style="background:#FFF; visibility:hidden;" ng-element-ready>
+
+ <div ng-controller="mainCtrl" ng-switch on="checkLocation" style="height:100%;">
+ <div class="loading" style="display:none;">
+
+ 	<div class="box-process">
+
+        <div class="wrap">
+          	<div class="title">{{lang.general.processing}}</div>
+          	<div class="content">
+               <img src="images/process.gif" class="f-left" />
+                <p class="text f-left">{{lang.general.waiting}}</p>
+                <div class="clear"></div>
+            </div><!--end content-->
+        </div><!--end wrap-->
+    </div>
+
+</div><!--end loading-->
+ <div class="overlay-load"></div>
+
+
+
+
+<div id="wrapper">
+
+		 <header class="{{device}}" ng-switch-when="havenav">
+			<div class="logo">
+					<a ng-click="backUrl()"><img src="images/icon_back.png" class="back" /></a>
+                    <a class="rippler rippler-inverse" ripper ng-click="goURL('Home')"><img src="images/logo.png" class="icon-logo" /></a>
+			</div><!--end logo-->
+			<a ng-click="goURL('Login')" class="btn-right"><img src="images/banner_next.png" class="logout" /></a>
+		</header>
+        <div id="quick-link" ng-switch-when="havenav">
+		<nav id="nav-top" >
+         <div class="control"> <a class="control prev"></a></div>
+			<div class="wrap" >
+
+                <ul set-full-width-menu2 style="width:480px;" >
+                    <li ng-click="checkNotEntitled(item)"  ng-repeat="item in quickLinks3 track by $index">
+                        <div class="{{item.background}}" ng-height-equal-width>
+                        <a href="{{item.link}}" >
+                            <p class="img"><span><img ng-src="images/{{item.icon}}.png" /></span></p>
+                            <p class="title"  ng-bind-html='item.title'></p>
+                        </a>
+                        </div>
+                    </li>
+
+                    <div class="clear"></div>
+                </ul>
+
+            </div>
+               <div class="control"><a class="next"></a></div>
+               <div class="clear"></div>
+		</nav>
+        </div>
+
+		 <div id="main" >
+			 <ng-view style="overflow: hidden;display: block;height: 100%;"></ng-view>
+		 </div>
+	</div>
+
+
+
+        <div class="modal-error-or-success" ng-show-modal-error-network="{{errorNetwork.result}}" >
+
+    <div class="box_modal">
+        <div class="title">
+            <img src="images/al_fail.png" width="20px" /> <span>{{lang.general.network_failed}}</span>
+            <div class="clear"></div>
+        </div>
+        <div class="content" ng-bind-html='errorNetwork.message'>
+
+        </div>
+        <div class="button">
+            <button ng-click="resetError();$event.preventDefault();">{{lang.general.btn.ok}}</button>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="modal-error-or-success" ng-show-modal-error="{{checkShowModalError()}}">
+
+    <div class="box_modal">
+        <div class="title">
+            <img src="images/al_fail.png" width="20px" /> <span>{{lang.general.error}}</span>
+            <div class="clear"></div>
+        </div>
+        <div class="content" ng-bind-html="error.message"></div>
+        <div class="button">
+            <button ng-click="resetError();$event.preventDefault();">{{lang.general.btn.ok}}</button>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="modal-error-or-success" ng-show-modal-success="{{success.result}}" center-screen>
+
+    <div class="box_modal">
+        <div class="title">
+            <img src="images/al_success.png" width="20px" /> <span>{{success.title}}</span>
+            <div class="clear"></div>
+        </div>
+        <div class="content" ng-show="success.message!=''">{{success.message}}</div>
+        <div class="button">
+            <button ng-click="success.callBack()">{{lang.general.btn.ok}}</button>
+        </div>
+    </div>
+
+</div>
+
+
+   <div class="modal-confirm" ng-show-modal-confirm="{{confirm.result}}" center-screen>
+     <div class="box_modal">
+       <div class="title">
+         <img src="images/al_success.png" width="20px" style="float: left;" /> <span style="color: #ffffff;margin-top: 3px;display: inline-block;margin-left: 5px;">{{confirm.title}}</span>
+         <div class="clear"></div>
+       </div>
+       <div class="content" ng-show="confirm.message!=''">{{confirm.message}}</div>
+
+       <div class="button">
+         <button ng-click="confirm.callBack();resetConfirm();">{{lang.general.btn.ok}}</button>
+
+         <button ng-click="resetConfirm();$event.preventDefault();confirm.cancel();">{{lang.general.btn.cancel}}</button>
+       </div>
+     </div>
+   </div>
+  </div>
+
+
+   <div class="overlay-error-network"></div>
+  <div class="overlay" ng-click="$event.preventDefault();"></div>
+<div class="overlay-error"></div>
+<div class="overlay-success"></div>
+ <div class="overlay-error-confirm"></div>
+
+</body>
+<script type="text/javascript" src="cordova.js"></script>
+</html>

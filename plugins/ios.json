@@ -1,0 +1,34 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-safariviewcontroller": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-android-support-gradle-release": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-file-opener2": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-google-analytics": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-firebase-analytics": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-cocoapod-support": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        }
+    }
+}

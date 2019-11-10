@@ -21,6 +21,8 @@ App.registerCtrl('homeCtrl', function($scope,$rootScope,$http,$location,$timeout
     if(listLocation==null)
       return true;
     var  check = false;
+    if(!currentLocation)
+      return false;
     for(var key in listLocation){
       var position = listLocation[key].Coordinates;
       var arrPosition = position.split(',');
@@ -53,7 +55,7 @@ App.registerCtrl('homeCtrl', function($scope,$rootScope,$http,$location,$timeout
   }, function () {
     // alert('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
   },
-    { maximumAge: 3000, timeout: 5000, enableHighAccuracy: true }
+    { maximumAge: 60000, timeout: 60000, enableHighAccuracy: false }
   );
   $.jStorage.deleteKey("OTData"); // reset OTData in claim (for overtime,benefit,...)
 	$rootScope.positionMenu = 0; //possion menu
@@ -355,7 +357,7 @@ push.on('error', function(e) {
 
 
 	 $scope.capturePhoto = function() {
-
+     $scope.getMacAdd();
 		if(device.platform=="Android"){
 
 			ProcessService.checkPermission("CAMERA").then(function(response) {
@@ -410,7 +412,7 @@ push.on('error', function(e) {
 
 
 	 $scope.submitTms = function(){
-
+     $scope.getMacAdd();
 		 var param = {
 
             RegisEMAC: 1,
@@ -480,22 +482,42 @@ push.on('error', function(e) {
 		 })
 		}
 	$scope.submitInOut = function(RegisEMAC) {
-   var checkValid =  checkValidLocation();
-    if(!checkValid){
-      $rootScope.error = {
-        result : true,
-        message :"Invalid location"
-      };
-      return;
-    }
-
-		$scope.RegisEMAC = RegisEMAC;
-		if(sessionStorage.getItem('TMS_Photo')==1){
-			 $scope.capturePhoto();
-		}
-		else{
-			 $scope.submitTms();
-		}
+      $(".loading").css({"display":"table"});
+      $(".overlay-load").show();
+      navigator.geolocation.getCurrentPosition(function (position) {
+          currentLocation = position.coords;
+          $scope.posLocation = currentLocation;
+          var checkValid =  checkValidLocation();
+          if(!checkValid){
+            $(".loading").css({"display":"none"});
+            $(".overlay-load").hide();
+            $scope.$apply(function () {
+              $rootScope.error = {
+                result : true,
+                message :"Invalid location"
+              };
+            })
+          }
+          else{
+            $scope.RegisEMAC = RegisEMAC;
+            if(sessionStorage.getItem('TMS_Photo')==1){
+              $scope.capturePhoto();
+            }
+            else{
+              $scope.submitTms();
+            }
+          }
+        }, function () {
+          $(".loading").css({"display":"none"});
+          $(".overlay-load").hide();
+          $rootScope.error = {
+            result : true,
+            message :"Can't get location on this device. Please try again"
+          };
+          // alert('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
+        },
+        { maximumAge: 60000, timeout: 60000, enableHighAccuracy: false }
+      );
     }
 
     $scope.copyToClipboard = function () {

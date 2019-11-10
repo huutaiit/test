@@ -1,0 +1,597 @@
+{
+	"general":{
+		 "required": "required",
+		 "apply": "Apply",
+		 "cancellation": "Cancellation",
+		 "enquiry": "Enquiry",
+		 "approval": "Approval",
+		 "delegate": "Delegate",
+		 "submitSuccess":"Submit Success",
+		 "application_submit":"Application Submitted",
+		 "application_saved":"Application Saved",
+		 "applications":"Applications",
+		 "error":"Error",
+		 "successful":"Successful",
+		 "confirm":"Confirm",
+		 "alert":"Alert",
+		 "not_entitled_to": "Not Entitled to",
+		 "network_failed": "Network failed",
+		 "please_check_your_network": "Please check your network",
+		 "load_more":"Load More",
+	     "maximum":"Maximum",
+		 "btn": {
+			"cancel": "Cancel",
+			"reset": "Reset",
+			"submit": "Submit",
+			"ok": "Ok",
+			"set_date": "Set Date",
+			"set_time": "Set Time"
+		 },
+		 "from": "From",
+		  "to": "To",
+		  "please_enter":"Please enter",
+		  "please_select":"Please Select",
+		  "please_upload_file":"Please upload file",
+		  "processing":"Processing...",
+		  "waiting":"Please wait",
+		  "day": "Day",
+		  "days": "Days",
+		  "hour": "Hour",
+		  "hours": "Hours",
+		  "no_image_selected":"No image selected",
+		  "none":"None"
+
+	},
+	"calendar":{
+		"month":{
+			"m_1":"JAN",
+			"m_2":"FEB",
+			"m_3":"MAR",
+			"m_4":"APR",
+			"m_5":"MAY",
+			"m_6":"JUN",
+			"m_7":"JUL",
+			"m_8":"AUG",
+			"m_9":"SEP",
+			"m_10":"OCT",
+			"m_11":"NOV",
+			"m_12":"DEC"
+		},
+		"month_full":{
+			"m_1":"January",
+			"m_2":"February",
+			"m_3":"March",
+			"m_4":"April",
+			"m_5":"May",
+			"m_6":"June",
+			"m_7":"July",
+			"m_8":"August",
+			"m_9":"September",
+			"m_10":"October",
+			"m_11":"November",
+			"m_12":"December"
+		},
+		"week":{
+			"w_1":"Sun",
+			"w_2":"Mon",
+			"w_3":"Tue",
+			"w_4":"Wed",
+			"w_5":"Thu",
+			"w_6":"Fri",
+			"w_7":"Sat"
+		},
+		"week_full":{
+			"w_0":"Sunday",
+			"w_1":"Monday",
+			"w_2":"Tuesday",
+			"w_3":"Wednesday",
+			"w_4":"Thursday",
+			"w_5":"Friday",
+			"w_6":"Saturday"
+
+		}
+	},
+    "login": {
+        "txt": {
+            "header": "Login to your Account",
+            "org": "Organisation",
+            "username": "UserName",
+			 "organisation_id": "Organisation ID",
+			 "user_id": "User ID",
+			 "your_user_id":"your User ID",
+            "password": "Password",
+			"your_password": "your Password",
+            "login": "Sign In",
+            "forgot": "Forgot your PASSWORD?",
+			"input_your_email_address": "Input your Email Address",
+			"email_sent":"Email sent",
+			"select_image":"Select Image",
+			"take_from_camera":"Take from camera",
+			"select_from_gallery":"Select from gallery"
+
+        },
+		"invalid_email_address":"Invalid Email Address.",
+		"invalid_email_please_contact_your_HR":"Invalid email. Please contact your HR.",
+		"user_id_suspended": "Account Suspended",
+		"not_match":"Organisation ID/User ID/Password do not match.",
+		"invalid_one_of":"Invalid Organisation / User ID / Password"
+    },
+
+    "main": {
+        "btn": {
+            "chpass": "Change <br> Password",
+            "payslip": "View <br> Payslip",
+            "leave": "Apply <br> Leave",
+            "reim": "Submit <br> reimb/allw",
+            "overtime": "Submit <br> Overtime",
+            "roster": "View <br> Roster",
+            "benefit": "Submit <br> Benefit",
+            "myprofile": "My Profile",
+            "myclaim": "My Claims",
+            "mytms": "My TMS",
+            "mypayroll": "My Payroll",
+            "myleave": "My Leave"
+
+        },
+        "txt": {
+            "chpass": "Hello",
+			 "touch_again_to_exit": "Touch again to exit",
+            "llogin": "Last login was on",
+			"about":"About",
+			"uuid":"ID",
+			"apmac":"Access Point MAC",
+			"version":"Version",
+			"website":"Website: https://www.payroll2u.com",
+			"wellcome":"Welcome to Office!",
+			"image_saved":"Image Saved",
+			"see_you_again":"Bye, see you again!",
+			"invalid_location":"Invalid Location",
+			"mobile_mac_not_setup":"Your Mobile MAC Address Is Not Setup",
+			"different_mobile_mac_address":"You Are Using A Different Mobile MAC Address",
+			"badge_id_not_setup":"Your Badge ID Is Not Setup. Please Contact HR."
+
+        },
+
+		"select_language":"Select language"
+    },
+
+
+
+
+    "mytms": {
+        "tt": "My TMS",
+        "ct": "Work Schedule, Shifts and Roster"
+    },
+
+
+    "menu": {
+        "tt682": "Change Password",
+        "ct682": "Never share your password to others",
+        "tt683": "Address",
+        "ct683": "Review your personal data stored by HR"
+    },
+
+    "myleave": {
+
+
+
+		"tt":"Leave",
+		"apply": {
+            "tt": "Apply Leave",
+            "ct": "Submit your leave application",
+            "selectLeaveType": "Select Leave Type",
+             "selectBusinessTripCountry": "Business Trip Country",
+			"select_approving_officer": "Select Approving Officer",
+            "selectExtent": "Select Apply Type",
+            "applyleavesubmitted": "Application Submitted",
+
+            "type": {
+                "tt": "Leave Type"
+            },
+            "extent": {
+                "tt": "Apply Type"
+            },
+
+            "duration": {
+                "tt": "Duration",
+                "ct": "Duration"
+            },
+            "remarks": {
+                "tt": "Remarks"
+            },
+            "approvingOfficer": {
+                "tt": "Approving Officer"
+            },
+             "businessTripCountry": {
+                  "tt": "Business Trip Country"
+              },
+               "courseAttended": {
+                   "tt": "Course Attended"
+               },
+
+			"notify_group":"Notify Group",
+			"block_lv":"Block Leave",
+				"notify_employee":"Notify Employee",
+            "fileName": {
+                "tt": "File Name"
+            },
+			"status":"Status",
+			"period":"Period",
+			"validation":{
+				"type_not_valid":"Please Select A Leave Type.",
+				"extent_not_valid":"The extent Is Not Valid.",
+				"duration_not_valid":"The Duration Is Not Valid",
+				"remark_not_valid":"Please Enter Remarks",
+				"file_not_valid":"Please Upload File.",
+				"not_choose_day_off_rest_holiday":"Applied Date Falls On A Public Holiday / Rest Day / Off Day.",
+				"to_is_less_than_from_date":"TO date is &quot;less than&quot; FROM date. Please change.",
+				"to_is_less_than_from_time":"TO time is &quot;less than or equal to&quot; FROM time. Please change.",
+				"from_is_equal_to_date":"FROM Date &quot;should be equal to&quot; TO Date. Please Change.",
+				"no_approving_officer":"No Approving Officer. Please contact your HR.",
+				"buss_trip_ctry_course_valid":"Please Select A Business Trip Country"
+			}
+
+        },
+		 "calendar": {
+            "tt": "Leave Calendar",
+			"ct":"View your own leave application",
+			"detail": "Detail",
+			"taken": "Taken",
+			"applied": "Applied",
+			"legend": "Legend",
+			"leave_type":"Leave Type"
+        },
+        "cancellation": {
+            "tt": "Cancellation",
+            "ct": "Review and cancel your leave application",
+			"cancellation_successful":"Cancellation successful"
+        },
+
+		"enquiry": {
+            "tt": "Leave Enquiry",
+			"ct":"Check your leave application status and available balances",
+			"taken": "Taken",
+			"pending": "Pending",
+			"pending_approval":"Pending Approval",
+			"summ_entitle":"Entitle",
+			"summ_earned":"Earned",
+			"summ_bf":"B/F",
+			"summ_in_lieu":"In-Lieu",
+			"summ_taken":"Taken",
+			"summ_bal":"Bal",
+			"summ_ye_bal":"YE Bal"
+
+        },
+
+       "approval": {
+            "tt": "Approval",
+			"ct":"Approve or reject leave application"
+        },
+		"adminApproval": {
+            "tt": "Admin Approval",
+			"ct":"Approve or reject leave application"
+        },
+        "plan": {
+            "tt": "Leave Plan",
+			      "ct":"View your team's leave application",
+			      "detail": "Detail",
+			      "taken": "Taken",
+			      "applied": "Applied",
+			      "filter": "Filter"
+        },
+
+
+        "delegate": {
+            "tt": "Delegate",
+			"ct":"You can delegate approving function to another person",
+			 "please_select_an_approving_officer":"Please select an Approving Officer",
+			"duration": "Duration",
+			"approvingOfficer": "Approving Officer"
+
+        }
+    },
+
+
+	 "myclaim": {
+		 "tt":"Claim",
+		 "tt2":"Claimed",
+		"receipt_no":{
+			"tt":"Receipt No."
+		},
+		"currency":{
+			"tt":"Receipt Currency"
+		},
+		"receipt_amount":{
+			"tt":"Receipt Amount"
+			},
+
+		"gst_amount":{
+			"tt":"GST Amount"
+		},
+		"amount":"Amount",
+		"exchange_rate":{
+			"tt":"Exchange Rate"
+		},
+		"incurred_by":"Incurred By",
+		"dependant":"Dependant",
+		"description":"Claim Description",
+		"remarks":{
+			"tt":"Remarks",
+			"ct":"Touch to input Remarks"
+		},
+		"delegate":{
+		 "duration": "Duration",
+		  "select_approving_officer": "Select Approving Officer",
+          "approvingOfficer": "Approving Officer",
+		  "delegate_to":"Delegate To"
+		},
+		"attached_list":"Attached List",
+		"file_attached":"File attached",
+		"approving_officer":"Approving Officer",
+		"status":"Status",
+		"receipt":"Receipt",
+		"date":"Date",
+		"coverage":"Coverage",
+		"total":"Total",
+		"batch_detail": "Batch Detail",
+		"validation":{
+				"insufficient_balance":"Insufficient Balance",
+				"insufficient_reimburse_amount": "Insufficient Reimburse Amount",
+				"approving_officer":"Please enter Approving Officer",
+				"not_choose_sun_sat":"Pleave do not choose Sunday or Saturday",
+				"to_is_less_than_from_date":"To date is 'less than' From date. Please change.",
+				"to_is_less_equal_from_time": "TO time is 'less than or equal to' FROM time. Please change.",
+				"future_date_not_allowed":"Future Date Not Allowed. Please Change.",
+				"from_is_equal_date": "Please input From Date is equal To Date",
+				"invalid_reimburse_gst":"Invalid Reimburse GST Amount",
+				"gst_registration_no_vaild":"GST Registration No. Must Be 12 Characters"
+
+			},
+        "ot": {
+
+            "tt": "Overtime Claim",
+			"tt2": "Overtime",
+            "ct": "Submit and manage overtime claims",
+			"apply":{
+				"tt":"Apply Overtime",
+				"ct":"Submit your overtime claim",
+
+				"duration":"Duration",
+				"remarks":{
+					"tt":"Remarks"
+				},
+				"approvingOfficer":"Approving Officer",
+				"type":"Type",
+				"status":"Status",
+				"approved": "Approved",
+				"pending": "Pending",
+				"invalid_data_type": "Invalid Data - Type"
+			},
+
+			"cancellation":{
+
+				"ct":"Review and cancel overtime claim"
+			},
+			"enquiry":{
+
+				"ct":"Check your overtime claim status"
+			},
+			"approval":{
+				"ct":"Approve or reject your overtime claim applications"
+			},
+			"delegate":{
+
+				"ct":"You can delegate approving function to another person"
+			}
+
+        },
+		  "sc": {
+
+            "tt": "Submit Saved Claims",
+            "ct": "Submit your Saved claims"
+
+        },
+        "ben": {
+            "tt": "Benefit Claim",
+			"tt2": "Benefit",
+            "ct": "Submit and manage medical, hospitalisation, dental or any benefit claims",
+			"ct2": "Submit and manage benefit claims",
+			"apply":{
+				"tt":"Apply Benefit",
+				"ct":"Submit your benefit claims such as medical, hospitalisation, optical, etc",
+				"benefit_type":"Benefit Type",
+				"status":"Status",
+				"attached_list":"Attached List",
+				"clinic":"Clinic"
+			},
+
+			"cancellation":{
+
+				"ct":"Review and cancel your benefit claim applications"
+			},
+			"enquiry":{
+				"benefit_enquiry_claimed":"Benefit Enquiry - Claimed",
+				"benefit_enquiry_pending_approval":"Benefit Enquiry - Pending Approval",
+				"ct":"Check your benefit claim status and available balances"
+			},
+			"approval":{
+
+				"ct":"Approve or reject your benefit claim applications"
+			},
+			"delegate":{
+
+				"ct":"You can delegate approving function to another person"
+			}
+        },
+
+        "reim": {
+            "tt": "Reimb/Allw Claim",
+			"tt2": "Reimb/Allw",
+            "ct": "Submit and manage Reimb/Allw",
+			 "ct2": "Submit and manage Reimb/Allw claim",
+			"apply":{
+				"tt":"Apply Reimb/Allw",
+				"ct":"Submit your Reimb/Allw claim such as mileage, entertaiment, etc.",
+				"reimbursement_type":"Reimb/Allw Type",
+				"rate": "Rate",
+				"mileage":
+				{
+					"tt":"Mileage"
+				},
+
+				"reimburse":"Reimburse",
+
+				"incurred_from":"Incurred From",
+				"incurred_to":"Incurred To",
+				"incurred_to_is_less_than_from":"Incurred TO is &quot;less than&quot; Incurred FROM. Please Change.",
+				"billable":{
+					"tt":"Billable"
+				},
+				"customer":{
+					"tt":"Customer",
+					"tt2":"Customer/Supplier"
+
+				}
+
+
+
+			},
+			"cancellation":{
+
+				"ct":"Review and cancel your Reimb/Allw claim applications"
+			},
+			"enquiry":{
+				"benefit_enquiry_claimed":"Reimb/Allw Enquiry - Claimed",
+				"benefit_enquiry_pending_approval":"Reimb/Allw Enquiry - Pending Approval",
+				"ct":"Check your Reimb/Allw claim status and available balances"
+			},
+			"approval":{
+
+				"ct":"Approve or reject your Reimb/Allw claim applications"
+			},
+			"delegate":{
+
+				"ct":"You can delegate approving function to another person"
+			}
+        },
+
+        "pay": {
+            "tt": "Request for Payment",
+			"tt2":"Payment",
+            "ct": "Submit claims for Suppliers' invoices",
+			"apply":{
+				"tt":"Apply Payment",
+				"ct":"Submit your request for payment",
+				"sup_cus":"Supplier/Customer",
+				"order_no":
+				{
+					"tt":"Order No."
+				},
+				"pay_to":{
+					"tt":"Pay To",
+					"tt2":"Supplier"
+				},
+
+				"claim_from":{
+					"tt":"Claim From"
+				},
+
+				"claim_item":{
+					"tt":"Claim Item"
+				},
+
+				"payment_method":{
+					"tt":"Payment Method"
+				},
+				"invoice_type":"Invoice Type",
+				"gst_registration_no":"GST Registration No.",
+				"invoice_name":"Invoice Name",
+				"invoice_address":"Invoice Address",
+				"company":"Company"
+
+			},
+			"cancellation":{
+
+				"ct":"Review and cancel your request for payment"
+			},
+			"enquiry":{
+
+				"ct":"Check your request for payment balances",
+				"pay_enquiry_claimed":"Request for Payment Enquiry - Claim",
+				"pay_enquiry_pending_approval":"Request for Payment Enquiry - Pending Approval"
+			},
+			"approval":{
+
+				"ct":"Approve or reject request for payment"
+			},
+			"delegate":{
+
+				"ct":"You can delegate approving function to another person"
+			}
+        }
+    },
+	"myprofile": {
+		"tt":"My Profile",
+		"ct":"",
+		"changePass":{
+			"tt":"Change Password",
+			"ct":"Never share your password to others",
+			"current_password":"Current Password",
+			"new_password":"New Password",
+			"confirm_new_password":"Confirm New Password",
+			"your_password_has_been_changed": "Your password has been changed",
+			"error": {
+					"currpass": "Please enter Current Password",
+					"newpass": "Please enter New Password",
+					"cfmpass": "Please reconfirm password",
+					"cfmpassandpassnotsame": "New Password and Confirm New Password do not match"
+       		 }
+		},
+		"address":{
+			"tt":"Address",
+			"ct":"Review your personal data stored by HR"
+		}
+
+    },
+	"mypayroll": {
+
+		"payslip":{
+			"tt":"Payslip",
+			"ct":"View your current and previous months' payslips"
+		},
+		"cp8a":{
+        "tt":"CP8A",
+        "ct":"View your current and previous years' CP8A form"
+    },
+    "pcb2":{
+        "tt":"PCB2",
+        "ct":"View your current and previous years' PCB2 form"
+    },
+		"address":{
+			"tt":"Address",
+			"ct":"Review your pesonal data stored by Hr"
+		}
+	},
+	"mytms": {
+		"tt":"My TMS",
+		"ct":"Work Schedule, Shifts and Roster",
+		"pleseSelectEmployee":"Plese Select Employee",
+		"rosterEnquiry":{
+			"tt":"Roster Enquiry",
+			"ct":"Check time in and time out for your shift"
+		},
+		"clockingsEnquiry":{
+    			"tt":"Clockings Enquiry",
+    			"ct":"Check your clock in and clock out"
+    		},
+    "clockOnBehalf":{
+          "tt":"Clock On Behalf",
+          "ct":"To clock in and clock out for Employees"
+        },
+		"mobileMacAddress":{
+			"tt":"Mobile MAC Address",
+			"ct":"Check Mobile MAC Address",
+			"id":"ID"
+		}
+	}
+}

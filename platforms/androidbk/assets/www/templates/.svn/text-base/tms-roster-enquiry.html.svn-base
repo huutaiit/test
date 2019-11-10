@@ -1,0 +1,8 @@
+<script type="text/javascript" src="js/controllers/myTms.js"></script>
+<div class="form">
+    	<div class="form-info" id="leave-calendar">
+    	<h1 class="title-form background-ff6600">{{lang.mytms.rosterEnquiry.tt}}</h1>
+	
+<div id="jMonthCalendar" class="style-ff6600" ng-events="events" ng-href="/tmsRosterEnquiryDetail" callback-fn="getSelectMonth(arg)" j-month-calendar ></div>
+</div><!--end leave-calendar-->
+</div>

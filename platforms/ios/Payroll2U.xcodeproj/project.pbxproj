@@ -117,7 +117,6 @@
 		CDAEEB181DF94A91BEA6655A /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058B21B4B880475397456BB1 /* CoreImage.framework */; };
 		D24D5CCE3D9A4295AB8301F5 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E41C8334FC74F108D9B1FE3 /* CDVConnection.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		D5341E1138934955A4F9B961 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE860AF3BA4BDA91677A2A /* CDVLocation.m */; };
 		D6F8DD1B10BF45D4AB4BDBC9 /* UniversalAnalyticsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1178A993E0F3413DB3C37B59 /* UniversalAnalyticsPlugin.m */; };
 		E0D08569E82E421193B952E3 /* libGIP_Reachability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0DBDD91E864C1FA9D1506F /* libGIP_Reachability.a */; };
 		E1C471D32E224B749E76E0E3 /* SOSPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E67CA3D5951438B9678CF60 /* SOSPicker.m */; };
@@ -280,7 +279,6 @@
 		842B388B1FC02520009C74E2 /* Payroll2U.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Payroll2U.entitlements; path = Payroll2U/Payroll2U.entitlements; sourceTree = "<group>"; };
 		846DBE7931514D81B365F7E8 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = "cordova-plugin-google-analytics/GAIEcommerceFields.h"; sourceTree = "<group>"; };
 		84BEE66C1FDCD7E500EEB009 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Payroll2U/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		84EE860AF3BA4BDA91677A2A /* CDVLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVLocation.m; path = org.apache.cordova.geolocation/CDVLocation.m; sourceTree = "<group>"; };
 		862AEF59B3864D73BD5A7B6E /* libGTM_GTMURLBuilder.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libGTM_GTMURLBuilder.a; path = "Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_GTMURLBuilder.a"; sourceTree = "<group>"; };
 		89B148A8B30E4030B8D97091 /* SOSPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SOSPicker.h; path = com.synconset.imagepicker/SOSPicker.h; sourceTree = "<group>"; };
 		8AD1EEC7D54347E88402E948 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = "cordova-plugin-google-analytics/GAIEcommerceProductAction.h"; sourceTree = "<group>"; };
@@ -303,7 +301,6 @@
 		A4EB128D133B4DF7AC4B7A5A /* libGTMSessionFetcher_full.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libGTMSessionFetcher_full.a; path = "Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries/libGTMSessionFetcher_full.a"; sourceTree = "<group>"; };
 		A4F308FFE65C4A4CA55A2C32 /* libz.dylib */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		A5F2F02A3E4B495DBC4572E2 /* CDVReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVReachability.h; path = "cordova-plugin-network-information/CDVReachability.h"; sourceTree = "<group>"; };
-		A66633ACD25F4B45889DBDEC /* CDVLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVLocation.h; path = org.apache.cordova.geolocation/CDVLocation.h; sourceTree = "<group>"; };
 		A6B2622B717043FDB9E5540A /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = "cordova-plugin-google-analytics/GAIEcommercePromotion.h"; sourceTree = "<group>"; };
 		A7C17C76731E4E77B423874C /* CDVInAppBrowser.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVInAppBrowser.h; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; };
 		A7CB2C67FC374752B3904825 /* GGLInstanceIDDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDDelegate.h; path = "phonegap-plugin-push/GCM/Headers/GGLInstanceIDDelegate.h"; sourceTree = "<group>"; };
@@ -619,8 +616,6 @@
 				F3B4232BD1CA48FF9AE8E0BF /* CDVDevice.h */,
 				5E20DFD9182347338A87A008 /* CDVFileTransfer.m */,
 				6D8C575DD34B421BA7EAB6F8 /* CDVFileTransfer.h */,
-				84EE860AF3BA4BDA91677A2A /* CDVLocation.m */,
-				A66633ACD25F4B45889DBDEC /* CDVLocation.h */,
 				60F20BB296114EA7B0EA697B /* AppDelegate+notification.m */,
 				1BE49B530C1D4C4C99C255DD /* PushPlugin.m */,
 				0870E494E170488C84859E09 /* AppDelegate+notification.h */,
@@ -945,7 +940,6 @@
 				B1CF5D7995054528A78DC2B1 /* UIWebViewExtension.m in Sources */,
 				0049BC404A084FD38FC4572F /* CDVDevice.m in Sources */,
 				FF7071EF15F9433697B27677 /* CDVFileTransfer.m in Sources */,
-				D5341E1138934955A4F9B961 /* CDVLocation.m in Sources */,
 				C386307FEE25425BA1839428 /* AppDelegate+notification.m in Sources */,
 				CB6AABDF4F8745BB9D6927B4 /* PushPlugin.m in Sources */,
 				2EE6BEB4457144B28E75E340 /* CDVFile.m in Sources */,

@@ -1,0 +1,105 @@
+<script type="text/javascript" src="js/controllers/myClaim.js"></script>
+<!--start Apply leave-->
+<div class="form" >
+    <h1 class="title-form background-88b824">{{lang.myclaim.ot.tt2}} {{lang.general.delegate}}</h1>
+    <div class="form-info scroll" ng-element-height="90">
+
+        <ul class="list form-apply" id="apply-leave">
+            <li modal="fromDate">
+                <div class="f-left">
+                    <p class="label required"><label>{{lang.general.from}}</label> <span>({{lang.general.required}})</span></p>
+                    <p class="input"><input  readonly="readonly" value="{{field.DateFr | formatDate:'mediumDate3'}}"  type="text" /></p>
+                </div>
+               <a class="f-right icon"><i class="fa fa-calendar"></i></a>
+                <div class="clear"></div>
+            </li>
+
+            <li modal="toDate">
+                <div class="f-left">
+                    <p class="label required"><label>{{lang.general.to}}</label> <span>({{lang.general.required}})</span></p>
+                    <p class="input"><input  value="{{field.DateTo | formatDate:'mediumDate3'}}" readonly="readonly" type="text" /></p>
+                </div>
+        <a class="f-right icon"><i class="fa fa-calendar"></i></a>
+                <div class="clear"></div>
+            </li>
+
+            <li>
+                <div class="f-left">
+                    <p class="label"><label>{{lang.myclaim.delegate.duration}}</label></p>
+                    <p class="input"><input disabled="disabled" value="{{field.duration.description}}" readonly  type="text" /></p>
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+
+
+            <li modal="approvingOfficer">
+                <div class="f-left">
+                    <p class="label required"><label>{{lang.myclaim.delegate.delegate_to}}</label></p>
+                    <p class="input"><input disabled="disabled" ng-model="field.ApprovingOfficer.Name" readonly="readonly"  type="text" /></p>
+                </div>
+                
+              <a  class="f-right icon"><i class="fa fa-search-plus"></i></a>
+
+                <div class="clear"></div>
+            </li>
+
+           
+
+        </ul>
+       
+    </div><!--end form-info-->
+
+    <div class="button">
+        <a></a>
+         <a ng-click="submitDelegate()"><span>{{lang.general.btn.submit}}</span></a>
+        <a></a>
+       
+    </div><!--end button-->
+</div><!--end form-->
+
+
+<div id="approvingOfficer" class="modal animated bounceInDown">
+    <h2 class="modal-title">
+      {{lang.myleave.delegate.approvingOfficer}}
+     <span close-modal class="close-modal"></span>
+    </h2>
+    <div class="wrap_modal" >
+    <div class="modal-content" id="listEmployee" ng-set-height-modal-content="{{listEmployee.length}}">
+    	
+        <ul class="select">
+            <li ng-click="selectApprovingOfficer(item)" ng-repeat="item in listEmployee track by $index" close-modal>{{item.Name}}</li>
+        </ul>
+    </div><!--end wrap_modal-->
+    </div>
+</div><!--end modal-->
+
+
+<div id="fromDate" class="modal animated bounceInDown">
+    <ng-date-picker id="from-date"></ng-date-picker>
+    <table width="100%" class="tbl-picker">
+        <tr>
+            <td width="33.33333333333333%"><div class="ui-content ui-body-a btn-control" ng-click="selectDate('DateFr')"  >{{lang.general.btn.ok}}</div></td>
+            <td width="33.33333333333333%"><div class="reset-date ui-content ui-body-a btn-control" >{{lang.general.btn.reset}}</div></td>
+            <td width="33.33333333333333%"><div class="ui-content ui-body-a btn-control"  close-modal>{{lang.general.btn.cancel}}</div></td>
+        </tr>
+    </table>
+</div>
+
+
+<div id="toDate" class="modal animated bounceInDown">
+    <ng-date-picker id="to-date"></ng-date-picker>
+    <table width="100%" class="tbl-picker">
+        <tr>
+            <td width="33.33333333333333%"><div class="ui-content ui-body-a btn-control" ng-click="selectDate('DateTo')" >{{lang.general.btn.ok}}</div></td>
+            <td width="33.33333333333333%"><div class="reset-date ui-content ui-body-a btn-control" >{{lang.general.btn.reset}}</div></td>
+            <td width="33.33333333333333%"><div class="ui-content ui-body-a btn-control"  close-modal>{{lang.general.btn.cancel}}</div></td>
+        </tr>
+    </table>
+</div>
+
+
+
+
+

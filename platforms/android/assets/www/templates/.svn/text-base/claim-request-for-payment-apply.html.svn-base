@@ -1,0 +1,54 @@
+<script type="text/javascript" src="js/controllers/myClaim.js"></script>
+
+<div class="form">
+	<div ng-show="showAttached==false" style="height:100%;">
+  		<h1 class="title-form background-718138">{{lang.myclaim.pay.apply.tt}} {{lang.myclaim.tt}} </h1>
+  		<div class="form-info scroll" ng-element-height="90" load-partial-view="form-apply-pay">
+  	</div><!--end form-info-->
+
+  <div class="button">
+    <a ><span></span></a>
+     <a ng-click="submitClaimApply()"><span>{{lang.general.btn.submit}}</span></a>
+    <a ng-click="showAttachedList()"><span><img src="images/n_btn_apply_leave_attach.png" /></span></a>
+
+  </div><!--end button-->
+  </div>
+
+  <div id="attached-file" ng-show="showAttached==true" style="height:100%;">
+    <h1 class="title-form background-718138">{{lang.myclaim.attached_list}}</h1>
+    <div class="form-info" ng-element-height>
+
+      <ul class="list form-apply">
+        <li ng-repeat="item in listFileAttached track by $index">
+          <img ng-click="removeFile(item)" class="f-left" style="width:30px; margin-right:10px;" src="images/n_button_cancelation.png" />
+          <div class="f-left" style="width:auto;" ng-click="viewFile(item)">
+            <p class="hind">{{lang.myclaim.file_attached}}</p>
+            <p class="label">{{item}}</p>
+          </div>
+          <div class="clear"></div>
+        </li>
+
+      </ul>
+    </div>
+     <div class="button">
+      <a ng-click="capturePhoto()"><span><img src="images/n_btn_apply_leave_cam.png" /></span></a>
+       <a ng-click="hideAttachedList()"><span><img src="images/btn_save.png" /></span></a>
+      <a ng-click="getPhoto()"><span><img src="images/n_btn_apply_leave_attach.png" /></span></a>
+
+    </div><!--end button-->
+  </div>
+
+
+</div><!--end form-->
+
+
+
+<div load-partial-view="modal-apply-pay"></div>
+
+
+
+<div id="point">
+  <div class="item" ><span ng-click="insertAtCaret('.');$event.preventDefault();"></span></div>
+  <div class="clear"></div>
+</div>
+<div class="overlay2"></div>

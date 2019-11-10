@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10
+END
+createEntryFromNative.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/createEntryFromNative.js
+END
+getDirectory.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/getDirectory.js
+END
+requestAllFileSystems.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/requestAllFileSystems.js
+END
+readAsText.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/readAsText.js
+END
+FileProxy.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/FileProxy.js
+END
+getFile.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/getFile.js
+END
+readAsArrayBuffer.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/readAsArrayBuffer.js
+END
+setMetadata.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/setMetadata.js
+END
+copyTo.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/copyTo.js
+END
+info.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/info.js
+END
+moveTo.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/moveTo.js
+END
+FileSystem.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/FileSystem.js
+END
+truncate.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/truncate.js
+END
+getMetadata.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/getMetadata.js
+END
+remove.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/remove.js
+END
+resolveLocalFileSystemURI.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/resolveLocalFileSystemURI.js
+END
+getFileMetadata.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/getFileMetadata.js
+END
+getParent.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/getParent.js
+END
+write.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/write.js
+END
+readAsDataURL.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/readAsDataURL.js
+END
+removeRecursively.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/removeRecursively.js
+END
+readAsBinaryString.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/readAsBinaryString.js
+END
+readEntries.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/readEntries.js
+END
+requestFileSystem.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/requestFileSystem.js
+END
+requestAnimationFrame.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/www/blackberry10/requestAnimationFrame.js
+END

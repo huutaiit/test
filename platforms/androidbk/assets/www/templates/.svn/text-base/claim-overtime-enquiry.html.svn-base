@@ -1,0 +1,33 @@
+<script type="text/javascript" src="js/controllers/myClaim.js"></script>
+<!--start Leave Enquiry-->
+	<div class="form">
+    <h1 class="title-form background-88b824">{{lang.myclaim.ot.tt2}} {{lang.general.enquiry}}</h1>
+    	<div class="form-info scroll">
+    	
+        <ul class="list">
+        
+        	<li ng-repeat="item in listEnquiry track by $index" ng-click="viewDetail(item,'claimOvertimeDetail')">
+            	<div class="f-left max-width-60" >
+                	<p class="lable f-left">
+                 
+                   
+                    <span class="text-block">{{lang.myclaim.ot.apply.type}}: {{item.ClaimDesc}}</span>
+                    </p>
+                   
+                    <p class="date">{{item.Date}}</p>
+                </div>
+                <p class="f-right text-align-right">
+                	<span class="text-block">{{item.ClaimUnit}} {{item.TimeType}} </span>
+                    <span class="text-block"> {{item.TimeFrom}} - {{item.TimeTo}}</span>
+                    <span class="text-block text-color-5c7c19">{{item.Status}}</span>
+                </p>
+                <div class="clear"></div>
+            </li>
+ 
+        </ul>
+        </div><!--end form-info-->
+        
+        
+    </div><!--end form-->
+	
+<!--end Leave Enquiry-->

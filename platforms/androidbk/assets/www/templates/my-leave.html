@@ -1,0 +1,20 @@
+<script type="text/javascript" src="js/controllers/myLeave.js"></script>
+<div id="list-my-leave" class="scroll animated fadeIn" style="height:100%;">
+	<ul class="my-info my-leave" >
+        
+        <li ng-if="isRight(item.id)" ng-repeat="item in listMenuLeave track by $index">
+         <a ng-click="goURL(item.href)">
+         <p class="f-left icon">
+            <img ng-src="images/{{item.icon}}" />
+            </p>
+            <div class="f-left">
+               <b class="name">{{item.name}}</b>
+                <p class="description">{{item.description}}</p>
+            </div>
+            </a>
+        </li>
+		
+		
+		
+	</ul><!--end list-my-leave-->
+</div><!--end list-my-leave-->

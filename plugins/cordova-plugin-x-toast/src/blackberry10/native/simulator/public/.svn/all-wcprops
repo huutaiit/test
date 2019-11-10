@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/payroll2u/!svn/ver/2/plugins/cordova-plugin-x-toast/src/blackberry10/native/simulator/public
+END
+plugin.o
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/payroll2u/!svn/ver/2/plugins/cordova-plugin-x-toast/src/blackberry10/native/simulator/public/plugin.o
+END
+tokenizer.o
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/payroll2u/!svn/ver/2/plugins/cordova-plugin-x-toast/src/blackberry10/native/simulator/public/tokenizer.o
+END
+json_reader.o
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/payroll2u/!svn/ver/2/plugins/cordova-plugin-x-toast/src/blackberry10/native/simulator/public/json_reader.o
+END
+json_value.o
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/payroll2u/!svn/ver/2/plugins/cordova-plugin-x-toast/src/blackberry10/native/simulator/public/json_value.o
+END
+json_writer.o
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/payroll2u/!svn/ver/2/plugins/cordova-plugin-x-toast/src/blackberry10/native/simulator/public/json_writer.o
+END

@@ -1,0 +1,101 @@
+<script type="text/javascript" src="js/controllers/myClaim.js"></script>
+
+<div class="form" >
+    <h1 class="title-form background-28903b ">{{lang.myclaim.reim.tt2}} {{lang.general.delegate}}</h1>
+    <div class="form-info scroll" ng-element-height="90">
+
+        <ul class="list form-apply" id="apply-leave">
+            <li modal="fromDate">
+                <div class="f-left">
+                    <p class="label required"><label>{{lang.general.from}}</label> <span>({{lang.general.required}})</span></p>
+                    <p class="input"><input  readonly="readonly"  value="{{field.DateFr | formatDate:'mediumDate3'}}"  typ type="text" /></p>
+                </div>
+              <a class="f-right icon"><i class="fa fa-calendar"></i></a>
+                <div class="clear"></div>
+            </li>
+
+            <li modal="toDate">
+                <div class="f-left">
+                    <p class="label required"><label>{{lang.general.to}}</label> <span>({{lang.general.required}})</span></p>
+                    <p class="input"><input  value="{{field.DateTo | formatDate:'mediumDate3'}}" readonly="readonly" type="text" /></p>
+                </div>
+               <a class="f-right icon"><i class="fa fa-calendar"></i></a>
+                <div class="clear"></div>
+            </li>
+
+            <li>
+                <div class="f-left">
+                    <p class="label"><label>{{lang.myclaim.delegate.duration}}</label></p>
+                    <p class="input"><input  value="{{field.duration.description}}" readonly placeholder="{{lang.myclaim.apply.duration.ct}}" type="text" /></p>
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+
+
+            <li modal="approvingOfficer">
+                <div class="f-left">
+                    <p class="label required"><label>{{lang.myclaim.delegate.delegate_to}}</label></p>
+                    <p class="input"><input  ng-model="field.ApprovingOfficer.Name" readonly="readonly" placeholder="{{lang.myclaim.apply.approvingOfficer.ct}}" type="text" /></p>
+                </div>
+                
+                <a  class="f-right icon"><i class="fa fa-search-plus"></i></a>
+
+                <div class="clear"></div>
+            </li>
+
+           
+
+        </ul>
+       
+    </div><!--end form-info-->
+
+    <div class="button">
+        <a></a>
+         <a ng-click="submitDelegate()"><span>{{lang.general.btn.submit}}</span></a>
+        <a></a>
+       
+    </div><!--end button-->
+</div><!--end form-->
+
+
+<div id="approvingOfficer" class="modal animated bounceInDown" center-screen>
+    <h2 class="modal-title">   {{lang.myleave.delegate.approvingOfficer}}<span close-modal class="close-modal"></span></h2>
+    <div class="wrap_modal" >
+    <div class="modal-content" id="listEmployee" ng-set-height-modal-content="{{listEmployee.length}}" >
+    	
+        <ul class="select">
+            <li ng-click="selectApprovingOfficer(item)" ng-repeat="item in listEmployee track by $index" close-modal>{{item.Name}}</li>
+        </ul>
+    </div><!--end wrap_modal-->
+    </div>
+</div><!--end modal-->
+
+
+<div id="fromDate" class="modal animated bounceInDown" center-screen>
+    <ng-date-picker id="from-date"></ng-date-picker>
+    <table width="100%" style="background-color:#a7a7a7;">
+        <tr>
+            <td width="33.33333333333333%"><div class="ui-content ui-body-a" ng-click="selectDate('DateFr')" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;" >{{lang.general.btn.ok}}</div></td>
+            <td width="33.33333333333333%"><div class="reset-date ui-content ui-body-a" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;">{{lang.general.btn.reset}}</div></td>
+            <td width="33.33333333333333%"><div class="ui-content ui-body-a" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;" close-modal>{{lang.general.btn.cancel}}</div></td>
+        </tr>
+    </table>
+</div>
+
+
+<div id="toDate" class="modal animated bounceInDown" center-screen>
+    <ng-date-picker id="to-date"></ng-date-picker>
+    <table width="100%" style="background-color:#a7a7a7;">
+        <tr>
+            <td width="33.33333333333333%"><div class="ui-content ui-body-a" ng-click="selectDate('DateTo')" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;">{{lang.general.btn.ok}}</div></td>
+            <td width="33.33333333333333%"><div class="reset-date ui-content ui-body-a" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;">{{lang.general.btn.reset}}</div></td>
+            <td width="33.33333333333333%"><div class="ui-content ui-body-a" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;" close-modal>{{lang.general.btn.cancel}}</div></td>
+        </tr>
+    </table>
+</div>
+
+
+
+

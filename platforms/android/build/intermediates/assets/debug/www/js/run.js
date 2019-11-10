@@ -1,7 +1,7 @@
 //Define an angular module for our app
 var App = angular.module('App', ["ngRoute","ngSanitize","ngTouch"]).run(function( $location,$rootScope,$timeout,ProcessService) {
-	 // $rootScope.GATEWAYURL = "https://hybridapp.payroll2u.com/";
-  $rootScope.GATEWAYURL = "https://uatsvrhybrid3.payroll2u.com/"
+	 $rootScope.GATEWAYURL = "https://hybridapp.payroll2u.com/";
+  // $rootScope.GATEWAYURL = "https://uatsvrhybrid3.payroll2u.com/"
   // $rootScope.GATEWAYURL =  "https://devhybrid2.payroll2u.com/"
 	// $rootScope.GATEWAYURL = "https://devsvrhybrid.payroll2u.com/"
 	// $rootScope.GATEWAYURL = "https://uatsvrhybrid.payroll2u.com/"

@@ -1,0 +1,23 @@
+<script type="text/javascript" src="js/controllers/myTms.js"></script>
+	<div class="form">
+    <h1 class="title-form background-ff6600">{{lang.mytms.mobileMacAddress.tt}}</h1>
+    	<div class="form-info scroll" ng-element-height="90">
+
+        <ul class="list" id="apply-leave">
+        	<li>
+
+                	<p class="lable ">{{lang.mytms.mobileMacAddress.id}}</p>
+                    <p class="input" style="text-transform: uppercase;">{{device}}</p>
+
+            </li>
+
+        </ul>
+
+        </div><!--end form-info-->
+
+       <div class="button">
+        	<a></a>
+            <a ng-click="submitMacAddress()"><span>{{lang.general.btn.submit}}</span></a>
+            <a></a>
+        </div><!--end button-->
+    </div><!--end form-->

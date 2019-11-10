@@ -110,7 +110,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		aLfKY92inm05fYjwEAAQU+46744=
+		lnSxdwaua+XHbzFDaETEZpQJEfQ=
 		</data>
 		<key>Default-568h@2x~iphone.png</key>
 		<data>
@@ -154,15 +154,15 @@
 		</data>
 		<key>ELCAlbumPickerController.nib</key>
 		<data>
-		LwNFCkKhKla7ufJNhQ2FCHThSWE=
+		ACbiskeE9HMFIR9ED0et2ROWliY=
 		</data>
 		<key>ELCAssetPicker.nib</key>
 		<data>
-		wfYWMKStXaDG2807cRuevbsawyo=
+		7X47UkpJT37LKcG6zPRocUsdOdU=
 		</data>
 		<key>ELCAssetTablePicker.nib</key>
 		<data>
-		62PA5ewlMimrK/Orr/otm0/1B84=
+		YB2AghQcFqhmW/C5c3ZR6j9ucuw=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nwN/+G/fkGOBXJE6ptFoXX/W5UY=
+		HVORtOERdWxtGl8lPva45loAMCc=
 		</data>
 		<key>LaunchImage-700-568h@2x.png</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		EHvLSGQjM4DrzgaoyHe2GrJxF9M=
+		EwfK3/AsSa6WTJDfUyNqdZo6esk=
 		</data>
 		<key>Overlay.png</key>
 		<data>
@@ -194,7 +194,7 @@
 		</data>
 		<key>config.xml</key>
 		<data>
-		Z6t92w9Z8UWQ8pfOyQxIwOJfG3E=
+		riHUK1WGNISA3+QNubOM/slnkPs=
 		</data>
 		<key>icon-40.png</key>
 		<data>
@@ -270,7 +270,7 @@
 		</data>
 		<key>www/cordova_plugins.js</key>
 		<data>
-		iMVHvHfcuAuY8LuPG02v/ceIuDw=
+		LDT8bwxonUpAMt9RiGuDiiFmDZ0=
 		</data>
 		<key>www/css/animate.css</key>
 		<data>
@@ -310,7 +310,7 @@
 		</data>
 		<key>www/css/style.css</key>
 		<data>
-		R87GLHUZMa3Xx5Ujklh6rhDHN6U=
+		JvM08ETQuUZi/RrTpYHT9k4b210=
 		</data>
 		<key>www/css/toastr.css</key>
 		<data>
@@ -1182,7 +1182,7 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		9JVTtF844kFjg1CkzwMId4nAbXk=
+		4viFm+k7SClboZlYFHFfzQHTX1Q=
 		</data>
 		<key>www/js/accounting.js</key>
 		<data>
@@ -1222,11 +1222,11 @@
 		</data>
 		<key>www/js/controllers/home.js</key>
 		<data>
-		kDiK3avbW3Nz7XNPmpPAe9eDq9Q=
+		rSCKlTxmUWjKQtYTT+D52cQzPP8=
 		</data>
 		<key>www/js/controllers/login.js</key>
 		<data>
-		2bBg3t9rhkbHxlzmgOlnG6sPzOc=
+		PJobZ/G3fzaavi7JI7P/6z8cfFU=
 		</data>
 		<key>www/js/controllers/main.js</key>
 		<data>
@@ -1234,7 +1234,7 @@
 		</data>
 		<key>www/js/controllers/myClaim.js</key>
 		<data>
-		ZxNiWIyGnHzPfL+4/42006pMNiI=
+		UayX7PPasa+m/uXZDBk07+HRr3E=
 		</data>
 		<key>www/js/controllers/myLeave.js</key>
 		<data>
@@ -1298,7 +1298,7 @@
 		</data>
 		<key>www/js/run.js</key>
 		<data>
-		SSBdfah0lfiR0VMhaBjMJWegZmo=
+		Kg8l6wF1RpwqWa4Y4fWonh0dimE=
 		</data>
 		<key>www/js/services.js</key>
 		<data>
@@ -1532,22 +1532,6 @@
 		<data>
 		BunYZYgPDtzvcDO/RRZRAQUcrfM=
 		</data>
-		<key>www/plugins/org.apache.cordova.geolocation/www/Coordinates.js</key>
-		<data>
-		2iB1LD65IfCBCTOUpj1Xu2NspTE=
-		</data>
-		<key>www/plugins/org.apache.cordova.geolocation/www/Position.js</key>
-		<data>
-		ZZtO0ffysVtdIaZTM5eiBcKheFs=
-		</data>
-		<key>www/plugins/org.apache.cordova.geolocation/www/PositionError.js</key>
-		<data>
-		Koh2Xqm+/E4+CPwoMflnyzMlMAE=
-		</data>
-		<key>www/plugins/org.apache.cordova.geolocation/www/geolocation.js</key>
-		<data>
-		KKDX0RvUn+L94MCZZ9Fb/BFEb+o=
-		</data>
 		<key>www/plugins/org.apache.cordova.wifiinfo/www/cordovaWifiInfo.js</key>
 		<data>
 		A0qH56xfB/BDU3QwLawywALDR74=
@@ -1722,7 +1706,7 @@
 		</data>
 		<key>www/templates/claim-travel-request-approval.html</key>
 		<data>
-		mk91ZOFgwD2vTfeRQoylfZong4M=
+		QvcqUGTb678dnnIhHK5AqXs0RhA=
 		</data>
 		<key>www/templates/claim-travel-request.html</key>
 		<data>
@@ -1738,7 +1722,7 @@
 		</data>
 		<key>www/templates/home.html</key>
 		<data>
-		AF+f9KFyzDjk30SlfrXpq+opHqc=
+		tuQBUIcNkVzaqp1X9Kg8bw3YkQI=
 		</data>
 		<key>www/templates/keyboard.html</key>
 		<data>
@@ -2185,11 +2169,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aLfKY92inm05fYjwEAAQU+46744=
+			lnSxdwaua+XHbzFDaETEZpQJEfQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			mWDYDNOXBCB1Iiqa8UsedjgN0i0239Pmg5u27Z1EPJU=
+			kkOZZ8aE4ww7JbBCagF/RKNULHyZUl4bGRwdt3ZwLe0=
 			</data>
 		</dict>
 		<key>Default-568h@2x~iphone.png</key>
@@ -2306,33 +2290,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LwNFCkKhKla7ufJNhQ2FCHThSWE=
+			ACbiskeE9HMFIR9ED0et2ROWliY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ja38kelOlkt/ZL/JUPWCCAMIb1c7CMmi51cnaesi2KY=
+			Dm7DqF5OZjRfGsClSDG8ofmnaMLMcnApZEdEugY+5FE=
 			</data>
 		</dict>
 		<key>ELCAssetPicker.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wfYWMKStXaDG2807cRuevbsawyo=
+			7X47UkpJT37LKcG6zPRocUsdOdU=
 			</data>
 			<key>hash2</key>
 			<data>
-			BbPvoo8h+iWJBkHlLffqT5I1+IOmFvHphc9H6qbeRY0=
+			i82u6fzA8KAevZevaxg1RVQnc2rnR2/tZ/eAB1rLfIs=
 			</data>
 		</dict>
 		<key>ELCAssetTablePicker.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			62PA5ewlMimrK/Orr/otm0/1B84=
+			YB2AghQcFqhmW/C5c3ZR6j9ucuw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z7Rdw7K5sJsgafOFBAaZSm8v5ZvKLKUQv2GE3D2px3g=
+			IBpZNrXN6RYKmcCcJbGbBt9PJmIbI0KS0k0KFjzOKOU=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
@@ -2361,11 +2345,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EHvLSGQjM4DrzgaoyHe2GrJxF9M=
+			EwfK3/AsSa6WTJDfUyNqdZo6esk=
 			</data>
 			<key>hash2</key>
 			<data>
-			s7uBO1lhDIzyq/zRIFyH0Qjmaq/bqNyQU6aqOQjjSIU=
+			wW6PO9XhjeMsekWLAoKLeTjt+p395K5EVYBaCpwo0Uc=
 			</data>
 		</dict>
 		<key>Overlay.png</key>
@@ -2394,11 +2378,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z6t92w9Z8UWQ8pfOyQxIwOJfG3E=
+			riHUK1WGNISA3+QNubOM/slnkPs=
 			</data>
 			<key>hash2</key>
 			<data>
-			QugeyIJss2vqn3dbkD7vMB60NbzuGOvXAXEKEU5OoGQ=
+			ioLUyHnOdkzM/Kpkz948kwg25E9vbgBveaPdxoIewxA=
 			</data>
 		</dict>
 		<key>icon-40.png</key>
@@ -2603,11 +2587,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iMVHvHfcuAuY8LuPG02v/ceIuDw=
+			LDT8bwxonUpAMt9RiGuDiiFmDZ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			BMKxlS0kJL2hEwPIQ1J7SLRnLcpQpDe4Fgx2TwHH+hM=
+			v1SS7/nhq+a8lEcNnDAAMuohhXW8KKOeFfUKLlydgb0=
 			</data>
 		</dict>
 		<key>www/css/animate.css</key>
@@ -2713,11 +2697,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R87GLHUZMa3Xx5Ujklh6rhDHN6U=
+			JvM08ETQuUZi/RrTpYHT9k4b210=
 			</data>
 			<key>hash2</key>
 			<data>
-			j9m3FkldbKSdaRclMJ4/0X+bQJjDigf3bHQQnX01DP0=
+			NeclGQue4YGHySpiqmnLPp47mI5Xr9886wkWASDW2L4=
 			</data>
 		</dict>
 		<key>www/css/toastr.css</key>
@@ -5111,11 +5095,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9JVTtF844kFjg1CkzwMId4nAbXk=
+			4viFm+k7SClboZlYFHFfzQHTX1Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			4T80Rt5kxSM7eyjq6zMLALx1rR/dYLeKsTDNEVpoEE0=
+			9vB4QqC5brdJg6MTRp9GgzJn2NWwKvarY1b+rW4uBaw=
 			</data>
 		</dict>
 		<key>www/js/accounting.js</key>
@@ -5221,22 +5205,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kDiK3avbW3Nz7XNPmpPAe9eDq9Q=
+			rSCKlTxmUWjKQtYTT+D52cQzPP8=
 			</data>
 			<key>hash2</key>
 			<data>
-			SKMCXDy86oJRX4H+PPGD+iR1BlNvGnIM9cTcZvLIhaI=
+			qdYRfkRKE6anvAXlN/+dUhArilvP/Mg2nTBXjfx8g4A=
 			</data>
 		</dict>
 		<key>www/js/controllers/login.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2bBg3t9rhkbHxlzmgOlnG6sPzOc=
+			PJobZ/G3fzaavi7JI7P/6z8cfFU=
 			</data>
 			<key>hash2</key>
 			<data>
-			FngbscQGhycZNXKDzavkMTf/0qU69xTM4PtAt2qXrlA=
+			5/xO6Xkm2r6xNUTorDe37y8Uidt/NLnh1CshOpVDixk=
 			</data>
 		</dict>
 		<key>www/js/controllers/main.js</key>
@@ -5254,11 +5238,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZxNiWIyGnHzPfL+4/42006pMNiI=
+			UayX7PPasa+m/uXZDBk07+HRr3E=
 			</data>
 			<key>hash2</key>
 			<data>
-			/15j/7VqHo7otJRuaSPmpgHv5k8BGbH3RU1RINHgzRY=
+			Ek0URnwvf7fA2yYOVLwORbbTqO3ED6Ouo7oz37ewRs8=
 			</data>
 		</dict>
 		<key>www/js/controllers/myLeave.js</key>
@@ -5430,11 +5414,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SSBdfah0lfiR0VMhaBjMJWegZmo=
+			Kg8l6wF1RpwqWa4Y4fWonh0dimE=
 			</data>
 			<key>hash2</key>
 			<data>
-			rP5sFUuMlGox2HqBwuYdzLABK9oj+1N0winDkxRHv7I=
+			kB07g+IuobeM5jP6d+iNSJCrl5ddvIOxH4ij3FmE7GM=
 			</data>
 		</dict>
 		<key>www/js/services.js</key>
@@ -6075,50 +6059,6 @@
 			qGWOxWpjHYcTPpdQwToWFfW/y6WOwdX4PqJrKaxZ1oY=
 			</data>
 		</dict>
-		<key>www/plugins/org.apache.cordova.geolocation/www/Coordinates.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2iB1LD65IfCBCTOUpj1Xu2NspTE=
-			</data>
-			<key>hash2</key>
-			<data>
-			qRY1Kygnx8/e3DVJuy7hoEEebRC1VVyDBEMmjfihT6E=
-			</data>
-		</dict>
-		<key>www/plugins/org.apache.cordova.geolocation/www/Position.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZZtO0ffysVtdIaZTM5eiBcKheFs=
-			</data>
-			<key>hash2</key>
-			<data>
-			o7Y3izs5gGuWspbftq2ZQAZG6Dl36pLBx3simNYDyHs=
-			</data>
-		</dict>
-		<key>www/plugins/org.apache.cordova.geolocation/www/PositionError.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Koh2Xqm+/E4+CPwoMflnyzMlMAE=
-			</data>
-			<key>hash2</key>
-			<data>
-			Mr36eOfgoEyqi35/pblg5GpR1XunNYzvV2xQNJv729Y=
-			</data>
-		</dict>
-		<key>www/plugins/org.apache.cordova.geolocation/www/geolocation.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KKDX0RvUn+L94MCZZ9Fb/BFEb+o=
-			</data>
-			<key>hash2</key>
-			<data>
-			mq7j7rpJE/rO1PVChnsH+pGWSW/tTMimjUedBj9LHLg=
-			</data>
-		</dict>
 		<key>www/plugins/org.apache.cordova.wifiinfo/www/cordovaWifiInfo.js</key>
 		<dict>
 			<key>hash</key>
@@ -6596,11 +6536,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mk91ZOFgwD2vTfeRQoylfZong4M=
+			QvcqUGTb678dnnIhHK5AqXs0RhA=
 			</data>
 			<key>hash2</key>
 			<data>
-			CYfY6NZ1Rqu1ikHfKnCLlh9tDkMOPmEJaAoHxJgPmyY=
+			4wgX5hApzr25cz9KH7Gb4haI72yWT6zEcYT7yp1pnxk=
 			</data>
 		</dict>
 		<key>www/templates/claim-travel-request.html</key>
@@ -6640,11 +6580,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AF+f9KFyzDjk30SlfrXpq+opHqc=
+			tuQBUIcNkVzaqp1X9Kg8bw3YkQI=
 			</data>
 			<key>hash2</key>
 			<data>
-			RDMdC09PH6qFsHBOOvj6Qd86Cfxf/91CdHmhNxhAgEU=
+			anlehe/nMlOzIpi4m8lNaBJgU1NWxtrikZrKrXPXfP0=
 			</data>
 		</dict>
 		<key>www/templates/keyboard.html</key>

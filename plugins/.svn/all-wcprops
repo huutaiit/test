@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/payroll2u/!svn/ver/2/plugins
+END
+android.json
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/payroll2u/!svn/ver/2/plugins/android.json
+END
+ios.json
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/payroll2u/!svn/ver/2/plugins/ios.json
+END
+fetch.json
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/payroll2u/!svn/ver/2/plugins/fetch.json
+END

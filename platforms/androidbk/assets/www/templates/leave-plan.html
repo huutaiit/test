@@ -1,0 +1,55 @@
+<script type="text/javascript" src="js/controllers/myLeave.js"></script>
+<div class="form">
+
+    	<h1 class="title-form  background-494aa7">{{lang.myleave.plan.tt}}</h1>
+	<div class="form-info leave scroll" ng-element-height id="leave-calendar">
+    <div class="box-filter text-center">
+        <p><span class="title">{{lang.myleave.plan.filter}}:</span></p>
+      <p><span  modal="filter1" class="select">{{filter1.Description}}<i class="fa fa-chevron-down f-right"></i></span></p>
+      <p ng-show="Is_OrgId_KS==0 && filter1.Opt!=0"> <span  modal="filter2" class="select">{{filter2.Description}}<i class="fa fa-chevron-down f-right"></i></span></p>
+      <p class="refresh-calendar" ><i class="fa fa-refresh"></i></p>
+    </div>
+<div id="jMonthCalendar" class="style-000066" ng-events="events" ng-href="/leavePlanDetail" callback-fn="getSelectYear(arg)"  j-month-calendar></div>
+<div class="clear"></div>
+<div class="note">
+	<p>
+	<span class="taken note-info background-red">{{lang.myleave.calendar.taken}}</span>
+    <span class="applied note-info background-light-green">{{lang.myleave.calendar.applied}}</span>
+    </p>
+     <a href="#leaveLegend" class="i note-info  background-cyanosed"><img src="images/ic_enquiry.png" /></a>
+</div>
+</div><!--end leave-calendar-->
+</div>
+
+
+<div id="filter1" class="modal animated" >
+  <h2 class="modal-title">Filter 1 <span close-modal class="close-modal"></span></h2>
+  <div class="modal-content"  id="listFilter" ng-set-height-modal-content="{{listFilter.length}}">
+    <ul class="select">
+      <li ng-class="{'active' : isActive(item.Opt,filter1.Opt),'disable':isDisableFilter(item.Opt,'filter1')}" ng-repeat="item in listFilter track by $index" ng-click="selectFilter('filter1',item)" >{{item.Description}}</li>
+
+    </ul>
+  </div>
+</div><!--end modal-->
+
+
+<div id="filter2" class="modal animated" >
+  <h2 class="modal-title">Filter 2 <span close-modal class="close-modal"></span></h2>
+  <div class="modal-content" id="listFilter" ng-set-height-modal-content="{{listFilter.length}}">
+    <ul class="select">
+      <li ng-class="{'active' : isActive(item.Opt,filter2.Opt),'disable':isDisableFilter(item.Opt,'filter2')}" ng-repeat="item in listFilter track by $index" ng-click="selectFilter('filter2',item)" >{{item.Description}}</li>
+
+    </ul>
+  </div>
+</div><!--end modal-->
+
+
+<div id="clbByAction" class="modal animated" >
+  <h2 class="modal-title">{{clbByAction.title}}<span close-modal ng-click="" class="f-right"><i style="font-size: 20px" class="fa fa-check-circle"></i></span></h2>
+  <div class="modal-content" id="clbByAction.list" ng-set-height-modal-content="{{clbByAction.list.length}}">
+    <ul class="select">
+      <li ng-class="{'active' : checkActiveFilter(item.Id),'color-gray':item.Resigned!=null}" ng-repeat="item in clbByAction.list track by $index" ng-click="checkListFilter(item.Id)">{{item.Description}}</li>
+
+    </ul>
+  </div>
+</div><!--end modal-->

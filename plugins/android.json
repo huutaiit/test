@@ -1,0 +1,89 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.mbppower.camerapreview": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "com.verso.cordova.clipboard": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "cordova-plugin-android-permissions": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "cordova-plugin-app-version": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "cordova-plugin-file-opener2": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "cordova-plugin-google-analytics": {
+            "GMS_VERSION": "11.0.1",
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "phonegap-plugin-push": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.payroll2u"
+        }
+    },
+    "dependent_plugins": {
+        "com-badrit-macaddress": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "com.pylonproducts.wifiwizard": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "com.synconset.imagepicker": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "cordova-plugin-badge": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "cordova-plugin-image-resizer": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "org.apache.cordova.device": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "org.apache.cordova.file-transfer": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "org.apache.cordova.wifiinfo": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.payroll2u"
+        }
+    }
+}

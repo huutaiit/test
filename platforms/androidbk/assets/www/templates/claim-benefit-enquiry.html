@@ -1,0 +1,42 @@
+<script type="text/javascript" src="js/controllers/myClaim.js"></script>
+<!--start Leave Enquiry-->
+	<div class="form">
+    <h1 class="title-form background-059b90">{{lang.myclaim.ben.tt2}} {{lang.general.enquiry}}</h1>
+    	<div class="form-info scroll">
+    	
+        <ul class="list-enquiry claim" id="claim_benefit">
+        
+        	<li ng-repeat="item in listEnquiry track by $index" class="{{item.class}}">
+            	<div class="f-left width-65">
+                	
+                     <div>
+                     <span class="f-left char" >{{item.char}}</span> <span class="f-left font-size-15px title">{{item.TypeDesc}}</span> 
+                     <div class="clear"></div>
+                     </div>
+                     <div class="rounded_frame">
+                     	<p class="item" ng-click="viewCoverage(item.TypeId,'claimBenefitCoverage')">
+                        	<span>{{lang.myclaim.coverage}}</span>
+                        </p>
+                        <p class="item" ng-click="viewClaimed(item.ListDataClaimed,'claimBenefitEnquiryView',1)">
+                        	<span>{{lang.myclaim.tt2}}</span>
+                        </p>
+                        <div class="clear"></div>
+                     </div><!--end rounded_frame-->
+                    
+                </div><!--end f-left-->
+                
+                <div class="f-right text-align-right">
+                	<span class="text-block font-size-15px">{{item.CurrencyCode}} {{item.SumPending}}</span>
+                    <span class="text-block style-059b90" ng-click="viewClaimed(item.ListDataPending,'claimBenefitEnquiryView',2)">{{lang.general.applications}}</span><!--code old {{item.Status}}-->
+                </div>
+                <div class="clear"></div>
+            </li>
+            
+            
+        </ul>
+        </div><!--end form-info-->
+        
+        
+    </div><!--end form-->
+	
+<!--end Leave Enquiry-->

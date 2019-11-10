@@ -1,0 +1,4 @@
+platform :ios, '7.0'
+target 'Payroll2U' do
+	pod 'Firebase/Core'
+end

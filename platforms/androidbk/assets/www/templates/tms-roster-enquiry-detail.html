@@ -1,0 +1,16 @@
+<script type="text/javascript" src="js/controllers/myTms.js"></script>
+<div class="form">
+    	<div class="form-info tms-calendar">
+    	<h1 class="title-form  background-ff6600">{{lang.mytms.rosterEnquiry.tt}} - {{lang.myleave.calendar.detail}}</h1>
+	
+		<div class="content">
+        	<h2>{{leaveCalendarDetail.Date}}</h2>
+            <ul>
+            	
+            	<li class="{{item.class}}" ng-repeat="item in leaveCalendarDetail.Description track by $index">{{item}}</li>
+            </ul>
+        </div>
+<div class="clear"></div>
+
+</div><!--end leave-calendar-->
+</div>

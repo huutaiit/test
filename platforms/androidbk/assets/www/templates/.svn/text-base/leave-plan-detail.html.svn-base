@@ -1,0 +1,22 @@
+<script type="text/javascript" src="js/controllers/myLeave.js"></script>
+<div class="form">
+    	<div class="form-info leave" id="leave-plan" >
+    	<h1 class="title-form  background-494aa7">{{lang.myleave.plan.tt}} - {{lang.myleave.plan.detail}}</h1>
+	
+		<div class="content">
+        	<h2>{{leavePlanDetail.Date}}</h2>
+            <ul >
+            	
+            	<li class="{{item.class}}" ng-repeat="item in leavePlanDetail.Name track by $index">{{item.title}}</li>
+            </ul>
+        </div>
+<div class="clear"></div>
+<div class="note">
+	<p>
+	<span class="taken note-info background-red">{{lang.myleave.plan.taken}}</span>
+    <span class="applied note-info background-light-green">{{lang.myleave.plan.applied}}</span>
+    </p>
+    <a href="#leaveLegend" class="i note-info  background-cyanosed"><img src="images/ic_enquiry.png" /></a>
+</div>
+</div><!--end leave-plan-->
+</div>

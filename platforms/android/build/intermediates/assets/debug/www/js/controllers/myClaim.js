@@ -636,7 +636,7 @@ console.log("fdfg")
 	   ProcessService.ajaxGet(url+"/GetList")
 						  .then(function(result) {
 							 data = JSON.parse(result.data);
-
+							 console.log("datadata",data)
 							$scope.listEnquiry = data;
 
 								if(url != "MyClaimsOvertimeClaimEnquiry"){
