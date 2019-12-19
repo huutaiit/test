@@ -7,27 +7,96 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-safariviewcontroller": {
+        "com-badrit-macaddress": {
             "PACKAGE_NAME": "com.Payroll2U"
         },
-        "cordova-android-support-gradle-release": {
+        "com.mbppower.camerapreview": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "com.pylonproducts.wifiwizard": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "com.synconset.imagepicker": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "com.verso.cordova.clipboard": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-android-permissions": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-app-version": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-badge": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-camera": {
+            "CAMERA_USAGE_DESCRIPTION": " ",
+            "PHOTOLIBRARY_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-cocoapod-support": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-compat": {
             "PACKAGE_NAME": "com.Payroll2U"
         },
         "cordova-plugin-file-opener2": {
             "PACKAGE_NAME": "com.Payroll2U"
         },
-        "cordova-plugin-inappbrowser": {
+        "cordova-plugin-geolocation": {
+            "GEOLOCATION_USAGE_DESCRIPTION": " ",
             "PACKAGE_NAME": "com.Payroll2U"
         },
         "cordova-plugin-google-analytics": {
             "PACKAGE_NAME": "com.Payroll2U"
         },
-        "cordova-plugin-firebase-analytics": {
+        "cordova-plugin-image-resizer": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-safariviewcontroller": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "org.apache.cordova.device": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "org.apache.cordova.file-transfer": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "org.apache.cordova.wifiinfo": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "phonegap-plugin-push": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "wifiwizard2": {
             "PACKAGE_NAME": "com.Payroll2U"
         }
     },
     "dependent_plugins": {
-        "cordova-plugin-cocoapod-support": {
+        "es6-promise-plugin": {
             "PACKAGE_NAME": "com.Payroll2U"
         }
     }

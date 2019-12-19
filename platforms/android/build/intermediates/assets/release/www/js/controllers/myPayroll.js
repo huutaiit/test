@@ -146,7 +146,21 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
     			 	//var ref = cordova.InAppBrowser.open(encodeURI(entry.nativeURL) , '_system', 'location=yes'); //  android
     			 }
     			 else{
-    				 var ref = window.open(encodeURI(entry.nativeURL) , '_blank', 'location=no,EnableViewPortScale=yes');//  ios
+            cordova.plugins.fileOpener2.open(entry.nativeURL, 'application/pdf',  {
+                error : function(e) {
+                  $scope.$apply(function() {
+                    $rootScope.error = {
+                      result : true,
+                      message : "This is no app registered"
+                    };
+                  })
+                  //console.log('Error status: ' + e.status + ' - Error message: ' + e.message);
+                },
+                success : function () {
+                  console.log('file opened successfully');
+                }
+              }
+            );
     			}
             },
             function (error) {

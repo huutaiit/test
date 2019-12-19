@@ -33,6 +33,14 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/com.verso.cordova.clipboard/www/clipboard.js",
+        "id": "com.verso.cordova.clipboard.Clipboard",
+        "pluginId": "com.verso.cordova.clipboard",
+        "clobbers": [
+            "cordova.plugins.clipboard"
+        ]
+    },
+    {
         "file": "plugins/cordova-plugin-app-version/www/AppVersionPlugin.js",
         "id": "cordova-plugin-app-version.AppVersionPlugin",
         "pluginId": "cordova-plugin-app-version",
@@ -50,90 +58,84 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-image-resizer/www/imageresize.js",
-        "id": "cordova-plugin-image-resizer.ImageResizePlugin",
-        "pluginId": "cordova-plugin-image-resizer",
+        "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
+        "id": "cordova-plugin-camera.Camera",
+        "pluginId": "cordova-plugin-camera",
         "clobbers": [
-            "plugins.imageResizer"
+            "Camera"
         ]
     },
     {
-        "file": "plugins/cordova-plugin-network-information/www/network.js",
-        "id": "cordova-plugin-network-information.network",
-        "pluginId": "cordova-plugin-network-information",
+        "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
+        "id": "cordova-plugin-camera.CameraPopoverOptions",
+        "pluginId": "cordova-plugin-camera",
         "clobbers": [
-            "navigator.connection",
-            "navigator.network.connection"
+            "CameraPopoverOptions"
         ]
     },
     {
-        "file": "plugins/cordova-plugin-network-information/www/Connection.js",
-        "id": "cordova-plugin-network-information.Connection",
-        "pluginId": "cordova-plugin-network-information",
+        "file": "plugins/cordova-plugin-camera/www/Camera.js",
+        "id": "cordova-plugin-camera.camera",
+        "pluginId": "cordova-plugin-camera",
         "clobbers": [
-            "Connection"
+            "navigator.camera"
         ]
     },
     {
-        "file": "plugins/cordova-plugin-x-toast/www/Toast.js",
-        "id": "cordova-plugin-x-toast.Toast",
-        "pluginId": "cordova-plugin-x-toast",
+        "file": "plugins/cordova-plugin-camera/www/ios/CameraPopoverHandle.js",
+        "id": "cordova-plugin-camera.CameraPopoverHandle",
+        "pluginId": "cordova-plugin-camera",
         "clobbers": [
-            "window.plugins.toast"
+            "CameraPopoverHandle"
         ]
     },
     {
-        "file": "plugins/cordova-plugin-x-toast/test/tests.js",
-        "id": "cordova-plugin-x-toast.tests",
-        "pluginId": "cordova-plugin-x-toast"
-    },
-    {
-        "file": "plugins/ionic-plugin-keyboard/www/ios/keyboard.js",
-        "id": "ionic-plugin-keyboard.keyboard",
-        "pluginId": "ionic-plugin-keyboard",
+        "file": "plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js",
+        "id": "cordova-plugin-file-opener2.FileOpener2",
+        "pluginId": "cordova-plugin-file-opener2",
         "clobbers": [
-            "cordova.plugins.Keyboard"
-        ],
-        "runs": true
-    },
-    {
-        "file": "plugins/org.apache.cordova.device/www/device.js",
-        "id": "org.apache.cordova.device.device",
-        "pluginId": "org.apache.cordova.device",
-        "clobbers": [
-            "device"
+            "cordova.plugins.fileOpener2"
         ]
     },
     {
-        "file": "plugins/org.apache.cordova.file-transfer/www/FileTransferError.js",
-        "id": "org.apache.cordova.file-transfer.FileTransferError",
-        "pluginId": "org.apache.cordova.file-transfer",
+        "file": "plugins/cordova-plugin-geolocation/www/Coordinates.js",
+        "id": "cordova-plugin-geolocation.Coordinates",
+        "pluginId": "cordova-plugin-geolocation",
         "clobbers": [
-            "window.FileTransferError"
+            "Coordinates"
         ]
     },
     {
-        "file": "plugins/org.apache.cordova.file-transfer/www/FileTransfer.js",
-        "id": "org.apache.cordova.file-transfer.FileTransfer",
-        "pluginId": "org.apache.cordova.file-transfer",
+        "file": "plugins/cordova-plugin-geolocation/www/PositionError.js",
+        "id": "cordova-plugin-geolocation.PositionError",
+        "pluginId": "cordova-plugin-geolocation",
         "clobbers": [
-            "window.FileTransfer"
+            "PositionError"
         ]
     },
     {
-        "file": "plugins/org.apache.cordova.wifiinfo/www/cordovaWifiInfo.js",
-        "id": "org.apache.cordova.wifiinfo.wifi",
-        "pluginId": "org.apache.cordova.wifiinfo",
+        "file": "plugins/cordova-plugin-geolocation/www/Position.js",
+        "id": "cordova-plugin-geolocation.Position",
+        "pluginId": "cordova-plugin-geolocation",
         "clobbers": [
-            "wifi"
+            "Position"
         ]
     },
     {
-        "file": "plugins/phonegap-plugin-push/www/push.js",
-        "id": "phonegap-plugin-push.PushNotification",
-        "pluginId": "phonegap-plugin-push",
+        "file": "plugins/cordova-plugin-geolocation/www/geolocation.js",
+        "id": "cordova-plugin-geolocation.geolocation",
+        "pluginId": "cordova-plugin-geolocation",
         "clobbers": [
-            "PushNotification"
+            "navigator.geolocation"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-google-analytics/www/analytics.js",
+        "id": "cordova-plugin-google-analytics.UniversalAnalytics",
+        "pluginId": "cordova-plugin-google-analytics",
+        "clobbers": [
+            "analytics",
+            "ga"
         ]
     },
     {
@@ -304,59 +306,11 @@ module.exports = [
         "runs": true
     },
     {
-        "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
-        "id": "cordova-plugin-camera.Camera",
-        "pluginId": "cordova-plugin-camera",
+        "file": "plugins/cordova-plugin-image-resizer/www/imageresize.js",
+        "id": "cordova-plugin-image-resizer.ImageResizePlugin",
+        "pluginId": "cordova-plugin-image-resizer",
         "clobbers": [
-            "Camera"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
-        "id": "cordova-plugin-camera.CameraPopoverOptions",
-        "pluginId": "cordova-plugin-camera",
-        "clobbers": [
-            "CameraPopoverOptions"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-camera/www/Camera.js",
-        "id": "cordova-plugin-camera.camera",
-        "pluginId": "cordova-plugin-camera",
-        "clobbers": [
-            "navigator.camera"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-camera/www/ios/CameraPopoverHandle.js",
-        "id": "cordova-plugin-camera.CameraPopoverHandle",
-        "pluginId": "cordova-plugin-camera",
-        "clobbers": [
-            "CameraPopoverHandle"
-        ]
-    },
-    {
-        "file": "plugins/com.verso.cordova.clipboard/www/clipboard.js",
-        "id": "com.verso.cordova.clipboard.Clipboard",
-        "pluginId": "com.verso.cordova.clipboard",
-        "clobbers": [
-            "cordova.plugins.clipboard"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-safariviewcontroller/www/SafariViewController.js",
-        "id": "cordova-plugin-safariviewcontroller.SafariViewController",
-        "pluginId": "cordova-plugin-safariviewcontroller",
-        "clobbers": [
-            "SafariViewController"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js",
-        "id": "cordova-plugin-file-opener2.FileOpener2",
-        "pluginId": "cordova-plugin-file-opener2",
-        "clobbers": [
-            "cordova.plugins.fileOpener2"
+            "plugins.imageResizer"
         ]
     },
     {
@@ -369,20 +323,104 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-google-analytics/www/analytics.js",
-        "id": "cordova-plugin-google-analytics.UniversalAnalytics",
-        "pluginId": "cordova-plugin-google-analytics",
+        "file": "plugins/cordova-plugin-network-information/www/network.js",
+        "id": "cordova-plugin-network-information.network",
+        "pluginId": "cordova-plugin-network-information",
         "clobbers": [
-            "analytics",
-            "ga"
+            "navigator.connection",
+            "navigator.network.connection"
         ]
     },
     {
-        "file": "plugins/cordova-plugin-firebase-analytics/www/FirebaseAnalytics.js",
-        "id": "cordova-plugin-firebase-analytics.FirebaseAnalytics",
-        "pluginId": "cordova-plugin-firebase-analytics",
-        "merges": [
-            "cordova.plugins.firebase.analytics"
+        "file": "plugins/cordova-plugin-network-information/www/Connection.js",
+        "id": "cordova-plugin-network-information.Connection",
+        "pluginId": "cordova-plugin-network-information",
+        "clobbers": [
+            "Connection"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-safariviewcontroller/www/SafariViewController.js",
+        "id": "cordova-plugin-safariviewcontroller.SafariViewController",
+        "pluginId": "cordova-plugin-safariviewcontroller",
+        "clobbers": [
+            "SafariViewController"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-x-toast/www/Toast.js",
+        "id": "cordova-plugin-x-toast.Toast",
+        "pluginId": "cordova-plugin-x-toast",
+        "clobbers": [
+            "window.plugins.toast"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-x-toast/test/tests.js",
+        "id": "cordova-plugin-x-toast.tests",
+        "pluginId": "cordova-plugin-x-toast"
+    },
+    {
+        "file": "plugins/ionic-plugin-keyboard/www/ios/keyboard.js",
+        "id": "ionic-plugin-keyboard.keyboard",
+        "pluginId": "ionic-plugin-keyboard",
+        "clobbers": [
+            "cordova.plugins.Keyboard"
+        ],
+        "runs": true
+    },
+    {
+        "file": "plugins/org.apache.cordova.device/www/device.js",
+        "id": "org.apache.cordova.device.device",
+        "pluginId": "org.apache.cordova.device",
+        "clobbers": [
+            "device"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.file-transfer/www/FileTransferError.js",
+        "id": "org.apache.cordova.file-transfer.FileTransferError",
+        "pluginId": "org.apache.cordova.file-transfer",
+        "clobbers": [
+            "window.FileTransferError"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.file-transfer/www/FileTransfer.js",
+        "id": "org.apache.cordova.file-transfer.FileTransfer",
+        "pluginId": "org.apache.cordova.file-transfer",
+        "clobbers": [
+            "window.FileTransfer"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.wifiinfo/www/cordovaWifiInfo.js",
+        "id": "org.apache.cordova.wifiinfo.wifi",
+        "pluginId": "org.apache.cordova.wifiinfo",
+        "clobbers": [
+            "wifi"
+        ]
+    },
+    {
+        "file": "plugins/phonegap-plugin-push/www/push.js",
+        "id": "phonegap-plugin-push.PushNotification",
+        "pluginId": "phonegap-plugin-push",
+        "clobbers": [
+            "PushNotification"
+        ]
+    },
+    {
+        "file": "plugins/es6-promise-plugin/www/promise.js",
+        "id": "es6-promise-plugin.Promise",
+        "pluginId": "es6-promise-plugin",
+        "runs": true
+    },
+    {
+        "file": "plugins/wifiwizard2/www/WifiWizard2.js",
+        "id": "wifiwizard2.WifiWizard2",
+        "pluginId": "wifiwizard2",
+        "clobbers": [
+            "window.WifiWizard2"
         ]
     }
 ];
@@ -393,30 +431,31 @@ module.exports.metadata =
     "com.mbppower.camerapreview": "0.0.8",
     "com.pylonproducts.wifiwizard": "0.2.11",
     "com.synconset.imagepicker": "1.0.6",
+    "com.verso.cordova.clipboard": "0.1.0",
+    "cordova-plugin-android-permissions": "0.8.0",
     "cordova-plugin-app-event": "1.2.0",
     "cordova-plugin-app-version": "0.1.8",
     "cordova-plugin-badge": "0.7.2",
+    "cordova-plugin-compat": "1.2.0",
+    "cordova-plugin-camera": "2.4.1",
+    "cordova-plugin-cocoapod-support": "1.6.0",
+    "cordova-plugin-file-opener2": "2.0.19",
+    "cordova-plugin-geolocation": "2.4.3",
+    "cordova-plugin-google-analytics": "1.8.6",
+    "org.apache.cordova.file": "1.3.3",
     "cordova-plugin-image-resizer": "1.0.0",
+    "cordova-plugin-inappbrowser": "3.0.0",
     "cordova-plugin-network-information": "1.0.2-dev",
+    "cordova-plugin-safariviewcontroller": "1.5.4",
+    "cordova-plugin-whitelist": "1.3.3",
     "cordova-plugin-x-toast": "2.2.1",
     "ionic-plugin-keyboard": "1.0.8",
     "org.apache.cordova.device": "0.3.0",
     "org.apache.cordova.file-transfer": "0.5.0",
     "org.apache.cordova.wifiinfo": "0.1.1",
     "phonegap-plugin-push": "1.5.3",
-    "org.apache.cordova.file": "1.3.3",
-    "cordova-plugin-android-permissions": "0.8.0",
-    "cordova-plugin-compat": "1.2.0",
-    "cordova-plugin-camera": "2.4.1",
-    "com.verso.cordova.clipboard": "0.1.0",
-    "cordova-plugin-whitelist": "1.3.3",
-    "cordova-plugin-safariviewcontroller": "1.5.4",
-    "cordova-android-support-gradle-release": "2.0.1",
-    "cordova-plugin-file-opener2": "2.0.19",
-    "cordova-plugin-inappbrowser": "3.0.0",
-    "cordova-plugin-google-analytics": "1.8.6",
-    "cordova-plugin-cocoapod-support": "1.6.0",
-    "cordova-plugin-firebase-analytics": "0.10.2"
+    "es6-promise-plugin": "4.2.2",
+    "wifiwizard2": "3.1.1"
 }
 // BOTTOM OF METADATA
 });

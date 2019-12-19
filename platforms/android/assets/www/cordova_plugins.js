@@ -313,26 +313,11 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-        "id": "cordova-plugin-inappbrowser.inappbrowser",
-        "clobbers": [
-            "cordova.InAppBrowser.open",
-            "window.open"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-google-analytics/www/analytics.js",
         "id": "cordova-plugin-google-analytics.UniversalAnalytics",
         "clobbers": [
             "analytics",
             "ga"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-firebase-analytics/www/FirebaseAnalytics.js",
-        "id": "cordova-plugin-firebase-analytics.FirebaseAnalytics",
-        "merges": [
-            "cordova.plugins.firebase.analytics"
         ]
     },
     {
@@ -353,6 +338,26 @@ module.exports = [
         "file": "plugins/cordova-plugin-geolocation/www/PositionError.js",
         "id": "cordova-plugin-geolocation.PositionError",
         "runs": true
+    },
+    {
+        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+        "id": "cordova-plugin-inappbrowser.inappbrowser",
+        "clobbers": [
+            "cordova.InAppBrowser.open",
+            "window.open"
+        ]
+    },
+    {
+        "file": "plugins/es6-promise-plugin/www/promise.js",
+        "id": "es6-promise-plugin.Promise",
+        "runs": true
+    },
+    {
+        "file": "plugins/wifiwizard2/www/WifiWizard2.js",
+        "id": "wifiwizard2.WifiWizard2",
+        "clobbers": [
+            "window.WifiWizard2"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -378,12 +383,13 @@ module.exports.metadata =
     "cordova-plugin-camera": "2.4.1",
     "com.verso.cordova.clipboard": "0.1.0",
     "cordova-plugin-file-opener2": "2.0.19",
-    "cordova-plugin-inappbrowser": "3.0.0",
     "cordova-plugin-google-analytics": "1.8.6",
-    "cordova-plugin-firebase-analytics": "0.10.2",
     "phonegap-plugin-push": "1.8.1",
     "cordova-plugin-whitelist": "1.3.3",
-    "cordova-plugin-geolocation": "2.4.3"
+    "cordova-plugin-geolocation": "2.4.3",
+    "cordova-plugin-inappbrowser": "3.1.1-dev",
+    "es6-promise-plugin": "4.2.2",
+    "wifiwizard2": "3.1.1"
 };
 // BOTTOM OF METADATA
 });

@@ -1,10 +1,5 @@
 {
-	"pods": {
-		"Firebase/Core": {
-			"type": "pod",
-			"id": "Firebase/Core"
-		}
-	},
+	"pods": {},
 	"sources": {},
 	"iosMinVersion": "7.0",
 	"useFrameworks": false

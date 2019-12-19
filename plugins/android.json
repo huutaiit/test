@@ -40,6 +40,9 @@
         },
         "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "com.payroll2u"
+        },
+        "wifiwizard2": {
+            "PACKAGE_NAME": "com.payroll2u"
         }
     },
     "dependent_plugins": {
@@ -83,6 +86,9 @@
             "PACKAGE_NAME": "com.payroll2u"
         },
         "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "es6-promise-plugin": {
             "PACKAGE_NAME": "com.payroll2u"
         }
     }

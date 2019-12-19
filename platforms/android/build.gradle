@@ -97,7 +97,6 @@ ext {
 
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "cordova-plugin-badge/payroll2u-badge.gradle"
-apply from: "cordova-plugin-firebase-analytics/payroll2u-build.gradle"
 apply from: "phonegap-plugin-push/payroll2u-push.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
@@ -259,7 +258,6 @@ dependencies {
     compile "com.android.support:support-v4:26+"
     compile "com.android.support:support-v4:+"
     compile "com.google.android.gms:play-services-analytics:11.0.+"
-    compile "com.google.firebase:firebase-core:11.0.+"
     compile "com.android.support:support-v13:23+"
     compile "me.leolin:ShortcutBadger:1.1.4@aar"
     // SUB-PROJECT DEPENDENCIES END

@@ -11,7 +11,14 @@
 					<div class="box_input">
 						<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input placeholder="{{lang.login.txt.organisation_id}}" ng-blur="checkLoginBySSO();$event.preventDefault();" type="text" ng-model="field.org" /></div>
 						<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input placeholder="{{lang.login.txt.user_id}}" type="text" ng-model="field.username" /></div>
-						<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input placeholder="{{lang.login.txt.password}}" type="password" ng-model="field.password" /></div>
+						<div style="position: relative;" class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset">
+              <input placeholder="{{lang.login.txt.password}}" ng-attr-type="{{ showPassword ? 'text' : 'password' }}" ng-model="field.password" />
+
+              <button ng-click="showPass()" style="position: absolute;right: 10px;top:10px">
+                <img ng-src="{{!showPassword?'images/eye.png':'images/eye-disable.png'}}" src="images/eye.png" width="20px" height="20px">
+              </button>
+
+            </div>
 					</div>
 
           <div class="box_sign_in">

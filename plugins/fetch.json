@@ -37,7 +37,9 @@
             "id": "cordova-plugin-geolocation@2.4.3"
         },
         "is_top_level": true,
-        "variables": {}
+        "variables": {
+            "GEOLOCATION_USAGE_DESCRIPTION": " "
+        }
     },
     "com.mbppower.camerapreview": {
         "source": {
@@ -158,6 +160,22 @@
             "path": "/Users/tai.nguyen/Desktop/phonegap-plugin-push"
         },
         "is_top_level": true,
+        "variables": {}
+    },
+    "wifiwizard2": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-wifiwizard2"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "es6-promise-plugin": {
+        "source": {
+            "type": "registry",
+            "id": "es6-promise-plugin"
+        },
+        "is_top_level": false,
         "variables": {}
     }
 }

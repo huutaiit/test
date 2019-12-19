@@ -176,20 +176,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int common_open_on_phone=0x7f06000e;
         public static final int common_signin_button_text=0x7f06000f;
         public static final int common_signin_button_text_long=0x7f060010;
-        public static final int default_web_client_id=0x7f060017;
-        public static final int discard=0x7f060018;
-        public static final int done=0x7f060019;
+        public static final int discard=0x7f060017;
+        public static final int done=0x7f060018;
         public static final int error_database=0x7f060011;
-        public static final int firebase_database_url=0x7f06001a;
         public static final int free_version_label=0x7f060012;
-        public static final int gcm_defaultSenderId=0x7f06001b;
-        public static final int google_api_key=0x7f06001c;
-        public static final int google_app_id=0x7f06001d;
-        public static final int google_crash_reporting_api_key=0x7f06001e;
-        public static final int google_storage_bucket=0x7f06001f;
-        public static final int launcher_name=0x7f060020;
+        public static final int launcher_name=0x7f060019;
         public static final int multi_app_name=0x7f060013;
-        public static final int project_id=0x7f060021;
         public static final int requesting_thumbnails=0x7f060014;
     }
     public static final class style {

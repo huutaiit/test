@@ -1198,7 +1198,7 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
               //if(DateTimeService.checkSunAndSat(date)==false){  // if other sat and sun
               var dayOfWeek = date.getDay()+1;
 
-              if($rootScope.offDayData!=null && (dayOfWeek != $rootScope.offDayData.OffDay || $rootScope.offDayData.OffDay_HalfDay==true) && (dayOfWeek != $rootScope.offDayData.RestDay || $rootScope.offDayData.RestDay_HalfDay==true)){
+              if($rootScope.offDayData!=null && (dayOfWeek != value.OffDay || value.OffDay_HalfDay==true) && (dayOfWeek != value.RestDay || value.RestDay_HalfDay==true)){
                 if (fromDate <= date && date <= toDate) {
 
                   events.push({

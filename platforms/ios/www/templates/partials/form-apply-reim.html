@@ -85,7 +85,7 @@
 
    <div class="clear"></div>
  </li>-->
-  <li  modal="unit"  ng-show="field.reimbursenmentType.ReimbursementData.Rate_IsShow==1">
+  <li  modal="unit"  ng-attr-modal="unit" ng-click="InputFocusing('textUnit')"  ng-show="field.reimbursenmentType.ReimbursementData.Rate_IsShow==1">
     <div class="f-left">
       <p class="label required"><label ng-show="field.reimbursenmentType.ReimbursementData.Mileage==1">{{lang.myclaim.reim.apply.mileage.tt}}</label> <label ng-show="field.reimbursenmentType.ReimbursementData.Mileage!=1">Unit</label> <span> ({{lang.general.required}})</span></p>
       <p class="input"><input value="{{field.Unit_Value | formatCurrency:'2'}}" readonly type="text" /></p>
@@ -93,6 +93,9 @@
     <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
     <div class="clear"></div>
   </li>
+
+
+
   <li  ng-attr-modal="{{field.reimbursenmentType.ReimbursementData.Rate_Enable==1 && 'rate' || ''}}" ng-show="field.reimbursenmentType.ReimbursementData.Rate_IsShow==1" style="position: relative;">
     <div class="f-left">
       <p class="label required"><label>{{lang.myclaim.reim.apply.rate}}</label> <span>({{lang.general.required}})</span></p>

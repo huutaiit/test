@@ -138,29 +138,28 @@ push.on('error', function(e) {
 	})*/
 
 	 $rootScope.MAC = {Photo_Url:""};
-	 $rootScope.MAC["uuid"] = device.uuid.toUpperCase();
+	 $rootScope.MAC["uuid"] = device && device.uuid?device.uuid.toUpperCase():null;
 	 $scope.getMacAdd = function(){
-     if(device.platform=="Android"){
-       try {
-         if(window.wifi && window.wifi.lan){
-           $rootScope.MAC["MacAddress"]= window.wifi.lan.BSSID;
-         }
-         else{
-           $rootScope.MAC["MacAddress"] = "";
-         }
-       } catch (e) {
-         $rootScope.MAC["MacAddress"] = "";
-       }
+     // if(device.platform=="Android"){
+     //   try {
+     //     if(window.wifi && window.wifi.lan){
+     //       $rootScope.MAC["MacAddress"]= window.wifi.lan.BSSID;
+     //     }
+     //     else{
+     //       $rootScope.MAC["MacAddress"] = "";
+     //     }
+     //   } catch (e) {
+     //     $rootScope.MAC["MacAddress"] = "";
+     //   }
+     //
+     // }
+     // else
+     // {
+      WifiWizard2.getConnectedBSSID().then(function (macAddress) {
+        $rootScope.MAC["MacAddress"] = macAddress;
+     });
 
-     }
-     else
-     {
-       WifiWizard.getCurrentBSSID(function(macAddress){
-         $rootScope.MAC["MacAddress"] = macAddress;
-       }, function(error){
-         console.log(error);
-       });
-     }
+     // }
    }
 
    $scope.checkMenuActive = function(menuId){
@@ -482,6 +481,18 @@ push.on('error', function(e) {
 		 })
 		}
 	$scope.submitInOut = function(RegisEMAC) {
+    if(listLocation==null)
+    {
+      $scope.RegisEMAC = RegisEMAC;
+      if(sessionStorage.getItem('TMS_Photo')==1){
+        $scope.capturePhoto();
+      }
+      else{
+        $scope.submitTms();
+      }
+      return;
+    }
+
       $(".loading").css({"display":"table"});
       $(".overlay-load").show();
       navigator.geolocation.getCurrentPosition(function (position) {

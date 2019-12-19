@@ -636,7 +636,7 @@ console.log("fdfg")
 	   ProcessService.ajaxGet(url+"/GetList")
 						  .then(function(result) {
 							 data = JSON.parse(result.data);
-
+							 console.log("datadata",data)
 							$scope.listEnquiry = data;
 
 								if(url != "MyClaimsOvertimeClaimEnquiry"){
@@ -2240,7 +2240,7 @@ console.log("fdfg")
 					return false;
 				}
 
-				if($scope.field.receiptAmount > $scope.field.amount && $scope.field.reimbursenmentType.ReimbursementData.Self_FullReimb==1){
+				if($scope.field.receiptAmount == $scope.field.amount && $scope.field.reimbursenmentType.ReimbursementData.Self_FullReimb==1){
 					$rootScope.error = {
 						result : true,
 						message : $rootScope.lang.myclaim.validation.insufficient_reimburse_amount

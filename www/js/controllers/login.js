@@ -58,6 +58,10 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
   var temp = false;
   $scope.field = {};
   $scope.PrivateImgFrog =  $.jStorage.get("PrivateImgFrog")!=null?$.jStorage.get("PrivateImgFrog"):"images/n_animal_logo.png";
+  $scope.showPass = function(){
+    $scope.showPassword = !$scope.showPassword
+  }
+
   $scope.checkLoginBySSO = function(){
     if($scope.checkedSSO == true){
       return;

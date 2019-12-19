@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-packageName="com.payroll2u" android-versionCode="10425" id="com.payroll2u" ios-CFBundleIdentifier="com.Payroll2U" ios-CFBundleVersion="6.2.4" version="6.2.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-packageName="com.payroll2u" android-versionCode="10430" id="com.payroll2u" ios-CFBundleIdentifier="com.Payroll2U" ios-CFBundleVersion="6.2.8" version="6.2.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
@@ -17,11 +17,17 @@
     <feature name="MacAddressPlugin">
         <param name="ios-package" value="MacAddressPlugin" />
     </feature>
+    <feature name="CameraPreview">
+        <param name="ios-package" onload="true" value="CameraPreview" />
+    </feature>
     <feature name="WifiWizard">
         <param name="ios-package" value="NXWWifiWizard" />
     </feature>
     <feature name="ImagePicker">
         <param name="ios-package" value="SOSPicker" />
+    </feature>
+    <feature name="Clipboard">
+        <param name="ios-package" value="CDVClipboard" />
     </feature>
     <feature name="AppVersion">
         <param name="ios-package" value="AppVersion" />
@@ -29,11 +35,34 @@
     <feature name="Badge">
         <param name="ios-package" value="APPBadge" />
     </feature>
+    <feature name="Camera">
+        <param name="ios-package" value="CDVCamera" />
+    </feature>
+    <preference name="CameraUsesGeolocation" value="false" />
+    <feature name="FileOpener2">
+        <param name="ios-package" value="FileOpener2" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="ios-package" value="CDVLocation" />
+    </feature>
+    <feature name="UniversalAnalytics">
+        <param name="ios-package" value="UniversalAnalyticsPlugin" />
+    </feature>
+    <feature name="File">
+        <param name="ios-package" value="CDVFile" />
+        <param name="onload" value="true" />
+    </feature>
     <feature name="ImageResizePlugin">
         <param name="ios-package" value="ImageResize" />
     </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
     <feature name="NetworkStatus">
         <param name="ios-package" value="CDVConnection" />
+    </feature>
+    <feature name="SafariViewController">
+        <param name="ios-package" value="SafariViewController" />
     </feature>
     <feature name="Toast">
         <param name="ios-package" value="Toast" />
@@ -50,32 +79,8 @@
     <feature name="PushNotification">
         <param name="ios-package" value="PushPlugin" />
     </feature>
-    <feature name="File">
-        <param name="ios-package" value="CDVFile" />
-        <param name="onload" value="true" />
-    </feature>
-    <feature name="Camera">
-        <param name="ios-package" value="CDVCamera" />
-    </feature>
-    <preference name="CameraUsesGeolocation" value="false" />
-    <feature name="Clipboard">
-        <param name="ios-package" value="CDVClipboard" />
-    </feature>
-    <feature name="SafariViewController">
-        <param name="ios-package" value="SafariViewController" />
-    </feature>
-    <feature name="FileOpener2">
-        <param name="ios-package" value="FileOpener2" />
-    </feature>
-    <feature name="InAppBrowser">
-        <param name="ios-package" value="CDVInAppBrowser" />
-    </feature>
-    <feature name="UniversalAnalytics">
-        <param name="ios-package" value="UniversalAnalyticsPlugin" />
-    </feature>
-    <feature name="FirebaseAnalytics">
-        <param name="ios-package" value="FirebaseAnalyticsPlugin" />
-        <param name="onload" value="true" />
+    <feature name="WifiWizard2">
+        <param name="ios-package" value="WifiWizard2" />
     </feature>
     <resource-file src="GoogleService-Info.plist" />
     <allow-intent href="itms:*" />
