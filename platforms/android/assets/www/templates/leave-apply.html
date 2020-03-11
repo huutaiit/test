@@ -82,7 +82,8 @@
       <li ng-show="modelLeave.leaveType.Required.Buss_Trip==1">
         <div class="f-left">
           <p class="label"><label>{{lang.myleave.apply.courseAttended.tt}}</label></p>
-          <p class="input"><input value="{{modelLeave.bussTripCtryCourse.Course}}" readonly="readonly" type="text" /></p>
+          <!--<p class="input"><input value="{{modelLeave.bussTripCtryCourse.Course}}" readonly="readonly" type="text" /></p>-->
+          <p class="input"><span style="min-height: 20px;font-size: 15px; min-width: 1px">{{modelLeave.bussTripCtryCourse.Course}}</span></p>
         </div>
 
         <div class="clear"></div>
@@ -230,7 +231,7 @@
   </h2>
   <div class="modal-content" id="ListBussTripCtryCourse" ng-set-height-modal-content="{{ListBussTripCtryCourse.length}}">
     <ul class="select">
-      <li ng-class="{'active' : isActive(item.Id,modelLeave.bussTripCtryCourse.Id)}" ng-repeat="item in ListBussTripCtryCourse track by $index" ng-click="selectBussTripCtryCourse(item)" close-modal>{{item.Description}}</li>
+      <li ng-class="{'active' : isActive(item.Id,modelLeave.bussTrbussTripCtryCourseipCtryCourse.Id)}" ng-repeat="item in ListBussTripCtryCourse track by $index" ng-click="selectBussTripCtryCourse(item)" close-modal>{{item.Description}}</li>
     </ul>
   </div>
 </div><!--end modal-->

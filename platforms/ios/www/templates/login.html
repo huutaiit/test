@@ -29,12 +29,29 @@
 
 
       <a class="link forgot_your_pass" ng-click="resetEmail()" modal="forgot" href="">{{lang.login.txt.forgot}}</a>
+      <a class="link twofa_ga"   modal="twofa_ga" style="opacity: 0;display: none;" href="">Google authentication</a>
     </div><!--end form_login-->
     <div id="animal_logo">
       <img ng-src="{{PrivateImgFrog}}" onerror="this.src='images/n_animal_logo.png'" width="150px" on-long-press="showSelectImage()" />
     </div>
   </div>
 
+
+
+  <div id="twofa_ga" class="modal animated bounceInDown">
+    <div class="box_modal">
+
+      <div class="input">
+        <p class="label" style=" font-size:18px; padding:10px 5px;" ng-class="{error:field.twoFaError==true}">{{field.txtTwoFa}}</p>
+        <input ng-is-numeric="true" pattern="[0-9]*" type="tel" my-maxlength="6" ng-model="field.twoFaOTP" style="text-transform:lowercase" />
+      </div>
+      <div class="button">
+
+        <button ng-click="checkGAOTP()">{{lang.general.btn.ok}}</button>
+        <button close-modal>{{lang.general.btn.cancel}}</button>
+      </div>
+    </div>
+  </div>
 
 
   <div id="forgot" class="modal animated bounceInDown">

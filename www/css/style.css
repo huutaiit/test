@@ -1338,6 +1338,7 @@ img.ic-remark{
 {
 	background:#000;
 }
+
 .overlay2
 {
 	width:100%;
@@ -1381,6 +1382,12 @@ img.ic-remark{
 	padding:5px;
 	font-size:15px;
 	position:relative;
+}
+.modal  .input p.label{
+  color: #FFFFFF;
+}
+.modal  .input p.label.error{
+  color: #ff0628;
 }
 .modal  .modal-title .close-modal
 {

@@ -301,7 +301,6 @@ $scope.listMenuClaim = [
 	 $scope.selectTime = function(type){
 
 		 var temp =  $scope.field[type];
-console.log("fdfg")
 		  $scope.field[type]  = angular.copy(DateTimeService.selectDate.fullDate);
 		  fromTime =$scope.field.from !='' ? DateTimeService.parseDateAndTime(DateTimeService.dateFormat($scope.field.from,"mediumDate4")):0;
 		toTime = $scope.field.to != '' ? DateTimeService.parseDateAndTime(DateTimeService.dateFormat($scope.field.to,"mediumDate4")):0;
@@ -319,9 +318,11 @@ console.log("fdfg")
       $scope.field.fullDate = angular.copy(fullDate);
       if(fromTime.getHours()>toTime.getHours()){
         toTime.setDate(fromTime.getDate() + 1);
-        $scope.field.fullDate.setDate($scope.field.fullDate.getDate() + 1);
+        // yêu cầu bỏ dòng này 07/02/2020 (ko set lại ngay chọn cái nào cố định luôn cái đó)
+       // $scope.field.fullDate.setDate($scope.field.fullDate.getDate() + 1);
       }
-      $scope.field.date = DateTimeService.dateFormat($scope.field.fullDate, "fullDate");
+      // yêu cầu bỏ dòng này 07/02/2020 (ko set lại ngay chọn cái nào cố định luôn cái đó)
+      //$scope.field.date = DateTimeService.dateFormat($scope.field.fullDate, "fullDate");
 
       num =   DateTimeService.daydiff(fromTime, toTime);
 

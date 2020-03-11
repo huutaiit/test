@@ -88,9 +88,6 @@
         "org.apache.cordova.wifiinfo": {
             "PACKAGE_NAME": "com.Payroll2U"
         },
-        "phonegap-plugin-push": {
-            "PACKAGE_NAME": "com.Payroll2U"
-        },
         "wifiwizard2": {
             "PACKAGE_NAME": "com.Payroll2U"
         }

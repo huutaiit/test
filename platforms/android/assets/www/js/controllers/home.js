@@ -164,6 +164,8 @@ push.on('error', function(e) {
 
    $scope.checkMenuActive = function(menuId){
 	   var result = false;
+	   if(!$rootScope.MenuMobile)
+	     return false;
 	   for(var i=0;i<$rootScope.MenuMobile.length;i++){
 	     var item = $rootScope.MenuMobile[i];
 	     if(menuId==item.Lvl1_Id){

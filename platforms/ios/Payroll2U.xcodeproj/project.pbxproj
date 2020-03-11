@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00109516240CB0AE005C025A /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00109515240CB0AE005C025A /* ExternalAccessory.framework */; };
 		00DF02062390B80C008DFAE3 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 00DF02052390B80C008DFAE3 /* www */; };
 		00DF02082390C033008DFAE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DF02072390C033008DFAE3 /* Images.xcassets */; };
 		00DF020B2390CFB4008DFAE3 /* Payroll2U.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 00DF02032390B712008DFAE3 /* Payroll2U.entitlements */; };
@@ -157,6 +158,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00109515240CB0AE005C025A /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		00DF02032390B712008DFAE3 /* Payroll2U.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Payroll2U.entitlements; path = Payroll2U/Payroll2U.entitlements; sourceTree = "<group>"; };
 		00DF02052390B80C008DFAE3 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		00DF02072390C033008DFAE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Payroll2U/Images.xcassets; sourceTree = SOURCE_ROOT; };
@@ -353,7 +355,6 @@
 		E9676A3910594F02B1511F7F /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = "cordova-plugin-google-analytics/GAITracker.h"; sourceTree = "<group>"; };
 		EAB5621CC93C40DD96CD0CAA /* APPBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APPBadge.h; path = "cordova-plugin-badge/APPBadge.h"; sourceTree = "<group>"; };
 		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
-		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		EB8C489ADB54468291F859FA /* CoreVideo.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		EC7E1B00F13A49DE885175E4 /* CameraRenderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraRenderController.h; path = com.mbppower.camerapreview/CameraRenderController.h; sourceTree = "<group>"; };
 		EE7611935CED450F923256F9 /* APPAppEventDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APPAppEventDelegate.h; path = "cordova-plugin-app-event/APPAppEventDelegate.h"; sourceTree = "<group>"; };
@@ -414,6 +415,7 @@
 				B08700A9D98948A39A6A3E97 /* libGTM_NSScannerJSON.a in Frameworks */,
 				B497492341F041328ACF5DD8 /* libGTM_NSStringHTML.a in Frameworks */,
 				A15727DAE4E143019B7CB3D7 /* libGTM_NSStringXML.a in Frameworks */,
+				00109516240CB0AE005C025A /* ExternalAccessory.framework in Frameworks */,
 				73A74E1A8BA74E12A588F754 /* libGTM_Regex.a in Frameworks */,
 				CE548F85AE8B4905B6230A12 /* libGTM_RoundedRectPath.a in Frameworks */,
 				CC1907B385A34567AB4FEFD6 /* libGTM_StringEncoding.a in Frameworks */,
@@ -459,7 +461,6 @@
 			children = (
 				00DF02052390B80C008DFAE3 /* www */,
 				00DF02032390B712008DFAE3 /* Payroll2U.entitlements */,
-				EB87FDF41871DAF40020F90C /* config.xml */,
 				EB87FDF21871DA7A0020F90C /* merges */,
 				EB87FDF11871DA420020F90C /* Staging */,
 				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
@@ -504,6 +505,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00109515240CB0AE005C025A /* ExternalAccessory.framework */,
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
@@ -1025,7 +1027,7 @@
 					"\"$(SRCROOT)/Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries\"",
 					"\"$(SRCROOT)/Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries\"",
 				);
-				MARKETING_VERSION = 6.3.0;
+				MARKETING_VERSION = 6.3.2;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,
@@ -1099,7 +1101,7 @@
 					"\"$(SRCROOT)/Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries\"",
 					"\"$(SRCROOT)/Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries\"",
 				);
-				MARKETING_VERSION = 6.3.0;
+				MARKETING_VERSION = 6.3.2;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,

@@ -85,13 +85,14 @@ App.registerCtrl('homeCtrl', function($scope,$rootScope,$http,$location,$timeout
 	});
 
 	 if(sessionStorage.getItem('checkRegistrationId')==0){
-
+                   
 		cordova.getAppVersion.getPackageName(function (packageName) {
 
 			push.on('registration', function(data) {
+                
 				// data.registrationId
 				//cordova.plugins.notification.badge.set(2);
-				console.log(data.registrationId);
+				console.log("registrationId111",data);
 				if(device.platform=="Android"){
 					MobileOS = 1;
 				}
@@ -164,6 +165,8 @@ push.on('error', function(e) {
 
    $scope.checkMenuActive = function(menuId){
 	   var result = false;
+	   if(!$rootScope.MenuMobile)
+	     return false;
 	   for(var i=0;i<$rootScope.MenuMobile.length;i++){
 	     var item = $rootScope.MenuMobile[i];
 	     if(menuId==item.Lvl1_Id){

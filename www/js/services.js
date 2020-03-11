@@ -242,7 +242,8 @@ App.service('ProcessService', function( $http,$timeout,$q,$location,$rootScope) 
 				method: "POST",
 				data :  param ,
 				timeout:60000,
-				headers: {'Content-Type': 'application/json; charset=utf-8'}
+        withCredentials:true,
+				headers: {'Content-Type': 'application/json; charset=utf-8','Access-Control-Allow-Credentials':true,withCredentials:true}
 			})
 			.success(function(result) {
 				 $(".loading").css({"display":"none"});
@@ -292,7 +293,8 @@ App.service('ProcessService', function( $http,$timeout,$q,$location,$rootScope) 
       method: "POST",
       data :  param ,
       timeout:300000,
-      headers: {'Content-Type': 'application/json; charset=utf-8'}
+      headers: {'Content-Type': 'application/json; charset=utf-8'},
+
     })
       .success(function(result) {
         data = JSON.parse(result);
@@ -313,6 +315,8 @@ App.service('ProcessService', function( $http,$timeout,$q,$location,$rootScope) 
 					url: $rootScope.GATEWAYURL+"api/"+url,
 					method: "GET",
 					timeout: 60000,
+          withCredentials:true,
+          headers: {'Content-Type': 'application/json; charset=utf-8'},
 				})
 				.success(function(result) {
 					 $(".loading").css({"display":"none"});

@@ -90,6 +90,8 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
     $scope.field["password"] = "";
     $scope.checkLoginBySSO();
   }
+  $scope.field.txtTwoFa = "1. Activate Mobile OTP Generator  <br> 2. Enter 6-digit Code here";
+  $scope.field.twoFaError = false
   $.jStorage.deleteKey("user");
   $.jStorage.deleteKey("MenuMobile");
   sessionStorage.removeItem('listLang');
@@ -290,9 +292,9 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
     }
 
     ProcessService.ajaxPost("login/checklogin",param).then(function(result) {
-
-
+      console.log("objectData",result)
       var objectData = JSON.parse(result.data);
+
       var param = {
         OrgName:  $scope.field["org"],
         UserId:   $scope.field.username,
@@ -362,6 +364,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
             break;
           // suscess
           case "OK":
+
             var infoLogin = {
               OrgName:objectData.OrgName,
               UserId:objectData.Userid,
@@ -372,10 +375,9 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
             sessionStorage.setItem('GeneralResource', JSON.stringify(objectData.Resource));
             sessionStorage.setItem('rulePass', JSON.stringify(objectData.MainctrlData));
 
-            //console.log(objectData);
+            console.log("objectData",objectData);
 
             sessionStorage.setItem('TMS_Photo', objectData.TMS_Photo);
-            console.log("objectData.MenuMobile",objectData.MenuMobile)
             $.jStorage.set("MenuMobile",objectData.MenuMobile);
             $scope.field.email = "";// reset null email in field
             $scope.field.password = "";// reset null password in field
@@ -390,20 +392,27 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
             user = {"Last_Login":date,"FullName":objectData.FullName,First_Ctry:objectData.First_Ctry};
             $.jStorage.set("user",user);
 
-            ProcessService.ajaxGetLocalSite($rootScope.GATEWAYURL+"resource/lang/lang"+objectData.Language+".txt")
-              .then(function(result) {
+            //  2fa cho mobile app với Google authentication
 
-                $.jStorage.set("lang",result.data);
-                $rootScope.lang =  $.jStorage.get("lang");
-                DateTimeService.resetInternationalizationStrings();
-                $rootScope.MenuMobile =  $.jStorage.get("MenuMobile");
-                $rootScope.processMenu();
-                sessionStorage.setItem('checkRegistrationId',0); // check to update token for notification
-                $scope.goURL('Home');
+              ProcessService.ajaxGetLocalSite($rootScope.GATEWAYURL+"resource/lang/lang"+objectData.Language+".txt")
+                .then(function(result) {
 
+                  $.jStorage.set("lang",result.data);
+                  $rootScope.lang =  $.jStorage.get("lang");
+                  DateTimeService.resetInternationalizationStrings();
+                  $rootScope.MenuMobile =  $.jStorage.get("MenuMobile");
+                  $rootScope.processMenu();
+                  sessionStorage.setItem('checkRegistrationId',0); // check to update token for notification
+                  var twofa_ga = objectData.Twofa_ga;
+                  if(twofa_ga==1){
+                    $scope.Twofa_token =  objectData.Twofa_token;
+                    $(".twofa_ga").trigger("click");
+                  }
+                  else{
+                    $scope.goURL('Home');
+                  }
 
-              })
-
+                })
             break;
           default:
             $rootScope.error = {
@@ -417,6 +426,45 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
     });
 
   }
+
+  $scope.checkGAOTP = function(){
+    alert("sdf")
+    $scope.checkedSSO = true;
+    if(!$scope.field.twoFaOTP){
+      $scope.field.twoFaError = true;
+      $scope.field.txtTwoFa = 'Please enter OTP';
+      return;
+    }
+    else if($scope.field.twoFaOTP.length!=6){
+      $scope.field.twoFaError = true;
+      $scope.field.txtTwoFa = 'OTP must be 6 digits';
+      return;
+    }
+    $(".close-modal").trigger("click");
+    $scope.field.twoFaError = false;
+    $scope.field.txtTwoFa = 'GA OTP';
+    var params = {
+      Twofa_token:$scope.Twofa_token,
+      Otp:$scope.field.twoFaOTP
+    }
+    console.log("params",params)
+    ProcessService.ajaxPost2("login/CheckGoogleAuthentication",params).then(function(result) {
+      $scope.field.twoFaOTP = '';
+      var data = JSON.parse(result.data);
+      console.log("data",data)
+      if(data.Result){
+        $scope.goURL('Home');
+      }
+      else{
+        $rootScope.error = {
+          result : true,
+          message : data.Message
+        };
+      }
+
+    })
+  }
+
 
   $scope.loginSSO = function(){
     // cordova.plugins.Keyboard.close();
@@ -562,21 +610,21 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
 
 
     });
-    if(device.platform=="Android"){
+    // if(device.platform=="Android"){
       var myWindow = window.open($scope.field.SSO_url, '_blank');
-    }
-    else {
-      SafariViewController.show({
-        url: $scope.field.SSO_url,
-        hidden: false, // default false. You can use this to load cookies etc in the background (see issue #1 for details).
-        animated: false, // default true, note that 'hide' will reuse this preference (the 'Done' button will always animate though)
-        transition: 'curl', // (this only works in iOS 9.1/9.2 and lower) unless animated is false you can choose from: curl, flip, fade, slide (default)
-        // enterReaderModeIfAvailable: readerMode, // default false
-        tintColor: "#00ffff", // default is ios blue
-        barColor: "#0000ff", // on iOS 10+ you can change the background color as well
-        controlTintColor: "#ffffff" // on iOS 10+ you can override the default tintColor
-      })
-    }
+    // }
+    // else {
+    //   SafariViewController.show({
+    //     url: $scope.field.SSO_url,
+    //     hidden: false, // default false. You can use this to load cookies etc in the background (see issue #1 for details).
+    //     animated: false, // default true, note that 'hide' will reuse this preference (the 'Done' button will always animate though)
+    //     transition: 'curl', // (this only works in iOS 9.1/9.2 and lower) unless animated is false you can choose from: curl, flip, fade, slide (default)
+    //     // enterReaderModeIfAvailable: readerMode, // default false
+    //     tintColor: "#00ffff", // default is ios blue
+    //     barColor: "#0000ff", // on iOS 10+ you can change the background color as well
+    //     controlTintColor: "#ffffff" // on iOS 10+ you can override the default tintColor
+    //   })
+    // }
     // var myWindow = cordova.InAppBrowser.open($scope.field.SSO_url, '_blank');// window.open($scope.field.SSO_url, '_self'); //
     // console.log("myWindow",myWindow)
     // setTimeout(function () {

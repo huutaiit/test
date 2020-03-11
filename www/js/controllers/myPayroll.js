@@ -298,7 +298,7 @@ else{
             //console.log(entry);
             //console.log('********OK!', filePath);
 
-            if(device.platform=="Android"){
+            // if(device.platform=="Android"){
 
               cordova.plugins.fileOpener2.open(entry.nativeURL, 'application/pdf',  {
                   error : function(e) {
@@ -316,10 +316,10 @@ else{
                 }
               );
               //var ref = cordova.InAppBrowser.open(encodeURI(entry.nativeURL) , '_system', 'location=yes'); //  android
-            }
-            else{
-              var ref = window.open(encodeURI(entry.nativeURL) , '_blank', 'location=no,EnableViewPortScale=yes');//  ios
-            }
+            // }
+            // else{
+            //   var ref = window.open(encodeURI(entry.nativeURL) , '_blank', 'location=no,EnableViewPortScale=yes');//  ios
+            // }
           },
           function (error) {
             console.log(error);
@@ -454,7 +454,7 @@ else{
             //console.log(entry);
             //console.log('********OK!', filePath);
 
-            if(device.platform=="Android"){
+            // if(device.platform=="Android"){
 
               cordova.plugins.fileOpener2.open(entry.nativeURL, 'application/pdf',  {
                   error : function(e) {
@@ -472,10 +472,10 @@ else{
                 }
               );
               //var ref = cordova.InAppBrowser.open(encodeURI(entry.nativeURL) , '_system', 'location=yes'); //  android
-            }
-            else{
-              var ref = window.open(encodeURI(entry.nativeURL) , '_blank', 'location=no,EnableViewPortScale=yes');//  ios
-            }
+            // }
+            // else{
+            //   var ref = window.open(encodeURI(entry.nativeURL) , '_blank', 'location=no,EnableViewPortScale=yes');//  ios
+            // }
           },
           function (error) {
             console.log(error);

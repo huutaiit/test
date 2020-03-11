@@ -35,9 +35,6 @@
             "GMS_VERSION": "11.0.1",
             "PACKAGE_NAME": "com.payroll2u"
         },
-        "phonegap-plugin-push": {
-            "PACKAGE_NAME": "com.payroll2u"
-        },
         "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "com.payroll2u"
         },
