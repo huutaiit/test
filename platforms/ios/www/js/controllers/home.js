@@ -85,14 +85,13 @@ App.registerCtrl('homeCtrl', function($scope,$rootScope,$http,$location,$timeout
 	});
 
 	 if(sessionStorage.getItem('checkRegistrationId')==0){
-                   
+
 		cordova.getAppVersion.getPackageName(function (packageName) {
 
 			push.on('registration', function(data) {
-                
 				// data.registrationId
 				//cordova.plugins.notification.badge.set(2);
-				console.log("registrationId111",data);
+				console.log(data.registrationId);
 				if(device.platform=="Android"){
 					MobileOS = 1;
 				}

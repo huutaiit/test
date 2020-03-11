@@ -90,7 +90,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
     $scope.field["password"] = "";
     $scope.checkLoginBySSO();
   }
-  $scope.field.txtTwoFa = 'GA OTP';
+  $scope.field.txtTwoFa = "1. Activate Mobile OTP Generator  <br> 2. Enter 6-digit Code here";
   $scope.field.twoFaError = false
   $.jStorage.deleteKey("user");
   $.jStorage.deleteKey("MenuMobile");
@@ -292,8 +292,9 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
     }
 
     ProcessService.ajaxPost("login/checklogin",param).then(function(result) {
-
+      console.log("objectData",result)
       var objectData = JSON.parse(result.data);
+
       var param = {
         OrgName:  $scope.field["org"],
         UserId:   $scope.field.username,
@@ -363,6 +364,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
             break;
           // suscess
           case "OK":
+
             var infoLogin = {
               OrgName:objectData.OrgName,
               UserId:objectData.Userid,
@@ -426,6 +428,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
   }
 
   $scope.checkGAOTP = function(){
+    alert("sdf")
     $scope.checkedSSO = true;
     if(!$scope.field.twoFaOTP){
       $scope.field.twoFaError = true;
@@ -607,21 +610,21 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
 
 
     });
-    if(device.platform=="Android"){
+    // if(device.platform=="Android"){
       var myWindow = window.open($scope.field.SSO_url, '_blank');
-    }
-    else {
-      SafariViewController.show({
-        url: $scope.field.SSO_url,
-        hidden: false, // default false. You can use this to load cookies etc in the background (see issue #1 for details).
-        animated: false, // default true, note that 'hide' will reuse this preference (the 'Done' button will always animate though)
-        transition: 'curl', // (this only works in iOS 9.1/9.2 and lower) unless animated is false you can choose from: curl, flip, fade, slide (default)
-        // enterReaderModeIfAvailable: readerMode, // default false
-        tintColor: "#00ffff", // default is ios blue
-        barColor: "#0000ff", // on iOS 10+ you can change the background color as well
-        controlTintColor: "#ffffff" // on iOS 10+ you can override the default tintColor
-      })
-    }
+    // }
+    // else {
+    //   SafariViewController.show({
+    //     url: $scope.field.SSO_url,
+    //     hidden: false, // default false. You can use this to load cookies etc in the background (see issue #1 for details).
+    //     animated: false, // default true, note that 'hide' will reuse this preference (the 'Done' button will always animate though)
+    //     transition: 'curl', // (this only works in iOS 9.1/9.2 and lower) unless animated is false you can choose from: curl, flip, fade, slide (default)
+    //     // enterReaderModeIfAvailable: readerMode, // default false
+    //     tintColor: "#00ffff", // default is ios blue
+    //     barColor: "#0000ff", // on iOS 10+ you can change the background color as well
+    //     controlTintColor: "#ffffff" // on iOS 10+ you can override the default tintColor
+    //   })
+    // }
     // var myWindow = cordova.InAppBrowser.open($scope.field.SSO_url, '_blank');// window.open($scope.field.SSO_url, '_self'); //
     // console.log("myWindow",myWindow)
     // setTimeout(function () {

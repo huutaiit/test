@@ -240,12 +240,8 @@ App.service('ProcessService', function( $http,$timeout,$q,$location,$rootScope) 
 			 $(".overlay-load").show();
 
 			return fetchPolyfill($rootScope.GATEWAYURL+"api/"+url,{
-        withCredentials: true,
-        xhrFields: {
-          withCredentials: true
-        },
 				method: "POST",
-        _bodyInit :  JSON.stringify(param) ,
+        body :  JSON.stringify(param) ,
 				timeout:60000,
         credentials: "same-origin",
 				headers: {  'Accept': 'application/json',
@@ -265,7 +261,7 @@ App.service('ProcessService', function( $http,$timeout,$q,$location,$rootScope) 
 						return false;
 					}
 				}
-				return result;
+				return {data:result};
 			})
 			.catch(function(result, status,headers) {
         console.log("error",result)
@@ -322,17 +318,19 @@ App.service('ProcessService', function( $http,$timeout,$q,$location,$rootScope) 
 
 				$(".loading").css({"display":"table"});
 				 $(".overlay-load").show();
-				return $http({
-					url: $rootScope.GATEWAYURL+"api/"+url,
-          withCredentials: true,
-          xhrFields: {
-            withCredentials: true
-          },
+      return fetchPolyfill($rootScope.GATEWAYURL+"api/"+url,{
+        credentials: "same-origin",
 					method: "GET",
 					timeout: 60000,
-          headers: {'Content-Type': 'application/json; charset=utf-8','Access-Control-Allow-Credentials':true},
+          headers: {'Content-Type': 'application/json; charset=utf-8'},
 				})
-				.success(function(result) {
+        .then(function (response) {
+          console.log("result",response);
+          console.log("set-cookie",response.headers.get('set-cookie')); // undefined
+          console.log("set-cookie1",document.cookie); // nope
+          return response.json();
+        })
+				.then(function(result) {
 					 $(".loading").css({"display":"none"});
 					 $(".overlay-load").hide();
 					data = JSON.parse(result);
@@ -344,9 +342,9 @@ App.service('ProcessService', function( $http,$timeout,$q,$location,$rootScope) 
 							return false;
 						}
 					}
-					return result;
+					return {data:result};
 				})
-				.error(function(result, status) {
+				.catch(function(result, status) {
 					 $(".loading").css({"display":"none"});
 					 $(".overlay-load").hide();
            if(!navigator.onLine){

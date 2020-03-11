@@ -9,7 +9,7 @@
   <div id="login"  class="scroll" >
     <div id="form_login">
       <div class="box_input">
-        <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input placeholder="{{lang.login.txt.organisation_id}}" ng-blur="checkLoginBySSO();$event.preventDefault();" type="text" ng-model="field.org" /></div>
+        <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input placeholder="{{lang.login.txt.organisation_id}}"  type="text" ng-model="field.org" ng-blur="checkLoginBySSO();$event.preventDefault();" /></div>
         <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input placeholder="{{lang.login.txt.user_id}}" type="text" ng-model="field.username" /></div>
         <div style="position: relative;" class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset">
           <input placeholder="{{lang.login.txt.password}}" ng-attr-type="{{ showPassword ? 'text' : 'password' }}" ng-model="field.password" />
@@ -42,7 +42,7 @@
     <div class="box_modal">
 
       <div class="input">
-        <p class="label" style=" font-size:18px; padding:10px 5px;" ng-class="{error:field.twoFaError==true}">{{field.txtTwoFa}}</p>
+        <p  ng-bind-html='field.txtTwoFa' class="label" style=" font-size:18px; padding:10px 5px;" ng-class="{error:field.twoFaError==true}"></p>
         <input ng-is-numeric="true" pattern="[0-9]*" type="tel" my-maxlength="6" ng-model="field.twoFaOTP" style="text-transform:lowercase" />
       </div>
       <div class="button">

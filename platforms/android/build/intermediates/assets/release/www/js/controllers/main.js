@@ -221,7 +221,7 @@ App.controller('mainCtrl', function($scope, $rootScope, $location,$timeout,$rout
 					function(entry) {
 						 $(".overlay").hide();
 						 $(".loading").hide();
-						if(device.platform=="Android")
+						//if(device.platform=="Android")
 							ref =  cordova.plugins.fileOpener2.open(encodeURI(folder + fileName),'image/jpeg',{
                 error : function(e) {
                   $scope.$apply(function() {
@@ -236,8 +236,8 @@ App.controller('mainCtrl', function($scope, $rootScope, $location,$timeout,$rout
                   console.log('file opened successfully');
                 }
               }); //  android
-						else
-							ref = window.open(encodeURI(folder + fileName) ,'_blank','location=no,EnableViewPortScale=yes');
+						//else
+							//ref = window.open(encodeURI(folder + fileName) ,'_blank','location=no,EnableViewPortScale=yes');
 					},function(error){
 						console.log(error);
 						$(".overlay").hide();
