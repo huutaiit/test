@@ -243,7 +243,12 @@ push.on('error', function(e) {
 		_this.show();
 		 _this.css({ left: ($(window).width() - _this.width()) / 2, top: ($(window).height() - _this.height()) / 2 });
 	 }
-
+  $scope.logout  = function(){
+    ProcessService.ajaxPost("login/LogOut").then(function(result) {
+      $rootScope.MenuMobile = null;
+    })
+    $scope.goURL('Login');
+  }
 	 $scope.closeAbout = function(){
 		 $("#about-application").hide();
 		 $(".overlay-about").hide();
