@@ -428,7 +428,6 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
   }
 
   $scope.checkGAOTP = function(){
-    alert("sdf")
     $scope.checkedSSO = true;
     if(!$scope.field.twoFaOTP){
       $scope.field.twoFaError = true;
