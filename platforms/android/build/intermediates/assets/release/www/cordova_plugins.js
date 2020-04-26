@@ -358,6 +358,20 @@ module.exports = [
         "clobbers": [
             "window.WifiWizard2"
         ]
+    },
+    {
+        "file": "plugins/com.ourcodeworld.preventscreenshots/www/ourcodeworldpreventscreenshots.js",
+        "id": "com.ourcodeworld.preventscreenshots.OurCodeWorldpreventscreenshots",
+        "clobbers": [
+            "OurCodeWorldpreventscreenshots"
+        ]
+    },
+    {
+        "file": "plugins/com.bez4pieci.cookies/www/cookies.js",
+        "id": "com.bez4pieci.cookies.cookies",
+        "clobbers": [
+            "cookies"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -389,7 +403,9 @@ module.exports.metadata =
     "cordova-plugin-geolocation": "2.4.3",
     "cordova-plugin-inappbrowser": "3.1.1-dev",
     "es6-promise-plugin": "4.2.2",
-    "wifiwizard2": "3.1.1"
+    "wifiwizard2": "3.1.1",
+    "com.ourcodeworld.preventscreenshots": "1.0.0",
+    "com.bez4pieci.cookies": "0.0.1"
 };
 // BOTTOM OF METADATA
 });

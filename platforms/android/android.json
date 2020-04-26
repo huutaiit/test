@@ -103,6 +103,14 @@
                         {
                             "xml": "<feature name=\"WifiWizard2\"><param name=\"android-package\" value=\"wifiwizard2.WifiWizard2\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"OurCodeWorldpreventscreenshots\"><param name=\"android-package\" value=\"com.ourcodeworld.plugins.preventscreenshots.OurCodeWorldpreventscreenshots\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Cookies\"><param name=\"android-package\" value=\"com.bez4pieci.cookies.Cookies\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -391,6 +399,12 @@
             "PACKAGE_NAME": "com.payroll2u"
         },
         "wifiwizard2": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "com.ourcodeworld.preventscreenshots": {
+            "PACKAGE_NAME": "com.payroll2u"
+        },
+        "com.bez4pieci.cookies": {
             "PACKAGE_NAME": "com.payroll2u"
         }
     },
@@ -754,6 +768,20 @@
             "clobbers": [
                 "window.WifiWizard2"
             ]
+        },
+        {
+            "file": "plugins/com.ourcodeworld.preventscreenshots/www/ourcodeworldpreventscreenshots.js",
+            "id": "com.ourcodeworld.preventscreenshots.OurCodeWorldpreventscreenshots",
+            "clobbers": [
+                "OurCodeWorldpreventscreenshots"
+            ]
+        },
+        {
+            "file": "plugins/com.bez4pieci.cookies/www/cookies.js",
+            "id": "com.bez4pieci.cookies.cookies",
+            "clobbers": [
+                "cookies"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -783,6 +811,8 @@
         "cordova-plugin-geolocation": "2.4.3",
         "cordova-plugin-inappbrowser": "3.1.1-dev",
         "es6-promise-plugin": "4.2.2",
-        "wifiwizard2": "3.1.1"
+        "wifiwizard2": "3.1.1",
+        "com.ourcodeworld.preventscreenshots": "1.0.0",
+        "com.bez4pieci.cookies": "0.0.1"
     }
 }

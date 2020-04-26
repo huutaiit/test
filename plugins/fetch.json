@@ -177,5 +177,23 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "com.ourcodeworld.preventscreenshots": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sdkcarlos/cordova-ourcodeworld-preventscreenshots.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.bez4pieci.cookies": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bez4pieci/Phonegap-Cookies-Plugin.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

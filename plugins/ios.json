@@ -90,6 +90,12 @@
         },
         "wifiwizard2": {
             "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "com.ourcodeworld.preventscreenshots": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "com.bez4pieci.cookies": {
+            "PACKAGE_NAME": "com.Payroll2U"
         }
     },
     "dependent_plugins": {

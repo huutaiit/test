@@ -1,7 +1,13 @@
 //Define an angular module for our app
+console.log = function(){} ;
+saveFileDownload = function (fileName) {
+  var fileDownLoad = $.jStorage.get("FileDownLoad") || [];
+  fileDownLoad.push(fileName);
+  $.jStorage.set("FileDownLoad",fileDownLoad);
+}
 var App = angular.module('App', ["ngRoute","ngSanitize","ngTouch"]).run(function( $location,$rootScope,$timeout,ProcessService) {
-	 // $rootScope.GATEWAYURL = "https://hybridapp.payroll2u.com/";
-  $rootScope.GATEWAYURL = "https://uatsvrhybrid3.payroll2u.com/"
+	 $rootScope.GATEWAYURL = "https://hybridapp.payroll2u.com/";
+  // $rootScope.GATEWAYURL = "https://uatsvrhybrid3.payroll2u.com/"
   // $rootScope.GATEWAYURL =  "https://devhybrid2.payroll2u.com/"
 	// $rootScope.GATEWAYURL = "https://devsvrhybrid.payroll2u.com/"
 	// $rootScope.GATEWAYURL = "https://uatsvrhybrid.payroll2u.com/"
@@ -13,6 +19,13 @@ var App = angular.module('App', ["ngRoute","ngSanitize","ngTouch"]).run(function
     // } else {
     //   console.log("Google Analytics Unavailable");
     // }
+    try {
+      OurCodeWorldpreventscreenshots.disable();
+    }
+    catch (e) {
+
+    }
+
   }, false);
 
 	$rootScope.$on('$routeChangeSuccess', function () {

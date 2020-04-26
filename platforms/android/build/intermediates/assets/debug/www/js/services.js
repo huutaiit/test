@@ -571,6 +571,8 @@ this.createFolder = function(folderName){
 	return deferred.promise;
 }
 
+this.delete
+
 this.checkPermission = function(type){
 
   	var deferred = $q.defer();

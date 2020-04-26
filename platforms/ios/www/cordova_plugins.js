@@ -422,6 +422,22 @@ module.exports = [
         "clobbers": [
             "window.WifiWizard2"
         ]
+    },
+    {
+        "file": "plugins/com.ourcodeworld.preventscreenshots/www/ourcodeworldpreventscreenshots.js",
+        "id": "com.ourcodeworld.preventscreenshots.OurCodeWorldpreventscreenshots",
+        "pluginId": "com.ourcodeworld.preventscreenshots",
+        "clobbers": [
+            "OurCodeWorldpreventscreenshots"
+        ]
+    },
+    {
+        "file": "plugins/com.bez4pieci.cookies/www/cookies.js",
+        "id": "com.bez4pieci.cookies.cookies",
+        "pluginId": "com.bez4pieci.cookies",
+        "clobbers": [
+            "cookies"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -455,7 +471,9 @@ module.exports.metadata =
     "org.apache.cordova.wifiinfo": "0.1.1",
     "phonegap-plugin-push": "1.5.3",
     "es6-promise-plugin": "4.2.2",
-    "wifiwizard2": "3.1.1"
+    "wifiwizard2": "3.1.1",
+    "com.ourcodeworld.preventscreenshots": "1.0.0",
+    "com.bez4pieci.cookies": "0.0.1"
 }
 // BOTTOM OF METADATA
 });

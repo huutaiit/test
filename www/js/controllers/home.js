@@ -247,6 +247,14 @@ push.on('error', function(e) {
     ProcessService.ajaxPost("login/LogOut").then(function(result) {
       $rootScope.MenuMobile = null;
     })
+    try {
+      window.cookies.clear(function() {
+        console.log('Cookies cleared!');
+      });
+    }
+    catch (e) {
+
+    }
     $scope.goURL('Login');
   }
 	 $scope.closeAbout = function(){

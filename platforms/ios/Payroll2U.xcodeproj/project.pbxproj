@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00109516240CB0AE005C025A /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00109515240CB0AE005C025A /* ExternalAccessory.framework */; };
 		00DF02062390B80C008DFAE3 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 00DF02052390B80C008DFAE3 /* www */; };
@@ -138,6 +137,7 @@
 		F233202AED7749F6A5C30CCE /* UIApplication+APPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = CA66CDC251A24823B1EC331B /* UIApplication+APPBadge.m */; };
 		F3AC9CFDB082432CACA4B8DB /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF27E5BE83A4D9EA4830195 /* SafariServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F7962A2A6E314B6D9E67DF2B /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CF2DD555EA410689EEF900 /* CDVDevice.m */; };
+		50B1DB0AD40949CAB674EF99 /* CDVCookies.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D61321674DA4FBEA0B621F3 /* CDVCookies.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -370,6 +370,8 @@
 		FCE6F9E2ABD84DBEA4161573 /* AdSupport.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		FD16C1C00C304C69807BEF38 /* AddressBook.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		FD852ADAC6D14E7AB3A61B54 /* OpenGLES.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		5D61321674DA4FBEA0B621F3 /* CDVCookies.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVCookies.m"; path = "com.bez4pieci.cookies/CDVCookies.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B8A91A6445514CD7976CF9C0 /* CDVCookies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVCookies.h"; path = "com.bez4pieci.cookies/CDVCookies.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -684,6 +686,8 @@
 				CD8D2BFB17804B0FA2BBA070 /* GoogleCloudMessaging.h */,
 				B38FA2EC9C864C91A45C3309 /* WifiWizard2.m */,
 				CF7C26F25AA8485CBAE80337 /* WifiWizard2.h */,
+				5D61321674DA4FBEA0B621F3 /* CDVCookies.m */,
+				B8A91A6445514CD7976CF9C0 /* CDVCookies.h */,
 			);
 			name = Plugins;
 			path = Payroll2U/Plugins;
@@ -956,6 +960,7 @@
 				EF9D39E6881A4BF184F653C5 /* AppDelegate+notification.m in Sources */,
 				B11FB64E155746659F815309 /* PushPlugin.m in Sources */,
 				0EDABF9C3B9447469E0CF6AF /* WifiWizard2.m in Sources */,
+				50B1DB0AD40949CAB674EF99 /* CDVCookies.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -283,6 +283,7 @@ else{
 
         var fileTransfer = new FileTransfer();
         var filePath = folder + fileName;
+        saveFileDownload(fileName)
         //console.log('################# filepath');
         console.log(filePath);
 
@@ -439,6 +440,7 @@ else{
 
         var fileTransfer = new FileTransfer();
         var filePath = folder + fileName;
+        saveFileDownload(fileName)
         //console.log('################# filepath');
         console.log(filePath);
 

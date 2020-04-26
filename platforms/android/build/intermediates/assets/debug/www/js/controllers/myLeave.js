@@ -687,6 +687,7 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
     window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(fileSystem){
       folder =fileSystem.root.nativeURL+"Download/";
       var fileTransfer = new FileTransfer();
+     // saveFileDownload($scope.leaveDetail.FileUrl);
       $scope.$apply(function(){
         $scope.filePath = folder + $scope.leaveDetail.FileUrl;
       })

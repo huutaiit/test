@@ -1,7 +1,28 @@
 App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,ProcessService,DateTimeService)
 {
+   delFile = function() {
+     window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(fileSystem){
+       var folder =fileSystem.root.nativeURL+"Download/";
+       window.resolveLocalFileSystemURL(folder, function (dir) {
+         var fileDownLoad = $.jStorage.get("FileDownLoad") || [];
+         for(var i=0;i<fileDownLoad.length;i++){
+           dir.getFile(fileDownLoad[i], {create: false}, function (fileEntry) {
+             fileEntry.remove(function (file) {
+               // alert("file removed!");
+             }, function (error) {
+               // alert("error occurred: " + error.code);
+             }, function () {
+               // alert("file does not exist");
+             });
+           });
+         }
+         $.jStorage.deleteKey("FileDownLoad");
+       });
+     })
+  }
 
   setTimeout(function () {
+    delFile();
     var push = PushNotification.init({
       android: {
         senderID: "916412225531"//"667418453555"
@@ -52,7 +73,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
       }
 
     })
-  },3000)
+  },5000)
   //login 2fa
 
   var temp = false;
@@ -132,18 +153,28 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
     }
     ProcessService.cameraPhoto(options).then(function(result){
       if(result.status==true){
-        ProcessService.createFolder("payroll2u").then(function(result2){
-          newFileUri = result2.data.nativeURL;
-          date = new Date();
-          fileName = "private_img_frog_"+date.getTime();
-          ProcessService.moveFile(result.data,fileName,newFileUri).then(function(result3){
+        window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(fileSystem) {
+          var folder = fileSystem.root.nativeURL + "Download/";
+          var date = new Date();
+          var fileName = "private_img_frog_" + date.getTime();
+          ProcessService.moveFile(result.data, fileName, folder).then(function (result3) {
+            $.jStorage.set("PrivateImgFrog", result3.data.nativeURL);
+            $scope.PrivateImgFrog = $.jStorage.get("PrivateImgFrog");
+          })
 
-            $.jStorage.set("PrivateImgFrog",result3.data.nativeURL);
-            $scope.PrivateImgFrog =  $.jStorage.get("PrivateImgFrog");
-
-
-
-          });
+          // ProcessService.createFolder("payroll2u").then(function(result2){
+          //   newFileUri = result2.data.nativeURL;
+          //   date = new Date();
+          //   fileName = "private_img_frog_"+date.getTime();
+          //   ProcessService.moveFile(result.data,fileName,newFileUri).then(function(result3){
+          //
+          //     $.jStorage.set("PrivateImgFrog",result3.data.nativeURL);
+          //     $scope.PrivateImgFrog =  $.jStorage.get("PrivateImgFrog");
+          //
+          //
+          //
+          //   });
+          // })
         })
 
       }

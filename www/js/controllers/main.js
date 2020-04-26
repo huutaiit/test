@@ -212,11 +212,11 @@ App.controller('mainCtrl', function($scope, $rootScope, $location,$timeout,$rout
 		if(fileName!=null && fileName!=""){
 			 $(".overlay").show();
 			 $(".loading").show();
-			url = $rootScope.GATEWAYURL+"api/uploadfile/getfile?FileName=";
+			var url = $rootScope.GATEWAYURL+"api/uploadfile/getfile?FileName=";
 			window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(fileSystem){
-				folder =fileSystem.root.nativeURL+"Download/";
+				var folder =fileSystem.root.nativeURL+"Download/";
 				var fileTransfer = new FileTransfer();
-
+        saveFileDownload(fileName);
 				fileTransfer.download(url+fileName,folder + fileName,
 					function(entry) {
 						 $(".overlay").hide();
@@ -263,7 +263,20 @@ App.controller('mainCtrl', function($scope, $rootScope, $location,$timeout,$rout
 				 };
 			}
 			else{
-				viewFile(fileName);
+        ProcessService.checkPermission("WRITE_EXTERNAL_STORAGE").then(function (response) {
+          if (response.status == false) {
+            $(".loading").hide();
+            $(".overlay").hide();
+            $rootScope.error = {
+              result: true,
+              message: "WRITE STORAGE permission is not turned on",
+            };
+          }
+          else {
+            viewFile(fileName);
+          }
+        })
+
 			}
 		})
 	}
