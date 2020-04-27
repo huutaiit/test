@@ -85,6 +85,13 @@
     <feature name="Cookies">
         <param name="ios-package" value="CDVCookies" />
     </feature>
+    <feature name="IRoot">
+        <param name="ios-package" value="IRoot" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Exit">
+        <param name="ios-package" value="Exit" />
+    </feature>
     <resource-file src="GoogleService-Info.plist" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />

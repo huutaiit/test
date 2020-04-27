@@ -98,6 +98,7 @@ ext {
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "cordova-plugin-badge/payroll2u-badge.gradle"
 apply from: "phonegap-plugin-push/payroll2u-push.gradle"
+apply from: "cordova-plugin-iroot/payroll2u-build-extras.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()

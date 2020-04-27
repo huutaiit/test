@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="844d974b-4e3e-407a-a20c-85cf2aa1d253" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myLeave.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myLeave.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/directives.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/directives.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/run.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-apply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/android.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/android.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/fetch.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/fetch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/ios.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/ios.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/controllers/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/controllers/myLeave.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/myLeave.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/directives.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/directives.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/run.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lang.zip" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lang/lang1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang/lang1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lang/lang10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang/lang10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lang/lang2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang/lang2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lang/lang3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang/lang3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lang/lang4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang/lang4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/templates/leave-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/leave-apply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/templates/leave-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/leave-detail.html" afterDir="false" />
-    </list>
+    <list default="true" id="844d974b-4e3e-407a-a20c-85cf2aa1d253" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,24 +33,24 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="js.phonegap.settings.workdir" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/platforms/ios/www/js/controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/platforms/ios/www/js" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/platforms/ios/www" />
-      <recent name="$PROJECT_DIR$/platforms" />
-      <recent name="$PROJECT_DIR$/platforms/ios/www/templates" />
-      <recent name="$PROJECT_DIR$/platforms/ios" />
-      <recent name="$PROJECT_DIR$/www/js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/platforms/ios" />
       <recent name="$PROJECT_DIR$/platforms/android" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/platforms/ios/www/js" />
+      <recent name="$PROJECT_DIR$/platforms/ios" />
+      <recent name="$PROJECT_DIR$/platforms/ios/www/js/controllers" />
+      <recent name="$PROJECT_DIR$/platforms/ios/www" />
+      <recent name="$PROJECT_DIR$/platforms" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -843,7 +805,10 @@
       <workItem from="1584266957459" duration="674000" />
       <workItem from="1585830679351" duration="117000" />
       <workItem from="1585830808767" duration="1066000" />
-      <workItem from="1586688379973" duration="396000" />
+      <workItem from="1586688379973" duration="1011000" />
+      <workItem from="1587866763225" duration="124000" />
+      <workItem from="1587867002970" duration="8914000" />
+      <workItem from="1587908732316" duration="3637000" />
     </task>
     <task id="LOCAL-00001">
       <created>1512316512112</created>

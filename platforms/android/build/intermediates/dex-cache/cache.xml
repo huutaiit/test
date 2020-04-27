@@ -2,249 +2,25 @@
 <items version="2" >
 
     <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.2"
-        sha1="dd282bdeaa904c59d77e57dedd7e0a241c9b679d">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-3f8dfe01ebda7c5793724a2a21f785e8d35f8354.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.3"
-        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-48eb488dbe0eb29cddc98e28c08d77a68b11a4d0.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.0"
-        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-1e557effa8c616b2ade6ee11e3a59799d2191110.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.2"
-        sha1="d8942ee348aaa9341f08f7e2437063893fe27542">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-2c9c2cf27f1866e3cd01b2afc85d8a40c2900005.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.3"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-b4be087e9ac589624d1dd049741620b43321f3a3.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v13/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.3"
-        sha1="2bf893856577f5038c0b8007a43fda3b3c5beb23">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-771ebbf111f8aff327ddff85954a91438815d444.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.0"
-        sha1="6548276c237bfa53844e22b8f31591488d6088cf">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-e977eba50b825ab369211262f2e043cc30f4bffd.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.2"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-2464d4e5dc5317ebbcc912cb58a0956cd827fc82.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.3"
-        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-48eb488dbe0eb29cddc98e28c08d77a68b11a4d0.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.3"
-        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-1e557effa8c616b2ade6ee11e3a59799d2191110.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.0"
-        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-48eb488dbe0eb29cddc98e28c08d77a68b11a4d0.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.0"
-        sha1="c1b91bc7e480ab100d0397b16c93732e26fd10eb">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-b45f472a51e3bcd09856cd07c5ca95f54132e79f.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.2"
-        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-9d1a0944958df0f17420f908bc5c538acfa2eb91.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.0"
-        sha1="d8942ee348aaa9341f08f7e2437063893fe27542">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-2c9c2cf27f1866e3cd01b2afc85d8a40c2900005.jar" />
-    </item>
-    <item
-        jar="/Users/tai.nguyen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
-        jumboMode="false"
-        revision="28.0.2"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1-c677aa1d4c81c52b4999dd33c6a06446075618b3.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.0"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-b4be087e9ac589624d1dd049741620b43321f3a3.jar" />
-    </item>
-    <item
         jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
-        revision="28.0.3"
+        revision="29.0.3"
         sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
         <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-4d86951b4cb78c154f12a5046233c6f58baa64f6.jar" />
     </item>
     <item
-        jar="/Users/tai.nguyen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
-        jumboMode="false"
-        revision="29.0.0"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1-c677aa1d4c81c52b4999dd33c6a06446075618b3.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.3"
-        sha1="6548276c237bfa53844e22b8f31591488d6088cf">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-e977eba50b825ab369211262f2e043cc30f4bffd.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.3"
-        sha1="c1b91bc7e480ab100d0397b16c93732e26fd10eb">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-b45f472a51e3bcd09856cd07c5ca95f54132e79f.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.0"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-2464d4e5dc5317ebbcc912cb58a0956cd827fc82.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.3"
-        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-cc56332729a3e7b1ceceeb92afadcf61f977bf24.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.2"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-b4be087e9ac589624d1dd049741620b43321f3a3.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.0"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-4d86951b4cb78c154f12a5046233c6f58baa64f6.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.2"
-        sha1="c1b91bc7e480ab100d0397b16c93732e26fd10eb">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-b45f472a51e3bcd09856cd07c5ca95f54132e79f.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.3"
-        sha1="6548276c237bfa53844e22b8f31591488d6088cf">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-e977eba50b825ab369211262f2e043cc30f4bffd.jar" />
-    </item>
-    <item
         jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/11.0.4/jars/classes.jar"
         jumboMode="false"
-        revision="29.0.3"
+        revision="28.0.3"
         sha1="d8942ee348aaa9341f08f7e2437063893fe27542">
         <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-2c9c2cf27f1866e3cd01b2afc85d8a40c2900005.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/release/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.0"
-        sha1="21e23983d3a2623e613a471298d09eac850e23f2">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/release/classes-b8ea0f02fb731460607e5768838726b2eff624c6.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.0"
-        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-9d1a0944958df0f17420f908bc5c538acfa2eb91.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.3"
-        sha1="a25b0b5aec89681b95d32780ad7904c1e1e4c679">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-93ce6a933dee2c5b714d42b386dcbabf392da4c5.jar" />
     </item>
     <item
         jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
-        revision="28.0.3"
+        revision="28.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-7197d2385f1a3b946759e06d5428d007ba1200e5.jar" />
-    </item>
-    <item
-        jar="/Users/tai.nguyen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
-        jumboMode="false"
-        revision="28.0.3"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1-c677aa1d4c81c52b4999dd33c6a06446075618b3.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.3"
-        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-1e557effa8c616b2ade6ee11e3a59799d2191110.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v13/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="false"
-        revision="28.0.2"
-        sha1="be09545b7e6ff322c7286d2e80bed3b75b76c529">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/internal_impl-23.4.0-f6852ca7dfdb831aebde8a99a034cff726cdfba6.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.3"
-        sha1="a25b0b5aec89681b95d32780ad7904c1e1e4c679">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-93ce6a933dee2c5b714d42b386dcbabf392da4c5.jar" />
     </item>
     <item
         jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/release/jars/classes.jar"
@@ -254,27 +30,6 @@
         <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/release/classes-b8ea0f02fb731460607e5768838726b2eff624c6.jar" />
     </item>
     <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v13/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.0"
-        sha1="2bf893856577f5038c0b8007a43fda3b3c5beb23">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-771ebbf111f8aff327ddff85954a91438815d444.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.3"
-        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-9d1a0944958df0f17420f908bc5c538acfa2eb91.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.3"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-4d86951b4cb78c154f12a5046233c6f58baa64f6.jar" />
-    </item>
-    <item
         jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/11.0.4/jars/classes.jar"
         jumboMode="false"
         revision="28.0.2"
@@ -284,14 +39,35 @@
     <item
         jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
-        revision="28.0.2"
+        revision="29.0.3"
         sha1="2e92aa0163544a804a0b34f169ca61801770839a">
         <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-4e72dc8dc4d7cdd95d4b57789c7691e948f27a28.jar" />
     </item>
     <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/11.0.4/jars/classes.jar"
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v13/23.4.0/jars/classes.jar"
         jumboMode="false"
         revision="29.0.0"
+        sha1="2bf893856577f5038c0b8007a43fda3b3c5beb23">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-771ebbf111f8aff327ddff85954a91438815d444.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.2"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-1e557effa8c616b2ade6ee11e3a59799d2191110.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.3"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-9d1a0944958df0f17420f908bc5c538acfa2eb91.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.2"
         sha1="a25b0b5aec89681b95d32780ad7904c1e1e4c679">
         <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-93ce6a933dee2c5b714d42b386dcbabf392da4c5.jar" />
     </item>
@@ -303,11 +79,53 @@
         <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-2464d4e5dc5317ebbcc912cb58a0956cd827fc82.jar" />
     </item>
     <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jar="/Users/tai.nguyen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
         jumboMode="false"
-        revision="29.0.3"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-563b5e3db4d80b59c33fb64eb9ad2558778f396d.jar" />
+        revision="28.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1-c677aa1d4c81c52b4999dd33c6a06446075618b3.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-4d86951b4cb78c154f12a5046233c6f58baa64f6.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.2"
+        sha1="6548276c237bfa53844e22b8f31591488d6088cf">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-e977eba50b825ab369211262f2e043cc30f4bffd.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-b4be087e9ac589624d1dd049741620b43321f3a3.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-cc56332729a3e7b1ceceeb92afadcf61f977bf24.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="dd282bdeaa904c59d77e57dedd7e0a241c9b679d">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-3f8dfe01ebda7c5793724a2a21f785e8d35f8354.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.2"
+        sha1="d8942ee348aaa9341f08f7e2437063893fe27542">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-2c9c2cf27f1866e3cd01b2afc85d8a40c2900005.jar" />
     </item>
     <item
         jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v13/23.4.0/jars/classes.jar"
@@ -315,6 +133,13 @@
         revision="29.0.3"
         sha1="2bf893856577f5038c0b8007a43fda3b3c5beb23">
         <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-771ebbf111f8aff327ddff85954a91438815d444.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.2"
+        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-cc56332729a3e7b1ceceeb92afadcf61f977bf24.jar" />
     </item>
     <item
         jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/jars/classes.jar"
@@ -324,27 +149,6 @@
         <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-9d1a0944958df0f17420f908bc5c538acfa2eb91.jar" />
     </item>
     <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.0"
-        sha1="2c2f1b3f82c027e98f56bb0154de0acbcce42e6d">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-7f40efd761601dbd9533041d76055975d1ce6bcd.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.2"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-4d86951b4cb78c154f12a5046233c6f58baa64f6.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-7197d2385f1a3b946759e06d5428d007ba1200e5.jar" />
-    </item>
-    <item
         jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v13/23.4.0/jars/libs/internal_impl-23.4.0.jar"
         jumboMode="false"
         revision="29.0.0"
@@ -352,121 +156,86 @@
         <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/internal_impl-23.4.0-f6852ca7dfdb831aebde8a99a034cff726cdfba6.jar" />
     </item>
     <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.2"
-        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-cc56332729a3e7b1ceceeb92afadcf61f977bf24.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.0"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-563b5e3db4d80b59c33fb64eb9ad2558778f396d.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/11.0.4/jars/classes.jar"
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/11.0.4/jars/classes.jar"
         jumboMode="false"
         revision="29.0.3"
-        sha1="2c2f1b3f82c027e98f56bb0154de0acbcce42e6d">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-7f40efd761601dbd9533041d76055975d1ce6bcd.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.3"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-563b5e3db4d80b59c33fb64eb9ad2558778f396d.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.3"
-        sha1="dd282bdeaa904c59d77e57dedd7e0a241c9b679d">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-3f8dfe01ebda7c5793724a2a21f785e8d35f8354.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.0"
-        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-cc56332729a3e7b1ceceeb92afadcf61f977bf24.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.3"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-4e72dc8dc4d7cdd95d4b57789c7691e948f27a28.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v13/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="false"
-        revision="29.0.3"
-        sha1="be09545b7e6ff322c7286d2e80bed3b75b76c529">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/internal_impl-23.4.0-f6852ca7dfdb831aebde8a99a034cff726cdfba6.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.2"
-        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-48eb488dbe0eb29cddc98e28c08d77a68b11a4d0.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-7197d2385f1a3b946759e06d5428d007ba1200e5.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.2"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-563b5e3db4d80b59c33fb64eb9ad2558778f396d.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.0"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-4e72dc8dc4d7cdd95d4b57789c7691e948f27a28.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.3"
-        sha1="dd282bdeaa904c59d77e57dedd7e0a241c9b679d">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-3f8dfe01ebda7c5793724a2a21f785e8d35f8354.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v13/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.2"
-        sha1="2bf893856577f5038c0b8007a43fda3b3c5beb23">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-771ebbf111f8aff327ddff85954a91438815d444.jar" />
-    </item>
-    <item
-        jar="/Users/tai.nguyen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
-        jumboMode="false"
-        revision="29.0.3"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1-c677aa1d4c81c52b4999dd33c6a06446075618b3.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        revision="29.0.3"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-2464d4e5dc5317ebbcc912cb58a0956cd827fc82.jar" />
+        sha1="a25b0b5aec89681b95d32780ad7904c1e1e4c679">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-93ce6a933dee2c5b714d42b386dcbabf392da4c5.jar" />
     </item>
     <item
         jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/11.0.4/jars/classes.jar"
         jumboMode="false"
+        revision="28.0.2"
+        sha1="c1b91bc7e480ab100d0397b16c93732e26fd10eb">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-b45f472a51e3bcd09856cd07c5ca95f54132e79f.jar" />
+    </item>
+    <item
+        jar="/Users/tai.nguyen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
         revision="28.0.3"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1-c677aa1d4c81c52b4999dd33c6a06446075618b3.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-4e72dc8dc4d7cdd95d4b57789c7691e948f27a28.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-2464d4e5dc5317ebbcc912cb58a0956cd827fc82.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.0"
+        sha1="2c2f1b3f82c027e98f56bb0154de0acbcce42e6d">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-7f40efd761601dbd9533041d76055975d1ce6bcd.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v13/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="28.0.2"
+        sha1="be09545b7e6ff322c7286d2e80bed3b75b76c529">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/internal_impl-23.4.0-f6852ca7dfdb831aebde8a99a034cff726cdfba6.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-7197d2385f1a3b946759e06d5428d007ba1200e5.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.3"
+        sha1="dd282bdeaa904c59d77e57dedd7e0a241c9b679d">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-3f8dfe01ebda7c5793724a2a21f785e8d35f8354.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/release/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="21e23983d3a2623e613a471298d09eac850e23f2">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/release/classes-b8ea0f02fb731460607e5768838726b2eff624c6.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.0"
+        sha1="6548276c237bfa53844e22b8f31591488d6088cf">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-e977eba50b825ab369211262f2e043cc30f4bffd.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.0"
         sha1="c1b91bc7e480ab100d0397b16c93732e26fd10eb">
         <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-b45f472a51e3bcd09856cd07c5ca95f54132e79f.jar" />
     </item>
@@ -478,25 +247,109 @@
         <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-b4be087e9ac589624d1dd049741620b43321f3a3.jar" />
     </item>
     <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
-        revision="28.0.2"
-        sha1="6548276c237bfa53844e22b8f31591488d6088cf">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-e977eba50b825ab369211262f2e043cc30f4bffd.jar" />
-    </item>
-    <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/11.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="28.0.3"
-        sha1="d8942ee348aaa9341f08f7e2437063893fe27542">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-2c9c2cf27f1866e3cd01b2afc85d8a40c2900005.jar" />
+        revision="29.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-2464d4e5dc5317ebbcc912cb58a0956cd827fc82.jar" />
     </item>
     <item
         jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/jars/classes.jar"
         jumboMode="false"
-        revision="28.0.2"
+        revision="29.0.3"
         sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
         <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-1e557effa8c616b2ade6ee11e3a59799d2191110.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-4e72dc8dc4d7cdd95d4b57789c7691e948f27a28.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.2"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-9d1a0944958df0f17420f908bc5c538acfa2eb91.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-4d86951b4cb78c154f12a5046233c6f58baa64f6.jar" />
+    </item>
+    <item
+        jar="/Users/tai.nguyen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="29.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1-c677aa1d4c81c52b4999dd33c6a06446075618b3.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-48eb488dbe0eb29cddc98e28c08d77a68b11a4d0.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.3"
+        sha1="2c2f1b3f82c027e98f56bb0154de0acbcce42e6d">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-7f40efd761601dbd9533041d76055975d1ce6bcd.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="c1b91bc7e480ab100d0397b16c93732e26fd10eb">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-b45f472a51e3bcd09856cd07c5ca95f54132e79f.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.0"
+        sha1="a25b0b5aec89681b95d32780ad7904c1e1e4c679">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-93ce6a933dee2c5b714d42b386dcbabf392da4c5.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v13/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="2bf893856577f5038c0b8007a43fda3b3c5beb23">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-771ebbf111f8aff327ddff85954a91438815d444.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-563b5e3db4d80b59c33fb64eb9ad2558778f396d.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.0"
+        sha1="d8942ee348aaa9341f08f7e2437063893fe27542">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-2c9c2cf27f1866e3cd01b2afc85d8a40c2900005.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.3"
+        sha1="6548276c237bfa53844e22b8f31591488d6088cf">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-e977eba50b825ab369211262f2e043cc30f4bffd.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v13/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="be09545b7e6ff322c7286d2e80bed3b75b76c529">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/internal_impl-23.4.0-f6852ca7dfdb831aebde8a99a034cff726cdfba6.jar" />
     </item>
     <item
         jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/11.0.4/jars/classes.jar"
@@ -508,37 +361,65 @@
     <item
         jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
-        revision="28.0.2"
+        revision="29.0.3"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-7197d2385f1a3b946759e06d5428d007ba1200e5.jar" />
     </item>
     <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.0"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-1e557effa8c616b2ade6ee11e3a59799d2191110.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.0"
+        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-cc56332729a3e7b1ceceeb92afadcf61f977bf24.jar" />
+    </item>
+    <item
         jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v13/23.4.0/jars/libs/internal_impl-23.4.0.jar"
         jumboMode="false"
-        revision="28.0.3"
+        revision="29.0.3"
         sha1="be09545b7e6ff322c7286d2e80bed3b75b76c529">
         <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/internal_impl-23.4.0-f6852ca7dfdb831aebde8a99a034cff726cdfba6.jar" />
     </item>
     <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/release/jars/classes.jar"
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/jars/classes.jar"
         jumboMode="false"
-        revision="28.0.3"
-        sha1="21e23983d3a2623e613a471298d09eac850e23f2">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/release/classes-b8ea0f02fb731460607e5768838726b2eff624c6.jar" />
+        revision="29.0.3"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-48eb488dbe0eb29cddc98e28c08d77a68b11a4d0.jar" />
     </item>
     <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.github.scottyab/rootbeer/0.0.7/jars/classes.jar"
         jumboMode="false"
-        revision="28.0.3"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-4e72dc8dc4d7cdd95d4b57789c7691e948f27a28.jar" />
+        revision="29.0.3"
+        sha1="224ab0f0a1aa062f1d58a3c0313f55c0783edf10">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-2b132162d1a2b1bda146476231edec3106fede14.jar" />
     </item>
     <item
-        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/11.0.4/jars/classes.jar"
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
-        revision="28.0.2"
-        sha1="a25b0b5aec89681b95d32780ad7904c1e1e4c679">
-        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-93ce6a933dee2c5b714d42b386dcbabf392da4c5.jar" />
+        revision="29.0.3"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-563b5e3db4d80b59c33fb64eb9ad2558778f396d.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.3"
+        sha1="c1b91bc7e480ab100d0397b16c93732e26fd10eb">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-b45f472a51e3bcd09856cd07c5ca95f54132e79f.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-7197d2385f1a3b946759e06d5428d007ba1200e5.jar" />
     </item>
     <item
         jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/11.0.4/jars/classes.jar"
@@ -550,9 +431,135 @@
     <item
         jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/jars/classes.jar"
         jumboMode="false"
-        revision="28.0.3"
+        revision="29.0.3"
         sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
         <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-cc56332729a3e7b1ceceeb92afadcf61f977bf24.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/release/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.0"
+        sha1="21e23983d3a2623e613a471298d09eac850e23f2">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/release/classes-b8ea0f02fb731460607e5768838726b2eff624c6.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-1e557effa8c616b2ade6ee11e3a59799d2191110.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.3"
+        sha1="d8942ee348aaa9341f08f7e2437063893fe27542">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-2c9c2cf27f1866e3cd01b2afc85d8a40c2900005.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-4e72dc8dc4d7cdd95d4b57789c7691e948f27a28.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v13/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.2"
+        sha1="2bf893856577f5038c0b8007a43fda3b3c5beb23">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-771ebbf111f8aff327ddff85954a91438815d444.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-4d86951b4cb78c154f12a5046233c6f58baa64f6.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.2"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-48eb488dbe0eb29cddc98e28c08d77a68b11a4d0.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-b4be087e9ac589624d1dd049741620b43321f3a3.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-563b5e3db4d80b59c33fb64eb9ad2558778f396d.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.3"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-b4be087e9ac589624d1dd049741620b43321f3a3.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.0"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-9d1a0944958df0f17420f908bc5c538acfa2eb91.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-563b5e3db4d80b59c33fb64eb9ad2558778f396d.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="a25b0b5aec89681b95d32780ad7904c1e1e4c679">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-93ce6a933dee2c5b714d42b386dcbabf392da4c5.jar" />
+    </item>
+    <item
+        jar="/Users/tai.nguyen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="29.0.3"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1-c677aa1d4c81c52b4999dd33c6a06446075618b3.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.0"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-48eb488dbe0eb29cddc98e28c08d77a68b11a4d0.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="6548276c237bfa53844e22b8f31591488d6088cf">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-e977eba50b825ab369211262f2e043cc30f4bffd.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="29.0.3"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-2464d4e5dc5317ebbcc912cb58a0956cd827fc82.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="28.0.2"
+        sha1="dd282bdeaa904c59d77e57dedd7e0a241c9b679d">
+        <dex dex="/Volumes/Data/Projects/Mobile/test2/platforms/android/build/intermediates/pre-dexed/debug/classes-3f8dfe01ebda7c5793724a2a21f785e8d35f8354.jar" />
     </item>
 
 </items>

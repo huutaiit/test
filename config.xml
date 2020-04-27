@@ -20,14 +20,12 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <platform name="android">
-
-      <allow-intent href="market:*" />
+        <allow-intent href="market:*" />
         <icon density="ldpi" src="www/images/ic_app.png" />
         <icon density="mdpi" src="www/images/ic_app.png" />
         <icon density="hdpi" src="www/images/ic_app.png" />
         <icon density="xhdpi" src="www/images/ic_app.png" />
         <resource-file src="google-services.json" target="google-services.json" />
-
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
@@ -89,7 +87,7 @@
             <param name="onload" value="true" />
         </feature>
         <preference name="android-targetSdkVersion" value="28" />
-      <resource-file src="google-services.json" target="google-services.json" />
+        <resource-file src="google-services.json" target="google-services.json" />
     </platform>
     <platform name="ios">
         <resource-file src="GoogleService-Info.plist" />
@@ -143,4 +141,7 @@
     </edit-config>
     <engine name="android" spec="^7.1.4" />
     <engine name="ios" spec="^4.5.5" />
+    <plugin name="cordova-plugin-iroot" spec="~0.8.1">
+        <variable name="ENABLE_BUSYBOX_CHECK" value="false" />
+    </plugin>
 </widget>

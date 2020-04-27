@@ -138,6 +138,8 @@
 		F3AC9CFDB082432CACA4B8DB /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF27E5BE83A4D9EA4830195 /* SafariServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F7962A2A6E314B6D9E67DF2B /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CF2DD555EA410689EEF900 /* CDVDevice.m */; };
 		50B1DB0AD40949CAB674EF99 /* CDVCookies.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D61321674DA4FBEA0B621F3 /* CDVCookies.m */; };
+		D951D260176D43F4BC50E8E7 /* IRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ACD4278CBF413F922F4CC4 /* IRoot.m */; };
+		D3EF8DEF2DCC4E6690037485 /* exit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA248D6628C4A7FA34B8E5D /* exit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -372,6 +374,10 @@
 		FD852ADAC6D14E7AB3A61B54 /* OpenGLES.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		5D61321674DA4FBEA0B621F3 /* CDVCookies.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVCookies.m"; path = "com.bez4pieci.cookies/CDVCookies.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		B8A91A6445514CD7976CF9C0 /* CDVCookies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVCookies.h"; path = "com.bez4pieci.cookies/CDVCookies.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		81ACD4278CBF413F922F4CC4 /* IRoot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "IRoot.m"; path = "cordova-plugin-iroot/IRoot.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B720E5A2FAD74A688DA3DFB4 /* IRoot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "IRoot.h"; path = "cordova-plugin-iroot/IRoot.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		4BA248D6628C4A7FA34B8E5D /* exit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "exit.m"; path = "cordova-plugin-exit/exit.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		10F8CC2C5D0C4EA8B7B08382 /* exit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "exit.h"; path = "cordova-plugin-exit/exit.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -688,6 +694,10 @@
 				CF7C26F25AA8485CBAE80337 /* WifiWizard2.h */,
 				5D61321674DA4FBEA0B621F3 /* CDVCookies.m */,
 				B8A91A6445514CD7976CF9C0 /* CDVCookies.h */,
+				81ACD4278CBF413F922F4CC4 /* IRoot.m */,
+				B720E5A2FAD74A688DA3DFB4 /* IRoot.h */,
+				4BA248D6628C4A7FA34B8E5D /* exit.m */,
+				10F8CC2C5D0C4EA8B7B08382 /* exit.h */,
 			);
 			name = Plugins;
 			path = Payroll2U/Plugins;
@@ -961,6 +971,8 @@
 				B11FB64E155746659F815309 /* PushPlugin.m in Sources */,
 				0EDABF9C3B9447469E0CF6AF /* WifiWizard2.m in Sources */,
 				50B1DB0AD40949CAB674EF99 /* CDVCookies.m in Sources */,
+				D951D260176D43F4BC50E8E7 /* IRoot.m in Sources */,
+				D3EF8DEF2DCC4E6690037485 /* exit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

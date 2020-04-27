@@ -195,5 +195,31 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cordova.plugins.diagnostic": {
+        "source": {
+            "type": "registry",
+            "id": "cordova.plugins.diagnostic"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-iroot": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-iroot"
+        },
+        "is_top_level": true,
+        "variables": {
+            "ENABLE_BUSYBOX_CHECK": "false"
+        }
+    },
+    "cordova-plugin-exit": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-exit"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

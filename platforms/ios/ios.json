@@ -103,6 +103,14 @@
                         {
                             "xml": "<feature name=\"Cookies\"><param name=\"ios-package\" value=\"CDVCookies\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"IRoot\"><param name=\"ios-package\" value=\"IRoot\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Exit\"><param name=\"ios-package\" value=\"Exit\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -280,6 +288,13 @@
             "PACKAGE_NAME": "com.Payroll2U"
         },
         "com.bez4pieci.cookies": {
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-iroot": {
+            "ENABLE_BUSYBOX_CHECK": "false",
+            "PACKAGE_NAME": "com.Payroll2U"
+        },
+        "cordova-plugin-exit": {
             "PACKAGE_NAME": "com.Payroll2U"
         }
     },
@@ -723,6 +738,22 @@
             "clobbers": [
                 "cookies"
             ]
+        },
+        {
+            "file": "plugins/cordova-plugin-iroot/www/iroot.js",
+            "id": "cordova-plugin-iroot.IRoot",
+            "pluginId": "cordova-plugin-iroot",
+            "clobbers": [
+                "IRoot"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-exit/www/exit.js",
+            "id": "cordova-plugin-exit.exit",
+            "pluginId": "cordova-plugin-exit",
+            "clobbers": [
+                "cordova.plugins.exit"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -756,6 +787,8 @@
         "es6-promise-plugin": "4.2.2",
         "wifiwizard2": "3.1.1",
         "com.ourcodeworld.preventscreenshots": "1.0.0",
-        "com.bez4pieci.cookies": "0.0.1"
+        "com.bez4pieci.cookies": "0.0.1",
+        "cordova-plugin-iroot": "0.8.1",
+        "cordova-plugin-exit": "1.0.3"
     }
 }
