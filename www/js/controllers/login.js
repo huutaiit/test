@@ -1,24 +1,24 @@
 App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,ProcessService,DateTimeService)
 {
-   delFile = function() {
-     window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(fileSystem){
-       var folder =fileSystem.root.nativeURL+"Download/";
-       window.resolveLocalFileSystemURL(folder, function (dir) {
-         var fileDownLoad = $.jStorage.get("FileDownLoad") || [];
-         for(var i=0;i<fileDownLoad.length;i++){
-           dir.getFile(fileDownLoad[i], {create: false}, function (fileEntry) {
-             fileEntry.remove(function (file) {
-               // alert("file removed!");
-             }, function (error) {
-               // alert("error occurred: " + error.code);
-             }, function () {
-               // alert("file does not exist");
-             });
-           });
-         }
-         $.jStorage.deleteKey("FileDownLoad");
-       });
-     })
+  delFile = function() {
+    window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(fileSystem){
+      var folder =fileSystem.root.nativeURL+"Download/";
+      window.resolveLocalFileSystemURL(folder, function (dir) {
+        var fileDownLoad = $.jStorage.get("FileDownLoad") || [];
+        for(var i=0;i<fileDownLoad.length;i++){
+          dir.getFile(fileDownLoad[i], {create: false}, function (fileEntry) {
+            fileEntry.remove(function (file) {
+              // alert("file removed!");
+            }, function (error) {
+              // alert("error occurred: " + error.code);
+            }, function () {
+              // alert("file does not exist");
+            });
+          });
+        }
+        $.jStorage.deleteKey("FileDownLoad");
+      });
+    })
   }
 
   setTimeout(function () {
@@ -423,27 +423,29 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
             user = {"Last_Login":date,"FullName":objectData.FullName,First_Ctry:objectData.First_Ctry};
             $.jStorage.set("user",user);
 
+
             //  2fa cho mobile app với Google authentication
+            DateTimeService.resetInternationalizationStrings();
+            $rootScope.MenuMobile =  $.jStorage.get("MenuMobile");
+            $rootScope.processMenu();
+            sessionStorage.setItem('checkRegistrationId',0); // check to update token for notification
+            var twofa_ga = objectData.Twofa_ga;
+            if(twofa_ga==1){
+              $scope.Twofa_token =  objectData.Twofa_token;
+              $(".twofa_ga").trigger("click");
+            }
+            else{
+              $scope.goURL('Home');
+            }
 
-              ProcessService.ajaxGetLocalSite($rootScope.GATEWAYURL+"resource/lang/lang"+objectData.Language+".txt")
-                .then(function(result) {
-
-                  $.jStorage.set("lang",result.data);
-                  $rootScope.lang =  $.jStorage.get("lang");
-                  DateTimeService.resetInternationalizationStrings();
-                  $rootScope.MenuMobile =  $.jStorage.get("MenuMobile");
-                  $rootScope.processMenu();
-                  sessionStorage.setItem('checkRegistrationId',0); // check to update token for notification
-                  var twofa_ga = objectData.Twofa_ga;
-                  if(twofa_ga==1){
-                    $scope.Twofa_token =  objectData.Twofa_token;
-                    $(".twofa_ga").trigger("click");
-                  }
-                  else{
-                    $scope.goURL('Home');
-                  }
-
-                })
+            // ProcessService.ajaxGetLocalSite($rootScope.GATEWAYURL+"resource/lang/lang"+objectData.Language+".txt")
+            //   .then(function(result) {
+            //
+            //     $.jStorage.set("lang",result.data);
+            //     $rootScope.lang =  $.jStorage.get("lang");
+            //
+            //
+            //   })
             break;
           default:
             $rootScope.error = {
@@ -641,7 +643,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
 
     });
     // if(device.platform=="Android"){
-      var myWindow = window.open($scope.field.SSO_url, '_blank');
+    var myWindow = window.open($scope.field.SSO_url, '_blank');
     // }
     // else {
     //   SafariViewController.show({
