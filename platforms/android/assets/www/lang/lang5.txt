@@ -21,7 +21,7 @@
 			"cancel": "Huỷ bỏ",
 			"reset": "Thiết lập",
 			"submit": "Gửi",
-			"ok": "Ok", 
+			"ok": "Ok",
 			"set_date": "Thiết lập ngày",
 			"set_time": "Thiết lập giờ"
 		 },
@@ -38,7 +38,7 @@
 		  "hours": "Giờ",
 		  "no_image_selected":"Không có hình ảnh được chọn",
 		  "none":"Không có"
-		  
+
 	},
 	"calendar":{
 		"month":{
@@ -86,7 +86,7 @@
 			"w_4":"Thứ 5",
 			"w_5":"Thứ 6",
 			"w_6":"Thứ 7"
-			
+
 		}
 	},
     "login": {
@@ -106,12 +106,12 @@
 			"select_image":"Chọn hình ảnh",
 			"take_from_camera":"Chụp từ máy ảnh",
 			"select_from_gallery":"Chọn từ thư viện"
-			
+
         },
 		"invalid_email_address":"Địa chỉ email không hợp lệ.",
 		"invalid_email_please_contact_your_HR":"Email không hợp lệ. Vui lòng liên hệ với nhân sự của bạn.",
 		"user_id_suspended": "Tài khoản bị khoá <br> Tài khoản của bạn đã bị khoá. Hãy liên hệ với nhân sự của bạn.",
-		"not_match":"Organisation ID/User ID/Password do not match.",
+		"not_match":"Tổ chức / Tên đăng nhập / Mật khẩu không hợp lệ",
 		"invalid_one_of":"Tổ chức / Tên đăng nhập / Mật khẩu không hợp lệ"
     },
 
@@ -129,7 +129,7 @@
             "mytms": "TMS của tôi",
             "mypayroll": "Lương của tôi",
             "myleave": "My Leave"
-			
+
         },
         "txt": {
             "chpass": "Xin chào",
@@ -142,14 +142,14 @@
 			"website":"Website: https://www.payroll2u.com",
 			"wellcome":"Chào mừng bạn đến văn phòng!",
 			"see_you_again":"Bye, hẹn gặp lại!"
-			
+
         },
-		
+
 		"select_language":"Chọn ngôn ngữ"
     },
 
 
-   
+
 
     "mytms": {
         "tt": "My TMS",
@@ -165,7 +165,7 @@
     },
 
     "myleave": {
-       
+
 		"tt":"Nghỉ",
 		"apply": {
             "tt": "Xin nghỉ",
@@ -181,7 +181,7 @@
             "extent": {
                 "tt": "Extent"
             },
-            
+
             "duration": {
                 "tt": "Thời gian",
                 "ct": "Thời gian"
@@ -192,7 +192,7 @@
             "approvingOfficer": {
                 "tt": "Nhân viên kiểm duyệt"
             },
-			
+
 			"notify_group":"Thông báo cho Nhóm",
 			"notify_employee":"Thông báo cho nhân viên",
             "fileName": {
@@ -212,7 +212,7 @@
 				"from_is_equal_to_date":"Từ ngày &quot;nên bằng &quot; Đến ngày. Vui lòng thay đổi.",
 				"no_approving_officer":"Không có nhân viên kiểm duyệt. Vui lòng liên hệ nhân sự của bạn."
 			}
-         
+
         },
 		 "calendar": {
             "tt": "Lịch nghỉ",
@@ -228,7 +228,7 @@
             "ct": "Xem xét và hủy bỏ đơn nghỉ phép của bạn",
 			"cancellation_successful":"Huỷ bỏ thành công"
         },
-        
+
 		"enquiry": {
             "tt": "Leave Enquiry",
 			"ct":"Kiểm tra tình trạng đơn nghỉ phép của bạn và số dư có sẵn",
@@ -242,9 +242,9 @@
 			"summ_taken":"Taken",
 			"summ_bal":"Bal",
 			"summ_ye_bal":"YE Bal"
-			
+
         },
-        
+
        "approval": {
             "tt": "Sự chấp thuận",
 			"ct":"Phê duyệt hoặc từ chối đơn nghỉ phép"
@@ -260,19 +260,19 @@
 			 "taken": "Taken",
 			"applied": "Ap dụng"
         },
-		
-		
+
+
         "delegate": {
             "tt": "Uỷ quyền",
 			"ct":"Bạn có thể ủy quyền phê duyệt chức năng cho người khácn",
 			 "please_select_an_approving_officer":"Vui lòng chọn một Nhân viên phê duyệt",
 			"duration": "Thời gian",
 			"approvingOfficer": "Nhân viên phê duyệt"
-			
+
         }
     },
-	
-	
+
+
 	 "myclaim": {
 		 "tt":"Yêu cầu",
 		 "tt2":"Yêu cầu",
@@ -285,7 +285,7 @@
 		"receipt_amount":{
 			"tt":"Số tiền biên nhận"
 			},
-	
+
 		"gst_amount":{
 			"tt":"GST Amount"
 		},
@@ -315,7 +315,7 @@
 		"total":"Tổng cộng",
 		"batch_detail": "Batch Detail",
 		"validation":{
-				
+
 				"approving_officer":"Vui lòng nhập Nhân viên phê duyệt",
 				"not_choose_sun_sat":"Xin vui lòng không chọn chủ nhật hoặc thứ bảy",
 				"to_is_less_than_from_date":"Đến ngày  'it hơn' từ ngày. Vui lòng thay đổi.",
@@ -323,17 +323,17 @@
 				"future_date_not_allowed":"Ngày trong tương lai Không cho phép. Hãy thay đổi.",
 				"from_is_equal_date": "Vui lòng nhập Từ ngày bằng Đến ngày",
 				"gst_registration_no_vaild":"GST Số đăng ký: Must Be 12 ký tự"
-				
+
 			},
         "ot": {
-			
+
             "tt": "Yêu cầu làm thêm giờ",
 			"tt2": "Tăng ca",
             "ct": "Gửi và quản lý các yêu cầu làm thêm giờ",
 			"apply":{
 				"tt":"Áp dụng Tăng ca",
 				"ct":"Gửi khiếu nại thêm giờ của bạn",
-				
+
 				"duration":"Thời gian",
 				"remarks":{
 					"tt":"Các chú thích"
@@ -344,29 +344,29 @@
 				"approved": "Phê duyệt",
 				"pending": "Chờ xử lý"
 			},
-			
+
 			"cancellation":{
-				
+
 				"ct":"Xem xét và hủy bỏ yêu cầu làm thêm giờ"
 			},
 			"enquiry":{
-				
+
 				"ct":"Kiểm tra tình trạng yêu cầu làm thêm giờ của bạn"
 			},
 			"approval":{
 				"ct":"Phê duyệt hoặc từ chối đơn yêu cầu làm thêm giờ của bạn"
 			},
 			"delegate":{
-				
+
 				"ct":"Bạn có thể ủy phê duyệt chức năng cho người khác"
 			}
-			
+
         },
 		  "sc": {
-			
+
             "tt": "Gửi lưu yêu cầu",
             "ct": "Gửi yêu cầu của bạn đã lưu"
-			
+
         },
         "ben": {
             "tt": "Yêu cầu bồi thường lợi ích",
@@ -381,9 +381,9 @@
 				"attached_list":"Danh sách đính kèm",
 				"clinic":"Phòng khám"
 			},
-			
+
 			"cancellation":{
-				
+
 				"ct":"Xem xét và hủy bỏ các ứng dụng đòi lợi ích của bạn"
 			},
 			"enquiry":{
@@ -392,11 +392,11 @@
 				"ct":"Kiểm tra tình trạng tuyên bố lợi ích của bạn và số dư có sẵn"
 			},
 			"approval":{
-				
+
 				"ct":"Phê duyệt hoặc từ chối đơn yêu cầu bồi thường lợi ích của bạn"
 			},
 			"delegate":{
-				
+
 				"ct":"Bạn có thể ủy phê duyệt chức năng cho người khác"
 			}
         },
@@ -410,14 +410,14 @@
 				"tt":"Áp dụng hoàn trả",
 				"ct":"Gửi khiếu nại hoàn trả của bạn như mileage, giải trí, vv",
 				"reimbursement_type":"Loại hoàn trả",
-				"rate": "Tỷ lệ",	
+				"rate": "Tỷ lệ",
 				"mileage":
 				{
 					"tt":"Mileage"
 				},
-				
+
 				"reimburse":"Trả lại",
-				
+
 				"incurred_from":"Incurred From",
 				"incurred_to":"Incurred To",
 				"incurred_to_is_less_than_from":"Incurred TO is &quot;less than&quot; Incurred FROM. Please Change.",
@@ -430,7 +430,7 @@
 				}
 			},
 			"cancellation":{
-				
+
 				"ct":"Xem xét và hủy bỏ các ứng dụng yêu cầu hoàn trả của bạn"
 			},
 			"enquiry":{
@@ -439,11 +439,11 @@
 				"ct":"Kiểm tra tình trạng yêu cầu hoàn trả và số dư có sẵn"
 			},
 			"approval":{
-				
+
 				"ct":"Phê duyệt hoặc từ chối đơn yêu cầu hoàn trả của bạn"
 			},
 			"delegate":{
-				
+
 				"ct":"Bạn có thể ủy quyền phê duyệt chức năng cho người khác"
 			}
         },
@@ -464,15 +464,15 @@
 					"tt":"Pay To",
 					"tt2":"Nhà cung cấp"
 				},
-				
+
 				"claim_from":{
 					"tt":"Claim From"
 				},
-				
+
 				"claim_item":{
 					"tt":"Claim Item"
 				},
-				
+
 				"payment_method":{
 					"tt":"Payment Method"
 				},
@@ -480,25 +480,25 @@
 				"gst_registration_no":"GST Số đăng ký",
 				"invoice_name":"Tên hóa đơn",
 				"invoice_address":"Địa chỉ hoá đơn",
-				"company":"Công ty"		
-				
+				"company":"Công ty"
+
 			},
 			"cancellation":{
-				
+
 				"ct":"Xem xét và hủy bỏ yêu cầu của bạn để thanh toán"
 			},
 			"enquiry":{
-				
+
 				"ct":"Kiểm tra yêu cầu của bạn cho số dư thanh toán",
 				"pay_enquiry_claimed":"Request for Payment Enquiry - Claim",
 				"pay_enquiry_pending_approval":"Yêu cầu thanh toán - Trong khi chờ phê duyệt"
 			},
 			"approval":{
-				
+
 				"ct":"Approve or reject request for payment"
 			},
 			"delegate":{
-				
+
 				"ct":"Bạn có thể ủy quyền chức năng phê duyệt cho người khác"
 			}
         }
@@ -524,10 +524,10 @@
 			"tt":"Địa chỉ",
 			"ct":"Hãy xem lại các dữ liệu cá nhân của bạn được lưu trữ bởi nhân sự"
 		}
-       
+
     },
 	"mypayroll": {
-		
+
 		"payslip":{
 			"tt":"Lương",
 			"ct":"Xem lương tháng hiện tại và trước đây của bạn"
@@ -536,7 +536,7 @@
 			"tt":"Address",
 			"ct":"Hãy xem lại các dữ liệu cá nhân của bạn được lưu trữ bởi nhân sự"
 		}
-		
+
 	},
 	"mytms": {
 		"tt":"My TMS",

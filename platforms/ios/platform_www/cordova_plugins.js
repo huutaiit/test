@@ -440,19 +440,19 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-iroot/www/iroot.js",
-        "id": "cordova-plugin-iroot.IRoot",
-        "pluginId": "cordova-plugin-iroot",
-        "clobbers": [
-            "IRoot"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-exit/www/exit.js",
         "id": "cordova-plugin-exit.exit",
         "pluginId": "cordova-plugin-exit",
         "clobbers": [
             "cordova.plugins.exit"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-iroot/www/iroot.js",
+        "id": "cordova-plugin-iroot.IRoot",
+        "pluginId": "cordova-plugin-iroot",
+        "clobbers": [
+            "IRoot"
         ]
     }
 ];
@@ -490,8 +490,8 @@ module.exports.metadata =
     "wifiwizard2": "3.1.1",
     "com.ourcodeworld.preventscreenshots": "1.0.0",
     "com.bez4pieci.cookies": "0.0.1",
-    "cordova-plugin-iroot": "0.8.1",
-    "cordova-plugin-exit": "1.0.3"
+    "cordova-plugin-exit": "1.0.3",
+    "cordova-plugin-iroot": "0.8.1"
 }
 // BOTTOM OF METADATA
 });

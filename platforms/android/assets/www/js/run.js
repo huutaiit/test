@@ -8,29 +8,29 @@ var App = angular.module('App', ["ngRoute","ngSanitize","ngTouch"]).run(function
  // $rootScope.GATEWAYURL = "https://testhybridapp.payroll2u.com/"
  //   $rootScope.GATEWAYURL = "https://uatsvrhybrid2.payroll2u.com/"
   setTimeout(function(){
-    IRoot.isRooted(function (rooted) {
-      if(rooted){
-        alert("App Rooted");
-        if (cordova && cordova.plugins)
-        {
-          cordova.plugins.exit();
-        }
-        // navigator.app.exitApp();
-      }
-    }, function (error) {
-      console.error(error);
-    });
+    // IRoot.isRooted(function (rooted) {
+    //   if(rooted){
+    //     alert("App Rooted");
+    //     if (cordova && cordova.plugins)
+    //     {
+    //       cordova.plugins.exit();
+    //     }
+    //     // navigator.app.exitApp();
+    //   }
+    // }, function (error) {
+    //   console.error(error);
+    // });
   // if(typeof window.ga !== undefined) {
   //   //window.ga.startTrackerWithId('UA-45746194-7', 30)
   // } else {
   //   console.log("Google Analytics Unavailable");
   // }
-  try {
-    OurCodeWorldpreventscreenshots.disable();
-  }
-  catch (e) {
-
-  }
+  // try {
+  //   OurCodeWorldpreventscreenshots.disable();
+  // }
+  // catch (e) {
+  //
+  // }
   },9000)
   document.addEventListener("deviceready", function (evt) {
 
@@ -138,7 +138,7 @@ $rootScope.isRight = function(menuID){
 
 
 })
-console.log = function(){} ;
+// console.log = function(){} ;
 saveFileDownload = function (fileName) {
   var fileDownLoad = $.jStorage.get("FileDownLoad") || [];
   fileDownLoad.push(fileName);

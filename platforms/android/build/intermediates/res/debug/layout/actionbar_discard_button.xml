@@ -31,4 +31,4 @@
         android:text="@string/discard"
         style="?android:actionBarTabTextStyle" />
 </FrameLayout>
-<!-- From: file:/Volumes/Data/Projects/Mobile/test2/platforms/android/res/layout/actionbar_discard_button.xml -->
+<!-- From: file:/Users/projects/testzyz/platforms/android/res/layout/actionbar_discard_button.xml -->

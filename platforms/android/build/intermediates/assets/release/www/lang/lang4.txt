@@ -113,7 +113,7 @@
 		"invalid_email_address":"Invalid Email Address.",
 		"invalid_email_please_contact_your_HR":"Invalid email. Please contact your HR.",
 		"user_id_suspended": "Account Suspended <br> Your User ID has been suspended. Please contact your HR.",
-		"not_match":"Organisation ID/User ID/Password do not match.",
+		"not_match":"Invalid Organisation / User ID / Password",
 		"invalid_one_of":"Invalid Organisation / User ID / Password"
     },
 

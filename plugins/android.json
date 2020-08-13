@@ -47,11 +47,11 @@
         "com.bez4pieci.cookies": {
             "PACKAGE_NAME": "com.payroll2u"
         },
-        "cordova-plugin-iroot": {
-            "ENABLE_BUSYBOX_CHECK": "false",
+        "cordova-plugin-exit": {
             "PACKAGE_NAME": "com.payroll2u"
         },
-        "cordova-plugin-exit": {
+        "cordova-plugin-iroot": {
+            "ENABLE_BUSYBOX_CHECK": "false",
             "PACKAGE_NAME": "com.payroll2u"
         }
     },

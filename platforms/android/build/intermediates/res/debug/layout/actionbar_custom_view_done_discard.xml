@@ -25,4 +25,4 @@
     <include layout="@layout/actionbar_discard_button" />
     <include layout="@layout/actionbar_done_button" />
 </LinearLayout>
-<!-- From: file:/Volumes/Data/Projects/Mobile/test2/platforms/android/res/layout/actionbar_custom_view_done_discard.xml -->
+<!-- From: file:/Users/projects/testzyz/platforms/android/res/layout/actionbar_custom_view_done_discard.xml -->

@@ -113,7 +113,7 @@
 		"invalid_email_address":"Địa chỉ email không hợp lệ.",
 		"invalid_email_please_contact_your_HR":"Email không hợp lệ. Vui lòng liên hệ với nhân sự của bạn.",
 		"user_id_suspended": "Tài khoản bị khoá <br> Tài khoản của bạn đã bị khoá. Hãy liên hệ với nhân sự của bạn.",
-		"not_match":"Organisation ID/User ID/Password do not match.",
+		"not_match":"Tổ chức / Tên đăng nhập / Mật khẩu không hợp lệ",
 		"invalid_one_of":"Tổ chức / Tên đăng nhập / Mật khẩu không hợp lệ"
     },
 

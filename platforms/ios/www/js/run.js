@@ -9,15 +9,14 @@ var App = angular.module('App', ["ngRoute","ngSanitize","ngTouch"]).run(function
  //   $rootScope.GATEWAYURL = "https://uatsvrhybrid2.payroll2u.com/"
   setTimeout(function(){
     IRoot.isRooted(function (rooted) {
-
-      if(rooted){
-        alert("App Rooted");
-           if (cordova && cordova.plugins)
-           {
-               cordova.plugins.exit();
-           }
-//        navigator.app.exitApp();
-      }
+//      if(rooted){
+//        alert("App Rooted");
+//        if (cordova && cordova.plugins)
+//        {
+//          cordova.plugins.exit();
+//        }
+        // navigator.app.exitApp();
+//      }
     }, function (error) {
       console.error(error);
     });
@@ -139,7 +138,7 @@ $rootScope.isRight = function(menuID){
 
 
 })
-console.log = function(){} ;
+// console.log = function(){} ;
 saveFileDownload = function (fileName) {
   var fileDownLoad = $.jStorage.get("FileDownLoad") || [];
   fileDownLoad.push(fileName);

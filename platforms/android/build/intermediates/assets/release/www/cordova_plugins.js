@@ -372,6 +372,20 @@ module.exports = [
         "clobbers": [
             "cookies"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-exit/www/exit.js",
+        "id": "cordova-plugin-exit.exit",
+        "clobbers": [
+            "cordova.plugins.exit"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-iroot/www/iroot.js",
+        "id": "cordova-plugin-iroot.IRoot",
+        "clobbers": [
+            "IRoot"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -405,7 +419,9 @@ module.exports.metadata =
     "es6-promise-plugin": "4.2.2",
     "wifiwizard2": "3.1.1",
     "com.ourcodeworld.preventscreenshots": "1.0.0",
-    "com.bez4pieci.cookies": "0.0.1"
+    "com.bez4pieci.cookies": "0.0.1",
+    "cordova-plugin-exit": "1.0.3",
+    "cordova-plugin-iroot": "0.8.1"
 };
 // BOTTOM OF METADATA
 });

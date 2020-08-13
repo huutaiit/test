@@ -85,12 +85,12 @@
     <feature name="Cookies">
         <param name="android-package" value="com.bez4pieci.cookies.Cookies" />
     </feature>
+    <feature name="Exit">
+        <param name="android-package" value="im.ckk.cordova.exit.Exit" />
+    </feature>
     <feature name="IRoot">
         <param name="android-package" value="de.cyberkatze.iroot.IRoot" />
         <param name="onload" value="true" />
-    </feature>
-    <feature name="Exit">
-        <param name="android-package" value="im.ckk.cordova.exit.Exit" />
     </feature>
     <allow-intent href="market:*" />
     <icon density="ldpi" src="www/images/ic_app.png" />
@@ -133,4 +133,4 @@
         <string>need to photo library access to save pictures there</string>
     </edit-config>
 </widget>
-<!-- From: file:/Volumes/Data/Projects/Mobile/test2/platforms/android/res/xml/config.xml -->
+<!-- From: file:/Users/projects/testzyz/platforms/android/res/xml/config.xml -->
