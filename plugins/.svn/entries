@@ -1,0 +1,221 @@
+10
+
+dir
+2
+https://subversion.assembla.com/svn/payroll2u/plugins
+https://subversion.assembla.com/svn/payroll2u
+
+
+
+2017-12-03T15:54:53.047983Z
+2
+huutaiit
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b3bc9d4b-981d-4127-bbd8-295d911b52fc
+
+
+
+
+
+
+0
+
+android.json
+file
+
+
+
+
+2017-11-26T09:18:37.000000Z
+2a1cc97dc5cf1dd776ec0d80977d8196
+2017-12-03T15:54:53.047983Z
+2
+huutaiit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2371
+
+com-badrit-macaddress
+dir
+
+com.mbppower.camerapreview
+dir
+
+com.pylonproducts.wifiwizard
+dir
+
+com.synconset.imagepicker
+dir
+
+cordova-plugin-android-permissions
+dir
+
+cordova-plugin-app-event
+dir
+
+cordova-plugin-app-version
+dir
+
+cordova-plugin-badge
+dir
+
+cordova-plugin-camera
+dir
+
+
+
+add
+
+cordova-plugin-compat
+dir
+
+
+
+add
+
+cordova-plugin-file-opener2
+dir
+
+cordova-plugin-image-resizer
+dir
+
+cordova-plugin-inappbrowser
+dir
+
+cordova-plugin-network-information
+dir
+
+cordova-plugin-whitelist
+dir
+
+cordova-plugin-x-toast
+dir
+
+fetch.json
+file
+
+
+
+
+2017-11-26T09:18:36.000000Z
+fd44ce258d4b7ae3cd6cf95d69afca98
+2017-12-03T15:54:53.047983Z
+2
+huutaiit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1928
+
+ionic-plugin-keyboard
+dir
+
+ios.json
+file
+
+
+
+
+2017-11-26T09:18:38.000000Z
+77f9ae56840d0f6ba3b970e289ea9d14
+2017-12-03T15:54:53.047983Z
+2
+huutaiit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10689
+
+org.apache.cordova.camera
+dir
+
+
+
+add
+
+org.apache.cordova.device
+dir
+
+org.apache.cordova.file
+dir
+
+org.apache.cordova.file-transfer
+dir
+
+org.apache.cordova.geolocation
+dir
+
+org.apache.cordova.wifiinfo
+dir
+
+phonegap-plugin-push
+dir
+

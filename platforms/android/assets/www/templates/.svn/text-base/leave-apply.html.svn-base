@@ -1,0 +1,288 @@
+<script type="text/javascript" src="js/controllers/myLeave.js"></script>
+<!--start Apply leave-->
+<div class="form" >
+<div ng-show="showAttached==false" class="screen-submit" style="height:100%;">
+  <h1 class="title-form background-494aa7">{{lang.myleave.apply.tt}}</h1>
+  <div class="form-info scroll" ng-element-height="90">
+
+    <ul class="list form-apply" id="apply-leave">
+      <li modal="leaveType">
+        <div class="f-left">
+          <p class="label required">
+            <label>{{lang.myleave.apply.type.tt}}</label> <span>
+              ({{lang.general.required}})
+            </span>
+          </p>
+          <p class="input"><input readonly="readonly" value="{{modelLeave.leaveType.Description}}" type="text" /></p>
+        </div>
+        <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+
+      <li modal="extent">
+        <div class="f-left">
+          <p class="label required">
+            <label>{{lang.myleave.apply.extent.tt}} </label>
+            <span>({{lang.general.required}})</span>
+          </p>
+          <p class="input"><input readonly="readonly" value="{{modelLeave.extent.Description}}" type="text" /></p>
+        </div>
+        <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+
+      <li modal="fromDate">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.general.from}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input readonly="readonly" value="{{modelLeave.fromDate | formatDate:typeDate}}" type="text" /></p>
+        </div>
+        <a class="f-right icon"><i class="fa fa-calendar"></i></a>
+        <div class="clear"></div>
+      </li>
+
+      <li modal="toDate">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.general.to}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{modelLeave.toDate | formatDate:typeDate}}" readonly="readonly" type="text" /></p>
+        </div>
+         <a class="f-right icon"><i class="fa fa-calendar"></i></a>
+        <div class="clear"></div>
+      </li>
+
+      <li ng-attr-modal="{{modelLeave.leaveType.Required.SelfOverTime==1 && 'duration' || ''}}"  ng-click="InputFocusing('textDuration')">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myleave.apply.duration.tt}}</label></p>
+          <p class="input"><input value="{{modelLeave.duration.description}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+
+      <li modal="remarks">
+        <div class="f-left">
+          <p class="label" ng-class="{'required' : isRequired(modelLeave.leaveType.Required.SelfRemark)}"><label>{{lang.myleave.apply.remarks.tt}}</label> <span ng-if="modelLeave.leaveType.Required.SelfRemark==1">({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{modelLeave.remarks}}" readonly="readonly" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+       <li>
+        <div class="f-left">
+          <p class="label"><label>{{lang.myleave.apply.approvingOfficer.tt}}</label></p>
+          <p class="input"><input value="{{modelLeave.approvingOffer.AppName}}" readonly="readonly" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+        <!--can change -->
+      <li modal="notifyGroup" ng-show="CheckControlNotify.Edit==1">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myleave.apply.notify_group}}</label></p>
+          <p class="input"><input value="{{modelLeave.notifyGroup.Name}}" readonly="readonly" type="text" /></p>
+        </div>
+<a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+
+      <li ng-click="showPoupEE('notifyEmployee')" ng-show="CheckControlNotify.Edit==1">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myleave.apply.notify_employee}} 1</label></p>
+          <p class="input"><input value="{{modelLeave.notifyEmployee.Name}}" readonly="readonly" type="text" /></p>
+        </div>
+ <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+
+       <li ng-click="showPoupEE('notifyEmployee2')" ng-show="CheckControlNotify.Edit==1">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myleave.apply.notify_employee}} 2</label></p>
+          <p class="input"><input value="{{modelLeave.notifyEmployee2.Name}}" readonly="readonly" type="text" /></p>
+        </div>
+ <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+
+      <!--can not change -->
+      <li ng-if="CheckControlNotify.Edit!=1">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myleave.apply.notify_group}}</label></p>
+          <p class="input"><input value="{{modelLeave.notifyGroup.Name}}" readonly="readonly" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+      <li ng-if="CheckControlNotify.Edit!=1">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myleave.apply.notify_employee}}</label></p>
+          <p class="input"><input value="{{modelLeave.notifyEmployee.Name}}" readonly="readonly" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+      <li ng-if="CheckControlNotify.Edit!=1">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myleave.apply.notify_employee}} 2</label></p>
+          <p class="input"><input value="{{modelLeave.notifyEmployee2.Name}}" readonly="readonly" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+      <li ng-if="blockLv==1" ng-click="updateValueBlockLv()">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myleave.apply.block_lv}}</label></p>
+          <p class="input"><input  readonly="readonly" type="text" /></p>
+        </div>
+        <div class="f-right custom_checkbox">
+          <input id="c" type="checkbox" readonly ng-model="modelLeave.blockLv" >
+          <label for="c"></label>
+        </div>
+        <div class="clear"></div>
+      </li>
+
+    </ul>
+
+  </div><!--end form-info-->
+
+  <div class="button">
+    <a><span></span></a>
+     <a ng-click="applyLeave()"><span>{{lang.general.btn.submit}}</span></a>
+    <a ng-click="showAttachedList()"><span><img src="images/n_btn_apply_leave_attach.png" /></span></a>
+
+  </div><!--end button-->
+   </div><!---end showAttached-->
+
+
+   <div id="attached-file" ng-show="showAttached==true" style="height:100%;">
+    <h1 class="title-form background-494aa7">{{lang.myclaim.attached_list}}</h1>
+    <div class="form-info" ng-element-height>
+
+      <ul class="list form-apply">
+
+        <li ng-repeat="item in listFileAttached track by $index">
+
+          <img ng-click="removeFile(item)" class="f-left" style="width:30px; margin-right:10px;" src="images/n_button_cancelation.png" />
+          <div class="f-left" style="width:auto;" ng-click="viewFile(item)">
+            <p class="hind">{{lang.myclaim.file_attached}}</p>
+            <p class="label">{{item}}</p>
+          </div>
+          <div class="clear"></div>
+
+        </li>
+      </ul>
+    </div>
+     <div class="button">
+      <a ng-click="capturePhoto()"><span><img src="images/n_btn_apply_leave_cam.png" /></span></a>
+       <a ng-click="hideAttachedList()"><span><img src="images/btn_save.png" /></span></a>
+      <a ng-click="getPhoto()"><span><img src="images/n_btn_apply_leave_attach.png" /></span></a>
+
+    </div><!--end button-->
+  </div>
+</div><!--end form-->
+<!--end Apply leave-->
+<div id="leaveType" class="modal animated" >
+  <h2 class="modal-title">
+  {{lang.myleave.apply.selectLeaveType}}
+
+    <span close-modal class="close-modal"></span>
+  </h2>
+  <div class="modal-content" id="listLeaveType" ng-set-height-modal-content="{{listLeaveType.length}}">
+    <ul class="select">
+      <li ng-class="{'active' : isActive(item.Id,modelLeave.leaveType.Id)}" ng-repeat="item in listLeaveType track by $index" ng-click="selectLeaveType(item)" close-modal>{{item.Description}}</li>
+    </ul>
+  </div>
+</div><!--end modal-->
+
+
+<div id="notifyGroup" class="modal animated" >
+  <h2 class="modal-title">
+  	{{lang.myleave.apply.notify_group}}
+    <span close-modal class="close-modal"></span>
+  </h2>
+  <div class="modal-content" id="ListNotifyGroup" ng-set-height-modal-content="{{ListNotifyGroup.length}}">
+    <ul class="select">
+      <li ng-repeat="item in ListNotifyGroup track by $index" ng-click="selectNotifyGroup(item)" close-modal>{{item.Description}}</li>
+    </ul>
+  </div>
+</div><!--end modal-->
+
+
+
+<div id="extent" class="modal animated" >
+  <h2 class="modal-title">{{lang.myleave.apply.selectExtent}}<span close-modal class="close-modal"></span></h2>
+  <div class="modal-content">
+    <ul class="select">
+      <li ng-class="{'active' : isActive(item.Opt,modelLeave.extent.Opt)}" ng-repeat="item in listExtent track by $index" ng-click="selectExtent(item)" close-modal>{{item.Description}}</li>
+
+    </ul>
+  </div>
+</div><!--end modal-->
+
+
+
+
+<div id="fromDate" class="modal animated" >
+  <ng-date-time-picker id="from-date-time" ng-show="modelLeave.extent.Opt==4"></ng-date-time-picker>
+   <ng-date-picker id="from-date" ng-show="modelLeave.extent.Opt!=4"></ng-date-picker>
+  <table width="100%" class="tbl-picker">
+    <tr>
+      <td width="33.33333333333333%"><div class="ui-content ui-body-a btn-control" ng-click="selectDate('fromDate')" >{{lang.general.btn.ok}}</div></td>
+      <td width="33.33333333333333%"><div class="reset-date ui-content ui-body-a btn-control" >{{lang.general.btn.reset}}</div></td>
+      <td width="33.33333333333333%"><div class="ui-content ui-body-a btn-control" close-modal>{{lang.general.btn.cancel}}</div></td>
+    </tr>
+  </table>
+</div>
+
+
+<div id="toDate" class="modal animated">
+  <ng-date-time-picker id="to-date-time" ng-show="modelLeave.extent.Opt==4"></ng-date-time-picker>
+   <ng-date-picker id="to-date" ng-show="modelLeave.extent.Opt!=4"></ng-date-picker>
+  <table width="100%" class="tbl-picker">
+    <tr>
+      <td width="33.33333333333333%"><div class="ui-content ui-body-a btn-control" ng-click="selectDate('toDate')" >{{lang.general.btn.ok}}</div></td>
+      <td width="33.33333333333333%"><div class="reset-date ui-content ui-body-a btn-control" >{{lang.general.btn.reset}}</div></td>
+      <td width="33.33333333333333%"><div class="ui-content ui-body-a btn-control" close-modal>{{lang.general.btn.cancel}}</div></td>
+    </tr>
+  </table>
+</div>
+
+<div id="remarks" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input type="text" ng-model="textRemaks" my-maxlength="100"/>
+    </div>
+    <div class="button">
+      <button ng-click="selectField('remarks',textRemaks)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal>{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+<div id="duration" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input ng-is-numeric="true" max-value="999.99" type="tel" pattern="[0-9]*" id="textDuration" callback-fn="setModel(arg)" />
+    </div>
+    <div class="button">
+      <button ng-click="setDuration(textDuration)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal ng-click="$event.preventDefault();">{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+<div id="point">
+  <div class="item" ><span ng-click="insertAtCaret('.');$event.preventDefault();"></span></div>
+  <div class="clear"></div>
+</div>
+
+

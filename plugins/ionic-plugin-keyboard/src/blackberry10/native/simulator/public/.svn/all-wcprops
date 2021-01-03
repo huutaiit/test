@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/payroll2u/!svn/ver/2/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/public
+END
+plugin.o
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/payroll2u/!svn/ver/2/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/public/plugin.o
+END
+tokenizer.o
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/payroll2u/!svn/ver/2/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/public/tokenizer.o
+END
+json_reader.o
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/payroll2u/!svn/ver/2/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/public/json_reader.o
+END
+json_value.o
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/payroll2u/!svn/ver/2/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/public/json_value.o
+END
+json_writer.o
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/payroll2u/!svn/ver/2/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/public/json_writer.o
+END

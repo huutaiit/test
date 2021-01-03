@@ -1,0 +1,589 @@
+{
+	"general":{
+		 "required": "bắt buộc",
+		 "apply": "Áp dụng",
+		 "cancellation": "Hủy bỏ",
+		 "enquiry": "Enquiry",
+		 "approval": "Phê duyệt",
+		 "delegate": "Đại biểu",
+		 "submitSuccess":"Gửi thành công",
+		 "application_submit":"Đơn đã được gửi",
+		 "application_saved":"Đơn đã được lưu",
+		 "applications":"Đơn",
+		 "error":"Lỗi",
+		 "successful":"Thành công",
+		 "confirm":"Xác nhận",
+		 "alert":"Thông báo",
+		 "not_entitled_to": "Không cho phép",
+		 "network_failed": "Lỗi kết nối mạng",
+		 "please_check_your_network": "Vui lòng kiểm tra mạng",
+	     "maximum":"Tối đa",
+		 "load_more":"Tải nhiều",
+		 "btn": {
+			"cancel": "Huỷ bỏ",
+			"reset": "Thiết lập",
+			"submit": "Gửi",
+			"ok": "Ok",
+			"set_date": "Thiết lập ngày",
+			"set_time": "Thiết lập giờ"
+		 },
+		 "from": "Từ",
+		  "to": "Đến",
+		  "please_enter":"Vui lòng nhập",
+		  "please_select":"Vui lòng chọn",
+		  "please_upload_file":"Vui lòng đính kèm tập tin",
+		  "processing":"Đang xử lý...",
+		  "waiting":"Vui lòng đợi",
+		  "day": "Ngày",
+		  "days": "Ngày",
+		  "hour": "Giờ",
+		  "hours": "Giờ",
+		  "no_image_selected":"Không có hình ảnh được chọn",
+		  "none":"Không có"
+
+	},
+	"calendar":{
+		"month":{
+			"m_1":"T1",
+			"m_2":"T2",
+			"m_3":"T3",
+			"m_4":"T4",
+			"m_5":"T5",
+			"m_6":"T6",
+			"m_7":"T7",
+			"m_8":"T8",
+			"m_9":"T19",
+			"m_10":"T10",
+			"m_11":"T11",
+			"m_12":"T12"
+		},
+		"month_full":{
+			"m_1":"Tháng 1",
+			"m_2":"Tháng 2",
+			"m_3":"Tháng 3",
+			"m_4":"Tháng 4",
+			"m_5":"Tháng 5",
+			"m_6":"Tháng 6",
+			"m_7":"Tháng 7",
+			"m_8":"Tháng 8",
+			"m_9":"Tháng 9",
+			"m_10":"Tháng 10",
+			"m_11":"Tháng 11",
+			"m_12":"Tháng 12"
+		},
+		"week":{
+			"w_1":"CN",
+			"w_2":"Thứ 2",
+			"w_3":"Thứ 3",
+			"w_4":"Thứ 4",
+			"w_5":"Thứ 5",
+			"w_6":"Thứ 6",
+			"w_7":"Thứ 7"
+		},
+		"week_full":{
+			"w_0":"CN",
+			"w_1":"Thứ 2",
+			"w_2":"Thứ 3",
+			"w_3":"Thứ 4",
+			"w_4":"Thứ 5",
+			"w_5":"Thứ 6",
+			"w_6":"Thứ 7"
+
+		}
+	},
+    "login": {
+        "txt": {
+            "header": "Đăng nhập vào tài khoản của bạn",
+            "org": "Cơ quan",
+            "username": "Tên đăng nhập",
+			 "organisation_id": "Mã cơ quan",
+			 "user_id": "Mã nhân viên",
+			 "your_user_id":"Tên người dùng",
+            "password": "Mật khẩu",
+			"your_password": "Mật khẩu của bạn",
+            "login": "Đăng nhập",
+            "forgot": "Quên mật khẩu?",
+			"input_your_email_address": "Nhập địa chỉ Email",
+			"email_sent":"Gửi email",
+			"select_image":"Chọn hình ảnh",
+			"take_from_camera":"Chụp từ máy ảnh",
+			"select_from_gallery":"Chọn từ thư viện"
+
+        },
+		"invalid_email_address":"Địa chỉ email không hợp lệ.",
+		"invalid_email_please_contact_your_HR":"Email không hợp lệ. Vui lòng liên hệ với nhân sự của bạn.",
+		"user_id_suspended": "Tài khoản bị khoá <br> Tài khoản của bạn đã bị khoá. Hãy liên hệ với nhân sự của bạn.",
+		"not_match":"Organisation ID/User ID/Password do not match.",
+		"invalid_one_of":"Tổ chức / Tên đăng nhập / Mật khẩu không hợp lệ"
+    },
+
+    "main": {
+        "btn": {
+            "chpass": "Thay đổi <br> Mật khẩu",
+            "payslip": "Xem <br> Lương",
+            "leave": "Nộp đơn <br> Nghỉ",
+            "reim": "Gửi <br> trả",
+            "overtime": "Gửi <br> tăng ca",
+            "roster": "Xem <br> phân công",
+            "benefit": "Gửi <br> Lợi ích",
+            "myprofile": "Hồ sơ",
+            "myclaim": "Khiếu nại",
+            "mytms": "TMS",
+            "mypayroll": "Lương",
+            "myleave": "Nghỉ phép"
+
+        },
+        "txt": {
+            "chpass": "Xin chào",
+			 "touch_again_to_exit": "Chạm một lần nữa để thoát",
+            "llogin": "Đăng nhập lần cuối vào",
+			"about":"Về",
+			"uuid":"ID",
+			"apmac":"Điểm truy cập",
+			"version":"Phiên bản",
+			"website":"Website: https://www.payroll2u.com",
+			"wellcome":"Chào mừng bạn đến văn phòng!",
+			"image_saved":"Đã lưu hình ảnh",
+			"see_you_again":"Bye, hẹn gặp lại!",
+			"invalid_location":"Vị trí không hợp lệ",
+			"mobile_mac_not_setup":"Địa chỉ Mobile MAC chưa được cài đặt",
+			"different_mobile_mac_address":"Bạn đang sử dụng địa chỉ Mobile MAC khác",
+			"badge_id_not_setup":" Badge ID của bạn chưa được cài đặt"
+
+        },
+
+		"select_language":"Chọn ngôn ngữ"
+    },
+
+
+
+
+    "mytms": {
+        "tt": "My TMS",
+        "ct": "Làm việc lịch biểu, theo ca vả bảng phân công"
+    },
+
+
+    "menu": {
+        "tt682": "Đổi mật khẩu",
+        "ct682": "Không bao giờ chia sẻ mật khẩu của bạn cho người khác",
+        "tt683": "Địa chỉ",
+        "ct683": "Hãy xem lại các dữ liệu cá nhân của bạn được lưu trữ bởi nhân sự"
+    },
+
+    "myleave": {
+
+		"tt":"Nghỉ",
+		"apply": {
+            "tt": "Xin nghỉ",
+            "ct": "Gửi đơn xin nghỉ phép của bạn",
+            "selectLeaveType": "Chọn loại nghỉ",
+             "selectBusinessTripCountry": "Business Trip Country",
+			"select_approving_officer": "Chọn Nhân viên phê duyệt",
+            "selectExtent": "Chọn phạm vi",
+            "applyleavesubmitted": "Đơn đã được gửi",
+
+            "type": {
+                "tt": "Kiểu nghỉ"
+            },
+            "extent": {
+                "tt": "Extent"
+            },
+
+            "duration": {
+                "tt": "Thời gian",
+                "ct": "Thời gian"
+            },
+            "remarks": {
+                "tt": "Các chú thích"
+            },
+            "approvingOfficer": {
+                "tt": "Nhân viên kiểm duyệt"
+            },
+             "businessTripCountry": {
+                                                   "tt": "Business Trip Country"
+                                                },
+                                    "courseAttended": {
+                                       "tt": "Course Attended"
+                                    },
+
+			"notify_group":"Thông báo cho Nhóm",
+			"notify_employee":"Thông báo cho nhân viên",
+			"block_lv":"Block Leave",
+            "fileName": {
+                "tt": "Tên tập tin"
+            },
+			"status":"Trạng thái",
+			"period":"Giai đoạn",
+			"validation":{
+				"type_not_valid":"Vui lòng chọn một loại nghỉ.",
+				"extent_not_valid":"The extent Is Not Valid.",
+				"duration_not_valid":"Thời gian là không hợp lệ",
+				"remark_not_valid":"Xin vui lòng nhập chú thích",
+				"file_not_valid":"Vui lòng tải tập tin.",
+				"not_choose_day_off_rest_holiday":"Vui lòng không chọn ngày nghỉ hoặc ngày lễ.",
+				"to_is_less_than_from_date":"Từ ngày is &quot;nhỏ hơn&quot; Đến ngày. Vui lòng thay đổi.",
+				"to_is_less_than_from_time":"Từ giờ is &quot;nhỏ hơn hoặc bằng&quot; Đến giờ. Vui lòng thay đổi.",
+				"from_is_equal_to_date":"Từ ngày &quot;nên bằng &quot; Đến ngày. Vui lòng thay đổi.",
+				"no_approving_officer":"Không có nhân viên kiểm duyệt. Vui lòng liên hệ nhân sự của bạn.",
+				"buss_trip_ctry_course_valid":"Please Select A Business Trip Country"
+			}
+
+        },
+		 "calendar": {
+            "tt": "Lịch nghỉ",
+			"ct":"Xem đơn nghỉ của bạn",
+			"detail": "Chi tiết",
+			"taken": "Taken",
+			"applied": "Applied",
+			"legend": "Legend",
+			"leave_type":"Leave Type"
+        },
+        "cancellation": {
+            "tt": "Huỷ bỏ",
+            "ct": "Xem xét và hủy bỏ đơn nghỉ phép của bạn",
+			"cancellation_successful":"Huỷ bỏ thành công"
+        },
+
+		"enquiry": {
+            "tt": "Leave Enquiry",
+			"ct":"Kiểm tra tình trạng đơn nghỉ phép của bạn và số dư có sẵn",
+			"taken": "Taken",
+			"pending": "Chờ xử lý",
+			"pending_approval":"Chờ phê duyệt",
+			"summ_entitle":"Cho phép",
+			"summ_earned":"Earned",
+			"summ_bf":"B/F",
+			"summ_in_lieu":"In-Lieu",
+			"summ_taken":"Taken",
+			"summ_bal":"Bal",
+			"summ_ye_bal":"YE Bal"
+
+        },
+
+       "approval": {
+            "tt": "Sự chấp thuận",
+			"ct":"Phê duyệt hoặc từ chối đơn nghỉ phép"
+        },
+		"adminApproval": {
+            "tt": "Quản trị phê duyệt",
+			"ct":"Phê duyệt hoặc từ chối đơn nghỉ phép"
+        },
+        "plan": {
+            "tt": "Kế hoạt nghỉ",
+			"ct":"Xem đơn nghỉ phép của nhóm bạn",
+			 "detail": "Chi tiết",
+			 "taken": "Taken",
+			"applied": "Ap dụng"
+        },
+
+
+        "delegate": {
+            "tt": "Uỷ quyền",
+			"ct":"Bạn có thể ủy quyền phê duyệt chức năng cho người khácn",
+			 "please_select_an_approving_officer":"Vui lòng chọn một Nhân viên phê duyệt",
+			"duration": "Thời gian",
+			"approvingOfficer": "Nhân viên phê duyệt"
+
+        }
+    },
+
+
+	 "myclaim": {
+		 "tt":"Yêu cầu",
+		 "tt2":"Yêu cầu",
+		"receipt_no":{
+			"tt":"Biên lai số."
+		},
+		"currency":{
+			"tt":"Biên nhận ngoại tệ"
+		},
+		"receipt_amount":{
+			"tt":"Số tiền biên nhận"
+			},
+
+		"gst_amount":{
+			"tt":"GST Amount"
+		},
+		"amount":"Số tiền",
+		"exchange_rate":{
+			"tt":"Tỷ giá"
+		},
+		"incurred_by":"Phát sinh",
+		"dependant":"Phụ thuộc",
+		"description":"Mô tả",
+		"remarks":{
+			"tt":"Các chú thích"
+		},
+		"delegate":{
+		 "duration": "Thời gian",
+		  "select_approving_officer": "Chọn Nhân viên phê duyệt",
+          "approvingOfficer": "Nhân viên phê duyệt",
+		  "delegate_to":"Uỷ quyền cho"
+		},
+		"attached_list":"Danh sách đính kèm",
+		"file_attached":"Tệp đính kèm",
+		"approving_officer":"Nhân viên phê duyệt",
+		"status":"Trạng thái",
+		"receipt":"Biên nhận",
+		"date":"Ngày",
+		"coverage":"Phủ sóng",
+		"total":"Tổng cộng",
+		"batch_detail": "Batch Detail",
+		"validation":{
+				"insufficient_balance":"Thiếu cân bằng",
+				"insufficient_reimburse_amount":"Không đủ hoàn trả tiền",
+				"approving_officer":"Vui lòng nhập Nhân viên phê duyệt",
+				"not_choose_sun_sat":"Xin vui lòng không chọn chủ nhật hoặc thứ bảy",
+				"to_is_less_than_from_date":"Đến ngày  'it hơn' từ ngày. Vui lòng thay đổi.",
+				"to_is_less_equal_from_time": "Đến giờ thì 'ít hơn hoặc bằng từ giờ'. Vui lòng thay đổi.",
+				"future_date_not_allowed":"Ngày trong tương lai Không cho phép. Hãy thay đổi.",
+				"from_is_equal_date": "Vui lòng nhập Từ ngày bằng Đến ngày",
+				"invalid_reimburse_gst":"Invalid Reimburse GST Amount",
+				"gst_registration_no_vaild":"GST Số đăng ký: phải 12 ký tự"
+
+			},
+        "ot": {
+
+            "tt": "Yêu cầu làm thêm giờ",
+			"tt2": "Tăng ca",
+            "ct": "Gửi và quản lý các yêu cầu làm thêm giờ",
+			"apply":{
+				"tt":"Áp dụng Tăng ca",
+				"ct":"Gửi khiếu nại thêm giờ của bạn",
+
+				"duration":"Thời gian",
+				"remarks":{
+					"tt":"Các chú thích"
+				},
+				"approvingOfficer":"Nhân viên phê duyệt",
+				"type":"Loại",
+				"status":"Trạng thái",
+				"approved": "Phê duyệt",
+				"pending": "Chờ xử lý",
+				"invalid_data_type": "Loại bắt buộc nhập"
+			},
+
+			"cancellation":{
+
+				"ct":"Xem xét và hủy bỏ yêu cầu làm thêm giờ"
+			},
+			"enquiry":{
+
+				"ct":"Kiểm tra tình trạng yêu cầu làm thêm giờ của bạn"
+			},
+			"approval":{
+				"ct":"Phê duyệt hoặc từ chối đơn yêu cầu làm thêm giờ của bạn"
+			},
+			"delegate":{
+
+				"ct":"Bạn có thể ủy phê duyệt chức năng cho người khác"
+			}
+
+        },
+		  "sc": {
+
+            "tt": "Gửi lưu yêu cầu",
+            "ct": "Gửi yêu cầu của bạn đã lưu"
+
+        },
+        "ben": {
+            "tt": "Yêu cầu bồi thường lợi ích",
+			"tt2": "Lợi ích",
+            "ct": "Gửi và quản lý y tế, bệnh viện, nha khoa hoặc bất kỳ khiếu nại quyền lợi",
+			"ct2": "Gửi và quản lý tuyên bố lợi ích",
+			"apply":{
+				"tt":"Áp dụng lợi ích",
+				"ct":"Gửi yêu cầu lợi ích của bạn chẳng hạn như y tế, bệnh viện, quang học, vv",
+				"benefit_type":"Loại lợi ích",
+				"status":"Trạng thái",
+				"attached_list":"Danh sách đính kèm",
+				"clinic":"Phòng khám"
+			},
+
+			"cancellation":{
+
+				"ct":"Xem xét và hủy bỏ các ứng dụng đòi lợi ích của bạn"
+			},
+			"enquiry":{
+				"benefit_enquiry_claimed":"Benefit Enquiry - Claimed",
+				"benefit_enquiry_pending_approval":"Benefit Enquiry - Pending Approval",
+				"ct":"Kiểm tra tình trạng tuyên bố lợi ích của bạn và số dư có sẵn"
+			},
+			"approval":{
+
+				"ct":"Phê duyệt hoặc từ chối đơn yêu cầu bồi thường lợi ích của bạn"
+			},
+			"delegate":{
+
+				"ct":"Bạn có thể ủy phê duyệt chức năng cho người khác"
+			}
+        },
+
+        "reim": {
+            "tt": "Yêu cầu hoàn trả",
+			"tt2": "Hoàn trả",
+            "ct": "Gửi và quản lý số tiền bồi hoàn",
+			 "ct2": "Gửi và quản lý đòi bồi hoàn",
+			"apply":{
+				"tt":"Áp dụng hoàn trả",
+				"ct":"Gửi khiếu nại hoàn trả của bạn như mileage, giải trí, vv",
+				"reimbursement_type":"Loại hoàn trả",
+				"rate": "Tỷ lệ",
+				"mileage":
+				{
+					"tt":"Mileage"
+				},
+
+				"reimburse":"Trả lại",
+
+				"incurred_from":"Incurred From",
+				"incurred_to":"Incurred To",
+				"incurred_to_is_less_than_from":"Incurred TO is &quot;less than&quot; Incurred FROM. Please Change.",
+				"billable":{
+					"tt":"Billable"
+				},
+				"customer":{
+					"tt":"Khách hàng",
+					"tt2":"Khách hàng/Nhà cung cấp"
+				}
+			},
+			"cancellation":{
+
+				"ct":"Xem xét và hủy bỏ các ứng dụng yêu cầu hoàn trả của bạn"
+			},
+			"enquiry":{
+				"benefit_enquiry_claimed":"Reimbursement Enquiry - Claimed",
+				"benefit_enquiry_pending_approval":"Hoàn trả Yêu cầu - Đang xem xét",
+				"ct":"Kiểm tra tình trạng yêu cầu hoàn trả và số dư có sẵn"
+			},
+			"approval":{
+
+				"ct":"Phê duyệt hoặc từ chối đơn yêu cầu hoàn trả của bạn"
+			},
+			"delegate":{
+
+				"ct":"Bạn có thể ủy quyền phê duyệt chức năng cho người khác"
+			}
+        },
+
+        "pay": {
+            "tt": "Request for Payment",
+			"tt2":"Payment",
+            "ct": "Gửi yêu sách cho các hóa đơn nhà cung cấp",
+			"apply":{
+				"tt":"Apply Payment",
+				"ct":"Gửi yêu cầu của bạn để thanh toán",
+				"sup_cus":"Nhà cung cấp/Khách hàng",
+				"order_no":
+				{
+					"tt":"Số hoá đơn"
+				},
+				"pay_to":{
+					"tt":"Pay To",
+					"tt2":"Nhà cung cấp"
+				},
+
+				"claim_from":{
+					"tt":"Claim From"
+				},
+
+				"claim_item":{
+					"tt":"Claim Item"
+				},
+
+				"payment_method":{
+					"tt":"Payment Method"
+				},
+				"invoice_type":"Invoice Type",
+				"gst_registration_no":"GST Số đăng ký",
+				"invoice_name":"Tên hóa đơn",
+				"invoice_address":"Địa chỉ hoá đơn",
+				"company":"Công ty"
+
+			},
+			"cancellation":{
+
+				"ct":"Xem xét và hủy bỏ yêu cầu của bạn để thanh toán"
+			},
+			"enquiry":{
+
+				"ct":"Kiểm tra yêu cầu của bạn cho số dư thanh toán",
+				"pay_enquiry_claimed":"Request for Payment Enquiry - Claim",
+				"pay_enquiry_pending_approval":"Yêu cầu thanh toán - Trong khi chờ phê duyệt"
+			},
+			"approval":{
+
+				"ct":"Approve or reject request for payment"
+			},
+			"delegate":{
+
+				"ct":"Bạn có thể ủy quyền chức năng phê duyệt cho người khác"
+			}
+        }
+    },
+	"myprofile": {
+		"tt":"My Profile",
+		"ct":"",
+		"changePass":{
+			"tt":"Đổi mật khẩu",
+			"ct":"Không bao giờ chia sẻ mật khẩu của bạn cho người khác",
+			"current_password":"Mật khẩu hiện tại",
+			"new_password":"Mật khẩu mới",
+			"confirm_new_password":"Xác nhận mật khẩu mới",
+			"your_password_has_been_changed": "Mật khẩu của bạn đã được thay đổi",
+			"error": {
+					"currpass": "Vui lòng nhập Mật khẩu hiện tại",
+					"newpass": "Vui lòng nhập mật khẩu mới",
+					"cfmpass": "Vui lòng xác nhận mật khẩu",
+					"cfmpassandpassnotsame": "Mật khẩu mới và xác nhận mật khẩu mới không phù hợp"
+       		 }
+		},
+		"address":{
+			"tt":"Địa chỉ",
+			"ct":"Hãy xem lại các dữ liệu cá nhân của bạn được lưu trữ bởi nhân sự"
+		}
+
+    },
+	"mypayroll": {
+
+		"payslip":{
+			"tt":"Lương",
+			"ct":"Xem lương tháng hiện tại và trước đây của bạn"
+		},
+		"address":{
+			"tt":"Address",
+			"ct":"Hãy xem lại các dữ liệu cá nhân của bạn được lưu trữ bởi nhân sự"
+		},
+	"cp8a":{
+          "tt":"CP8A",
+          "ct":"View your current and previous years' CP8A form"
+      },
+      "pcb2":{
+          "tt":"PCB2",
+          "ct":"View your current and previous years' PCB2 form"
+      }
+
+	},
+	"mytms": {
+		"tt":"My TMS",
+		"ct":"Lên lịch làm việc, đi lại, bảng phân công",
+		"rosterEnquiry":{
+			"tt":"Điều tra danh sách",
+			"ct":"Kiểm tra thời gian và thời gian ra cho sự đi lại của bạn"
+		},
+			"clockingsEnquiry":{
+        			"tt":"Clockings Enquiry",
+        			"ct":"Check your clock in and clock out"
+        		},
+        "clockOnBehalf":{
+              "tt":"Clock On Behalf",
+              "ct":"To clock in and clock out for Employees"
+            },
+		"mobileMacAddress":{
+			"tt":"Mobile MAC Address",
+			"ct":"Check Mobile MAC Address",
+			"id":"ID"
+		}
+	}
+}

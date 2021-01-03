@@ -1,0 +1,865 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+
+
+ul.list{
+	background:#FFF;
+}
+ul.list li, ul.list-enquiry li
+{
+	border-bottom:1px solid #ccc;
+	padding:7px 5px;
+}
+ul.list li .box-percent-left
+{
+	width:8%;
+}
+ul.list li .box-percent-right
+{
+	width:92%;
+}
+@media screen and (min-width:480px){
+	ul.list li, ul.list-enquiry li
+	{
+		padding:13px 5px;
+	}
+}
+
+@media screen and (min-width: 600px){
+	ul.list li, ul.list-enquiry li
+	{
+		padding:15px 5px;
+	}
+
+}
+@media screen and (min-width: 720px){
+	ul.list li, ul.list-enquiry li
+	{
+		padding:20px 5px;
+	}
+
+}
+@media screen and (min-width: 800px){
+	ul.list  li, ul.list-enquiry li
+	{
+		padding:25px 5px;
+	}
+}
+ul.claim  li span.char
+{
+	border-radius:50%;
+	color:#FFF;
+	font-size:15px;
+	font-weight:bold;
+	margin-right:5px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+
+ul#claim_benefit li.type_1 span.char
+{
+	background:#ff6633
+}
+
+ul#claim_benefit li.type_2 span.char
+{
+	background:#9999ff
+}
+ul#claim_benefit li.type_3 span.char
+{
+	background:#cccc33
+}
+ul.claim  li .rounded_frame {
+	margin-top:5px;
+}
+ul.claim  li .rounded_frame .item
+{
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 2px;
+	float: left;
+	width:65px;
+	height:45px;
+	text-align:center;
+	display:table;
+	margin: 0px 2px;
+
+}
+
+ul.claim  li .rounded_frame .item span
+{
+	display:table-cell;
+	vertical-align:middle;
+	font-size:12px;
+}
+
+ul#claim_benefit li.type_1 .rounded_frame .item{
+	border-color:#ff6633
+}
+ul#claim_benefit li.type_2 .rounded_frame .item{
+	border-color:#9999ff
+}
+ul#claim_benefit li.type_3 .rounded_frame .item{
+	border-color:#cccc33
+}
+
+
+
+ul#claim_reimbursement li span.char
+{
+	width: 37px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	color: #FFF;
+	border-radius:0;
+}
+ul#claim_reimbursement li p
+{
+	display:table;
+}
+ul#claim_reimbursement li span.title{
+	display:table-cell;
+	vertical-align:middle;
+
+}
+ul#claim_reimbursement li.type_1 span.char{
+	 background:url(../images/n_ic_enq_expense_e.png) no-repeat;
+}
+ul#claim_reimbursement li.type_2 span.char{
+	 background:url(../images/n_ic_enq_expense_m.png) no-repeat;
+}
+ul#claim_reimbursement li.type_3 span.char{
+	 background:url(../images/n_ic_enq_expense_p.png) no-repeat;
+}
+ul#claim_reimbursement li.type_1 .rounded_frame .item{
+	border-color:#7e7e7e
+}
+ul#claim_reimbursement li.type_2 .rounded_frame .item{
+	border-color:#000066
+}
+
+ul#claim_reimbursement li.type_3 .rounded_frame .item{
+	border-color:#ff6e6e
+}
+
+
+
+
+
+ul.list li.touch{
+	background: rgba(185, 117, 0, 0.5);
+}
+ul.list  li .check-box {
+	background:url(../images/n_ic_checkbox.png) no-repeat;
+	width:23px;
+	height:23px;
+	margin-right:5px;
+}
+ul.list  li .check-box.checked
+{
+	background:url(../images/n_ic_checkbox_checked.png) no-repeat;
+}
+li .icon-left{
+	float:left;
+	height:20px;
+	margin-left:5px;
+	font-size:17px;
+}
+li .icon-view
+{
+	margin-right:5px;
+}
+li .icon-view a
+{
+	font-size:17px;
+}
+@media screen and (min-width: 480px){
+	li .icon-view a
+	{
+		font-size:20px;
+	}
+}
+@media screen and (min-width: 600px){
+	li .icon-view a
+{
+	font-size:30px;
+}
+}
+li .icon-left.before-text{
+    margin-left:0;
+    margin-right:5px;
+}
+ul.list  li .hind{
+		color:#999;
+	}
+
+	ul li .separating
+	{
+		padding:8px 5px;
+		border-bottom:1px dotted #CCC;
+		min-height:45px;
+	}
+	ul li .separating .icon
+	{
+		font-size:15px;
+	}
+	ul li .separating:last-child{
+		border:none;
+	}
+
+
+
+@media screen and (min-width: 600px){
+	li .icon-left{
+		height:30px;
+		font-size:30px;
+	}
+	ul.list  li .hind{
+		 font-size:20px;
+	}
+}
+ul.list2 li:nth-of-type(1){
+	border-top:2px solid #CCC
+}
+ul.list2 li:nth-last-child(1){
+		border-bottom:2px solid #CCC;
+}
+ul.list2 li
+{
+	border:1px solid #CCC;
+	padding:5px;
+}
+ul.list2 li .char
+{
+	padding:5px 5px;
+	margin-right:5px;
+	color:#FFF;
+	font-size:15px;
+	display:inline-block;
+}
+/*ul.list2 li .char.color-1{
+	background:#9999ff;
+}
+ul.list2 li .char.color-2{
+	background:#ffa66b;
+}
+ul.list2 li .char.color-3{
+	background:#669999;
+}
+ul.list2 li .char.color-4{
+	background:#ff99cc;
+}*/
+ul.list2 li .info{
+	width:100%;
+}
+ul.list2 li .info {
+
+}
+.check-and-x
+{
+	/*padding:5px 10px;*/
+}
+.check-and-x span
+{
+	float:left;
+}
+.check-and-x span.text-color-red
+{
+	font-size:22px;
+	margin-left:5px;
+}
+@media screen and (min-width:600px){
+	.check-and-x span.text-color-red
+	{
+		font-size:37px;
+	}
+}
+
+/*******************Change pass************************/
+#change-pass {
+	width:90%;
+	margin:10px auto 0px auto;
+}
+#change-pass label{
+	display:block;
+}
+.note-change-password
+{
+	background:url(../images/ic_about.png) no-repeat top left;
+	padding-left: 20px;
+
+	margin: 10px auto 0px 5%;
+}
+.note-change-password p
+{
+	color:#39558c;
+}
+.note-change-password  ul
+{
+	margin-left:10px;
+
+
+}
+.note-change-password  ul li
+{
+	color:#7691C7;
+	display:inline-block;
+	margin-right:15px;
+
+}
+/******************* Screen main *******************/
+/*css btn tms*/
+.btn_tms
+{
+	width:98%;
+	margin:auto;
+}
+.btn_tms ul li
+{
+	float:left;
+	width:33.33%;
+	margin:auto;
+}
+
+.btn_tms ul li img
+{
+	height:60px;
+
+}
+@media screen and (min-width:600px){
+	.btn_tms ul li img{
+		height:90px;
+	}
+}
+/*about application*/
+#about-application
+{
+	width:100%;
+	max-width:400px;
+	height:40%;
+	max-height:300px;
+background: rgba(139,140,139,1);
+background: -moz-linear-gradient(left, rgba(139,140,139,1) 0%, rgba(78,78,78,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(139,140,139,1)), color-stop(100%, rgba(78,78,78,1)));
+background: -webkit-linear-gradient(left, rgba(139,140,139,1) 0%, rgba(78,78,78,1) 100%);
+background: -o-linear-gradient(left, rgba(139,140,139,1) 0%, rgba(78,78,78,1) 100%);
+background: -ms-linear-gradient(left, rgba(139,140,139,1) 0%, rgba(78,78,78,1) 100%);
+background: linear-gradient(to right, rgba(139,140,139,1) 0%, rgba(78,78,78,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8b8c8b', endColorstr='#4e4e4e', GradientType=1 );
+}
+#about-application h3
+{
+	color:#ffffff;
+	padding:10px;
+}
+#about-application  .info
+{
+	text-align: center;
+	color: #bebebe;
+	width: 70%;
+	position: absolute;
+	bottom: 15px;
+	left: 15%;
+	font-weight:bold;
+	font-size:15px;
+}
+#about-application  .info img
+{
+	width:70px;
+}
+/******************* Apply leave *******************/
+
+
+.form-apply li div.f-left
+{
+	width:90%;
+}
+
+.form-apply li p.label{
+	margin-bottom:5px;
+}
+.form-apply li p.label.required label{
+	color:#F00;
+}
+.form-apply li p.label.required span{
+	color:#CCC;
+}
+.form-apply li input{
+	border:none;
+	background:none;
+	width:100%;
+	font-size:15px;
+	color:#000;
+}
+.form-apply li img.icon {
+	width:18px;
+	display:block;
+}
+.form-apply li a.icon {
+	font-size:17px;
+	color:#b2b2b2;
+	display:block;
+}
+.form-apply li a.icon.hidden
+{
+	visibility:hidden;
+}
+
+.form-apply li a.icon:nth-of-type(2) {
+	margin-top: 3px;
+	margin-left: 1px;
+}
+
+
+@media screen and (min-width:600px){
+	.form-apply li img.icon {
+	width:35px;
+}
+.form-apply li a.icon {
+	font-size:25px;
+	color:#b2b2b2;
+	display:block;
+}
+.form-apply li input
+{
+	font-size:20px;
+}
+}
+/******************* Leave Enquiry *******************/
+#leave-enquiry li
+{
+	padding:5px;
+	border-bottom: 1px solid #000;
+}
+#leave-enquiry li div.f-left{
+	width:65%;
+}
+
+#leave-enquiry li .f-left span.char{
+	padding: 5px 5px;
+	font-size:15px;
+	color:#FFF;
+}
+#leave-enquiry li.A .f-left span.char{
+	background:#9999ff;
+}
+
+#leave-enquiry li.S .f-left span.char{
+	background:#ffa66b;
+}
+
+#leave-enquiry li.H .f-left span.char{
+	background:#669999;
+}
+
+#leave-enquiry li .f-left .title{
+	margin-left:5px;
+	width:70%;
+}
+#leave-enquiry li ol{
+	margin-top:5px;
+}
+#leave-enquiry li ol li{
+	margin-right:3px;
+	border-radius:9px;
+	-webkit-border-radius:9px;
+	-moz-border-radius:9px;
+	text-align:center;
+	width:13.2%;
+	padding:2px;
+	font-size:10px;
+	display:table;
+}
+#leave-enquiry li ol li .middle
+{
+	display:table-cell;
+	vertical-align:middle;
+}
+#leave-enquiry li ol li .text,#leave-enquiry li ol li .number
+{
+	font-size:10px;
+}
+@media screen and (min-width: 480px){
+	#leave-enquiry li ol li .text,#leave-enquiry li ol li .number
+{
+	font-size:15px;
+}
+}
+@media screen and (min-width: 600px){
+	#leave-enquiry li ol li .text,#leave-enquiry li ol li .number
+{
+	font-size:15px;
+}
+}
+@media screen and (min-width: 800px){
+	#leave-enquiry li ol li .text,#leave-enquiry li ol li .number
+{
+	font-size:20px;
+}
+}
+#leave-enquiry li.A ol li
+{
+	border:2px solid #9a99fe;
+}
+
+#leave-enquiry li.S ol li
+{
+	border:2px solid #ffad77;
+}
+
+#leave-enquiry li.H ol li
+{
+	border:2px solid #689a9a;
+}
+
+#leave-enquiry li ol li:nth-of-type(5) p.text{
+	color:#F00;
+}
+#leave-enquiry li.A ol li:nth-of-type(6){
+	/*background:#ccccff;
+	color:#FFF;*/
+}
+
+#leave-enquiry li.S ol li:nth-of-type(6){
+	/*background:#facdaf;
+	color:#FFF;*/
+}
+
+#leave-enquiry li.H ol li:nth-of-type(6){
+/*	background:#80cfcf;
+	color:#FFF;*/
+}
+
+
+
+
+/************************** claim corverage ****************************/
+
+#claim-corverage li
+{
+	padding:5px;
+	border-bottom: 1px solid #000;
+}
+
+
+#claim-corverage li .f-left .title{
+	margin-left:10px;
+}
+#claim-corverage li ol{
+	margin-top:5px;
+}
+#claim-corverage li ol li{
+	margin-right:3px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	text-align:center;
+	width:24%;
+	padding:2px;
+	font-size:10px;
+	display:table;
+	border:2px solid #E33633;
+	height:50px;
+}
+#claim-corverage li ol li .middle
+{
+	display:table-cell;
+	vertical-align:middle;
+}
+#claim-corverage li ol li .text,#claim-corverage li ol li .number
+{
+	font-size:10px;
+	width:100%;
+	word-break:break-all;
+}
+@media screen and (min-width: 480px){
+	#claim-corverage li ol li .text,#claim-corverage li ol li .number
+{
+	font-size:15px;
+}
+}
+@media screen and (min-width: 600px){
+	#claim-corverage li ol li .text,#claim-corverage li ol li .number
+{
+	font-size:15px;
+}
+}
+@media screen and (min-width: 800px){
+	#claim-corverage li ol li .text,#claim-corverage li ol li .number
+{
+	font-size:20px;
+}
+}
+
+
+#claim-corverage li.A ol li
+{
+	border:2px solid #9a99fe;
+}
+
+#claim-corverage li.S ol li
+{
+	border:2px solid #ffad77;
+}
+
+#claim-corverage li.H ol li
+{
+	border:2px solid #689a9a;
+}
+
+#claim-corverage li.A ol li:nth-of-type(1){
+	background:#ccccff;
+	color:#000;
+}
+
+#claim-corverage li.S ol li:nth-of-type(1){
+	background:#facdaf;
+	color:#000;
+}
+
+#claim-corverage li.H ol li:nth-of-type(1){
+	background:#80cfcf;
+	color:#000;
+}
+
+
+/************************ leave-calendar ******************************/
+.leave {
+	border:1px solid #7879ba;
+	height:auto;
+}
+ .note
+{
+	padding:10px;
+}
+ .note .note-info
+{
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	color:#FFF;
+	display:inline-block;
+}
+.note .taken
+{
+	padding:5px;
+}
+
+.note .applied
+{
+	padding:5px;
+}
+
+.leave .note .i
+{
+	display:inline-block;
+	padding:10px 7px;
+	font-weight:bold;
+	font-size:15px;
+	margin-top:5px;
+}
+.leave .content{
+	background:#ccccff;
+}
+.leave .content ul
+{
+	padding:5px;
+}
+.leave .content .Applied, .leave .content .PW{
+	color:#669999;
+}
+.leave .content .Taken, .leave .content .PH{
+	color:#de1e39;
+}
+.leave .content h2{
+	text-align:center;
+	padding:10px 0px;
+	border-bottom:2px solid #000066;
+}
+/************************TMS calendar***************************/
+.tms-calendar .content
+{
+	border:1px solid #ff944b;
+}
+.tms-calendar .content h2
+{
+	border-bottom:1px solid #ff6600;
+	text-align:center;
+	padding:10px 0px;
+	background:#ffad99;
+}
+
+.tms-calendar .content ul li
+{
+	color:##FFF;
+	padding:5px 10px;
+	background:#ffad99;
+}
+#approval
+{
+	background:#FFF;
+
+}
+ .check-and-x img{
+	float:left;
+	width:25px;
+}
+#approval #input input{
+	border:2px solid #CCC;
+	width:100%;
+	padding:5px;
+}
+#legend
+{
+	width:100%;
+	border-collapse: collapse;
+	height:100%;
+}
+#legend tbody
+{
+	display:block;
+	width:100%;
+	table-layout:fixed;/* even columns width , fix width of table too*/
+}
+#legend  tr
+{
+	 display:table;
+     width:100%;
+	 table-layout:fixed;/* even columns width , fix width of table too*/
+	 width:100%;
+}
+
+#legend  tr td,#legend  tr th
+{
+	padding:5px 0px;
+	border:0;
+}
+#legend tbody tr:nth-child(odd){
+	background:#FFF
+}
+#legend tbody tr:nth-child(even){
+	background:#ccccff;
+}
+@media screen and (min-width: 600px){
+
+	#legend  tr td,#legend  tr th
+	{
+		padding:8px 0px;
+		border:0;
+		font-size:25px;
+	}
+}
+
+@media screen and (min-width: 720px){
+
+	#legend  tr td,#legend  tr th
+	{
+		padding:10px 0px;
+		border:0;
+		font-size:29px;
+	}
+}
+
+/******************payslip*****************/
+#payslip
+{
+	border:1px solid #de1e39;
+
+	height:100%;
+}
+#payslip ul.year{
+	text-align:center;
+	padding:10px 0px;
+}
+#payslip ul.year li
+{
+	display:inline-block;
+	padding:10px;
+	background:#f5d5d5;
+	border-radius:5px;
+	color:#e23f55;
+}
+
+#payslip ul.year li.active
+{
+	background:#de1e39;
+	color:#FFF;
+}
+#payslip ul.year li.active  a{
+
+}
+#payslip ul.month li
+{
+	background:#f5d5d5;
+	color:#998f8f;
+	display:inline-block;
+	text-align:center;
+	float:left;
+	padding:10px;
+	width:16.6666%;
+	border:1px solid #de1d38;
+
+}
+
+#payslip ul.year-cp8a{
+  text-align:center;
+  padding:10px 0px;
+}
+#payslip ul.year-cp8a li{
+  color: #000000;
+  display:inline-block;
+  padding:10px;
+  background:#f5d5d5;
+  width: 48%;
+  margin: 0.5%;
+}
+#payslip ul.year-cp8a li.has-data
+{
+  color:#e23f55;
+}
+#payslip ul.year-cp8a li.active
+{
+  background:#de1e39;
+  color:#FFF;
+}
+
+@media screen and (min-width: 320px){
+	#payslip ul.month li span{
+		font-size:10px;
+	}
+}
+@media screen and (min-width: 480px){
+	#payslip ul.month li span
+	{
+		font-size:12px;
+	}
+}
+@media screen and (min-width: 600px){
+	#payslip ul.month li span
+	{
+		font-size:15px;
+	}
+}
+#payslip ul.month li.true-data
+{
+	background:#de1d38;
+  color: grey;
+  font-weight: bold;
+}
+#payslip ul.month li.true-data.not-view{
+  color: black;
+}
+#payslip ul.month li.true-data.active{
+  color: grey;
+}
+
+.my-info.payslip li
+{
+	margin-bottom:0;
+}

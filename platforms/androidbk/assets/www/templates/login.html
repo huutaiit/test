@@ -1,0 +1,112 @@
+﻿<script type="text/javascript" src="js/controllers/login.js"></script>
+
+ <div class="overlay-load"></div>
+	<div id="wrapper" class="login">
+		 <header id="header-login">
+			<h1>{{lang.login.txt.header}}</h1>
+		</header>
+
+			 <div id="login"  class="scroll" >
+				<div id="form_login">
+					<div class="box_input">
+						<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input placeholder="{{lang.login.txt.organisation_id}}" ng-blur="checkLoginBySSO();$event.preventDefault();" type="text" ng-model="field.org" /></div>
+						<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input placeholder="{{lang.login.txt.user_id}}" type="text" ng-model="field.username" /></div>
+						<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input placeholder="{{lang.login.txt.password}}" type="password" ng-model="field.password" /></div>
+					</div>
+
+          <div class="box_sign_in">
+            <button id="sign_in" ng-if="SSO !='1'" ng-click="login()" class="rippler rippler-default ui-btn">{{lang.login.txt.login}}</button>
+            <button id="sign_in_sso" ng-if="SSO =='1'" ng-click="loginSSO()" class="rippler rippler-default ui-btn">{{lang.login.txt.login}} SSO</button>
+          </div>
+
+
+
+					<a class="link forgot_your_pass" ng-click="resetEmail()" modal="forgot" href="">{{lang.login.txt.forgot}}</a>
+				</div><!--end form_login-->
+				<div id="animal_logo">
+					<img ng-src="{{PrivateImgFrog}}" onerror="this.src='images/n_animal_logo.png'" width="150px" on-long-press="showSelectImage()" />
+				</div>
+			 </div>
+
+
+
+             <div id="forgot" class="modal animated bounceInDown">
+    <div class="box_modal">
+
+        <div class="input">
+        <p style="color:#FFF; font-size:18px; padding:10px 5px;">{{lang.login.txt.input_your_email_address}}</p>
+            <input type="text" ng-model="field.email" style="text-transform:lowercase" />
+        </div>
+        <div class="button">
+
+            <button close-modal ng-click="forGotPassword()">{{lang.general.btn.ok}}</button>
+           <button close-modal>{{lang.general.btn.cancel}}</button>
+        </div>
+    </div>
+</div>
+
+
+<div id="select-image" class="modal" >
+  <h2 class="modal-title">
+  	{{lang.login.txt.select_image}}
+    <span close-modal class="close-modal"></span>
+  </h2>
+  <div class="modal-content" ng-set-height-modal-content="2">
+    <ul class="select">
+     	<li ng-click="getCameraPhoto(0)">{{lang.login.txt.take_from_camera}}</li>
+        <li ng-click="getCameraPhoto(1)">{{lang.login.txt.select_from_gallery}}</li>
+    </ul>
+  </div>
+</div><!--end modal-->
+
+	</div>
+
+
+
+
+
+
+    <div class="modal-error-or-success" ng-show-modal-error="{{checkShowModalError()}}">
+
+    <div class="box_modal">
+        <div class="title">
+            <img src="images/al_fail.png" width="20px" /> <span>{{lang.general.error}}</span>
+            <div class="clear"></div>
+        </div>
+        <div class="content" ng-bind-html='error.message'>
+
+        </div>
+        <div class="button">
+            <button ng-click="resetError()">{{lang.general.btn.ok}}</button>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="modal-error-or-success" ng-show-modal-success="{{success.result}}">
+
+    <div class="box_modal">
+        <div class="title">
+            <img src="images/al_success.png" width="20px" /> <span>{{lang.general.successful}}</span>
+            <div class="clear"></div>
+        </div>
+        <div class="content">
+            {{success.message}}
+        </div>
+        <div class="button">
+            <button ng-click="success.callBack()">{{lang.general.btn.ok}}</button>
+        </div>
+    </div>
+
+</div>
+
+<!--<div ng-if="showLoginSSO" ng-bind-html='abc' style="width: 100%; height: 100%; position: absolute;top:0;left: 0;">-->
+
+<!--</div>-->
+
+
+  <div class="overlay" close-modal></div>
+<div class="overlay-error"></div>
+<div class="overlay-success"></div>

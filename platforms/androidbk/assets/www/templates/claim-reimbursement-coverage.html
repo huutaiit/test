@@ -1,0 +1,55 @@
+<script type="text/javascript" src="js/controllers/myClaim.js"></script>
+<!--start Leave Enquiry-->
+	<div class="form">
+        <h1 class="title-form background-28903b">{{lang.myclaim.reim.tt2}} {{lang.myclaim.coverage}}</h1>
+        <div class="form-info scroll">
+          
+            <ul id="claim-corverage">
+                <li ng-repeat="item in listCoverage track by $index" class="{{setCharacter($index)}}">
+                    <div class="f-left">
+                       
+                        <h3 class="title f-left"> {{item.Name}}</h3>
+                    </div><!--end f-left-->
+                    
+                    <div class="clear"></div>
+                    <ol>
+                        <li class="f-left">
+                        <div class="middle">
+                            <p class="number">{{item.Coverage}}</p>
+                            <p class="text">{{lang.myclaim.coverage}}</p>
+                         </div>
+                        </li>
+                        <li class="f-left" >
+                         <div class="middle">
+                            <p class="number">{{item.Claimed}}</p>
+                            <p class="text">{{lang.myclaim.tt2}}</p>
+                          </div>
+                        </li>
+
+                        <li class="f-left" >
+                         <div class="middle">
+                            <p class="number">{{item.Applied}}</p>
+                            <p class="text">{{lang.myleave.calendar.applied}}</p>
+                          </div>
+                        </li>
+                        <li class="f-left" >
+                         <div class="middle">
+                            <p class="number">{{item.Balance}}</p>
+                            <p class="text">{{lang.myclaim.balance}}</p>
+                          </div>
+                        </li>
+
+                       
+                        <div class="clear"></div>
+                    </ol>
+                </li>
+
+             
+
+            </ul>
+        </div><!--end form-info-->
+        
+        
+    </div><!--end form-->
+	
+<!--end Leave Enquiry-->

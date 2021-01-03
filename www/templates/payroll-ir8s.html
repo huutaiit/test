@@ -1,0 +1,27 @@
+<script type="text/javascript" src="js/controllers/myPayroll.js"></script>
+<!--start Apply leave-->
+	<div class="form">
+    	<div id="payslip" class="form-info date" style="max-height:100%;">
+    	<h1 class="title-form background-de1e39">{{lang.mypayroll.r8s.tt}}</h1>
+     		<div  class="scroll style-de1e39">
+
+            	<ul class="year-cp8a">
+
+                    <li ng-click="selectYear($index)" ng-repeat="item in year track by $index" ng-class="{'active' : isYearActive(item.id),'has-data':item.hasData}">{{item.name}}</li>
+
+</ul>
+
+
+
+            </div><!--end sroll-->
+
+        </div><!--end form-info-->
+
+
+    </div><!--end form-->
+
+<!--end Apply leave-->
+
+
+
+

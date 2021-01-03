@@ -1,0 +1,20 @@
+{
+    "ImageIO.framework": 2,
+    "CoreLocation.framework": 3,
+    "CoreImage.framework": 1,
+    "OpenGLES.framework": 1,
+    "GLKit.framework": 1,
+    "CoreVideo.framework": 1,
+    "SystemConfiguration.framework": 4,
+    "AVFoundation.framework": 1,
+    "CoreData.framework": 1,
+    "AdSupport.framework": 1,
+    "libz.dylib": 1,
+    "libsqlite3.dylib": 1,
+    "SafariServices.framework": 1,
+    "QuartzCore.framework": 1,
+    "AddressBook.framework": 1,
+    "libsqlite3.tbd": 1,
+    "libz.tbd": 1,
+    "NetworkExtension.framework": 1
+}

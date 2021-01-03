@@ -1,0 +1,316 @@
+<ul class="list form-apply">
+      <li modal="ReimbursenmentType" ng-show="!isApplicationSaved">
+        <div class="f-left">
+          <p class="label required">
+            <label>{{lang.myclaim.reim.apply.reimbursement_type}}</label> <span>
+              ({{lang.general.required}})
+            </span>
+          </p>
+          <p class="input"><input readonly="readonly" value="{{field.reimbursenmentType.Description}}"  type="text" /></p>
+        </div>
+      <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+
+       <li ng-show="isApplicationSaved">
+        <div class="f-left">
+          <p class="label required">
+            <label>{{lang.myclaim.reim.apply.reimbursement_type}}</label> <span>
+              ({{lang.general.required}})
+            </span>
+          </p>
+          <p class="input"><input readonly="readonly" value="{{field.reimbursenmentType.Description}}"  type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+      <li modal="date" >
+        <div class="f-left">
+          <p class="label required">
+          <label>{{lang.myclaim.receipt}} {{lang.myclaim.date}}</label>
+          <span>({{lang.general.required}})</span>
+          </p>
+          <p class="input"><input value="{{field.date | formatDate:'mediumDate3'}}" readonly="readonly" type="text" /></p>
+        </div>
+
+   <a class="f-right icon"><i class="fa fa-calendar"></i></a>
+        <div class="clear"></div>
+      </li>
+
+      <li modal="receipt-no">
+        <div class="f-left">
+          <p class="label required">
+            <label>{{lang.myclaim.receipt_no.tt}}</label>
+            <span>({{lang.general.required}})</span>
+          </p>
+          <p class="input"><input readonly="readonly" ng-model="field.receiptNo" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+      <li modal="from" >
+        <div class="f-left">
+          <p class="label" ng-class="{'required' : isRequired(field.reimbursenmentType.ReimbursementData.Mileage==1)}"><label>{{lang.general.from}}</label> <span ng-if="field.reimbursenmentType.ReimbursementData.Mileage==1">({{lang.general.required}})</span></p>
+          <p class="input"><input readonly="readonly" ng-model="field.from" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+      <li modal="to">
+        <div class="f-left">
+          <p class="label" ng-class="{'required' : isRequired(field.reimbursenmentType.ReimbursementData.Mileage==1)}"><label>{{lang.general.to}}</label> <span ng-if="field.reimbursenmentType.ReimbursementData.Mileage==1">({{lang.general.required}})</span></p>
+          <p class="input"><input readonly="readonly" ng-model="field.to" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+  <!--code old edit 18/10/2016  <li modal="mileage" ng-show="field.reimbursenmentType.ReimbursementData.Mileage==1" ng-click="InputFocusing('textMileage')">
+   <div class="f-left">
+     <p class="label required"><label>{{lang.myclaim.reim.apply.mileage.tt}}</label> <span>({{lang.general.required}})</span></p>
+     <p class="input"><input value="{{field.mileage | formatCurrency:'2'}}" readonly type="text" /></p>
+   </div>
+
+   <div class="clear"></div>
+ </li>
+
+ <li ng-show="field.reimbursenmentType.ReimbursementData.Mileage==1">
+   <div class="f-left">
+     <p class="label"><label>{{lang.myclaim.reim.apply.rate}}</label> </p>
+     <p class="input"><input value="{{field.reimbursenmentType.ReimbursementData.Mileage_Rate | formatCurrency:'2'}}" readonly type="text" /></p>
+   </div>
+
+   <div class="clear"></div>
+ </li>-->
+  <li  modal="unit"  ng-show="field.reimbursenmentType.ReimbursementData.Rate_IsShow==1">
+    <div class="f-left">
+      <p class="label required"><label ng-show="field.reimbursenmentType.ReimbursementData.Mileage==1">{{lang.myclaim.reim.apply.mileage.tt}}</label> <label ng-show="field.reimbursenmentType.ReimbursementData.Mileage!=1">Unit</label> <span> ({{lang.general.required}})</span></p>
+      <p class="input"><input value="{{field.Unit_Value | formatCurrency:'2'}}" readonly type="text" /></p>
+    </div>
+    <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+    <div class="clear"></div>
+  </li>
+  <li  ng-attr-modal="{{field.reimbursenmentType.ReimbursementData.Rate_Enable==1 && 'rate' || ''}}" ng-show="field.reimbursenmentType.ReimbursementData.Rate_IsShow==1" style="position: relative;">
+    <div class="f-left">
+      <p class="label required"><label>{{lang.myclaim.reim.apply.rate}}</label> <span>({{lang.general.required}})</span></p>
+      <p class="input"><input value="{{field.reimbursenmentType.ReimbursementData.Rate_Value | formatCurrency:'2'}}" readonly type="text" /></p>
+    </div>
+    <span ng-if="field.reimbursenmentType.ReimbursementData.Mileage=='1'" style="position: absolute;right: 10px;bottom: 10px;color: #aaa;">
+      Per km
+    </span>
+    <a ng-show="field.reimbursenmentType.ReimbursementData.Rate_Enable==1" class="f-right icon"><i class="fa fa-search-plus"></i></a>
+    <div class="clear"></div>
+  </li>
+
+
+
+
+      <li ng-show="field.reimbursenmentType.ReimbursementData.Mileage!=1" modal="currentcy">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.currency.tt}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.currency.Description}}" readonly="readonly" type="text" /></p>
+        </div>
+         <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+
+      </li>
+
+       <li ng-show="field.reimbursenmentType.ReimbursementData.Mileage==1">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.currency.tt}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.currency.Description}}" readonly="readonly" type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+      <li ng-attr-modal="{{field.reimbursenmentType.ReimbursementData.Mileage!=1 && 'receipt-amount' || ''}}" ng-click="InputFocusing('textReceiptAmount')">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.receipt_amount.tt}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.receiptAmount | formatCurrency:'2'}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+
+       <li ng-attr-modal="{{checkChangeExChangeRate() && 'exchange-rate' || ''}}" ng-click="InputFocusing('textExChangeRate')">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.exchange_rate.tt}}</label></p>
+          <p class="input"><input value="{{field.exChangeRate | formatCurrency:'6'}}" readonly type="text" /></p>
+        </div>
+
+		   <a class="f-right icon"  ng-if="checkChangeExChangeRate()"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+
+
+
+      <li modal="gst-amount" ng-show="IsGstDetail==1 && field.reimbursenmentType.ReimbursementData.GST==1" ng-click="InputFocusing('textGstAmount')">
+        <div class="f-left">
+          <p class="label" ng-class="{'required' : isRequired(IsInvoiceType==1)}"><label>{{lang.myclaim.reim.apply.reimburse}} {{lang.myclaim.gst_amount.tt}}</label> <span ng-if="IsInvoiceType==1">({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.gstAmount | formatCurrency:'2'}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+      <li>
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.reim.apply.reimburse}} {{lang.myclaim.amount}}</label></p>
+          <p class="input"><input value="{{field.amount | formatCurrency:'2'}} {{codeCurrency}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+
+
+       <li modal="incurred-from">
+        <div class="f-left">
+          <p class="label" ng-class="{'required' : isRequired(field.reimbursenmentType.ReimbursementData.Self_Incurred==1)}"><label>{{lang.myclaim.reim.apply.incurred_from}}</label> <span ng-if="field.reimbursenmentType.ReimbursementData.Self_Incurred==1">({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.incurredFrom | formatDate:'mediumDate3'}}" readonly="readonly" type="text" /></p>
+        </div>
+        <div class="f-right">
+          <a class="icon" ng-class="{hidden:field.incurredFrom != ''}"><i class="fa fa-calendar"></i></a>
+           <a class="icon" ng-show='field.incurredFrom!=""' ng-click="resetField('incurredFrom');$event.preventDefault();"><i class="fa fa-trash-o"></i></a>
+
+        </div>
+        <div class="clear"></div>
+      </li>
+
+       <li modal="incurred-to">
+        <div class="f-left">
+          <p class="label" ng-class="{'required' : isRequired(field.reimbursenmentType.ReimbursementData.Self_Incurred==1)}"><label>{{lang.myclaim.reim.apply.incurred_to}}</label> <span ng-if="field.reimbursenmentType.ReimbursementData.Self_Incurred==1">({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.incurredTo | formatDate:'mediumDate3'}}" readonly="readonly" type="text" /></p>
+        </div>
+        <div class="f-right">
+
+        <a class="icon" ng-class="{hidden:field.incurredTo != ''}"><i class="fa fa-calendar"></i></a>
+          <a class="icon" ng-show='field.incurredTo != ""' ng-click="resetField('incurredTo');$event.preventDefault();"><i class="fa fa-trash-o"></i></a>
+
+         </div>
+        <div class="clear"></div>
+      </li>
+
+
+      <li ng-click="updateValueBillable()">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.reim.apply.billable.tt}}</label></p>
+          <p class="input"><input  readonly="readonly" type="text" /></p>
+
+        </div>
+ <div class="f-right custom_checkbox">
+					<input id="c" type="checkbox" readonly ng-model="field.billable" >
+          <label for="c"></label>
+			</div>
+        <div class="clear"></div>
+      </li>
+
+
+      <li modal="customer" ng-show="field.billable==false">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.reim.apply.customer.tt}}</label></p>
+          <p class="input"><input value="{{field.customer}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+       <li ng-click="showPoupCustomer('bcCustomer')" ng-show="field.billable==true">
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.reim.apply.customer.tt}}</label></p>
+          <p class="input"><input value="{{field.bcCustomer.Description}}" readonly type="text" /></p>
+        </div>
+			 <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+
+
+       <li modal="InvoiceType" ng-show="field.reimbursenmentType.ReimbursementData.GST==1 && IsInvoiceType==1">
+        <div class="f-left">
+
+          <p class="label required"><label>{{lang.myclaim.pay.apply.invoice_type}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.invoiceType.Description}}" readonly type="text" /></p>
+        </div>
+<img class="f-right icon" src="images/n_ic_spinner.png" />
+        <div class="clear"></div>
+      </li>
+
+
+
+       <li modal="GSTRegistrationNo" ng-show="field.reimbursenmentType.ReimbursementData.GST==1 && IsInvoiceType==1">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.pay.apply.gst_registration_no}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.gstRegistrationNo}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+       <li modal="InvoiceName" ng-show="field.reimbursenmentType.ReimbursementData.GST==1 && IsInvoiceType==1">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.pay.apply.invoice_name}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.invoiceName}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+       <li modal="InvoiceAddress" ng-show="field.reimbursenmentType.ReimbursementData.GST==1 && IsInvoiceType==1">
+        <div class="f-left">
+          <p class="label required"><label>{{lang.myclaim.pay.apply.invoice_address}}</label> <span>({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{field.invoiceAddress}}" readonly type="text" /></p>
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+
+
+       <li modal="description" ng-show="IsClaimDesc==1 && field.reimbursenmentType.ReimbursementData.ClaimDesc!=null && field.reimbursenmentType.ReimbursementData.ClaimDesc.length>0">
+        <div class="f-left">
+          <p class="label" ng-class="{'required' : isRequired(IsClaimDesc)}"><label>{{lang.myclaim.description}}</label><span ng-if="IsClaimDesc==1">({{lang.general.required}})</span></p>
+          <p class="input"><input readonly="readonly" value="{{field.description.Description}}" type="text" /></p>
+
+        </div>
+ <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+        <div class="clear"></div>
+      </li>
+
+
+
+
+
+        <li modal="remarks">
+        <div class="f-left">
+          <p class="label" ng-class="{'required' : isRequired(field.reimbursenmentType.ReimbursementData.Remark)}"><label>{{lang.myclaim.remarks.tt}}</label> <span ng-if="field.reimbursenmentType.ReimbursementData.Remark==1">({{lang.general.required}})</span></p>
+          <p class="input"><input  value="{{field.remarks}}"  readonly="readonly" type="text" /></p>
+
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+
+       <li>
+        <div class="f-left">
+          <p class="label"><label>{{lang.myclaim.approving_officer}}</label></p>
+          <p class="input"><input value="{{field.reimbursenmentType.ReimbursementData.AppName}}" readonly="readonly" type="text" /></p>
+
+        </div>
+
+        <div class="clear"></div>
+      </li>
+
+    </ul>

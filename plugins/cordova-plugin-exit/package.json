@@ -1,0 +1,40 @@
+{
+  "name": "cordova-plugin-exit",
+  "version": "1.0.3",
+  "description": "Cordova plugin for exiting the app programmatically for Android, iOS and WP",
+  "cordova": {
+    "id": "cordova-plugin-exit",
+    "platforms": [
+      "android",
+      "ios",
+      "wp8"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cakuki/cordova-plugin-exit.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-wp8",
+    "exit",
+    "terminate",
+    "quit"
+  ],
+  "author": "Rakesh Walisheter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cakuki/cordova-plugin-exit/issues"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "5.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/cakuki/cordova-plugin-exit#readme"
+}

@@ -1,0 +1,170 @@
+<div id="date" class="modal animated">
+  <ng-date-picker id="date"></ng-date-picker>
+  <table width="100%" style="background-color:#a7a7a7;">
+    <tr>
+      <td width="33.33333333333333%"><div class="ui-content btn-control ui-body-a" ng-click="selectTypeDate('date')" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;" close-modal>{{lang.general.btn.ok}}</div></td>
+      <td width="33.33333333333333%"><div class="reset-date ui-content btn-control ui-body-a" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;">{{lang.general.btn.reset}}</div></td>
+      <td width="33.33333333333333%"><div class="ui-content btn-control ui-body-a" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;" close-modal>{{lang.general.btn.cancel}}</div></td>
+    </tr>
+  </table>
+</div>
+
+
+
+<div id="incurred-from" class="modal animated">
+  <ng-date-picker id="date"></ng-date-picker>
+  <table width="100%" style="background-color:#a7a7a7;">
+    <tr>
+      <td width="33.33333333333333%"><div class="ui-content btn-control ui-body-a" ng-click="selectTypeDate('incurredFrom')" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;">{{lang.general.btn.ok}}</div></td>
+      <td width="33.33333333333333%"><div class="reset-date ui-content btn-control ui-body-a" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;">{{lang.general.btn.reset}}</div></td>
+      <td width="33.33333333333333%"><div class="ui-content btn-control ui-body-a" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;" close-modal>{{lang.general.btn.cancel}}</div></td>
+    </tr>
+  </table>
+</div>
+
+
+<div id="incurred-to" class="modal animated">
+  <ng-date-picker id="date"></ng-date-picker>
+  <table width="100%" style="background-color:#a7a7a7;">
+    <tr>
+      <td width="33.33333333333333%"><div class="ui-content btn-control ui-body-a" ng-click="selectTypeDate('incurredTo')" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;">{{lang.general.btn.ok}}</div></td>
+      <td width="33.33333333333333%"><div class="reset-date ui-content btn-control ui-body-a" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;">{{lang.general.btn.reset}}</div></td>
+      <td width="33.33333333333333%"><div class="ui-content btn-control ui-body-a" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;" close-modal>{{lang.general.btn.cancel}}</div></td>
+    </tr>
+  </table>
+</div>
+
+
+
+<div id="benefit-type" class="modal animated" >
+  <h2 class="modal-title">{{lang.myclaim.ben.apply.benefit_type}}<span close-modal class="close-modal"></span></h2>
+  
+  <div class="modal-content" id="listBenefitType" ng-set-height-modal-content="{{listBenefitType.length}}">
+    <ul class="select">
+      <li ng-class="{'active' : isActive(item.Id,field.benefitType.Id)}" ng-repeat="item in listBenefitType track by $index" ng-click="selectField('benefitType',item)" close-modal>{{item.Description}}</li>
+
+    </ul>
+  </div>
+</div><!--end modal-->
+
+<div id="clinic" class="modal animated" >
+  <h2 class="modal-title">{{lang.myclaim.ben.apply.clinic}}<span close-modal class="close-modal"></span></h2>
+  
+  <div class="modal-content" id="listBcClinic" ng-set-height-modal-content="{{listBcClinic.length}}">
+    <ul class="select">
+      <li ng-class="{'active' : isActive(item.Id,field.clinic.Id)}" ng-repeat="item in listBcClinic track by $index" ng-click="selectField('clinic',item)" close-modal>{{item.Description}}</li>
+
+    </ul>
+  </div>
+</div><!--end modal-->
+
+<div id="description" class="modal animated">
+  <h2 class="modal-title">{{lang.myclaim.description}}<span close-modal class="close-modal"></span></h2>
+  
+  <div class="modal-content" id="field.benefitType.BenefitInfo.ClaimDesc" ng-set-height-modal-content="{{field.benefitType.BenefitInfo.ClaimDesc.length}}">
+    <ul class="select">
+      <li ng-repeat="item in field.benefitType.BenefitInfo.ClaimDesc track by $index" ng-click="selectField('description',item)" close-modal>{{item.Description}}</li>
+
+    </ul>
+  </div>
+</div><!--end modal-->	
+
+<div id="receipt-no" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input type="text" ng-model="textReceiptNo" my-maxlength="35" />
+    </div>
+    <div class="button">
+      <button ng-click="selectField('receiptNo',textReceiptNo)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal>{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+
+<div id="exchange-rate" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input ng-is-numeric="true" type="tel" pattern="[0-9]*" id="textExChangeRate" callback-fn="setModel(arg)" />
+    </div>
+    <div class="button">
+      <button ng-click="selectField('exChangeRate',textExChangeRate)" close-modal>{{lang.general.btn.ok}}</button>
+      <button ng-click="closeModal()">{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+
+<div id="currency" class="modal animated">
+  <h2 class="modal-title">{{lang.myclaim.currency.tt}}<span close-modal class="close-modal"></span></h2>
+  <div class="modal-content" id="listCurrency" ng-set-height-modal-content="{{listCurrency.length}}">
+    <ul class="select">
+      <li ng-class="{'active' : isActive(item.Id,field.currency.Id)}" ng-repeat="item in listCurrency track by $index" ng-click="selectField('currency',item)" close-modal>{{item.Description}}</li>
+
+    </ul>
+  </div>
+</div><!--end modal-->
+
+<div id="incurred" class="modal animated">
+  <h2 class="modal-title">{{lang.myclaim.incurred_by}}<span close-modal class="close-modal"></span></h2>
+  <div class="modal-content" id="field.benefitType.ListIncurred" ng-set-height-modal-content="{{field.benefitType.ListIncurred.length}}">
+    <ul class="select">
+      <li ng-repeat="item in field.benefitType.ListIncurred track by $index" ng-class="{'active' : isActive(item.Opt,field.inCurred.Opt)}" ng-click="selectField('inCurred',item)" close-modal>{{item.Description}}</li>
+
+    </ul>
+  </div>
+</div><!--end modal-->
+
+
+
+<div id="dependant" class="modal animated">
+  <h2 class="modal-title">{{lang.myclaim.dependant}}<span close-modal class="close-modal"></span></h2>
+  <div class="modal-content" id="field.inCurred.ListDependents" ng-set-height-modal-content="{{field.inCurred.ListDependents.length}}">
+    <ul class="select">
+      <li ng-repeat="item in field.inCurred.ListDependents track by $index" ng-class="{'active' : isActive(item.Uqid,field.dependant.Uqid)}" ng-click="selectField('dependant',item)" close-modal>{{item.Name}}</li>
+
+    </ul>
+  </div>
+</div><!--end modal-->
+
+<div id="receipt-amount" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+    
+   
+      <input id="textReceiptAmount" pattern="[0-9]*" type="tel" ng-is-numeric="true" callback-fn="setModel(arg)" />
+    </div>
+    <div class="button">
+      <button ng-click="selectField('receiptAmount',textReceiptAmount)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal ng-click="$event.preventDefault();">{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div id="gst-amount" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input pattern="[0-9]*" type="tel" id="textGstAmount" ng-is-numeric="true" callback-fn="setModel(arg)" />
+    </div>
+    <div class="button">
+      <button ng-click="selectField('gstAmount',textGstAmount)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal ng-click="$event.preventDefault();">{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+
+<div id="remarks" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input type="text" ng-model="textRemarks" my-maxlength="100"/>
+    </div>
+    <div class="button">
+      <button ng-click="selectField('remarks',textRemarks)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal>{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>

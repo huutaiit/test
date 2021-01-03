@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "368125290175",
+    "firebase_url": "https://hybridapp-4d4e1.firebaseio.com",
+    "project_id": "hybridapp-4d4e1",
+    "storage_bucket": "hybridapp-4d4e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368125290175:android:3aebd17b8acae9a8",
+        "android_client_info": {
+          "package_name": "com.payroll2u"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368125290175-h8gaua5c397rp16bha2bfkmb82ljbila.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-nlaX2sKo5s3aYZCzN0rJZX0WViCDg7c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

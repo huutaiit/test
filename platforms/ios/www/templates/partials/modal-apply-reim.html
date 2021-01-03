@@ -1,0 +1,279 @@
+<div id="date" class="modal animated">
+  <ng-date-picker id="date"></ng-date-picker>
+  <table width="100%" style="background-color:#a7a7a7;">
+    <tr>
+      <td width="33.33333333333333%"><div class="ui-content btn-control ui-body-a" ng-click="selectTypeDate('date')" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;" close-modal>{{lang.general.btn.ok}}</div></td>
+      <td width="33.33333333333333%"><div class="reset-date ui-content btn-control ui-body-a" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;">{{lang.general.btn.reset}}</div></td>
+      <td width="33.33333333333333%"><div class="ui-content btn-control ui-body-a" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;" close-modal>{{lang.general.btn.cancel}}</div></td>
+    </tr>
+  </table>
+</div>
+
+
+<div id="incurred-from" class="modal animated">
+  <ng-date-picker id="date"></ng-date-picker>
+  <table width="100%" style="background-color:#a7a7a7;">
+    <tr>
+      <td width="33.33333333333333%"><div class="ui-content btn-control ui-body-a" ng-click="selectTypeDate('incurredFrom')" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;">{{lang.general.btn.ok}}</div></td>
+      <td width="33.33333333333333%"><div class="reset-date ui-content btn-control ui-body-a" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;">{{lang.general.btn.reset}}</div></td>
+      <td width="33.33333333333333%"><div class="ui-content btn-control ui-body-a" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;" close-modal>{{lang.general.btn.cancel}}</div></td>
+    </tr>
+  </table>
+</div>
+
+
+<div id="incurred-to" class="modal animated">
+  <ng-date-picker id="date"></ng-date-picker>
+  <table width="100%" style="background-color:#a7a7a7;">
+    <tr>
+      <td width="33.33333333333333%"><div class="ui-content btn-control ui-body-a" ng-click="selectTypeDate('incurredTo')" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;">{{lang.general.btn.ok}}</div></td>
+      <td width="33.33333333333333%"><div class="reset-date ui-content btn-control ui-body-a" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;">{{lang.general.btn.reset}}</div></td>
+      <td width="33.33333333333333%"><div class="ui-content btn-control ui-body-a" style="font-size:20px;text-align: center; padding: 10px 0px;margin:2px;" close-modal>{{lang.general.btn.cancel}}</div></td>
+    </tr>
+  </table>
+</div>
+
+
+
+<div id="ReimbursenmentType" class="modal animated" >
+  <h2 class="modal-title">{{lang.myclaim.reim.apply.reimbursement_type}} <span close-modal class="close-modal"></span></h2>
+  <div class="modal-content" id="listReimbursenmentType" ng-set-height-modal-content="{{listReimbursenmentType.length}}">
+    <ul class="select">
+      <li ng-class="{'active' : isActive(item.Id,field.reimbursenmentType.Id)}" ng-repeat="item in listReimbursenmentType track by $index" ng-click="selectField('reimbursenmentType',item)" close-modal>{{item.Description}}</li>
+
+    </ul>
+  </div>
+</div><!--end modal-->
+
+
+
+<div id="receipt-no" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input type="text" ng-model="textReceiptNo" my-maxlength="35" />
+    </div>
+    <div class="button">
+      <button ng-click="selectField('receiptNo',textReceiptNo)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal>{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="exchange-rate" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input ng-is-numeric="true" pattern="[0-9]*" type="tel" id="textExChangeRate" callback-fn="setModel(arg)" />
+    </div>
+    <div class="button">
+      <button ng-click="selectField('exChangeRate',textExChangeRate)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal ng-click="$event.preventDefault();">{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+
+<div id="from" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input type="text" ng-model="textFrom" />
+    </div>
+    <div class="button">
+      <button ng-click="selectField('from',textFrom)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal>{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+
+<div id="to" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input type="text" ng-model="textTo" />
+    </div>
+    <div class="button">
+      <button ng-click="selectField('to',textTo)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal>{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+
+<div id="mileage" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input type="tel" ng-is-numeric="true" pattern="[0-9]*" id="textMileage" callback-fn="setModel(arg)"/>
+    </div>
+    <div class="button">
+      <button ng-click="selectField('mileage',textMileage)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal ng-click="$event.preventDefault();">{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div id="InvoiceType" class="modal animated" >
+  <h2 class="modal-title">{{lang.myclaim.pay.apply.invoice_type}} <span close-modal class="close-modal"></span></h2>
+  <div class="modal-content" id="ListNoitype" ng-set-height-modal-content="{{ListNoitype.length}}">
+    <ul class="select">
+      <li ng-repeat="item in ListNoitype track by $index" ng-click="selectField('invoiceType',item)" close-modal>{{item.Description}}</li>
+
+    </ul>
+  </div>
+</div><!--end modal-->
+
+
+<div id="description" class="modal animated">
+  <h2 class="modal-title">{{lang.myclaim.description}}<span close-modal class="close-modal"></span></h2>
+
+  <div class="modal-content" id="field.reimbursenmentType.ReimbursementData.ClaimDesc" ng-set-height-modal-content="{{field.reimbursenmentType.ReimbursementData.ClaimDesc.length}}">
+    <ul class="select">
+      <li ng-repeat="item in field.reimbursenmentType.ReimbursementData.ClaimDesc track by $index" ng-click="selectField('description',item)" close-modal>{{item.Description}}</li>
+
+    </ul>
+  </div>
+</div><!--end modal-->
+
+<div id="customer" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input type="text" ng-model="textCustomer" my-maxlength="35" />
+    </div>
+    <div class="button">
+      <button ng-click="selectField('customer',textCustomer)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal>{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="currentcy" class="modal animated" >
+  <h2 class="modal-title">{{lang.myclaim.currency.tt}} <span close-modal class="close-modal"></span></h2>
+  <div class="modal-content" id="listCurrency" ng-set-height-modal-content="{{listCurrency.length}}">
+    <ul class="select">
+      <li ng-class="{'active' : isActive(item.Id,field.currency.Id)}" ng-repeat="item in listCurrency track by $index" ng-click="selectField('currency',item)" close-modal>{{item.Description}}</li>
+
+    </ul>
+  </div>
+</div><!--end modal-->
+
+<div id="incurred" class="modal animated" >
+  <h2 class="modal-title">{{lang.myclaim.ben.apply.incurred_by}} <span close-modal class="close-modal"></span></h2>
+  <div class="modal-content" id="field.benefitType.ListIncurred" ng-set-height-modal-content="{{field.benefitType.ListIncurred.length}}">
+    <ul class="select">
+      <li ng-repeat="item in field.benefitType.ListIncurred track by $index" ng-click="selectField('inCurred',item)" close-modal>{{item.Description}}</li>
+
+    </ul>
+  </div>
+</div><!--end modal-->
+
+<div id="receipt-amount" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input ng-is-numeric="true" pattern="[0-9]*" id="textReceiptAmount" type="tel" callback-fn="setModel(arg)" />
+    </div>
+    <div class="button">
+      <button ng-click="selectField('receiptAmount',textReceiptAmount)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal ng-click="$event.preventDefault();">{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div id="gst-amount" class="modal animated" >
+  <div class="box_modal">
+    <div class="input">
+      <input ng-is-numeric="true" pattern="[0-9]*" id="textGstAmount" type="tel" callback-fn="setModel(arg)"/>
+    </div>
+    <div class="button">
+      <button ng-click="selectField('gstAmount',textGstAmount)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal>{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>I
+</div>
+
+
+<div id="rate" class="modal animated" >
+  <div class="box_modal">
+    <div class="input">
+      <input ng-is-numeric="true" pattern="[0-9]*" id="textRate" type="tel" callback-fn="setModel(arg)"/>
+    </div>
+    <div class="button">
+      <button ng-click="selectField('Rate_Value',textRate)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal>{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+<div id="unit" class="modal animated" >
+  <div class="box_modal">
+    <div class="input">
+      <input ng-is-numeric="true" pattern="[0-9]*" id="textUnit" type="tel" callback-fn="setModel(arg)"/>
+    </div>
+    <div class="button">
+      <button ng-click="selectField('Unit_Value',textUnit)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal>{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+<div id="GSTRegistrationNo" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input type="text" ng-model="textGSTRegistrationNo" my-maxlength="12"  />
+    </div>
+    <div class="button">
+      <button ng-click="selectField('gstRegistrationNo',textGSTRegistrationNo)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal>{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+
+<div id="InvoiceName" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input type="text" ng-model="textInvoiceName" my-maxlength="80"/>
+    </div>
+    <div class="button">
+      <button ng-click="selectField('invoiceName',textInvoiceName)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal>{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="InvoiceAddress" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input type="text" ng-model="textInvoiceAddress" my-maxlength="100" />
+    </div>
+    <div class="button">
+      <button ng-click="selectField('invoiceAddress',textInvoiceAddress)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal>{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div id="remarks" class="modal animated">
+  <div class="box_modal">
+    <div class="input">
+      <input type="text" ng-model="textRemarks" my-maxlength="100" />
+    </div>
+    <div class="button">
+      <button ng-click="selectField('remarks',textRemarks)" close-modal>{{lang.general.btn.ok}}</button>
+      <button close-modal>{{lang.general.btn.cancel}}</button>
+    </div>
+  </div>
+</div>

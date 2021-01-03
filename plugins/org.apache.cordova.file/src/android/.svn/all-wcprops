@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/src/android
+END
+DirectoryManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/src/android/DirectoryManager.java
+END
+EncodingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/src/android/EncodingException.java
+END
+InvalidModificationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/src/android/InvalidModificationException.java
+END
+Filesystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/src/android/Filesystem.java
+END
+FileHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/src/android/FileHelper.java
+END
+LocalFilesystemURL.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/src/android/LocalFilesystemURL.java
+END
+FileExistsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/src/android/FileExistsException.java
+END
+TypeMismatchException.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/src/android/TypeMismatchException.java
+END
+LocalFilesystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/src/android/LocalFilesystem.java
+END
+FileUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/src/android/FileUtils.java
+END
+ContentFilesystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/src/android/ContentFilesystem.java
+END
+NoModificationAllowedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/payroll2u/!svn/ver/2/plugins/org.apache.cordova.file/src/android/NoModificationAllowedException.java
+END

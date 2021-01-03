@@ -1,0 +1,135 @@
+﻿<script type="text/javascript" src="js/controllers/home.js"></script>
+
+    <div id="wrapper">
+
+            <header id="header-index" class="{{device}}">
+                <div>
+                    <p class="title"><b>{{lang.main.txt.chpass}}</b> <span>{{user.Emp_no}} {{user.FullName}}</span></p>
+                    <p>{{lang.main.txt.llogin}} {{user.Last_Login}}</p>
+                </div>
+                <div class="ui-btn-right">
+                	<a modal="select-lang"><img src="images/lang_icon.png" /></a>
+                	<a ng-click="logout()" ><img src="images/n_ic_menu_4.png" /></a>
+                </div>
+            </header>
+        <div class="scroll" ng-height-screen-main>
+
+            <div id="main_navigation">
+                <div class="ui-block-a">
+
+
+                    <ul>
+                       <li class="quicklink">
+                        <div ng-repeat="item in quickLinks1 track by $index" class="f-left {{item.background}}" ng-height-equal-width>
+                        <a  ng-click="checkNotEntitled(item)">
+                            <article class="img"><span><img ng-src="images/{{item.icon}}.png" /></span></article>
+                            <article class="title" ng-bind-html='item.title'></article>
+                        </a>
+                        </div>
+                        <div class="clear"></div>
+                    </li>
+                        <li class="menu myleave background-494aa7 "  ng-class="{'background-disable': !checkMenuActive(698) }" >
+                            <a class="rippler rippler-inverse" ripper ng-click="checkMenuActive(698)?goURL('myLeave'):return;">
+                                <img src="images/icon_my_leave.png" />
+                                <p class="text" style="margin-left:10px;">{{lang.main.btn.myleave}}</p>
+                            </a>
+                        </li>
+                        <li class="menu myprofile background-942e91" ng-class="{'background-disable': !checkMenuActive(681) }" >
+                            <a class="rippler rippler-inverse" ripper  ng-click="checkMenuActive(681)?goURL('myProfile'):return;">
+                                <p class="text" style="margin-right:10px;">{{lang.main.btn.myprofile}}</p>
+                                <img src="images/n_ss_my_profile.png" />
+                            </a>
+                        </li>
+                        <li class="menu myclaim background-669933" ng-class="{'background-disable': !checkMenuActive(707) }">
+                            <a class="rippler rippler-inverse" ripper ng-click="checkMenuActive(707)?goURL('myClaims'):return;">
+                                <img src="images/n_ss_my_claim.png" />
+                                <p class="text"  style="margin-left:10px;">{{lang.main.btn.myclaim}}</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!--end ui-block-a-->
+
+                <div class="ui-block-b">
+                    <div class="full-width">
+                        <ul class="quick-link-2">
+
+                            <li ng-click="checkNotEntitled(item)" ng-height-equal-width ng-repeat="item in quickLinks2 track by $index" class="w49 {{item.background}} f-left">
+                                <a>
+                            <p class="img"><span><img ng-src="images/{{item.icon}}.png" /></span></p>
+                            <p class="title" ng-bind-html='item.title'></p>
+                            <div class="clear"></div>
+                        </a>
+
+
+
+                            </li>
+
+
+                            <div class="clear"></div>
+                        </ul>
+                    </div><!--end full-width-->
+
+                    <div class="full-width block mypayroll background-de1e39" ng-class="{'background-disable': !checkMenuActive(689) }">
+                        <a ng-click="checkMenuActive(689)?goURL('myPayroll'):return;" class="rippler rippler-inverse h100" ripper>
+                            <img src="images/n_ss_my_payroll.png" />
+                            <p class="text">{{lang.main.btn.mypayroll}}</p>
+                        </a>
+                    </div>
+
+                    <div class="full-width block mytms background-ff6600" ng-class="{'background-disable': !checkMenuActive(732) }">
+                        <a ng-click="checkMenuActive(732)?goURL('myTms'):return;" class="rippler rippler-inverse h100" ripper>
+                            <img src="images/n_ss_my_tms.png" />
+                            <p class="text">{{lang.main.btn.mytms}}</p>
+                        </a>
+                    </div>
+
+                </div><!--end ui-block-b-->
+
+
+                <div class="clear"></div>
+            </div><!--end main_navigation-->
+
+
+<img src="images/n_logo2.png" height="50px" style="display:block; margin:auto;" ng-if="!checkBtnTms()" ng-click="showAbout()"/>
+		<div class="btn_tms" ng-if="checkBtnTms()">
+        	<ul>
+                <li ng-click="submitInOut(1);"><img src="images/btn_tms_in.png" /></li>
+                <li ng-click="showAbout()" style="text-align:center; "><img src="images/n_logo2.png"  style="display:block;margin:auto;" /></li>
+                <li ng-click="submitInOut(2);" style="text-align:right;"><img src="images/btn_tms_out.png"  /></li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+        </div>
+
+
+
+         <div id="about-application" class="modal">
+    	<h3>{{lang.main.txt.about}}</h3>
+        <div class="info">
+        		<img src="images/ic_app.png" />
+                <p>{{lang.main.txt.version}}: {{MAC.Version}}</p>
+                <p>{{lang.main.txt.uuid}}: <span style="text-transform:uppercase;">{{MAC.uuid}}</span></p>
+                <p>{{lang.main.txt.apmac}}: <span style="text-transform:uppercase;">{{MAC.MacAddress}}</span></p>
+                <p>{{lang.main.txt.website}}</p>
+            <p style="word-wrap: break-word;">{{lang.main.txt.location}}: <span>{{lang.main.txt.latitude}}:{{posLocation.latitude}},{{lang.main.txt.longitude}}:{{posLocation.longitude}},{{lang.main.txt.altitude}}:{{posLocation.altitude}}</span> <span ng-click="copyToClipboard();">{{lang.main.txt.copy}}</span></p>
+
+        </div>
+
+</div><!--end modal-->
+
+
+
+<div id="select-lang" class="modal animated" center-screen>
+    <h2 class="modal-title">
+    	{{lang.main.select_language}}
+        <span close-modal class="close-modal"></span>
+    </h2>
+    <div class="modal-content">
+        <ul class="select">
+            <li ng-repeat="item in listLang track by $index" ng-click="changeLanguage(item.Lang_Code)" close-modal>{{item.Lang_Desc}}</li>
+
+        </ul>
+    </div>
+</div><!--end modal-->
+    <div class="overlay-about" ng-click="closeAbout()"></div>
+    </div>

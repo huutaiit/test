@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/payroll2u/!svn/ver/2/plugins/cordova-plugin-x-toast/src/blackberry10/native/src
+END
+toast_ndk.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/payroll2u/!svn/ver/2/plugins/cordova-plugin-x-toast/src/blackberry10/native/src/toast_ndk.cpp
+END
+Logger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/payroll2u/!svn/ver/2/plugins/cordova-plugin-x-toast/src/blackberry10/native/src/Logger.cpp
+END
+toast_js.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/payroll2u/!svn/ver/2/plugins/cordova-plugin-x-toast/src/blackberry10/native/src/toast_js.cpp
+END
+toast_ndk.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/payroll2u/!svn/ver/2/plugins/cordova-plugin-x-toast/src/blackberry10/native/src/toast_ndk.hpp
+END
+Logger.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/payroll2u/!svn/ver/2/plugins/cordova-plugin-x-toast/src/blackberry10/native/src/Logger.hpp
+END
+toast_js.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/payroll2u/!svn/ver/2/plugins/cordova-plugin-x-toast/src/blackberry10/native/src/toast_js.hpp
+END

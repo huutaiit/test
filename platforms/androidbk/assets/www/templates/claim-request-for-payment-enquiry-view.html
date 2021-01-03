@@ -1,0 +1,28 @@
+<script type="text/javascript" src="js/controllers/myClaim.js"></script>
+<!--start My Claim-->
+	<div class="form">
+    <h1 class="title-form background-718138">{{listClaimEnquiry.title}}</h1>
+    	<div class="form-info scroll">
+        <ul class="list">
+        
+        	<li ng-repeat="item in listClaimEnquiry.data track by $index">
+          
+            	<div class="f-left" ng-click="viewDetail(item,'claimRequestForPaymentDetail')">
+                	<p class="lable "><span class="bold">{{item.ClaimTypeDesc}}</span></p>
+                    <p class="hind">{{item.Date}}</p>
+                </div>
+                <p class="f-right text bold">{{item.CurrencyCode}} {{item.ReceiptAmount | formatCurrency:'2'}}</p>
+                <div class="clear"></div>
+            </li>
+
+        </ul>
+        
+        </div><!--end form-info-->
+        
+        
+        
+    </div><!--end form-->
+	
+<!--end My Claim-->
+
+

@@ -1,0 +1,96 @@
+10
+
+dir
+2
+https://subversion.assembla.com/svn/payroll2u/plugins/org.apache.cordova.device/doc
+https://subversion.assembla.com/svn/payroll2u
+
+
+
+2017-12-03T15:54:53.047983Z
+2
+huutaiit
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b3bc9d4b-981d-4127-bbd8-295d911b52fc
+
+
+
+
+
+
+0
+
+de
+dir
+
+es
+dir
+
+fr
+dir
+
+index.md
+file
+
+
+
+
+2015-10-07T02:05:50.000000Z
+5e5341eb73a64c2214a4baa3da0a3158
+2017-12-03T15:54:53.047983Z
+2
+huutaiit
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6389
+
+it
+dir
+
+ja
+dir
+
+ko
+dir
+
+pl
+dir
+
+ru
+dir
+
+zh
+dir
+

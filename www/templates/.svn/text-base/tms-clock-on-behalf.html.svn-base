@@ -1,0 +1,40 @@
+<script type="text/javascript" src="js/controllers/myLeave.js"></script>
+<!--start Apply leave-->
+<div class="form" >
+  <div class="screen-submit">
+    <h1 class="title-form background-ff6600">{{lang.mytms.clockOnBehalf.tt}}</h1>
+    <div class="form-info scroll" ng-element-height="90">
+
+      <ul class="list form-apply">
+        <li ng-click="showPoupEmployee()">
+          <div class="f-left">
+            <p class="label required">
+              <label>Employee</label> <span>
+              ({{lang.general.required}})
+            </span>
+            </p>
+            <p class="input"><input readonly="readonly" value="{{employeeSelected.Name}}" type="text" /></p>
+          </div>
+          <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+          <div class="clear"></div>
+        </li>
+
+      </ul>
+      <div class="btn_tms" style="margin-top: 40px;">
+        <ul>
+          <li ng-click="submitInOut(1);"><img src="images/btn_tms_in.png" /></li>
+          <li  style="text-align:center; "><img src="images/n_logo2.png"  style="display:block;margin:auto;" /></li>
+          <li ng-click="submitInOut(2);" style="text-align:right;"><img src="images/btn_tms_out.png"  /></li>
+          <div class="clear"></div>
+        </ul>
+      </div>
+    </div><!--end form-info-->
+
+
+  </div>
+
+</div><!--end form-->
+<!--end Apply leave-->
+
+
+

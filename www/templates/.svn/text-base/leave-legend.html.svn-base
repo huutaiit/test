@@ -1,0 +1,25 @@
+<script type="text/javascript" src="js/controllers/myLeave.js"></script>
+<!--start Apply leave-->
+<div class="form" >
+   
+    <div class="form-info" style="height:100%;">
+		<table id="legend">
+        	<thead>
+            	<tr class="background-494aa7" style="color: #FFF;padding: 8px 10px;font-size: 18px;">
+                	<th style=" text-align:center; width:30%;">{{lang.myleave.calendar.legend}} </th>
+                   
+                    <th style="text-align:left;">{{lang.myleave.calendar.leave_type}}</th>
+                </tr>
+            </thead>
+         
+                <tbody class="scroll" style="display:block; height:100%;">
+                    <tr ng-repeat="item in listLegend track by $index">
+                        <td style="text-align:center;width:30%;">{{item.Code}}</td>
+                        <td  style="text-align:left; ">{{item.Description}}</td>
+                    </tr>
+                </tbody>
+           
+           
+        </table>
+       
+</div><!--end form-->

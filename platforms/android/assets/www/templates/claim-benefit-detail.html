@@ -1,0 +1,225 @@
+<script type="text/javascript" src="js/controllers/myClaim.js"></script>
+<!--start Apply leave-->
+<div class="form">
+
+    <h1 class="title-form background-059b90">{{lang.myclaim.ben.tt}} </h1>
+    <div class="form-info scroll" ng-element-height="90">
+
+        <ul class="list form-apply">
+
+        <li>
+                <div class="f-left">
+                    <p class="label required">
+                        <label>{{lang.myclaim.ben.apply.benefit_type}}</label>
+                        <span>({{lang.general.required}})</span>
+                    </p>
+                    <p class="input"><input  readonly="readonly"  value="{{claimDetail.ClaimTypeDesc}}"  type="text" /></p>
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+            <li>
+                <div class="f-left">
+                    <p class="label required">
+                        <label>{{lang.myclaim.receipt}} {{lang.myclaim.date}}</label> <span>
+                            ({{lang.general.required}})
+                        </span>
+                    </p>
+                    <p class="input"><input readonly="readonly"  value="{{claimDetail.Date}}" type="text" /></p>
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+
+
+            <li>
+                <div class="f-left">
+                    <p class="label required"><label>{{lang.myclaim.receipt_no.tt}}</label> <span>({{lang.general.required}})</span></p>
+                    <p class="input"><input  readonly="readonly" value="{{claimDetail.ReceiptNo}}"  type="text" /></p>
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+
+            <li>
+                <div class="f-left ">
+                    <p class="label required"><label>{{lang.myclaim.incurred_by}}</label> <span>({{lang.general.required}})</span></p>
+                    <p class="input"><input value="{{claimDetail.Incurred}}" readonly="readonly" type="text" /></p>
+
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+
+            <li >
+                <div class="f-left">
+                    <p class="label"><label>{{lang.myclaim.dependant}}</label></p>
+                    <p class="input"><input value="{{claimDetail.Dependent}}" readonly="readonly" type="text" /></p>
+
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+            <li>
+                <div class="f-left">
+                    <p class="label required"><label>{{lang.myclaim.currency.tt}}</label> <span>({{lang.general.required}})</span></p>
+                    <p class="input"><input  value="{{claimDetail.CurrencyCode}}" readonly="readonly"  type="text" /></p>
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+              <li >
+                <div class="f-left">
+                    <p class="label required"><label>{{lang.myclaim.receipt_amount.tt}}</label>  <span>({{lang.general.required}})</span></p>
+                    <p class="input"><input  value="{{claimDetail.ReceiptAmount  | formatCurrency:'2'}}"  readonly  type="text" /></p>
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+              <li >
+                <div class="f-left">
+                    <p class="label"><label>{{lang.myclaim.exchange_rate.tt}}</label></p>
+                    <p class="input"><input  value="{{claimDetail.ExChangeRate | formatCurrency:'6'}}"  readonly  type="text" /></p>
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+
+
+
+            <li ng-show="claimDetail.GST==1 && claimDetail.IsGstDetail==1">
+                <div  class="f-left">
+                    <p class="label"><label> {{lang.myclaim.reim.apply.reimburse}} {{lang.myclaim.gst_amount.tt}}</label> </p>
+                    <p class="input"><input  value="{{claimDetail.GstAmount | formatCurrency:'2'}}"  readonly="readonly"  type="text" /></p>
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+            <li>
+                <div class="f-left">
+                    <p class="label "><label>{{lang.myclaim.reim.apply.reimburse}} {{lang.myclaim.amount}}</label></p>
+                    <p class="input"><input  readonly="readonly"  value="{{claimDetail.Amount | formatCurrency:'2'}} {{claimDetail.LocalCurrency}}"   type="text" /></p>
+
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+
+
+             <li>
+                <div  class="f-left">
+                    <p ng-class="{'required' : isRequired(claimDetail.Self_Incurred)}" class="label">
+                      <label>{{lang.myclaim.reim.apply.incurred_from}}</label>
+                      <span ng-if="claimDetail.Self_Incurred==1">({{lang.general.required}})</span>
+                    </p>
+                    <p class="input"><input  value="{{claimDetail.Incurred_Fr}}"  readonly="readonly"  type="text" /></p>
+                </div>
+                <div class="clear"></div>
+            </li>
+
+             <li>
+                <div  class="f-left">
+                    <p ng-class="{'required' : isRequired(claimDetail.Self_Incurred)}" class="label"><label>{{lang.myclaim.reim.apply.incurred_to}}</label> <span ng-if="claimDetail.Self_Incurred==1">({{lang.general.required}})</span></p>
+                    <p class="input"><input value="{{claimDetail.Incurred_To}}" readonly="readonly"  type="text" /></p>
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+
+          <li>
+                <div  class="f-left">
+                    <p class="label"><label>{{lang.myclaim.ben.apply.clinic}}</label></p>
+                    <p class="input"><input value="{{claimDetail.Clinic}}"  readonly="readonly"  type="text" /></p>
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+
+
+
+            <li ng-show='claimDetail.IsClaimDesc==1 && claimDetail.ClaimDescription!=""'>
+                <div class="f-left">
+                    <p class="label required"><label>{{lang.myclaim.description}}</label> <span>({{lang.general.required}})</span></p>
+                    <p class="input"><input  readonly="readonly"  value="{{claimDetail.ClaimDescription}}"  type="text" /></p>
+
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+               <li>
+                <div class="f-left">
+                    <p class="label" ng-class="{'required' : isRequired(claimDetail.SelfRemark)}" ><label>{{lang.myclaim.remarks.tt}}</label> <span ng-if="claimDetail.SelfRemark==1">({{lang.general.required}})</span></p>
+                    <p class="input"><input value="{{claimDetail.Remark}}" readonly="readonly" type="text" /></p>
+
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+
+             <li>
+                <div class="f-left">
+                    <p class="label"><label>{{lang.myclaim.approving_officer}}</label></p>
+                    <p class="input"><input  value="{{claimDetail.ApprOfficer}}" readonly="readonly" type="text" /></p>
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+
+             <li ng-show="claimDetail.ApprOfficer2!=''">
+                <div class="f-left">
+                    <p class="label"><label>{{lang.myclaim.approving_officer}} 2</label></p>
+                    <p class="input"><input  value="{{claimDetail.ApprOfficer2}}" readonly="readonly" type="text" /></p>
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+             <li ng-show="claimDetail.ApprOfficer3!=''">
+                <div class="f-left">
+                    <p class="label"><label>{{lang.myclaim.approving_officer}} 3</label></p>
+                    <p class="input"><input  value="{{claimDetail.ApprOfficer3}}" readonly="readonly" type="text" /></p>
+                </div>
+
+                <div class="clear"></div>
+            </li>
+
+
+
+                <li >
+                    <div class="f-left">
+                        <p class="label"><label>{{lang.myclaim.status}}</label></p>
+                        <p class="input"><input readonly="readonly"  value="{{claimDetail.Status}}" type="text" /></p>
+                    </div>
+
+                    <div class="clear"></div>
+                </li>
+
+        </ul>
+
+    </div><!--end form-info-->
+
+    <div class="button">
+
+         <a></a>
+         <a href="#claimBenefitAttach"><span><img src="images/n_btn_apply_leave_attach.png" /></span></a>
+        <a><span></span></a>
+
+    </div><!--end button-->
+
+
+</div><!--end form-->

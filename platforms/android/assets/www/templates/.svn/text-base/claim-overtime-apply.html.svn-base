@@ -1,0 +1,23 @@
+<script type="text/javascript" src="js/controllers/myClaim.js"></script>
+<div class="form">
+<h1 class="title-form background-88b824">{{lang.general.apply}} {{lang.myclaim.ot.tt}}</h1>
+    	<div class="form-info scroll" ng-element-height="90">
+    	
+	
+<div id="jMonthCalendar" class="style-88b824" ng-events="events" j-month-calendar ng-href="/claimOvertimeApplyDetail" callback-fn="getSelectMonth(arg)" day-link-click="true"></div>
+
+<div class="clear"></div>
+<div class="note">
+	<p>
+     <span class="applied note-info background-red">{{lang.myclaim.ot.apply.approved}}</span>
+	<span class="taken note-info background-light-green" >{{lang.myclaim.ot.apply.pending}}</span>
+   
+    </p>
+</div>
+</div><!--end leave-calendar-->
+
+
+
+</div>
+
+

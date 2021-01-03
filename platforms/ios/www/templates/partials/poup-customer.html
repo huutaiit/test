@@ -1,0 +1,17 @@
+<div class="poup-search animated fadeInUp">
+	<div class="title">
+    	<span class="back" ng-click="closePoup()"><i class="fa fa-chevron-left"></i></span>
+        <input type="text" ng-keyup="searchCustomer()" ng-model="SearchText"  />
+         <a class="f-right icon"><i class="fa fa-search-plus"></i></a>
+    </div>
+    <div class="content" >
+    	<ul class="list">
+         <li ng-repeat="item in listCustomer track by $index"ng-class="{'active' : isActive(item.Id,field.bcCustomer.Id)}"   ng-click="selectField(fieldSelected,item)">{{item.Description}}</li>
+        </ul>
+          <button class="load-more" ng-if="disabledLoadMore==false" ng-click="loadMoreCustomer();">{{lang.general.load_more}}</button>
+       
+    </div>
+   
+</div><!--end poup-search-->
+
+

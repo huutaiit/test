@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="662e5030-4f48-48fa-9a13-c16addd71e0a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android.json" beforeDir="false" afterPath="$PROJECT_DIR$/android.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/www/cordova_plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/www/js/controllers/myPayroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/www/js/controllers/myPayroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/www/plugins/cordova-plugin-firebase-analytics/www/FirebaseAnalytics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/payroll2u/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/payroll2u/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/buildConfig/release/com/payroll2u/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/release/com/payroll2u/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/payroll2u/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/payroll2u/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/r/release/com/payroll2u/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/r/release/com/payroll2u/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/assets/debug/www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug/www/cordova_plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/assets/debug/www/js/controllers/myPayroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug/www/js/controllers/myPayroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/assets/debug/www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug/www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/assets/release/www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/assets/release/www/cordova_plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/assets/release/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/assets/release/www/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/assets/release/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/assets/release/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/assets/release/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/assets/release/www/js/controllers/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/assets/release/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/assets/release/www/js/controllers/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/assets/release/www/js/controllers/myClaim.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/assets/release/www/js/controllers/myClaim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/assets/release/www/js/controllers/myPayroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/assets/release/www/js/controllers/myPayroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/assets/release/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/assets/release/www/js/run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/assets/release/www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/assets/release/www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/assets/release/www/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/assets/release/www/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/payroll2u/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/payroll2u/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/payroll2u/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/payroll2u/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/payroll2u/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/payroll2u/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/payroll2u/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/payroll2u/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/payroll2u/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/payroll2u/R$xml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/payroll2u/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/payroll2u/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/payroll2u/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/payroll2u/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/payroll2u/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/payroll2u/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/payroll2u/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/payroll2u/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/payroll2u/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/payroll2u/R$xml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/dex/release/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex/release/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/debug/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/release/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/release/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/debug/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/debug/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/release/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/release/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/release/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/release/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/debug/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/debug/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/xml/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/release/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/release/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/release/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/release/xml/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/symbols/release/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/symbols/release/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/outputs/apk/android-debug-unaligned.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/outputs/apk/android-debug.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/outputs/apk/android-release-unaligned.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/outputs/apk/manifest-merger-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/outputs/lint-results-release-fatal.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/lint-results-release-fatal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/outputs/lint-results-release-fatal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/lint-results-release-fatal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordova-plugin-firebase-analytics/payroll2u-build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform_www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/platform_www/cordova_plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform_www/plugins/cordova-plugin-firebase-analytics/www/FirebaseAnalytics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform_www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/platform_www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/xml/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/chemerisuk/cordova/firebase/FirebaseAnalyticsPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/.pods.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/.pods.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/Classes/CDVAvailability.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CordovaLib/Classes/CDVAvailability.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/Classes/CDVCommandDelegateImpl.m" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CordovaLib/Classes/CDVCommandDelegateImpl.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/Classes/CDVPlugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CordovaLib/Classes/CDVPlugin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/Classes/CDVViewController.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CordovaLib/Classes/CDVViewController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/Classes/CDVViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CordovaLib/Classes/CDVViewController.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/Classes/CDVWebViewDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CordovaLib/Classes/CDVWebViewDelegate.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/Classes/NSData+Base64.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CordovaLib/Classes/NSData+Base64.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/CordovaLib.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/nhtai.xcuserdatad/xcschemes/CordovaLib.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/nhtai.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/tai.nguyen.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/tai.nguyen.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CordovaLib/VERSION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-non-framework-target-headers.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVHandleOpenURL.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVHandleOpenURL.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVHandleOpenURL.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON_private.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON_private.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON_private.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/dgph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/CordovaLib/cordova.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/CordovaLib/cordova.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/GoogleService-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Payroll2U.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U.xcodeproj/project.xcworkspace/xcuserdata/admin.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U.xcodeproj/project.xcworkspace/xcuserdata/nhtai.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U.xcodeproj/project.xcworkspace/xcuserdata/tai.nguyen.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U.xcodeproj/project.xcworkspace/xcuserdata/tai.nguyen.xcuserdatad/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/Payroll2U.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U.xcodeproj/xcuserdata/nhtai.xcuserdatad/xcschemes/Payroll2U.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U.xcodeproj/xcuserdata/nhtai.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U.xcodeproj/xcuserdata/tai.nguyen.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Payroll2U.xcodeproj/xcuserdata/tai.nguyen.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Payroll2U.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U.xcworkspace/xcuserdata/tai.nguyen.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Payroll2U.xcworkspace/xcuserdata/tai.nguyen.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U.xcworkspace/xcuserdata/tai.nguyen.xcuserdatad/WorkspaceSettings.xcsettings" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Payroll2U.xcworkspace/xcuserdata/tai.nguyen.xcuserdatad/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Classes/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Payroll2U/Classes/AppDelegate.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Classes/MainViewController.xib" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Payroll2U/Classes/MainViewController.xib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/GoogleService-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/167.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/40-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/87.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/icon-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/icon-40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/icon-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/icon-50@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/icon-60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/icon-60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/icon-60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/icon-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/icon-72@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/icon-76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/icon-76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/icon-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/icon-small@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/AppIcon.appiconset/icon@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Images.xcassets/LaunchImage.launchimage/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Payroll2U-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Payroll2U/Payroll2U-Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Plugins/com.pylonproducts.wifiwizard/NXWWifiWizard.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Payroll2U/Plugins/com.pylonproducts.wifiwizard/NXWWifiWizard.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Plugins/com.pylonproducts.wifiwizard/NXWWifiWizard.m" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Payroll2U/Plugins/com.pylonproducts.wifiwizard/NXWWifiWizard.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Plugins/cordova-plugin-camera-preview/CameraPreview.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Plugins/cordova-plugin-camera-preview/CameraPreview.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Plugins/cordova-plugin-camera-preview/CameraRenderController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Plugins/cordova-plugin-camera-preview/CameraRenderController.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Plugins/cordova-plugin-camera-preview/CameraSessionManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Plugins/cordova-plugin-camera-preview/CameraSessionManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Plugins/cordova-plugin-camera-preview/TemperatureAndTint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/Plugins/cordova-plugin-camera-preview/TemperatureAndTint.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Payroll2U/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Payroll2U/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Firebase/Core/Sources/Firebase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Firebase/Core/Sources/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Firebase/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseCoreDiagnostics.framework/FirebaseCoreDiagnostics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseCoreDiagnostics.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseNanoPB.framework/FirebaseNanoPB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/FirebaseCore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseInstanceID/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/FirebaseInstanceID" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/FirebaseInstanceID/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/GoogleToolboxForMac/Foundation/GTMNSData+zlib.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/GoogleToolboxForMac/Foundation/GTMNSData+zlib.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/GoogleToolboxForMac/GTMDefines.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/GoogleToolboxForMac/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/GoogleToolboxForMac/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Headers/Public/Firebase/Firebase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Headers/Public/GoogleToolboxForMac/GTMDefines.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Headers/Public/GoogleToolboxForMac/GTMNSData+zlib.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Headers/Public/nanopb/pb.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Headers/Public/nanopb/pb_common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Headers/Public/nanopb/pb_decode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Headers/Public/nanopb/pb_encode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Pods/Manifest.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/tai.nguyen.xcuserdatad/xcschemes/Firebase.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/tai.nguyen.xcuserdatad/xcschemes/FirebaseAnalytics.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/tai.nguyen.xcuserdatad/xcschemes/FirebaseCore.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/tai.nguyen.xcuserdatad/xcschemes/FirebaseInstanceID.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/tai.nguyen.xcuserdatad/xcschemes/GoogleToolboxForMac.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/tai.nguyen.xcuserdatad/xcschemes/Pods-Payroll2U.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/tai.nguyen.xcuserdatad/xcschemes/Pods-Payroll2U.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/tai.nguyen.xcuserdatad/xcschemes/nanopb.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/tai.nguyen.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/tai.nguyen.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Firebase/Firebase.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/FirebaseAnalytics/FirebaseAnalytics.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/FirebaseCore/FirebaseCore.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/FirebaseInstanceID/FirebaseInstanceID.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-Payroll2U/Pods-Payroll2U-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-Payroll2U/Pods-Payroll2U-acknowledgements.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-Payroll2U/Pods-Payroll2U-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-Payroll2U/Pods-Payroll2U-acknowledgements.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-Payroll2U/Pods-Payroll2U.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-Payroll2U/Pods-Payroll2U.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-Payroll2U/Pods-Payroll2U.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-Payroll2U/Pods-Payroll2U.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/nanopb/nanopb-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/nanopb/nanopb-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/nanopb/nanopb.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/nanopb/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/nanopb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/nanopb/pb.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/nanopb/pb_common.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/nanopb/pb_common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/nanopb/pb_decode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/nanopb/pb_decode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/nanopb/pb_encode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Pods/nanopb/pb_encode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/ELCAlbumPickerController-PartialInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/ELCAssetPicker-PartialInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/ELCAssetTablePicker-PartialInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/MainViewController-PartialInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/APPBadge.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/APPBadge.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/APPBadge.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/AppDelegate+APPAppEvent.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/AppDelegate+APPAppEvent.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/AppDelegate+APPAppEvent.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/AppDelegate+notification.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/AppDelegate+notification.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/AppDelegate+notification.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/AppDelegate.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/AppDelegate.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/AppDelegate.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/AppVersion.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/AppVersion.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/AppVersion.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVAssetLibraryFilesystem.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVAssetLibraryFilesystem.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVAssetLibraryFilesystem.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVCamera.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVCamera.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVCamera.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVConnection.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVConnection.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVConnection.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVDevice.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVDevice.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVDevice.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVFile.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVFile.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVFile.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVFileTransfer.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVFileTransfer.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVFileTransfer.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVInAppBrowser.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVInAppBrowser.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVInAppBrowser.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVJpegHeaderWriter.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVJpegHeaderWriter.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVJpegHeaderWriter.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVLocalFilesystem.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVLocalFilesystem.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVLocalFilesystem.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVLocation.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVLocation.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVLocation.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVPlugin+APPAppEvent.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVPlugin+APPAppEvent.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVPlugin+APPAppEvent.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVReachability.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVReachability.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CDVReachability.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CameraPreview.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CameraPreview.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CameraPreview.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CameraRenderController.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CameraRenderController.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CameraRenderController.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CameraSessionManager.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CameraSessionManager.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/CameraSessionManager.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ELCAlbumPickerController.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ELCAlbumPickerController.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ELCAlbumPickerController.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ELCAsset.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ELCAsset.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ELCAsset.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ELCAssetCell.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ELCAssetCell.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ELCAssetCell.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ELCAssetTablePicker.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ELCAssetTablePicker.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ELCAssetTablePicker.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ELCImagePickerController.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ELCImagePickerController.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ELCImagePickerController.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/FileOpener2.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/FileOpener2.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/FileOpener2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ImageResize.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ImageResize.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/ImageResize.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/IonicKeyboard.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/IonicKeyboard.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/IonicKeyboard.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/MacAddressPlugin.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/MacAddressPlugin.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/MacAddressPlugin.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/MainViewController.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/MainViewController.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/MainViewController.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/NSData+Base64.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/NSData+Base64.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/NSData+Base64.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/NXWWifiWizard.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/NXWWifiWizard.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/NXWWifiWizard.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/Payroll2U.LinkFileList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/Payroll2U_dependency_info.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/PushPlugin.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/PushPlugin.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/PushPlugin.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/SOSPicker.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/SOSPicker.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/SOSPicker.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/Toast+UIView.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/Toast+UIView.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/Toast+UIView.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/Toast.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/Toast.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/Toast.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/UIApplication+APPBadge.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/UIApplication+APPBadge.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/UIApplication+APPBadge.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/UIImage+CropScaleOrientation.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/UIImage+CropScaleOrientation.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/UIImage+CropScaleOrientation.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/UIImage+Scale.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/UIImage+Scale.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/UIImage+Scale.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/UIWebViewExtension.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/UIWebViewExtension.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/UIWebViewExtension.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/main.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/main.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Objects-normal/i386/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Payroll2U-all-non-framework-target-headers.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Payroll2U-all-target-headers.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Payroll2U-generated-files.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Payroll2U-own-target-headers.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Payroll2U-project-headers.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Payroll2U.app.xcent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Payroll2U.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/Script-304B58A110DAC018002A0835.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Payroll2U.build/Debug-iphonesimulator/Payroll2U.build/dgph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app.dSYM/Contents/Resources/DWARF/Payroll2U" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/Default-568h@2x~iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/Default-667h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/Default-736h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/Default-Landscape-736h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/Default-Landscape@2x~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/Default-Landscape~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/Default-Portrait@2x~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/Default-Portrait~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/Default@2x~iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/Default~iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/ELCAlbumPickerController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/ELCAssetPicker.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/ELCAssetTablePicker.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/MainViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/Overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/Overlay@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/Payroll2U" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/PkgInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/icon-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/icon-40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/icon-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/icon-50@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/icon-60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/icon-60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/icon-60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/icon-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/icon-72@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/icon-76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/icon-76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/icon-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/icon-small@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/icon@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/cordova.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/cordova.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/cordova_plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/calendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/custom_checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/custom_checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/datetimepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/datetimepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/jquery.mobile-1.4.5.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/jquery.mobile-1.4.5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/keyboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/keyboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/rippler.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/rippler.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/toastr.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/css/toastr.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/account_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/account_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/al_fail.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/al_fail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/al_success.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/al_success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/arrow-back.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/arrow-back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/arrow_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/arrow_left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/arrow_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/arrow_right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/back_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/back_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/badge.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/badge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/banner_menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/banner_menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/banner_message.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/banner_message.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/banner_next.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/banner_next.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/banner_refresh.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/banner_refresh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ben1009.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ben1009.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ben715.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ben715.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ben716.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ben716.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ben717.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ben717.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ben718.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ben718.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ben719.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ben719.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ben_ic.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ben_ic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/btn_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/btn_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/btn_none.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/btn_none.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/btn_save.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/btn_save.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/btn_tms_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/btn_tms_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/btn_tms_in.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/btn_tms_in.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/btn_tms_out.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/btn_tms_out.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/cal_left_arrow_off.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/cal_left_arrow_off.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/cal_left_arrow_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/cal_left_arrow_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/cal_right_arrow_off.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/cal_right_arrow_off.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/cal_right_arrow_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/cal_right_arrow_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/calendar_info.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/calendar_info.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/claim_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/claim_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/claim_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/claim_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/clock.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/clock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/clock2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/clock2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/date_poup_button_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/date_poup_button_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/dot.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/dot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/dot1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/dot1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ex1009.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ex1009.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ex721.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ex721.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ex722.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ex722.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ex723.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ex723.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ex724.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ex724.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ex725.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ex725.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ex_ic.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ex_ic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_about.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_about.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_app.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_app.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_apply.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_apply.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_approval.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_approval.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_benefit.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_benefit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_calendar.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_calendar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_cancel.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_cancel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_delegate.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_delegate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_enquiry.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_enquiry.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_enquirybk.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_enquirybk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_expense.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_expense.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_menu_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_menu_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_menu_about.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_menu_about.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_menu_help.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_menu_help.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_menu_home.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_menu_home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_menu_language.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_menu_language.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_menu_logout.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_menu_logout.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_overtime.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_overtime.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_overtime_reject.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_overtime_reject.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_plan.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_plan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_request_for_payment.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_request_for_payment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_saved_claim.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_saved_claim.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_welcome.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ic_welcome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ico_del.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ico_del.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/icon_add.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/icon_add.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/icon_backbk.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/icon_backbk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/icon_minus.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/icon_minus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/icon_my_leave.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/icon_my_leave.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/l524.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/l524.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/lang_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/lang_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/logo_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/logo_p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_animal_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_animal_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_btn_apply_leave_attach.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_btn_apply_leave_attach.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_btn_apply_leave_cam.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_btn_apply_leave_cam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_btn_apply_leave_submit.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_btn_apply_leave_submit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_button_cancelation.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_button_cancelation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_calendar_cell1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_calendar_cell1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_calendar_cell2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_calendar_cell2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_calendar_cell_overtime1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_calendar_cell_overtime1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_calendar_cell_overtime2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_calendar_cell_overtime2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_calendar.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_calendar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_checkbox.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_checkbox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_enq_expense_e.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_enq_expense_e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_enq_expense_m.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_enq_expense_m.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_enq_expense_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_enq_expense_p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_hospital_leave_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_hospital_leave_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_leave_apply.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_leave_apply.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_leave_approval.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_leave_approval.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_leave_calendar.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_leave_calendar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_leave_cancel.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_leave_cancel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_leave_delegate.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_leave_delegate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_leave_enquiry.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_leave_enquiry.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_leave_plan.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_leave_plan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_menu_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_menu_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_menu_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_menu_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_sick_leave_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_sick_leave_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_sick_leave_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_sick_leave_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_spinner.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_spinner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_spinner_view.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_spinner_view.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_spinnerbk.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_spinnerbk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_v.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_v.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ic_x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_logo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_logo_old.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_logo_old.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_pr_logo_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_pr_logo_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_animal.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_animal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_apply_leave.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_apply_leave.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_change_pass.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_change_pass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_logo_old.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_logo_old.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_message_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_message_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_my_claim.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_my_claim.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_my_leave.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_my_leave.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_my_payroll.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_my_payroll.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_my_profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_my_profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_my_tms.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_my_tms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_next_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_next_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_refresh_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_refresh_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_submit_medical.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_submit_medical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_submit_overtime.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_submit_overtime.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_view_payslip.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_view_payslip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_view_roster.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_ss_view_roster.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_tms.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_tms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_tms_calendar_cell1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/n_tms_calendar_cell1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ot709.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ot709.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ot710.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ot710.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ot711.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ot711.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ot712.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ot712.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ot713.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ot713.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/overtime_arrow_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/overtime_arrow_left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/overtime_arrow_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/overtime_arrow_right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/pm727.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/pm727.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/pm728.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/pm728.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/pm729.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/pm729.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/pm730.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/pm730.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/pm731.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/pm731.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/pro682.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/pro682.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/pro683.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/pro683.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/processbk.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/processbk.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/req_pay_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/req_pay_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/sc1009.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/sc1009.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/sc721.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/sc721.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/slide_ic_overtime.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/slide_ic_overtime.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_apply_leave.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_apply_leave.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_apply_leave_dis.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_apply_leave_dis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_change_pass.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_change_pass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_change_pass_dis.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_change_pass_dis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_flower.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_flower.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_flower_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_flower_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_flower_2_dis.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_flower_2_dis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_flower_dis.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_flower_dis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_my_claims.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_my_claims.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_my_leave.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_my_leave.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_my_payroll.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_my_payroll.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_my_payroll_dis.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_my_payroll_dis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_my_profile_dis.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_my_profile_dis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_my_tms_dis.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_my_tms_dis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_my_training_dis.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_my_training_dis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_submit_expenses.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_submit_expenses.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_submit_expenses_dis.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_submit_expenses_dis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_submit_medical.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_submit_medical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_submit_medical_dis.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_submit_medical_dis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_submit_overtime.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_submit_overtime.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_submit_overtime_dis.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_submit_overtime_dis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_submit_overtime_disbk.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_submit_overtime_disbk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_view_payslip.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_view_payslip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_view_payslip_dis.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_view_payslip_dis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_view_roster.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_view_roster.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_view_roster_dis.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/ss_view_roster_dis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/tab_divider.9.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/tab_divider.9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/tms733.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/tms733.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/tms904.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/images/tms904.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/accounting.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/accounting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/angular-route.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/angular-route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/angular-sanitize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/angular-sanitize.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/angular-touch.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/angular-touch.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/angular.1.2.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/angular.1.2.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/angular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/angular.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/autoNumeric.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/autoNumeric.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/controllers/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/controllers/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/controllers/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/controllers/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/controllers/myLeave.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/controllers/myLeave.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/controllers/myPayroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/controllers/myPayroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/controllers/myProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/controllers/myProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/controllers/myTms.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/controllers/myTms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/dFormat.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/dFormat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/fastclick.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/fastclick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/jMonthCalendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/jMonthCalendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/jquery-1.10.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/jquery-1.10.2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/jquery.actual.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/jquery.actual.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/jquery.hotkeys.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/jquery.hotkeys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/jquery.mobile-1.4.5.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/jquery.mobile-1.4.5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/jstorage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/jstorage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/megapix-image.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/megapix-image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/rippler.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/rippler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/toastr.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/js/toastr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/lang/lang1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/lang/lang1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/lang/lang10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/lang/lang10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/lang/lang2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/lang/lang2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/lang/lang3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/lang/lang3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/lang/lang4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/lang/lang4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/plugins/com.pylonproducts.wifiwizard/www/WifiWizard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/plugins/com.pylonproducts.wifiwizard/www/WifiWizard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit-apply.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit-approval.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit-approval.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit-attach.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit-attach.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit-cancellation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit-cancellation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit-delegate.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit-delegate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit-enquiry-view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit-enquiry-view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit-enquiry.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit-enquiry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-benefit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-overtime-apply-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-overtime-apply-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-overtime-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-overtime-apply.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-overtime-approval.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-overtime-approval.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-overtime-cancellation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-overtime-cancellation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-overtime-delegate.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-overtime-delegate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-overtime-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-overtime-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-overtime-enquiry.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-overtime-enquiry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-overtime.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-overtime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement-apply.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement-approval.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement-approval.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement-attach.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement-attach.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement-cancellation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement-cancellation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement-delegate.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement-delegate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement-enquiry-view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement-enquiry-view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement-enquiry.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement-enquiry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-reimbursement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment-apply.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment-approval.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment-approval.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment-attach.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment-attach.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment-cancellation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment-cancellation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment-delegate.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment-delegate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment-enquiry-view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment-enquiry-view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment-enquiry.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment-enquiry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/claim-request-for-payment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/date-picker.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/date-picker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/date-time-picker.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/date-time-picker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/keyboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/keyboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-admin-approval.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-admin-approval.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-apply.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-approval.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-approval.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-calendar-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-calendar-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-cancellation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-cancellation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-delegate.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-delegate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-enquiry-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-enquiry-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-enquiry.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-enquiry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-legend.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-legend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-plan-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-plan-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-plan.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/leave-plan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/my-claims.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/my-claims.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/my-leave.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/my-leave.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/my-payroll.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/my-payroll.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/my-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/my-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/my-tms.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/my-tms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/payroll-cp8a.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/payroll-cp8a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/payroll-payslip.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/payroll-payslip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/payroll-pcb2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/payroll-pcb2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/profile-change-pass.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/profile-change-pass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/time-picker.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/time-picker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/tms-clock-on-behalf.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/tms-clock-on-behalf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/tms-clockings-enquiry.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/tms-clockings-enquiry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/tms-mobile-mac-address.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/tms-mobile-mac-address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/tms-roster-enquiry.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/Payroll2U.app/www/templates/tms-roster-enquiry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/include/Cordova/CDVAvailability.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/include/Cordova/CDVAvailability.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/include/Cordova/CDVPlugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/include/Cordova/CDVPlugin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/include/Cordova/CDVViewController.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/include/Cordova/CDVViewController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/include/Cordova/NSData+Base64.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/include/Cordova/NSData+Base64.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/emulator/libCordova.a" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/emulator/libCordova.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-aryhjdmxwdrnyaaenqkdwxtmodme/CordovaLib_Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-aryhjdmxwdrnyaaenqkdwxtmodme/CordovaLib_Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-aryhjdmxwdrnyaaenqkdwxtmodme/CordovaLib_Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-aryhjdmxwdrnyaaenqkdwxtmodme/CordovaLib_Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-aryhjdmxwdrnyaaenqkdwxtmodme/CordovaLib_Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-bxfqjswtxledmgdqqlnhlhujdjcf/CordovaLib_Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-bxfqjswtxledmgdqqlnhlhujdjcf/CordovaLib_Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-bxfqjswtxledmgdqqlnhlhujdjcf/CordovaLib_Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-bxfqjswtxledmgdqqlnhlhujdjcf/CordovaLib_Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-bxfqjswtxledmgdqqlnhlhujdjcf/CordovaLib_Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-cgumiksesbmqfigxjcqupoqawnyw/CordovaLib_Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-cgumiksesbmqfigxjcqupoqawnyw/CordovaLib_Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-cgumiksesbmqfigxjcqupoqawnyw/CordovaLib_Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-cgumiksesbmqfigxjcqupoqawnyw/CordovaLib_Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-cgumiksesbmqfigxjcqupoqawnyw/CordovaLib_Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-dvxejyrrprlslgbtlfxvinshrbuw/CordovaLib_Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-dvxejyrrprlslgbtlfxvinshrbuw/CordovaLib_Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-dvxejyrrprlslgbtlfxvinshrbuw/CordovaLib_Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-dvxejyrrprlslgbtlfxvinshrbuw/CordovaLib_Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-dvxejyrrprlslgbtlfxvinshrbuw/CordovaLib_Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-eqnnlwnmdfqenbggpkhgknshwlyu/CordovaLib_Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-eqnnlwnmdfqenbggpkhgknshwlyu/CordovaLib_Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-eqnnlwnmdfqenbggpkhgknshwlyu/CordovaLib_Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-eqnnlwnmdfqenbggpkhgknshwlyu/CordovaLib_Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-eqnnlwnmdfqenbggpkhgknshwlyu/CordovaLib_Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-ffblouxbbsveomblgyizegokabyw/CordovaLib_Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-ffblouxbbsveomblgyizegokabyw/CordovaLib_Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-ffblouxbbsveomblgyizegokabyw/CordovaLib_Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-ffblouxbbsveomblgyizegokabyw/CordovaLib_Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-ffblouxbbsveomblgyizegokabyw/CordovaLib_Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-ggsycibboiddicbhvwcwdrpmyzch/CordovaLib_Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-ggsycibboiddicbhvwcwdrpmyzch/CordovaLib_Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-ggsycibboiddicbhvwcwdrpmyzch/CordovaLib_Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-ggsycibboiddicbhvwcwdrpmyzch/CordovaLib_Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/CordovaLib_Prefix-ggsycibboiddicbhvwcwdrpmyzch/CordovaLib_Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-ahplxszjeqyrrdbolbpilhlprdex/Payroll2U-Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-ahplxszjeqyrrdbolbpilhlprdex/Payroll2U-Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-ahplxszjeqyrrdbolbpilhlprdex/Payroll2U-Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-ahplxszjeqyrrdbolbpilhlprdex/Payroll2U-Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-ahplxszjeqyrrdbolbpilhlprdex/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-alavixyczxkzxlbkjhcribwnpcrg/Payroll2U-Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-alavixyczxkzxlbkjhcribwnpcrg/Payroll2U-Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-alavixyczxkzxlbkjhcribwnpcrg/Payroll2U-Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-alavixyczxkzxlbkjhcribwnpcrg/Payroll2U-Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-alavixyczxkzxlbkjhcribwnpcrg/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-angigoiptbdpvbaxliwvlliqcaiv/Payroll2U-Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-angigoiptbdpvbaxliwvlliqcaiv/Payroll2U-Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-angigoiptbdpvbaxliwvlliqcaiv/Payroll2U-Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-angigoiptbdpvbaxliwvlliqcaiv/Payroll2U-Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-angigoiptbdpvbaxliwvlliqcaiv/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-bufjqknwxbgbfbgyoghjblqrlcza/Payroll2U-Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-bufjqknwxbgbfbgyoghjblqrlcza/Payroll2U-Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-bufjqknwxbgbfbgyoghjblqrlcza/Payroll2U-Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-bufjqknwxbgbfbgyoghjblqrlcza/Payroll2U-Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-bufjqknwxbgbfbgyoghjblqrlcza/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-cavkzuycsphkcjdsgrxgufbayrfc/Payroll2U-Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-cavkzuycsphkcjdsgrxgufbayrfc/Payroll2U-Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-cavkzuycsphkcjdsgrxgufbayrfc/Payroll2U-Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-cavkzuycsphkcjdsgrxgufbayrfc/Payroll2U-Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-cavkzuycsphkcjdsgrxgufbayrfc/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-cdkoatuthjgrhubyvexqvosgvonv/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-cxbhrcnitremqdgieexddirhqqsv/Payroll2U-Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-cxbhrcnitremqdgieexddirhqqsv/Payroll2U-Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-cxbhrcnitremqdgieexddirhqqsv/Payroll2U-Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-cxbhrcnitremqdgieexddirhqqsv/Payroll2U-Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-cxbhrcnitremqdgieexddirhqqsv/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-cxkynpcjuuopzqfzzihtxlbcswhg/Payroll2U-Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-cxkynpcjuuopzqfzzihtxlbcswhg/Payroll2U-Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-cxkynpcjuuopzqfzzihtxlbcswhg/Payroll2U-Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-cxkynpcjuuopzqfzzihtxlbcswhg/Payroll2U-Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-cxkynpcjuuopzqfzzihtxlbcswhg/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-dlcqypjlvfbigrbndnetjmheyvrn/Payroll2U-Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-dlcqypjlvfbigrbndnetjmheyvrn/Payroll2U-Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-dlcqypjlvfbigrbndnetjmheyvrn/Payroll2U-Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-dlcqypjlvfbigrbndnetjmheyvrn/Payroll2U-Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-dlcqypjlvfbigrbndnetjmheyvrn/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-egdtdlkcnlyixrbzhbeakpjoohfc/Payroll2U-Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-egdtdlkcnlyixrbzhbeakpjoohfc/Payroll2U-Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-egdtdlkcnlyixrbzhbeakpjoohfc/Payroll2U-Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-egdtdlkcnlyixrbzhbeakpjoohfc/Payroll2U-Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-egdtdlkcnlyixrbzhbeakpjoohfc/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-enuxfjxabednzfdpfpharnttmncd/Payroll2U-Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-enuxfjxabednzfdpfpharnttmncd/Payroll2U-Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-enuxfjxabednzfdpfpharnttmncd/Payroll2U-Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-enuxfjxabednzfdpfpharnttmncd/Payroll2U-Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-enuxfjxabednzfdpfpharnttmncd/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-exoyobbrjpphdneeanyoqtwjbfbp/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fgqvmdwvezvpppeqvspzwmkrqfcs/Payroll2U-Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fgqvmdwvezvpppeqvspzwmkrqfcs/Payroll2U-Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fgqvmdwvezvpppeqvspzwmkrqfcs/Payroll2U-Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fgqvmdwvezvpppeqvspzwmkrqfcs/Payroll2U-Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fgqvmdwvezvpppeqvspzwmkrqfcs/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fkwntooncsxczqbpmxnkodflygyt/Payroll2U-Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fkwntooncsxczqbpmxnkodflygyt/Payroll2U-Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fkwntooncsxczqbpmxnkodflygyt/Payroll2U-Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fkwntooncsxczqbpmxnkodflygyt/Payroll2U-Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fkwntooncsxczqbpmxnkodflygyt/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fphxgryfepnadzcdiqkwbdajvqti/Payroll2U-Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fphxgryfepnadzcdiqkwbdajvqti/Payroll2U-Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fphxgryfepnadzcdiqkwbdajvqti/Payroll2U-Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fphxgryfepnadzcdiqkwbdajvqti/Payroll2U-Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fphxgryfepnadzcdiqkwbdajvqti/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fvjxkxjyhszdxpabtjzuyooegqjg/Payroll2U-Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fvjxkxjyhszdxpabtjzuyooegqjg/Payroll2U-Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fvjxkxjyhszdxpabtjzuyooegqjg/Payroll2U-Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fvjxkxjyhszdxpabtjzuyooegqjg/Payroll2U-Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-fvjxkxjyhszdxpabtjzuyooegqjg/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-gjzlykooicipvifvelqfhunlolkc/Payroll2U-Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-gjzlykooicipvifvelqfhunlolkc/Payroll2U-Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-gjzlykooicipvifvelqfhunlolkc/Payroll2U-Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-gjzlykooicipvifvelqfhunlolkc/Payroll2U-Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-gjzlykooicipvifvelqfhunlolkc/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-haoduliahkysfsgfcpvypakisvqo/Payroll2U-Prefix.pch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-haoduliahkysfsgfcpvypakisvqo/Payroll2U-Prefix.pch.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-haoduliahkysfsgfcpvypakisvqo/Payroll2U-Prefix.pch.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-haoduliahkysfsgfcpvypakisvqo/Payroll2U-Prefix.pch.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/sharedpch/Payroll2U-Prefix-haoduliahkysfsgfcpvypakisvqo/Payroll2U-Prefix.pch.pch.hash-criteria" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/cordova/build-debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/cordova/build-debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/cordova/build-release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/cordova/build-release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/cordova/build.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/cordova/build.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/cordova/lib/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/cordova/lib/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/cordova/lib/check_reqs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/cordova/lib/check_reqs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/cordova/lib/copy-www-build-step.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/cordova/lib/list-devices" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/cordova/lib/list-devices" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/cordova/lib/list-emulator-images" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/cordova/lib/list-emulator-images" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/cordova/lib/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/cordova/lib/run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/cordova/version" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/cordova/version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/frameworks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/frameworks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/ios.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/ios.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/platform_www/cordova.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/platform_www/cordova.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/platform_www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/platform_www/cordova_plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/platform_www/plugins/com.pylonproducts.wifiwizard/www/WifiWizard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/platform_www/plugins/com.pylonproducts.wifiwizard/www/WifiWizard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/platform_www/plugins/cordova-plugin-camera-preview/www/CameraPreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/www/cordova.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/www/cordova.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/www/cordova_plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/www/js/controllers/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/www/js/controllers/myPayroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/www/js/controllers/myPayroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/www/plugins/com.pylonproducts.wifiwizard/www/WifiWizard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/www/plugins/com.pylonproducts.wifiwizard/www/WifiWizard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/www/plugins/cordova-plugin-camera-preview/www/CameraPreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/com.pylonproducts.wifiwizard/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/com.pylonproducts.wifiwizard/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/com.pylonproducts.wifiwizard/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/com.pylonproducts.wifiwizard/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/com.pylonproducts.wifiwizard/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/com.pylonproducts.wifiwizard/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/com.pylonproducts.wifiwizard/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/com.pylonproducts.wifiwizard/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/com.pylonproducts.wifiwizard/src/android/src/com/pylonproducts/wifiwizard/WifiWizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/com.pylonproducts.wifiwizard/src/android/src/com/pylonproducts/wifiwizard/WifiWizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/com.pylonproducts.wifiwizard/src/ios/NXWWifiWizard.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/com.pylonproducts.wifiwizard/src/ios/NXWWifiWizard.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/com.pylonproducts.wifiwizard/src/ios/NXWWifiWizard.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/com.pylonproducts.wifiwizard/src/ios/NXWWifiWizard.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/com.pylonproducts.wifiwizard/www/WifiWizard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/com.pylonproducts.wifiwizard/www/WifiWizard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/com.synconset.imagepicker/src/android/com/synconset/ImagePicker/FakeR.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/com.synconset.imagepicker/src/android/com/synconset/ImagePicker/FakeR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/cordova-plugin-app-version/www/blackberry10/AppVersionProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/cordova-plugin-app-version/www/blackberry10/AppVersionProxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/cordova-plugin-firebase-analytics/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/cordova-plugin-firebase-analytics/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/cordova-plugin-firebase-analytics/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/cordova-plugin-firebase-analytics/plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/cordova-plugin-firebase-analytics/src/android/FirebaseAnalyticsPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/cordova-plugin-firebase-analytics/src/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/cordova-plugin-firebase-analytics/src/ios/FirebaseAnalyticsPlugin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/cordova-plugin-firebase-analytics/src/ios/FirebaseAnalyticsPlugin.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/cordova-plugin-firebase-analytics/www/FirebaseAnalytics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/fetch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/fetch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/ios.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/ios.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/org.apache.cordova.wifiinfo/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/org.apache.cordova.wifiinfo/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plugins/org.apache.cordova.wifiinfo/src/android/cordovaWifiInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/org.apache.cordova.wifiinfo/src/android/cordovaWifiInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../www/js/controllers/myPayroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../www/js/controllers/myPayroll.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/outputs/apk/p2u-prod-6.2.6(3).apk">
+          <provider selected="true" editor-type-id="apk-viewer" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>28</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="20" />
+    <option name="y" value="43" />
+    <option name="width" value="1400" />
+    <option name="height" value="837" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="662e5030-4f48-48fa-9a13-c16addd71e0a" name="Default" comment="" />
+      <created>1538447377097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538447377097</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="20" y="43" width="1400" height="837" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Resources Explorer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Captures" order="2" weight="0.25" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32751676" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32884097" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32884097" />
+      <window_info active="true" anchor="bottom" id="Build" order="10" visible="true" weight="0.32885906" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Gradle" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build/outputs/apk/p2u-prod-6.2.6(3).apk">
+      <provider selected="true" editor-type-id="apk-viewer" />
+    </entry>
+  </component>
+</project>
