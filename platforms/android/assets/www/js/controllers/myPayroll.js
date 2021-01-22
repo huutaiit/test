@@ -10,7 +10,7 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
       name: $rootScope.lang.mypayroll.payslip.tt,
       description: $rootScope.lang.mypayroll.payslip.ct
     },
-    {id: 695, href: "payrollCP8A", icon: "pro682.png", name: "CP8A", description: $rootScope.lang.mypayroll.cp8a.ct},
+    {id: 695, href: "payrollCP8A", icon: "pro682.png", name: "EA", description: $rootScope.lang.mypayroll.cp8a.ct},
     {id: 1246, href: "payrollPCB2", icon: "pro682.png", name: "PCB2", description: $rootScope.lang.mypayroll.pcb2.ct},
     {id: 691, href: "payrollIR8A", icon: "pro682.png", name: "IR8A", description: $rootScope.lang.mypayroll.r8a.ct},
     {id: 692, href: "payrollIR8S", icon: "pro682.png", name: "IR8S", description: $rootScope.lang.mypayroll.r8s.ct},
@@ -518,7 +518,7 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
 
       var url = $rootScope.GATEWAYURL + "api/MyPayrollMYPCB2/GetDetails?Year=" + payslip.id;
       console.log(payslip.FileName);
-      var fileName = "mycp8a" + payslip.id + '.pdf';
+      var fileName = "MYPCB2" + payslip.id + '.pdf';
       //fileName = fileName.replace(",","");
       if (device.platform == "Android") {
 
@@ -677,7 +677,7 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
 
       var url = $rootScope.GATEWAYURL + "api/MyPayrollIR8A/GetDetails?Year=" + payslip.id;
       console.log(payslip.FileName);
-      var fileName = "mycp8a" + payslip.id + '.pdf';
+      var fileName = "IR8A" + payslip.id + '.pdf';
       //fileName = fileName.replace(",","");
       if (device.platform == "Android") {
 
@@ -831,7 +831,7 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
 
       var url = $rootScope.GATEWAYURL + "api/MyPayrollIR8S/GetDetails?Year=" + payslip.id;
       console.log(payslip.FileName);
-      var fileName = "mycp8a" + payslip.id + '.pdf';
+      var fileName = "IR8S" + payslip.id + '.pdf';
       //fileName = fileName.replace(",","");
       if (device.platform == "Android") {
 
@@ -985,7 +985,7 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
 
       var url = $rootScope.GATEWAYURL + "api/MyPayrollAppendix8A/GetDetails?Year=" + payslip.id;
       console.log(payslip.FileName);
-      var fileName = "mycp8a" + payslip.id + '.pdf';
+      var fileName = "Appendix8A" + payslip.id + '.pdf';
       //fileName = fileName.replace(",","");
       if (device.platform == "Android") {
 
@@ -1138,7 +1138,7 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
 
       var url = $rootScope.GATEWAYURL + "api/MyPayrollAppendix8B/GetDetails?Year=" + payslip.id;
       console.log(payslip.FileName);
-      var fileName = "mycp8a" + payslip.id + '.pdf';
+      var fileName = "Appendix8B" + payslip.id + '.pdf';
       //fileName = fileName.replace(",","");
       if (device.platform == "Android") {
 
@@ -1293,7 +1293,7 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
 
       var url = $rootScope.GATEWAYURL + "api/MyPayrollTaxExemption/GetDetails?Year=" + payslip.id;
       console.log(payslip.FileName);
-      var fileName = "mycp8a" + payslip.id + '.pdf';
+      var fileName = "TaxExemption" + payslip.id + '.pdf';
       //fileName = fileName.replace(",","");
       if (device.platform == "Android") {
 
@@ -1353,11 +1353,11 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
     case "/payrollIR8S":
       processPayrollIR8S();
       break;
-    case "/payrollIR8S":
+    case "/payrollAppendix8A":
       processPayrollAppendix8A();
       break;
 
-    case "/payrollIR8A":
+    case "/payrollAppendix8B":
       processPayrollAppendix8B();
       break;
 

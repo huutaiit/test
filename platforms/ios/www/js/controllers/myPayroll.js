@@ -677,7 +677,7 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
 
       var url = $rootScope.GATEWAYURL + "api/MyPayrollIR8A/GetDetails?Year=" + payslip.id;
       console.log(payslip.FileName);
-      var fileName = "mycp8a" + payslip.id + '.pdf';
+      var fileName = "IR8A" + payslip.id + '.pdf';
       //fileName = fileName.replace(",","");
       if (device.platform == "Android") {
 

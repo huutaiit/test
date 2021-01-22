@@ -567,20 +567,20 @@
 			"ct":"View your current and previous months' payslips"
 		},
 		"cp8a":{
-        "tt":"CP8A",
-        "ct":"View your current and previous years' CP8A form"
+        "tt":"EA",
+        "ct":"View your current and previous years' EA form"
     },
     "pcb2":{
         "tt":"PCB2",
         "ct":"View your current and previous years' PCB2 form"
     },
     "r8a":{
-          "tt":"R8A",
-          "ct":"View your current and previous years' R8A form"
+          "tt":"IR8A",
+          "ct":"View your current and previous years' IR8A form"
     },
     "r8s":{
-            "tt":"R8S",
-            "ct":"View your current and previous years' R8s form"
+            "tt":"IR8S",
+            "ct":"View your current and previous years' IR8S form"
     },
     "appendix8A":{
             "tt":"Appendix8A",
