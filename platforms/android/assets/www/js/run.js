@@ -1,7 +1,7 @@
 //Define an angular module for our app
 var App = angular.module('App', ["ngRoute","ngSanitize","ngTouch"]).run(function( $location,$rootScope,$timeout,ProcessService) {
-  // $rootScope.GATEWAYURL = "https://hybridapp.payroll2u.com/";
-  $rootScope.GATEWAYURL = "https://uatsvrhybrid3.payroll2u.com/"
+  $rootScope.GATEWAYURL = "https://hybridapp.payroll2u.com/";
+  // $rootScope.GATEWAYURL = "https://uatsvrhybrid3.payroll2u.com/"
   // $rootScope.GATEWAYURL =  "https://devhybrid2.payroll2u.com/"
   // $rootScope.GATEWAYURL = "https://devsvrhybrid.payroll2u.com/"
   // $rootScope.GATEWAYURL = "https://uatsvrhybrid.payroll2u.com/"
@@ -26,7 +26,7 @@ var App = angular.module('App', ["ngRoute","ngSanitize","ngTouch"]).run(function
     //   console.log("Google Analytics Unavailable");
     // }
     try {
-      OurCodeWorldpreventscreenshots.disable();
+      // OurCodeWorldpreventscreenshots.disable();
     }
     catch (e) {
 
@@ -47,9 +47,9 @@ var App = angular.module('App', ["ngRoute","ngSanitize","ngTouch"]).run(function
     checkLocation  =  checkLocation.slice(1);
     // window.ga && window.ga.trackView(checkLocation);
 
-    if(cordova.plugins.firebase && cordova.plugins.firebase.analytics){
-      cordova.plugins.firebase.analytics.logEvent(checkLocation);
-    }
+    // if(cordova.plugins.firebase && cordova.plugins.firebase.analytics){
+    //   cordova.plugins.firebase.analytics.logEvent(checkLocation);
+    // }
     if(checkLocation =="Home" || checkLocation =="Login"){
       $rootScope.checkLocation = "notnav";
       $("#main").height("100%");

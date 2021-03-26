@@ -239,7 +239,7 @@ $scope.listMenuClaim = [
 		 $scope.OTTypes = OTData.OTTypes;
 		 $scope.WeekOT = OTData.WeekOT;
 
-
+      console.log('OTTypes', $scope.OTTypes)
 		 var PhDays = OTData.ListData.PhDays;
 
 		calendarDetail = JSON.parse(sessionStorage.getItem('calendarDetail'));
@@ -295,6 +295,8 @@ $scope.listMenuClaim = [
 	}
 	 $scope.selectType = function(item){
 		  $scope.field.type = item;
+     $scope.field.from = '';
+     $scope.field.to = ''
 		  $scope.field.approvingOfficer = {ApprovalId:item.ApprovalId,ApprovalName:item.ApprovalName}
 
 	 }
@@ -324,7 +326,10 @@ $scope.listMenuClaim = [
       // yêu cầu bỏ dòng này 07/02/2020 (ko set lại ngay chọn cái nào cố định luôn cái đó)
       //$scope.field.date = DateTimeService.dateFormat($scope.field.fullDate, "fullDate");
 
-      num =   DateTimeService.daydiff(fromTime, toTime);
+
+        num = DateTimeService.daydiff(fromTime, toTime);
+
+
 
 			/*if(num<=1){
 				 if(type=="from"){
@@ -344,12 +349,16 @@ $scope.listMenuClaim = [
 				return false;
 			}
 			 else{*/
-
-				duration =  (num-1)*24>0? (num-1)*24:0;
+      if($scope.field.type.Claim==1){
+        duration = 1;
+      }
+      else{
+        duration =  (num-1)*24>0? (num-1)*24:0;
+      }
 
 				typeDuration = Math.round(duration) >1 ? $rootScope.lang.general.hours : $rootScope.lang.general.hour;
 		  		duration = accounting.formatNumber(duration, 2, ',', '.');
-
+          console.log('duration',duration)
 			   $scope.field.duration = {num:duration,description:accounting.formatNumber(duration,2, ',', '.')+" "+typeDuration};
 
 
@@ -360,6 +369,9 @@ $scope.listMenuClaim = [
 			//}
 		 }
 		 else{
+      if($scope.field.type.Claim==1){
+        $scope.field.duration = {num:1,description:accounting.formatNumber(1,2, ',', '.')+" Day(s)"};
+      }
 			  $(".overlay").hide();
 			   $(".modal").hide();
 			   //$(".scroll").css({"overflow":"auto"}); // fix android 4.2.2

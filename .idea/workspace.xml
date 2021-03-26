@@ -3,32 +3,44 @@
   <component name="ChangeListManager">
     <list default="true" id="61a473a2-ce67-484d-abb0-bc9106526daf" name="Default Changelist" comment="fix bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myClaim.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myClaim.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myPayroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myPayroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang/lang8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-plan-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-plan-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/payroll-appendix8a.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/payroll-appendix8a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/payroll-appendix8b.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/payroll-appendix8b.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/payroll-ir8a.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/payroll-ir8a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/payroll-ir8s.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/payroll-ir8s.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/payroll-tax-exemption.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/payroll-tax-exemption.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang.zip" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/claim-overtime-apply-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/claim-overtime-apply-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Payroll2U.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/Payroll2U.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/Payroll2U.xcworkspace/xcuserdata/nvlhqlt3013.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/Payroll2U.xcworkspace/xcuserdata/nvlhqlt3013.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/Payroll2U/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/Payroll2U/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/controllers/myClaim.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers/myClaim.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/controllers/myPayroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers/myPayroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/ios/www/templates/leave-plan-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/templates/leave-plan-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/lang.zip" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/lang.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/templates/claim-overtime-apply-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/templates/claim-overtime-apply-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/controllers/myClaim.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/myClaim.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/js/controllers/myPayroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/myPayroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/templates/leave-plan-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/leave-plan-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/lang.zip" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/templates/claim-overtime-apply-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/claim-overtime-apply-detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,29 +167,84 @@
       <workItem from="1610332624190" duration="1679000" />
       <workItem from="1610952580369" duration="755000" />
       <workItem from="1611110060246" duration="1437000" />
-      <workItem from="1611307355772" duration="1022000" />
+      <workItem from="1611307355772" duration="2409000" />
+      <workItem from="1611312160253" duration="211000" />
+      <workItem from="1611733323563" duration="187000" />
+      <workItem from="1612411777148" duration="1550000" />
+      <workItem from="1612414439879" duration="296000" />
+      <workItem from="1612427435425" duration="1362000" />
+      <workItem from="1612489020028" duration="5000" />
+      <workItem from="1612502970856" duration="862000" />
+      <workItem from="1612750843390" duration="4054000" />
+      <workItem from="1613021449119" duration="2551000" />
+      <workItem from="1613040282501" duration="835000" />
+      <workItem from="1613046648767" duration="2228000" />
+      <workItem from="1613557415027" duration="1219000" />
+      <workItem from="1613614122492" duration="3497000" />
+      <workItem from="1613630532904" duration="796000" />
+      <workItem from="1613633342127" duration="721000" />
+      <workItem from="1613644839058" duration="29000" />
+      <workItem from="1613708982535" duration="640000" />
+      <workItem from="1613722717778" duration="1776000" />
+      <workItem from="1613873846275" duration="525000" />
+      <workItem from="1614049916058" duration="1833000" />
+      <workItem from="1614129546035" duration="465000" />
+      <workItem from="1614216401509" duration="781000" />
+      <workItem from="1614226388572" duration="1146000" />
+      <workItem from="1614236446255" duration="3557000" />
+      <workItem from="1614306702021" duration="7591000" />
+      <workItem from="1614422945389" duration="3281000" />
+      <workItem from="1614562191080" duration="3137000" />
+      <workItem from="1614653293309" duration="6115000" />
+      <workItem from="1614758086648" duration="3264000" />
+      <workItem from="1614908001321" duration="485000" />
+      <workItem from="1615524059627" duration="87000" />
+      <workItem from="1616061428358" duration="734000" />
+      <workItem from="1616117203901" duration="74000" />
+      <workItem from="1616325050232" duration="4267000" />
+      <workItem from="1616462725749" duration="15000" />
+      <workItem from="1616551860090" duration="9029000" />
+      <workItem from="1616635693119" duration="2898000" />
+      <workItem from="1616643794048" duration="1162000" />
+      <workItem from="1616722313896" duration="266000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="421" y="106" key="CommitChangelistDialog2" timestamp="1609665694766">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state x="421" y="106" key="CommitChangelistDialog2/0.25.1792.1095@0.25.1792.1095" timestamp="1609665694766" />
-    <state x="180" y="120" key="DiffContextDialog" timestamp="1609665374516">
+    <state x="180" y="120" width="1433" height="876" key="DiffContextDialog" timestamp="1616644551930">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
+    <state x="180" y="120" width="1433" height="876" key="DiffContextDialog/-1920.25.1920.1055/0.25.1792.1095@0.25.1792.1095" timestamp="1616644551930" />
     <state x="180" y="120" key="DiffContextDialog/0.25.1792.1095@0.25.1792.1095" timestamp="1609665374516" />
     <state x="396" y="246" key="Vcs.Push.Dialog.v2" timestamp="1609666249759">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state x="396" y="246" key="Vcs.Push.Dialog.v2/0.25.1792.1095@0.25.1792.1095" timestamp="1609666249759" />
-    <state x="501" y="285" width="789" height="574" key="find.popup" timestamp="1610274058956">
+    <state x="100" y="125" width="1592" height="895" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1616643375088">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state x="501" y="285" width="789" height="574" key="find.popup/0.25.1792.1095@0.25.1792.1095" timestamp="1610274058956" />
+    <state x="100" y="125" width="1592" height="895" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.25.1920.1055/0.25.1792.1095@0.25.1792.1095" timestamp="1616643375088" />
+    <state x="501" y="285" width="789" height="574" key="find.popup" timestamp="1616566796846">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="501" y="285" width="789" height="574" key="find.popup/-1920.25.1920.1055/0.25.1792.1095@0.25.1792.1095" timestamp="1616566796846" />
+    <state x="501" y="285" width="789" height="574" key="find.popup/0.25.1792.1095@0.25.1792.1095" timestamp="1616409851488" />
   </component>
 </project>

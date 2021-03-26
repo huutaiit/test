@@ -88,16 +88,26 @@ App.service('DateTimeService',["$rootScope", function($rootScope) {
 
 	this.resetInternationalizationStrings = function(){
 		// Internationalization strings
-this.dateFormat.i18n = {
-    dayNames: [
-		$rootScope.lang.calendar.week.w_1, $rootScope.lang.calendar.week.w_2, $rootScope.lang.calendar.week.w_3, $rootScope.lang.calendar.week.w_4, $rootScope.lang.calendar.week.w_5, $rootScope.lang.calendar.week.w_6, $rootScope.lang.calendar.week.w_7,
-		$rootScope.lang.calendar.week_full.w_0, $rootScope.lang.calendar.week_full.w_1, $rootScope.lang.calendar.week_full.w_2, $rootScope.lang.calendar.week_full.w_3, $rootScope.lang.calendar.week_full.w_4, $rootScope.lang.calendar.week_full.w_5, $rootScope.lang.calendar.week_full.w_6
-	],
-    monthNames: [
-		$rootScope.lang.calendar.month.m_1, $rootScope.lang.calendar.month.m_2, $rootScope.lang.calendar.month.m_3, $rootScope.lang.calendar.month.m_4, $rootScope.lang.calendar.month.m_5, $rootScope.lang.calendar.month.m_6, $rootScope.lang.calendar.month.m_7, $rootScope.lang.calendar.month.m_8, $rootScope.lang.calendar.month.m_9, $rootScope.lang.calendar.month.m_10, $rootScope.lang.calendar.month.m_11, $rootScope.lang.calendar.month.m_12,
-		$rootScope.lang.calendar.month.m_1, $rootScope.lang.calendar.month.m_2,$rootScope.lang.calendar.month.m_3, $rootScope.lang.calendar.month.m_4, $rootScope.lang.calendar.month.m_5, $rootScope.lang.calendar.month.m_6, $rootScope.lang.calendar.month.m_7, $rootScope.lang.calendar.month.m_8, $rootScope.lang.calendar.month.m_9, $rootScope.lang.calendar.month.m_10, $rootScope.lang.calendar.month.m_11, $rootScope.lang.calendar.month.m_12
-	]
-};
+
+    this.dateFormat.i18n = {
+      dayNames: ["Sun", "Mon","Tue", "Wed", "Thu", "Fri", "Sat"],
+      monthNames: [
+        "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC", "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"
+      ]
+    };
+
+    if($rootScope.lang){
+      this.dateFormat.i18n = {
+        dayNames: [
+          $rootScope.lang.calendar.week.w_1, $rootScope.lang.calendar.week.w_2, $rootScope.lang.calendar.week.w_3, $rootScope.lang.calendar.week.w_4, $rootScope.lang.calendar.week.w_5, $rootScope.lang.calendar.week.w_6, $rootScope.lang.calendar.week.w_7,
+          $rootScope.lang.calendar.week_full.w_0, $rootScope.lang.calendar.week_full.w_1, $rootScope.lang.calendar.week_full.w_2, $rootScope.lang.calendar.week_full.w_3, $rootScope.lang.calendar.week_full.w_4, $rootScope.lang.calendar.week_full.w_5, $rootScope.lang.calendar.week_full.w_6
+        ],
+        monthNames: [
+          $rootScope.lang.calendar.month.m_1, $rootScope.lang.calendar.month.m_2, $rootScope.lang.calendar.month.m_3, $rootScope.lang.calendar.month.m_4, $rootScope.lang.calendar.month.m_5, $rootScope.lang.calendar.month.m_6, $rootScope.lang.calendar.month.m_7, $rootScope.lang.calendar.month.m_8, $rootScope.lang.calendar.month.m_9, $rootScope.lang.calendar.month.m_10, $rootScope.lang.calendar.month.m_11, $rootScope.lang.calendar.month.m_12,
+          $rootScope.lang.calendar.month.m_1, $rootScope.lang.calendar.month.m_2,$rootScope.lang.calendar.month.m_3, $rootScope.lang.calendar.month.m_4, $rootScope.lang.calendar.month.m_5, $rootScope.lang.calendar.month.m_6, $rootScope.lang.calendar.month.m_7, $rootScope.lang.calendar.month.m_8, $rootScope.lang.calendar.month.m_9, $rootScope.lang.calendar.month.m_10, $rootScope.lang.calendar.month.m_11, $rootScope.lang.calendar.month.m_12
+        ]
+      };
+    }
 	}
 this.dateFormat = function () {
     var token = /d{1,4}|m{1,4}|yy(?:yy)?|([HhMsTt])\1?|[LloSZ]|"[^"]*"|'[^']*'/g,

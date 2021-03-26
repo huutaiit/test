@@ -95,10 +95,12 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
       $scope.field.SSO_url = null;
       $scope.field.SSO_Token = null;
       var data = JSON.parse(result.data);
-      console.log("GetSSO",data.data.SSO_url)
-      $scope.field.SSO_url = data.data.SSO_url;
-      $scope.field.SSO_Token = data.data.SSO_Token;
-      $scope.SSO = data.data.SSO;
+      if(data.data && data.data.SSO_url){
+        $scope.field.SSO_url = data.data.SSO_url;
+        $scope.field.SSO_Token = data.data.SSO_Token;
+        $scope.SSO = data.data.SSO;
+      }
+
     })
     $scope.checkedSSO = true;
     setTimeout(function () {

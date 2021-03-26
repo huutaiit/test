@@ -212,8 +212,10 @@ push.on('error', function(e) {
         	};
 
 		   ProcessService.ajaxPost("Common/ChangeLanguage",JSON.stringify(param)).then(function(result) {
+
 				ProcessService.ajaxGetLocalSite($rootScope.GATEWAYURL+"resource/lang/lang"+idLang+".txt")
 					.then(function(result) {
+					  console.log('result',result)
 						$.jStorage.set("lang",result.data);
 						$rootScope.lang =  $.jStorage.get("lang");
 						$rootScope.processMenu();

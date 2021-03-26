@@ -127,9 +127,9 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
       // set status = 3 for current month (saw)
       $scope.year[$scope.currentYear["id"] - 2].month[$scope.currentMonth["id"] - 1].Status = 3;
 
-      window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function (fileSystem) {
+      window.requestFileSystem(LocalFileSystem.TEMPORARY, 0, function (fileSystem) {
 
-        folder = fileSystem.root.nativeURL + "Download/";
+        folder = fileSystem.root.nativeURL;
 
         var fileTransfer = new FileTransfer();
         var filePath = folder + fileName;
@@ -293,9 +293,9 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
 
     var downloadAndOpenPDF = function (url, fileName) {
       // set status = 3 for current month (saw)
-      window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function (fileSystem) {
+      window.requestFileSystem(LocalFileSystem.TEMPORARY, 0, function (fileSystem) {
 
-        var folder = fileSystem.root.nativeURL + "Download/";
+        var folder = fileSystem.root.nativeURL;
 
         var fileTransfer = new FileTransfer();
         var filePath = folder + fileName;
@@ -445,9 +445,9 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
 
     var downloadAndOpenPDF = function (url, fileName) {
       // set status = 3 for current month (saw)
-      window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function (fileSystem) {
+      window.requestFileSystem(LocalFileSystem.TEMPORARY, 0, function (fileSystem) {
 
-        var folder = fileSystem.root.nativeURL + "Download/";
+        var folder = fileSystem.root.nativeURL;
 
         var fileTransfer = new FileTransfer();
         var filePath = folder + fileName;
@@ -604,9 +604,9 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
 
     var downloadAndOpenPDF = function (url, fileName) {
       // set status = 3 for current month (saw)
-      window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function (fileSystem) {
+      window.requestFileSystem(LocalFileSystem.TEMPORARY, 0, function (fileSystem) {
 
-        var folder = fileSystem.root.nativeURL + "Download/";
+        var folder = fileSystem.root.nativeURL;
 
         var fileTransfer = new FileTransfer();
         var filePath = folder + fileName;
@@ -758,9 +758,9 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
 
     var downloadAndOpenPDF = function (url, fileName) {
       // set status = 3 for current month (saw)
-      window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function (fileSystem) {
+      window.requestFileSystem(LocalFileSystem.TEMPORARY, 0, function (fileSystem) {
 
-        var folder = fileSystem.root.nativeURL + "Download/";
+        var folder = fileSystem.root.nativeURL;
 
         var fileTransfer = new FileTransfer();
         var filePath = folder + fileName;
@@ -912,9 +912,9 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
 
     var downloadAndOpenPDF = function (url, fileName) {
       // set status = 3 for current month (saw)
-      window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function (fileSystem) {
+      window.requestFileSystem(LocalFileSystem.TEMPORARY, 0, function (fileSystem) {
 
-        var folder = fileSystem.root.nativeURL + "Download/";
+        var folder = fileSystem.root.nativeURL;
 
         var fileTransfer = new FileTransfer();
         var filePath = folder + fileName;
@@ -1065,9 +1065,9 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
 
     var downloadAndOpenPDF = function (url, fileName) {
       // set status = 3 for current month (saw)
-      window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function (fileSystem) {
+      window.requestFileSystem(LocalFileSystem.TEMPORARY, 0, function (fileSystem) {
 
-        var folder = fileSystem.root.nativeURL + "Download/";
+        var folder = fileSystem.root.nativeURL;
 
         var fileTransfer = new FileTransfer();
         var filePath = folder + fileName;
@@ -1220,9 +1220,9 @@ App.registerCtrl('myPayroll', function ($scope, $rootScope, ProcessService, $loc
 
     var downloadAndOpenPDF = function (url, fileName) {
       // set status = 3 for current month (saw)
-      window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function (fileSystem) {
+      window.requestFileSystem(LocalFileSystem.TEMPORARY, 0, function (fileSystem) {
 
-        var folder = fileSystem.root.nativeURL + "Download/";
+        var folder = fileSystem.root.nativeURL;
 
         var fileTransfer = new FileTransfer();
         var filePath = folder + fileName;
