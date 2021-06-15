@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="61a473a2-ce67-484d-abb0-bc9106526daf" name="Default Changelist" comment="fix bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterDir="false" />
@@ -11,36 +10,24 @@
       <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myClaim.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myClaim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myPayroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myPayroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myLeave.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myLeave.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/run.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/lang.zip" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lang.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/claim-overtime-apply-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/claim-overtime-apply-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-apply.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/Payroll2U.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/Payroll2U.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/Payroll2U.xcworkspace/xcuserdata/nvlhqlt3013.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/Payroll2U.xcworkspace/xcuserdata/nvlhqlt3013.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/ios/Payroll2U/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/Payroll2U/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/controllers/myClaim.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers/myClaim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/controllers/myPayroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers/myPayroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/controllers/myLeave.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers/myLeave.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/run.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/ios/www/lang.zip" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/lang.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/ios/www/templates/claim-overtime-apply-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/templates/claim-overtime-apply-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/templates/leave-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/templates/leave-apply.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/controllers/myClaim.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/myClaim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/controllers/myPayroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/myPayroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/controllers/myLeave.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/myLeave.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/run.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/lang.zip" beforeDir="false" afterPath="$PROJECT_DIR$/www/lang.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/templates/claim-overtime-apply-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/claim-overtime-apply-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/templates/leave-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/leave-apply.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +193,52 @@
       <workItem from="1616551860090" duration="9029000" />
       <workItem from="1616635693119" duration="2898000" />
       <workItem from="1616643794048" duration="1162000" />
-      <workItem from="1616722313896" duration="266000" />
+      <workItem from="1616722313896" duration="416000" />
+      <workItem from="1617005846926" duration="66000" />
+      <workItem from="1617076428629" duration="1581000" />
+      <workItem from="1617175399218" duration="5101000" />
+      <workItem from="1617242720024" duration="2163000" />
+      <workItem from="1617274975776" duration="3000" />
+      <workItem from="1617538166396" duration="29000" />
+      <workItem from="1617588907310" duration="3411000" />
+      <workItem from="1617605963055" duration="4427000" />
+      <workItem from="1617688964784" duration="3403000" />
+      <workItem from="1617864714491" duration="1709000" />
+      <workItem from="1617937911676" duration="596000" />
+      <workItem from="1617949073910" duration="850000" />
+      <workItem from="1618216875149" duration="1363000" />
+      <workItem from="1618364189918" duration="431000" />
+      <workItem from="1618382192618" duration="2168000" />
+      <workItem from="1618451184574" duration="38000" />
+      <workItem from="1619074103133" duration="1603000" />
+      <workItem from="1619430628974" duration="30000" />
+      <workItem from="1619593895458" duration="1571000" />
+      <workItem from="1619668607848" duration="14000" />
+      <workItem from="1619691572151" duration="1179000" />
+      <workItem from="1619755504212" duration="2792000" />
+      <workItem from="1619787302515" duration="1201000" />
+      <workItem from="1620097317384" duration="730000" />
+      <workItem from="1620637070037" duration="834000" />
+      <workItem from="1620695863002" duration="125000" />
+      <workItem from="1620715000819" duration="874000" />
+      <workItem from="1621069491153" duration="1183000" />
+      <workItem from="1621138366240" duration="900000" />
+      <workItem from="1621156542273" duration="4844000" />
+      <workItem from="1621217461116" duration="766000" />
+      <workItem from="1621237870731" duration="14000" />
+      <workItem from="1621831854218" duration="624000" />
+      <workItem from="1621837726582" duration="1997000" />
+      <workItem from="1621906851334" duration="574000" />
+      <workItem from="1621938371778" duration="2765000" />
+      <workItem from="1622001470332" duration="137000" />
+      <workItem from="1622012700735" duration="559000" />
+      <workItem from="1623469520522" duration="6331000" />
+      <workItem from="1623557856017" duration="785000" />
+      <workItem from="1623635169914" duration="1200000" />
+      <workItem from="1623644833953" duration="5829000" />
+      <workItem from="1623660267285" duration="4768000" />
+      <workItem from="1623667304514" duration="179000" />
+      <workItem from="1623719895843" duration="555000" />
     </task>
     <servers />
   </component>
@@ -224,27 +256,18 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="106" key="CommitChangelistDialog2" timestamp="1609665694766">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state x="421" y="106" key="CommitChangelistDialog2/0.25.1792.1095@0.25.1792.1095" timestamp="1609665694766" />
     <state x="180" y="120" width="1433" height="876" key="DiffContextDialog" timestamp="1616644551930">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state x="180" y="120" width="1433" height="876" key="DiffContextDialog/-1920.25.1920.1055/0.25.1792.1095@0.25.1792.1095" timestamp="1616644551930" />
-    <state x="180" y="120" key="DiffContextDialog/0.25.1792.1095@0.25.1792.1095" timestamp="1609665374516" />
-    <state x="396" y="246" key="Vcs.Push.Dialog.v2" timestamp="1609666249759">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state x="396" y="246" key="Vcs.Push.Dialog.v2/0.25.1792.1095@0.25.1792.1095" timestamp="1609666249759" />
     <state x="100" y="125" width="1592" height="895" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1616643375088">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state x="100" y="125" width="1592" height="895" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.25.1920.1055/0.25.1792.1095@0.25.1792.1095" timestamp="1616643375088" />
-    <state x="501" y="285" width="789" height="574" key="find.popup" timestamp="1616566796846">
+    <state x="501" y="285" width="789" height="574" key="find.popup" timestamp="1623663635215">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state x="501" y="285" width="789" height="574" key="find.popup/-1920.25.1920.1055/0.25.1792.1095@0.25.1792.1095" timestamp="1616566796846" />
-    <state x="501" y="285" width="789" height="574" key="find.popup/0.25.1792.1095@0.25.1792.1095" timestamp="1616409851488" />
+    <state x="501" y="285" width="789" height="574" key="find.popup/-1920.25.1920.1055/0.25.1792.1095@0.25.1792.1095" timestamp="1623663635215" />
+    <state x="501" y="285" width="789" height="574" key="find.popup/0.25.1792.1095@0.25.1792.1095" timestamp="1623494761937" />
   </component>
 </project>

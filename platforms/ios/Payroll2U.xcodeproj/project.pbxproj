@@ -1045,7 +1045,7 @@
 					"\"$(SRCROOT)/Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries\"",
 					"\"$(SRCROOT)/Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries\"",
 				);
-				MARKETING_VERSION = 6.3.6;
+				MARKETING_VERSION = 6.3.7;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,
@@ -1119,7 +1119,7 @@
 					"\"$(SRCROOT)/Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries\"",
 					"\"$(SRCROOT)/Payroll2U/Plugins/phonegap-plugin-push/GCM/Libraries\"",
 				);
-				MARKETING_VERSION = 6.3.6;
+				MARKETING_VERSION = 6.3.7;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,

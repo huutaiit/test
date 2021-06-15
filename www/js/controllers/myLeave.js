@@ -56,6 +56,8 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
       extent : "",
       fromDate : "",
       toDate : "",
+      expiredOn:"",
+      utiliesInLieu:"",
       TimeFr : "",
       TimeTo : "",
       duration : {
@@ -350,6 +352,33 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
 
           });
 
+        // cập nhật expiredOn = dateto+modelLeave.leaveType.Required.Ent_By
+        if($scope.modelLeave.leaveType.Required && $scope.modelLeave.leaveType.Required.InLieu_Expire && $scope.modelLeave.leaveType.Required.App_Type==2){
+         var expiredOn = angular.copy($scope.modelLeave.toDate);
+         console.log('expiredOn', $scope.modelLeave.leaveType.Required.InLieu_Expire)
+          expiredOn.setDate(expiredOn.getDate() + $scope.modelLeave.leaveType.Required.InLieu_Expire);
+          console.log('expiredOn', expiredOn)
+          $scope.modelLeave.expiredOn = expiredOn;
+        }
+
+        // get list utiliesInLieu
+        if($scope.modelLeave.fromDate && $scope.modelLeave.leaveType &&  $scope.modelLeave.leaveType.Required.App_Type==1){
+          var params = {
+            DateFr: DateTimeService.parseMilliSecondToUTC($scope.modelLeave.fromDate),
+            LcEntitle_Id:  $scope.modelLeave.leaveType.Required.LcEntitle_Id,
+          }
+          console.log('params',params)
+          ProcessService.ajaxPost("MyLeaveApplyLeave/GetInlieuLeaveApplication",JSON.stringify(params)).then(function (result) {
+            var data = JSON.parse(result.data);
+            console.log('datadata',data)
+            if(data && data.length>0) {
+                $scope.listUtiliesInLieu = data;
+                $scope.modelLeave.utiliesInLieu = data[0];
+            }
+          })
+
+        }
+
       }
 
 
@@ -375,6 +404,10 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
       $scope.modelLeave["extent"] = value;
 
     }
+    $scope.selectUtiliesInLieu = function(item) {
+        $scope.modelLeave.utiliesInLieu = item;
+    }
+
     $scope.selectLeaveType = function(item) {
       $scope.modelLeave.leaveType = item;
       $scope.modelLeave.blockLv = item.Required.Block_Lv==1?true:false;
@@ -393,6 +426,8 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
           $scope.modelLeave.extent = $scope.listExtent[0];
           $scope.modelLeave.fromDate = "";
           $scope.modelLeave.toDate = "";
+          $scope.modelLeave.expiredOn = "";
+          $scope.modelLeave.utiliesInLieu = {};
           $scope.modelLeave.duration = {};
         });
 
@@ -440,7 +475,9 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
         Buss_Trip:$scope.modelLeave.leaveType.Required.Buss_Trip,
         EcCtry_Id:$scope.modelLeave.bussTripCtryCourse!=null?$scope.modelLeave.bussTripCtryCourse.Id:0,
         EeCourseUqId:$scope.modelLeave.bussTripCtryCourse!=null?$scope.modelLeave.bussTripCtryCourse.Uqid:0,
-        ConfirmMessage:ConfirmMessage==null?null:ConfirmMessage
+        ConfirmMessage:ConfirmMessage==null?null:ConfirmMessage,
+        InLieu_UqId:$scope.modelLeave.utiliesInLieu?$scope.modelLeave.utiliesInLieu.Uqid:null,
+        InLieu_Expire_Date:$scope.modelLeave.expiredOn?DateTimeService.parseMilliSecondToUTC($scope.modelLeave.expiredOn):null
 
       };
 

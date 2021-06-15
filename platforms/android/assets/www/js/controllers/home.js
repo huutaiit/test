@@ -1,7 +1,9 @@
 App.registerCtrl('homeCtrl', function($scope,$rootScope,$http,$location,$timeout,ProcessService,DateTimeService)
 {
   var listLocation = null;
-  var currentLocation = null
+  var intervalTime = null;
+  var currentLocation = null;
+  var timeTemp =  Date.now();
   function distance(lat1, lon1, lat2, lon2, unit) {
     var radlat1 = Math.PI * lat1/180
     var radlat2 = Math.PI * lat2/180
@@ -27,10 +29,55 @@ App.registerCtrl('homeCtrl', function($scope,$rootScope,$http,$location,$timeout
       var position = listLocation[key].Coordinates;
       var arrPosition = position.split(',');
       var km = distance(arrPosition[0],arrPosition[1],currentLocation.latitude,currentLocation.longitude,'K');
-      if(km<=0.05)
+      if(km<=0.5) // sua lai 500m
         check = true;
     }
     return check
+  }
+
+  function trackingLocation(){
+
+    ProcessService.checkPermission("ACCESS_FINE_LOCATION").then(function(response) {
+      if(response.status==false){
+        $rootScope.error = {
+          result : true,
+          message :"Location permission is not turned on",
+        };
+      }
+      else{
+        navigator.geolocation.getCurrentPosition(function (position) {
+            currentLocation = position.coords;
+
+            var params = {
+              long : currentLocation.longitude,
+              lati : currentLocation.latitude,
+              Coordinates : currentLocation.longitude+","+currentLocation.latitude
+            }
+            console.log('paramtrack',params)
+
+            ProcessService.ajaxPost2('MyTMSLocation/AddGeoFencing',params).then(function(result) {
+              // alert("post location to server")
+              // console.log('resultresult',result)
+              window.plugins.toast.showShortBottom('Location update...');
+            })
+
+            // alert('Latitude: '          + position.coords.latitude          + '\n' +
+            //   'Longitude: '         + position.coords.longitude         + '\n' +
+            //   'Altitude: '          + position.coords.altitude          + '\n' +
+            //   'Accuracy: '          + position.coords.accuracy          + '\n' +
+            //   'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
+            //   'Heading: '           + position.coords.heading           + '\n' +
+            //   'Speed: '             + position.coords.speed             + '\n' +
+            //   'Timestamp: '         + position.timestamp                + '\n');
+          }, function () {
+            alert('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
+          },
+          { maximumAge: 0, timeout: 60000, enableHighAccuracy: true }
+        );
+      }
+    })
+
+
   }
 
   ProcessService.ajaxPost("Common/CheckLocation",null).then(function(result) {
@@ -38,6 +85,8 @@ App.registerCtrl('homeCtrl', function($scope,$rootScope,$http,$location,$timeout
     console.log(listLocation);
 
   })
+
+
 
 
   // get location
@@ -206,6 +255,34 @@ push.on('error', function(e) {
       })
 				});
      $scope.user =  $.jStorage.get("user");
+     if($scope.user.GeoFencing==1){
+       trackingLocation();
+       clearInterval(intervalTime);
+       intervalTime = setInterval(function () {
+         // get location
+         var dateTime =  Date.now();
+         if(dateTime-timeTemp>=180000) {
+           timeTemp = dateTime;
+           trackingLocation();
+         }
+       },30000) //60000
+     }
+    document.addEventListener("pause", function () {
+      // if($scope.user.GeoFencing==1){
+      //   trackingLocation();
+      // }
+    }, false);
+    document.addEventListener("resume", function () {
+
+    if($scope.user.GeoFencing==1) {
+      var dateTime =  Date.now();
+      if(dateTime-timeTemp>=900000){
+        timeTemp = dateTime;
+        trackingLocation();
+      }
+    }
+
+  }, false);
 	  $scope.changeLanguage = function (idLang){
 		   var param = {
             	Language: idLang,

@@ -372,7 +372,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
             else{
               date = null;
             }
-            var user = {"Last_Login":date,"FullName":objectData.FullName,First_Ctry:objectData.First_Ctry,Emp_no:objectData.Emp_no};
+            var user = {"Last_Login":date,"FullName":objectData.FullName,First_Ctry:objectData.First_Ctry,Emp_no:objectData.Emp_no,GeoFencing:objectData.GeoFencing};
             $.jStorage.set("user",user);
 
             $location.path("/profileChangePass");
@@ -422,7 +422,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
             var datetype = objectData.Date_Fmt=="1" ? "mediumDate": objectData.Date_Fmt=="2" ? "mediumDate2":"mediumDate3";
             date = DateTimeService.dateFormat(date,datetype);
 
-            user = {"Last_Login":date,"FullName":objectData.FullName,First_Ctry:objectData.First_Ctry,Emp_no:objectData.Emp_no};
+            user = {"Last_Login":date,"FullName":objectData.FullName,First_Ctry:objectData.First_Ctry,Emp_no:objectData.Emp_no,GeoFencing:objectData.GeoFencing};
             $.jStorage.set("user",user);
 
 
@@ -562,7 +562,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
             else{
               date = null;
             }
-            var user = {"Last_Login":date,"FullName":objectData.FullName,First_Ctry:objectData.First_Ctry,Emp_no:objectData.Emp_no};
+            var user = {"Last_Login":date,"FullName":objectData.FullName,First_Ctry:objectData.First_Ctry,Emp_no:objectData.Emp_no,GeoFencing:objectData.GeoFencing};
             $.jStorage.set("user",user);
 
             $location.path("/profileChangePass");
@@ -612,7 +612,7 @@ App.registerCtrl('loginCtrl', function($scope,$rootScope,$location,$http, $sce,P
             var datetype = objectData.Date_Fmt=="1" ? "mediumDate": objectData.Date_Fmt=="2" ? "mediumDate2":"mediumDate3";
             date = DateTimeService.dateFormat(date,datetype);
 
-            user = {"Last_Login":date,"FullName":objectData.FullName,First_Ctry:objectData.First_Ctry,Emp_no:objectData.Emp_no};
+            user = {"Last_Login":date,"FullName":objectData.FullName,First_Ctry:objectData.First_Ctry,Emp_no:objectData.Emp_no,GeoFencing:objectData.GeoFencing};
             $.jStorage.set("user",user);
 
             ProcessService.ajaxGetLocalSite($rootScope.GATEWAYURL+"resource/lang/lang"+objectData.Language+".txt")
