@@ -53,7 +53,7 @@
       <li modal="expiredOn" ng-show="modelLeave.leaveType.Required.Ent_By==5 && modelLeave.leaveType.Required.App_Type==2">
         <div class="f-left">
           <p class="label required"><label>Expired On</label> <span>({{lang.general.required}})</span></p>
-          <p class="input"><input value="{{modelLeave.expiredOn | formatDate:typeDate}}" readonly="readonly" type="text" /></p>
+          <p class="input"><input value="{{modelLeave.expiredOn | formatDate:'mediumDate3'}}" readonly="readonly" type="text" /></p>
         </div>
         <a class="f-right icon"><i class="fa fa-calendar"></i></a>
         <div class="clear"></div>
@@ -61,8 +61,8 @@
 
       <li modal="utiliesInLieu" ng-show="modelLeave.leaveType.Required.Ent_By==5 && modelLeave.leaveType.Required.App_Type==1">
         <div class="f-left">
-          <p class="label required" ><label>Utilies In-Lieu</label> <span >({{lang.general.required}})</span></p>
-          <p class="input"><input value="{{modelLeave.utiliesInLieu.DateFr}}{{modelLeave.utiliesInLieu.DateFr?' ':''}}{{modelLeave.utiliesInLieu.TimeFr}}{{modelLeave.utiliesInLieu.TimeTo?' - ':''}}{{modelLeave.utiliesInLieu.TimeTo}}" readonly="readonly" type="text" /></p>
+          <p class="label required" ><label>Utilise In-Lieu</label> <span >({{lang.general.required}})</span></p>
+          <p class="input"><input value="{{modelLeave.utiliesInLieu.DateFr}}{{modelLeave.utiliesInLieu.DateTo?' - ':''}}{{modelLeave.utiliesInLieu.DateTo}}" readonly="readonly" type="text" /></p>
         </div>
 
         <div class="clear"></div>
@@ -245,12 +245,12 @@
 <!--list listUtiliesInLieu -->
 <div id="utiliesInLieu" class="modal animated" >
   <h2 class="modal-title">
-    Select Utilies In-Lieu
+    Select Utilise In-Lieu
     <span close-modal class="close-modal"></span>
   </h2>
   <div class="modal-content" id="listUtiliesInLieu" ng-set-height-modal-content="{{listUtiliesInLieu.length}}">
     <ul class="select">
-      <li ng-class="{'active' : isActive(item.Uqid,modelLeave.utiliesInLieu.Uqid)}" ng-repeat="item in listUtiliesInLieu track by $index" ng-click="selectUtiliesInLieu(item)" close-modal>{{item.DateFr}}{{item.DateFr?' ':''}}{{item.TimeFr}}{{item.TimeTo?' - ':''}}{{item.TimeTo}}</li>
+      <li ng-class="{'active' : isActive(item.Uqid,modelLeave.utiliesInLieu.Uqid)}" ng-repeat="item in listUtiliesInLieu track by $index" ng-click="selectUtiliesInLieu(item)" close-modal>{{item.DateFr}}{{item.DateTo?' - ':''}}{{item.DateTo}}</li>
     </ul>
   </div>
 </div><!--end modal-->

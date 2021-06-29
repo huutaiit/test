@@ -178,6 +178,14 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
         };
         return false;
       }
+      if($scope.modelLeave.leaveType.Required.Ent_By==5 && $scope.modelLeave.leaveType.Required.App_Type==1 && jQuery.isEmptyObject($scope.modelLeave.utiliesInLieu))
+      {
+        $rootScope.error = {
+          result : true,
+          message :  'Invalid Data - Utilise In-Lieu'
+        };
+        return false;
+      }
 
       if ($scope.modelLeave.leaveType.Required.SelfRemark == 1 && $scope.modelLeave.remarks == '') {
         $rootScope.error = {
@@ -371,9 +379,9 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
           ProcessService.ajaxPost("MyLeaveApplyLeave/GetInlieuLeaveApplication",JSON.stringify(params)).then(function (result) {
             var data = JSON.parse(result.data);
             console.log('datadata',data)
-            if(data && data.length>0) {
+            if(data) {
                 $scope.listUtiliesInLieu = data;
-                $scope.modelLeave.utiliesInLieu = data[0];
+                $scope.modelLeave.utiliesInLieu = data.length>0 ? data[0] : {};
             }
           })
 

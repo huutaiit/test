@@ -10,21 +10,14 @@
       <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myLeave.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers/myLeave.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/run.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/leave-apply.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/Payroll2U.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/Payroll2U.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/Payroll2U.xcworkspace/xcuserdata/nvlhqlt3013.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/Payroll2U.xcworkspace/xcuserdata/nvlhqlt3013.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/controllers/myLeave.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers/myLeave.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/js/run.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/ios/www/templates/leave-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/templates/leave-apply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/js/controllers/myLeave.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controllers/myLeave.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/js/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/run.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/templates/leave-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/leave-apply.html" afterDir="false" />
@@ -238,7 +231,19 @@
       <workItem from="1623644833953" duration="5829000" />
       <workItem from="1623660267285" duration="4768000" />
       <workItem from="1623667304514" duration="179000" />
-      <workItem from="1623719895843" duration="555000" />
+      <workItem from="1623719895843" duration="582000" />
+      <workItem from="1623818757580" duration="2458000" />
+      <workItem from="1623892979814" duration="442000" />
+      <workItem from="1623979402861" duration="399000" />
+      <workItem from="1624003121325" duration="1876000" />
+      <workItem from="1624239349551" duration="393000" />
+      <workItem from="1624503464436" duration="1502000" />
+      <workItem from="1624584404345" duration="515000" />
+      <workItem from="1624765092869" duration="33000" />
+      <workItem from="1624770712943" duration="2762000" />
+      <workItem from="1624858526640" duration="2973000" />
+      <workItem from="1624878278862" duration="1717000" />
+      <workItem from="1624948671281" duration="1092000" />
     </task>
     <servers />
   </component>
@@ -264,10 +269,10 @@
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state x="100" y="125" width="1592" height="895" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.25.1920.1055/0.25.1792.1095@0.25.1792.1095" timestamp="1616643375088" />
-    <state x="501" y="285" width="789" height="574" key="find.popup" timestamp="1623663635215">
+    <state x="501" y="285" width="789" height="574" key="find.popup" timestamp="1624008916676">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state x="501" y="285" width="789" height="574" key="find.popup/-1920.25.1920.1055/0.25.1792.1095@0.25.1792.1095" timestamp="1623663635215" />
+    <state x="501" y="285" width="789" height="574" key="find.popup/-1920.25.1920.1055/0.25.1792.1095@0.25.1792.1095" timestamp="1624008916676" />
     <state x="501" y="285" width="789" height="574" key="find.popup/0.25.1792.1095@0.25.1792.1095" timestamp="1623494761937" />
   </component>
 </project>
