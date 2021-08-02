@@ -222,7 +222,8 @@
      <div class="button">
       <a ng-click="capturePhoto()"><span><img src="images/n_btn_apply_leave_cam.png" /></span></a>
        <a ng-click="hideAttachedList()"><span><img src="images/btn_save.png" /></span></a>
-      <a ng-click="getPhoto()"><span><img src="images/n_btn_apply_leave_attach.png" /></span></a>
+      <a ng-if="platform=='ios'" ng-click="getPhoto()"><span><img src="images/n_btn_apply_leave_attach.png" /></span></a>
+       <a ng-if="platform=='android'"></a>
 
     </div><!--end button-->
   </div>

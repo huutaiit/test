@@ -1,6 +1,7 @@
 App.registerCtrl('myClaimCtrl', function($scope,$rootScope,$routeParams,$location,$templateCache,ProcessService,DateTimeService,FileService,PoupService)
 {
 /***********************set list menu claim**********************/
+$scope.platform = device.platform=="Android"?'android':'ios';
 $scope.listMenuClaim = [
 					{
 						id:708,href:"claimOvertime",icon:"ic_overtime.png",name:$rootScope.lang.myclaim.ot.tt,description:$rootScope.lang.myclaim.ot.ct,background:"background-88b824",
@@ -349,7 +350,7 @@ $scope.listMenuClaim = [
 				return false;
 			}
 			 else{*/
-      if($scope.field.type.Claim==1){
+      if($scope.field.type && $scope.field.type.Claim==1){
         duration = 1;
       }
       else{
@@ -369,7 +370,7 @@ $scope.listMenuClaim = [
 			//}
 		 }
 		 else{
-      if($scope.field.type.Claim==1){
+      if($scope.field.type && $scope.field.type.Claim==1){
         $scope.field.duration = {num:1,description:accounting.formatNumber(1,2, ',', '.')+" Day(s)"};
       }
 			  $(".overlay").hide();

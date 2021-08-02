@@ -39,6 +39,7 @@ App.registerCtrl('myLeaveCtrl',function($scope, $rootScope, $location, $route, $
   }
   // processLeaveApply
   processLeaveApply = function() {
+    $scope.platform = device.platform=="Android"?'android':'ios';
 
     $rootScope.listFileAttached = [];
 
